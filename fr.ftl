@@ -1,4 +1,4 @@
-hello-world = Hello, world! { TRANSLATE("ANTISTATIC") }
+hello-world = Bonjour le monde! { TRANSLATE("ANTISTATIC") }
 
 # Nouns
 ANTISTATIC = ANTISTATIC
@@ -42,8 +42,8 @@ Discord = Discord
 SETTINGS = SETTINGS
 Play-Audio = Jouer Son
 Play-Music = Jouer de la Musique
-Windowed = Windowed
-Fullscreen = Fullscreen
+Windowed = Fenêtré
+Fullscreen = Plein Écran
 
 CONTROLS = CONTROLS
 
@@ -51,7 +51,7 @@ Audio-volume = Volume: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Musique: {$value}
 
-main = Main menu
+main = Menu principal
 versus = Versus
 training = Entrainement
 start-mode = Commencer: { TRANSLATE($value) }

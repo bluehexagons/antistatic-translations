@@ -51,7 +51,7 @@ Audio-volume = Volume: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Music: {$value}
 
-main = Main menu
+main = Main Menu
 versus = Versus
 training = Training
 start-mode = Start: { TRANSLATE($value) }

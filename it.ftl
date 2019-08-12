@@ -1,14 +1,14 @@
-hello-world = ¡Hola Mundo! { TRANSLATE("ANTISTATIC") }
+hello-world = Ciao mondo! { TRANSLATE("ANTISTATIC") }
 
 # Nouns
 ANTISTATIC = ANTISTATIC
 Antistatic = Antistatic
 
 Silicon = Silicio
-Iron = Hierro
-Xenon = Xenón
-Helium = Helio
-Carbon = Carbono
+Iron = Ferro
+Xenon = Xeno
+Helium = Elio
+Carbon = Carbonio
 
 Ruins = Ruins
 Transistor = Transistor
@@ -26,40 +26,40 @@ Pillars = Pillars
 Debug = Debug
 
 # Navigation
-Back = Volver
-Exit = Salida
-Cancel = Cancelar
+Back = Indietro
+Exit = Esci
+Cancel = Cancella
 Close-Symbol = X
 
 # Main Menu
-Versus = Versus
-Training = Entrenamiento
-Settings = Opciones
-Controls = Controles
+Versus = Sfida
+Training = Addestramento
+Settings = Opzioni
+Controls = Comandi
 Discord = Discord
 
 # Settings Menu
-SETTINGS = OPCIONES
-Play-Audio = Reproducir Sonido
-Play-Music = Reproducir Música
-Windowed = Ventana
-Fullscreen = Pantalla Completa
+SETTINGS = OPZIONI
+Play-Audio = Riprodurre Audio
+Play-Music = Suonare
+Windowed = A Finestra
+Fullscreen = Schermo Intero
 
-CONTROLS = CONTROLES
+CONTROLS = COMANDI
 
 Audio-volume = Volume: {$value}
 SFX-volume = SFX: {$value}
-Music-volume = Música: {$value}
+Music-volume = Musica: {$value}
 
-main = Menú Principal
-versus = Versus
-training = Entrenamiento
-start-mode = Empezar: { TRANSLATE($value) }
+main = Menu Principale
+versus = Sfida
+training = Addestramento
+start-mode = Inizio: { TRANSLATE($value) }
 
 # Controls Menu
-standard = estándar
-keyboard = teclado
-gcn_native = GCN nativo
+standard = standard
+keyboard = tastiera
+gcn_native = GCN native
 
 # Versus Menu
 FFA = FFA
