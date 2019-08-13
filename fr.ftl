@@ -40,23 +40,28 @@ Discord = Discord
 
 # Settings Menu
 SETTINGS = SETTINGS
-Play-Audio = Jouer Son
-Play-Music = Jouer de la Musique
+Audio = Son
 Windowed = Fenêtré
 Fullscreen = Plein Écran
-
-CONTROLS = CONTROLS
-
-Audio-volume = Volume: {$value}
-SFX-volume = SFX: {$value}
-Music-volume = Musique: {$value}
 
 main = Menu principal
 versus = Versus
 training = Entrainement
 start-mode = Commencer: { TRANSLATE($value) }
 
+# Audio Menu
+AUDIO = SON
+
+Play-Audio = Jouer Son
+Play-Music = Jouer de la Musique
+
+Audio-volume = Volume: {$value}
+SFX-volume = SFX: {$value}
+Music-volume = Musique: {$value}
+
 # Controls Menu
+CONTROLS = CONTROLS
+
 standard = régulier
 keyboard = clavier
 gcn_native = GCN native
