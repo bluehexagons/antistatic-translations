@@ -85,3 +85,18 @@ Legal = Legal
 Miscellaneous = Miscellaneous
 
 Start-Battle = Start Battle
+
+# Languages
+english = English
+spanish = Español
+french = Français
+italian = Italiano
+german = Deutsch
+russian = Русский
+
+en = English (English)
+es = {spanish} (Spanish)
+fr = {french} (French)
+it = {italian} (Italian)
+de = {german} (German)
+ru = {russian} (Russian)
