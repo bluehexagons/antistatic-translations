@@ -10,6 +10,8 @@ Xenon = Xenón
 Helium = Helio
 Carbon = Carbono
 
+Sandbag = Saco terrero
+
 Ruins = Ruins
 Transistor = Transistor
 Eroded = Eroded

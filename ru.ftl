@@ -10,6 +10,8 @@ Xenon = Ксенон
 Helium = Гелий
 Carbon = Углерод
 
+Sandbag = принуждать
+
 Ruins = Ruins
 Transistor = Transistor
 Eroded = Eroded
