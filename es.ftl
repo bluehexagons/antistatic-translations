@@ -95,7 +95,7 @@ german = Deutsch
 russian = Русский
 
 en = English (Inglés)
-es = {spanish} {spanish}
+es = {spanish}
 fr = {french} (Francés)
 it = {italian} (Italiano)
 de = {german} (Alemán)

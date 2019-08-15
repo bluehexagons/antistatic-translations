@@ -99,4 +99,4 @@ es = {spanish} (испанский)
 fr = {french} (Французский)
 it = {italian} (итальянский)
 de = {german} (Немецкий)
-ru = {russian} {russian}
+ru = {russian}

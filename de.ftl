@@ -98,5 +98,5 @@ en = English (Englisch)
 es = {spanish} (Spanisch)
 fr = {french} (Französisch)
 it = {italian} (Italienisch)
-de = {german} {german}
+de = {german}
 ru = {russian} (Russisch)

@@ -97,6 +97,6 @@ russian = Русский
 en = English (Inglese)
 es = {spanish} (Spagnolo)
 fr = {french} (Francese)
-it = {italian} {italian}
+it = {italian}
 de = {german} (Tedesco)
 ru = {russian} (Russo)
