@@ -82,11 +82,15 @@ Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Starter = Starter
-Legal = Legal
-Miscellaneous = Miscellaneous
+Characters = Zeichen
+Stages = Stufen
+AI = AI
 
-Start-Battle = Start Battle
+Starter = Anlasser
+Legal = Legal
+Miscellaneous = Verschiedenes
+
+Start-Battle = Starte den Kampf
 
 # Languages
 en-english = English

@@ -82,6 +82,10 @@ Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
+Characters = Characters
+Stages = Stages
+AI = AI
+
 Starter = Starter
 Legal = Legal
 Miscellaneous = Miscellaneous
