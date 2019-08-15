@@ -87,16 +87,23 @@ Miscellaneous = Miscellaneous
 Start-Battle = Start Battle
 
 # Languages
-english = English
-spanish = Español
-french = Français
-italian = Italiano
-german = Deutsch
-russian = Русский
+en-english = English
+es-spanish = Español
+fr-french = Français
+it-italian = Italiano
+de-german = Deutsch
+ru-russian = Русский
 
-en = English (Inglese)
-es = {spanish} (Spagnolo)
-fr = {french} (Francese)
-it = {italian}
-de = {german} (Tedesco)
-ru = {russian} (Russo)
+english = Inglese
+spanish = Spagnolo
+french = Francese
+italian = {it-italian}
+german = Tedesco
+russian = Russo
+
+en = {en-english} ({english})
+es = {es-spanish} ({spanish})
+fr = {fr-french} ({french})
+it = {it-italian}
+de = {de-german} ({german})
+ru = {ru-russian} ({russian})
