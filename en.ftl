@@ -94,7 +94,7 @@ italian = Italiano
 german = Deutsch
 russian = Русский
 
-en = English (English)
+en = English {english}
 es = {spanish} (Spanish)
 fr = {french} (French)
 it = {italian} (Italian)
