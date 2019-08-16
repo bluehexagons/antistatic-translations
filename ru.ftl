@@ -27,6 +27,9 @@ Divided = Divided
 Pillars = Pillars
 Debug = Debug
 
+mode-Antistatic = {Antistatic}
+mode-19XX = 19XX
+
 # Navigation
 Back = Назад
 Exit = Покинуть
@@ -67,6 +70,19 @@ CONTROLS = Управление
 standard = стандарт
 keyboard = клавиатура
 gcn_native = GCN родные
+
+# Training Menu
+Swap-Character = Swap Character
+Overlays = Overlays
+
+drawHitbubbleInfo = Attack Info
+drawECB = Collision
+drawHeatmap = Heatmap
+drawRawPosition = Raw Position
+drawStage = Stage Collision
+animations = Animations
+controllers = Controllers
+training = Training
 
 # Versus Menu
 FFA = FFA
