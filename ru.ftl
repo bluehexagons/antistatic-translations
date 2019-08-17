@@ -1,4 +1,4 @@
-hello-world = Hello, world! { TRANSLATE("ANTISTATIC") }
+hello-world = Привет, мир! { TRANSLATE("ANTISTATIC") }
 
 # Nouns
 ANTISTATIC = ANTISTATIC
@@ -72,7 +72,7 @@ keyboard = клавиатура
 gcn_native = GCN родные
 
 # Training Menu
-Swap-Character = Swap Character
+Swap-Character = Поменять персонажа
 Overlays = Overlays
 
 drawHitbubbleInfo = Attack Info

@@ -72,7 +72,7 @@ keyboard = tastiera
 gcn_native = GCN native
 
 # Training Menu
-Swap-Character = Swap Character
+Swap-Character = Scambia personaggio
 Overlays = Overlays
 
 drawHitbubbleInfo = Attack Info

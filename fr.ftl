@@ -37,7 +37,7 @@ Cancel = Annuler
 Close-Symbol = X
 
 # Training Menu
-Swap-Character = Swap Character
+Swap-Character = Echange de personnage
 Overlays = Overlays
 
 drawHitbubbleInfo = Attack Info
