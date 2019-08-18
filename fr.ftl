@@ -47,7 +47,6 @@ drawRawPosition = Raw Position
 drawStage = Stage Collision
 animations = Animations
 controllers = Controllers
-training = Training
 
 # Main Menu
 Versus = Versus

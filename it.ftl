@@ -82,7 +82,6 @@ drawRawPosition = Raw Position
 drawStage = Stage Collision
 animations = Animations
 controllers = Controllers
-training = Training
 
 # Versus Menu
 FFA = FFA
