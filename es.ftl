@@ -85,12 +85,12 @@ controllers = Controllers
 
 # Versus Menu
 FFA = FFA
-Teams = Teams
+Teams = Equipos
 
 Host-Netplay = Host Netplay
-Join-Netplay-Clipboard = Join Netplay from Clipboard
-Disconnect = Disconnect
-Copy-Lobby-Code = Copy Lobby Code
+Join-Netplay-Clipboard = Únete a netplay desde el portapapeles
+Disconnect = Desconectar
+Copy-Lobby-Code = Copiar código de lobby
 
 Random-Q = ?
 Sub-Symbol = -

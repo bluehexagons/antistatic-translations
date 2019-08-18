@@ -85,12 +85,12 @@ gcn_native = GCN native
 
 # Versus Menu
 FFA = FFA
-Teams = Teams
+Teams = Les équipes
 
-Host-Netplay = Host Netplay
-Join-Netplay-Clipboard = Join Netplay from Clipboard
-Disconnect = Disconnect
-Copy-Lobby-Code = Copy Lobby Code
+Host-Netplay = Netplay hôte
+Join-Netplay-Clipboard = Rejoindre Netplay depuis le presse papier
+Disconnect = Déconnecter
+Copy-Lobby-Code = Copier le code du lobby
 
 Random-Q = ?
 Sub-Symbol = -
