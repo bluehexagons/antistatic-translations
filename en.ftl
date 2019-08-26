@@ -37,6 +37,8 @@ Save = Save
 Cancel = Cancel
 Close-Symbol = X
 
+Modify = Modify
+
 # Main Menu
 Versus = Versus
 Training = Training

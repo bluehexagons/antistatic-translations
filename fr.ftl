@@ -37,6 +37,8 @@ Save = Sauvegarder
 Cancel = Annuler
 Close-Symbol = X
 
+Modify = Modifier
+
 # Training Menu
 Swap-Character = Echange de personnage
 Overlays = Overlays

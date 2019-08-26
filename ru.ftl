@@ -37,6 +37,8 @@ Save = Сохранить
 Cancel = Отмена
 Close-Symbol = X
 
+Modify = изменять
+
 # Main Menu
 Versus = Поединок
 Training = Тренировка

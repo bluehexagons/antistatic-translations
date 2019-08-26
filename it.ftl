@@ -37,6 +37,8 @@ Save = Salva
 Cancel = Cancella
 Close-Symbol = X
 
+Modify = Modificare
+
 # Main Menu
 Versus = Sfida
 Training = Addestramento
