@@ -33,6 +33,7 @@ mode-19XX = 19XX
 # Navigation
 Back = Назад
 Exit = Покинуть
+Save = Сохранить
 Cancel = Отмена
 Close-Symbol = X
 

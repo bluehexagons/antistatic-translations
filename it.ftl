@@ -33,6 +33,7 @@ mode-19XX = 19XX
 # Navigation
 Back = Indietro
 Exit = Esci
+Save = Salva
 Cancel = Cancella
 Close-Symbol = X
 
