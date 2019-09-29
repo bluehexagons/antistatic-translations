@@ -38,6 +38,7 @@ Cancel = Abbrechen
 Close-Symbol = X
 
 Modify = Ändern
+Reset = Zurücksetzen
 
 # Main Menu
 Versus = Versus

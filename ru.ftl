@@ -38,6 +38,7 @@ Cancel = Отмена
 Close-Symbol = X
 
 Modify = изменять
+Reset = Сброс
 
 # Main Menu
 Versus = Поединок

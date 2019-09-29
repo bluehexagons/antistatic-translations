@@ -38,6 +38,7 @@ Cancel = Annuler
 Close-Symbol = X
 
 Modify = Modifier
+Reset = Réinitialiser
 
 # Training Menu
 Swap-Character = Echange de personnage

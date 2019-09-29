@@ -38,6 +38,7 @@ Cancel = Cancella
 Close-Symbol = X
 
 Modify = Modificare
+Reset = Ripristina
 
 # Main Menu
 Versus = Sfida
