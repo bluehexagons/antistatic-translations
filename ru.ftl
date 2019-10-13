@@ -9,6 +9,7 @@ Iron = Железо
 Xenon = Ксенон
 Helium = Гелий
 Carbon = Углерод
+Rhodium = Родий
 
 Sandbag = принуждать
 

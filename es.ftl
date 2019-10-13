@@ -9,6 +9,7 @@ Iron = Hierro
 Xenon = Xenón
 Helium = Helio
 Carbon = Carbono
+Rhodium = Rodio
 
 Sandbag = Saco terrero
 

@@ -9,6 +9,7 @@ Iron = Ferro
 Xenon = Xeno
 Helium = Elio
 Carbon = Carbonio
+Rhodium = Rodio
 
 Sandbag = Sacchetto di sabbia
 

@@ -9,6 +9,7 @@ Iron = Iron
 Xenon = Xenon
 Helium = Helium
 Carbon = Kohlenstoff
+Rhodium = Rhodium
 
 Sandbag = Sandsack
 

@@ -9,6 +9,7 @@ Iron = Fer
 Xenon = Xénon
 Helium = Hélium
 Carbon = Carbone
+Rhodium = Rhodium
 
 Sandbag = Sac de sable
 
