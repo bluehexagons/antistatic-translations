@@ -4,14 +4,14 @@ hello-world = Hello, world! { TRANSLATE("ANTISTATIC") }
 ANTISTATIC = ANTISTATIC
 Antistatic = Antistatic
 
-Silicon = Silicon
-Iron = Iron
-Xenon = Xenon
-Helium = Helium
-Carbon = Carbon
-Rhodium = Rhodium
+Silicon = 矽
+Iron = 鐵
+Xenon = 氙
+Helium = 氦
+Carbon = 碳
+Rhodium = 銠
 
-Sandbag = Sandbag
+Sandbag = 沙袋
 
 Ruins = Ruins
 Transistor = Transistor
@@ -32,53 +32,53 @@ mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
 
 # Navigation
-Back = Back
-Exit = Exit
-Save = Save
-Cancel = Cancel
+Back = 返回
+Exit = 退出
+Save = 保存
+Cancel = 取消
 Close-Symbol = X
 
-Modify = Modify
-Reset = Reset
+Modify = 修改
+Reset = 重啟
 
 # Main Menu
-Versus = Versus
-Training = Training
-Settings = Settings
-Controls = Controls
+Versus = 對抗模式
+Training = 訓練
+Settings = 設置
+Controls = 操作模式
 Discord = Discord
 
 # Settings Menu
-SETTINGS = SETTINGS
-Audio = Audio
-Windowed = Windowed
-Fullscreen = Fullscreen
+SETTINGS = 設置
+Audio = 音訊
+Windowed = 窗口模式
+Fullscreen = 全屏
 
-main = Main Menu
-versus = Versus
-training = Training
-start-mode = Start: { TRANSLATE($value) }
+main = 主界面
+versus = 對抗模式
+training = 訓練
+start-mode = 開始： { TRANSLATE($value) }
 
 # Audio Menu
-AUDIO = AUDIO
+AUDIO = 音訊
 
-Play-Audio = Play Audio
-Play-Music = Play Music
+Play-Audio = 播放音訊
+Play-Music = 播放音樂
 
-Audio-volume = Volume: {$value}
-SFX-volume = SFX: {$value}
-Music-volume = Music: {$value}
+Audio-volume = 體積： {$value}
+SFX-volume = 特效： {$value}
+Music-volume = 音樂： {$value}
 
 # Controls Menu
-CONTROLS = CONTROLS
+CONTROLS = 操作模式
 
-standard = standard
-keyboard = keyboard
+standard = 標準
+keyboard = 鍵盤
 gcn_native = GCN native
 
 # Training Menu
-Swap-Character = Swap Character
-Overlays = Overlays
+Swap-Character = 交換字符
+Overlays = 疊加層
 
 drawHitbubbleInfo = Attack Info
 drawECB = Collision
@@ -90,27 +90,27 @@ controllers = Controllers
 
 # Versus Menu
 FFA = FFA
-Teams = Teams
+Teams = 隊伍
 
-Host-Netplay = Host Netplay
-Join-Netplay-Clipboard = Join Netplay from Clipboard
-Disconnect = Disconnect
-Copy-Lobby-Code = Copy Lobby Code
+Host-Netplay = 主機網絡遊戲
+Join-Netplay-Clipboard = 從剪貼板加入Netplay
+Disconnect = 斷開
+Copy-Lobby-Code = 複製大廳代碼
 
 Random-Q = ?
 Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Characters = Characters
-Stages = Stages
+Characters = 性格
+Stages = 階段
 AI = AI
 
-Starter = Starter
-Legal = Legal
-Miscellaneous = Miscellaneous
+Starter = 起動機
+Legal = 法律
+Miscellaneous = 雜
 
-Start-Battle = Start Battle
+Start-Battle = 開始戰鬥
 
 # Languages
 en-english = English
