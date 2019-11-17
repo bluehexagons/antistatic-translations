@@ -1,4 +1,4 @@
-hello-world = Hello, world! { TRANSLATE("ANTISTATIC") }
+hello-world = 안녕, 세상! { TRANSLATE("ANTISTATIC") }
 
 # Nouns
 ANTISTATIC = ANTISTATIC
