@@ -119,7 +119,7 @@ fr-french = Français
 it-italian = Italiano
 de-german = Deutsch
 ru-russian = Русский
-jp-japanese = 日本語
+ja-japanese = 日本語
 
 english = Anglais
 spanish = Espanol
@@ -135,4 +135,4 @@ fr = {fr-french}
 it = {it-italian} ({italian})
 de = {de-german} ({german})
 ru = {ru-russian} ({russian})
-jp = {jp-japanese} ({japanese})
+ja = {ja-japanese} ({japanese})

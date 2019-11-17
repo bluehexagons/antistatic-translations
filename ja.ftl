@@ -119,7 +119,7 @@ fr-french = Français
 it-italian = Italiano
 de-german = Deutsch
 ru-russian = Русский
-jp-japanese = 日本語
+ja-japanese = 日本語
 
 english = 英語
 spanish = スペイン語
@@ -127,7 +127,7 @@ french = フランス語
 italian = イタリアの
 german = ドイツ人
 russian = ロシア
-japanese = {jp-japanese}
+japanese = {ja-japanese}
 
 en = {en-english} ({english})
 es = {es-spanish} ({spanish})
@@ -135,4 +135,4 @@ fr = {fr-french} ({french})
 it = {it-italian} ({italian})
 de = {de-german} ({german})
 ru = {ru-russian} ({russian})
-jp = {jp-japanese}
+ja = {ja-japanese}
