@@ -4,14 +4,14 @@ hello-world = Hello, world! { TRANSLATE("ANTISTATIC") }
 ANTISTATIC = ANTISTATIC
 Antistatic = Antistatic
 
-Silicon = Silicon
-Iron = Iron
-Xenon = Xenon
-Helium = Helium
-Carbon = Carbon
-Rhodium = Rhodium
+Silicon = 규소
+Iron = 철
+Xenon = 기호 엑스 에
+Helium = 헬륨
+Carbon = 탄소
+Rhodium = 로듐
 
-Sandbag = Sandbag
+Sandbag = 샌드백
 
 Ruins = Ruins
 Transistor = Transistor
@@ -32,53 +32,53 @@ mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
 
 # Navigation
-Back = Back
-Exit = Exit
-Save = Save
-Cancel = Cancel
+Back = 뒤로
+Exit = 나가기
+Save = 저장
+Cancel = 취소
 Close-Symbol = X
 
-Modify = Modify
-Reset = Reset
+Modify = 수정
+Reset = 초기화
 
 # Main Menu
-Versus = Versus
-Training = Training
-Settings = Settings
-Controls = Controls
+Versus = 대전 모드
+Training = 트레이닝
+Settings = 설정
+Controls = 조작 방식
 Discord = Discord
 
 # Settings Menu
-SETTINGS = SETTINGS
-Audio = Audio
-Windowed = Windowed
-Fullscreen = Fullscreen
+SETTINGS = 설정
+Audio = 오디오
+Windowed = 창 모드
+Fullscreen = 전체화면
 
-main = Main Menu
-versus = Versus
-training = Training
-start-mode = Start: { TRANSLATE($value) }
+main = 메뉴
+versus = 대전 모드
+training = 트레이닝
+start-mode = 스타트: { TRANSLATE($value) }
 
 # Audio Menu
-AUDIO = AUDIO
+AUDIO = 오디오
 
-Play-Audio = Play Audio
-Play-Music = Play Music
+Play-Audio = 오디오 재생
+Play-Music = 음악을 재생
 
-Audio-volume = Volume: {$value}
-SFX-volume = SFX: {$value}
-Music-volume = Music: {$value}
+Audio-volume = 음량: {$value}
+SFX-volume = SFX : {$value}
+Music-volume = 음악: {$value}
 
 # Controls Menu
-CONTROLS = CONTROLS
+CONTROLS = 조작 방식
 
-standard = standard
-keyboard = keyboard
+standard = 표준
+keyboard = 건반
 gcn_native = GCN native
 
 # Training Menu
-Swap-Character = Swap Character
-Overlays = Overlays
+Swap-Character = 캐릭터 교체
+Overlays = 오버레이
 
 drawHitbubbleInfo = Attack Info
 drawECB = Collision
@@ -90,27 +90,27 @@ controllers = Controllers
 
 # Versus Menu
 FFA = FFA
-Teams = Teams
+Teams = 팀
 
-Host-Netplay = Host Netplay
-Join-Netplay-Clipboard = Join Netplay from Clipboard
-Disconnect = Disconnect
-Copy-Lobby-Code = Copy Lobby Code
+Host-Netplay = 호스트 넷 플레이
+Join-Netplay-Clipboard = 클립 보드에서 Netplay에 참여
+Disconnect = 분리
+Copy-Lobby-Code = 로비 코드 복사
 
 Random-Q = ?
 Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Characters = Characters
-Stages = Stages
+Characters = 캐릭터
+Stages = 단계
 AI = AI
 
-Starter = Starter
-Legal = Legal
-Miscellaneous = Miscellaneous
+Starter = 기동기
+Legal = 적법한
+Miscellaneous = 여러 가지 잡다한
 
-Start-Battle = Start Battle
+Start-Battle = 전투 시작
 
 # Languages
 en-english = English
