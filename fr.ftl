@@ -44,7 +44,7 @@ Reset = Réinitialiser
 # Training Menu
 Swap-Character = Echange de personnage
 Overlays = Superpositions
-training-press-start = Appuyez sur Start
+press-start = Appuyez sur Start
 
 drawHitbubbleInfo = Informations d'Attaque
 drawECB = Collision
@@ -112,6 +112,11 @@ Legal = Légal
 Miscellaneous = Divers
 
 Start-Battle = Commencer le combat
+
+# Start Menu
+quit-info = Bouclier + Attaque + Commence à quitter
+paused = EN PAUSE
+tag-info = D-pad up / down pour tag in / out
 
 # Languages
 en-english = English

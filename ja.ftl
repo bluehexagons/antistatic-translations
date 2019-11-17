@@ -79,7 +79,7 @@ gcn_native = GCNネイティブ
 # Training Menu
 Swap-Character = スワップキャラクター
 Overlays = オーバーレイ
-training-press-start = STARTボタンを押す
+press-start = STARTボタンを押す
 
 drawHitbubbleInfo = 攻撃情報
 drawECB = 衝突
@@ -112,6 +112,11 @@ Legal = 法的
 Miscellaneous = その他
 
 Start-Battle = バトルを開始
+
+# Start Menu
+quit-info = シールド+攻撃+終了を開始
+paused = 一時停止
+tag-info = D /パッドで上下にタグ付け
 
 # Languages
 en-english = English

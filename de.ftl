@@ -79,7 +79,7 @@ gcn_native = GCN native
 # Training Menu
 Swap-Character = Charakter tauschen
 Overlays = Überlagerungen
-training-press-start = Start drücken
+press-start = Start drücken
 
 drawHitbubbleInfo = Angriffsinfo
 drawECB = Kollision
@@ -112,6 +112,11 @@ Legal = Legal
 Miscellaneous = Verschiedenes
 
 Start-Battle = Starte den Kampf
+
+# Start Menu
+quit-info = Schild + Angriff + Start zum Beenden
+paused = PAUSIERT
+tag-info = D-Pad hoch / runter zum Markieren
 
 # Languages
 en-english = English

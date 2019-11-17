@@ -79,7 +79,7 @@ gcn_native = GCN родные
 # Training Menu
 Swap-Character = Поменять персонажа
 Overlays = Накладки
-training-press-start = Нажмите Start
+press-start = Нажмите Start
 
 drawHitbubbleInfo = Информация об атаке
 drawECB = коллизия
@@ -112,6 +112,11 @@ Legal = легальный
 Miscellaneous = Разнообразный
 
 Start-Battle = Начать бой
+
+# Start Menu
+quit-info = Щит + Атака + Старт, чтобы выйти
+paused = Приостановлено
+tag-info = D-Pad вверх / вниз, чтобы пометить в / из
 
 # Languages
 en-english = English

@@ -79,7 +79,7 @@ gcn_native = GCN原生
 # Training Menu
 Swap-Character = 交換字符
 Overlays = 疊加層
-training-press-start = 按下開始
+press-start = 按下開始
 
 drawHitbubbleInfo = 攻擊信息
 drawECB = 碰撞
@@ -112,6 +112,11 @@ Legal = 法律
 Miscellaneous = 雜
 
 Start-Battle = 開始戰鬥
+
+# Start Menu
+quit-info = 盾牌+攻擊+開始退出
+paused = 已暫停
+tag-info = D-pad上/下標記/標記
 
 # Languages
 en-english = English
