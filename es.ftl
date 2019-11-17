@@ -13,20 +13,20 @@ Rhodium = Rodio
 
 Sandbag = Saco terrero
 
-Ruins = Ruins
+Ruins = Restos
 Transistor = Transistor
-Eroded = Eroded
-Scales = Scales
-Crossing = Crossing
+Eroded = Erosionado
+Scales = La Balanza
+Crossing = El Cruce
 Longboat = Longboat
-Boombox = Boombox
-Fountain = Fountain
-Great-White = Great White
-Plane = Plane
-Satellite = Satellite
-Divided = Divided
-Pillars = Pillars
-Debug = Debug
+Boombox = Caja de Auge
+Fountain = Fuente
+Great-White = Gran Blanco
+Plane = El Plano
+Satellite = Satélite
+Divided = Dividido
+Pillars = Pilares
+Debug = Depurar
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX

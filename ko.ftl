@@ -13,20 +13,20 @@ Rhodium = 로듐
 
 Sandbag = 샌드백
 
-Ruins = Ruins
-Transistor = Transistor
-Eroded = Eroded
-Scales = Scales
-Crossing = Crossing
-Longboat = Longboat
-Boombox = Boombox
-Fountain = Fountain
-Great-White = Great White
-Plane = Plane
-Satellite = Satellite
-Divided = Divided
-Pillars = Pillars
-Debug = Debug
+Ruins = 유적
+Transistor = 트랜지스터
+Eroded = 침식
+Scales = 저울
+Crossing = 교차점
+Longboat = 대형 보트
+Boombox = 붐 박스
+Fountain = 분수
+Great-White = 그레이트 화이트
+Plane = 평면
+Satellite = 위성
+Divided = 각기 다른
+Pillars = 기둥
+Debug = 디버그
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
@@ -74,7 +74,7 @@ CONTROLS = 조작 방식
 
 standard = 표준
 keyboard = 건반
-gcn_native = GCN native
+gcn_native = GCN 네이티브
 
 # Training Menu
 Swap-Character = 캐릭터 교체

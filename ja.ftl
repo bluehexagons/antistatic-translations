@@ -13,20 +13,20 @@ Rhodium = ロジウム
 
 Sandbag = 土嚢
 
-Ruins = Ruins
-Transistor = Transistor
-Eroded = Eroded
-Scales = Scales
-Crossing = Crossing
-Longboat = Longboat
-Boombox = Boombox
-Fountain = Fountain
-Great-White = Great White
-Plane = Plane
-Satellite = Satellite
-Divided = Divided
-Pillars = Pillars
-Debug = Debug
+Ruins = 廃
+Transistor = トランジスタ
+Eroded = 侵食
+Scales = 秤
+Crossing = 交差点
+Longboat = ロングボート
+Boombox = ラジカセ
+Fountain = 噴水
+Great-White = グレートホワイト
+Plane = 平面
+Satellite = 衛星
+Divided = 分割された
+Pillars = 柱
+Debug = デバッグ
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
@@ -74,7 +74,7 @@ CONTROLS = 操作方法
 
 standard = 標準
 keyboard = キーボード
-gcn_native = GCN native
+gcn_native = GCNネイティブ
 
 # Training Menu
 Swap-Character = スワップキャラクター

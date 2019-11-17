@@ -13,20 +13,20 @@ Rhodium = Родий
 
 Sandbag = принуждать
 
-Ruins = Ruins
-Transistor = Transistor
-Eroded = Eroded
-Scales = Scales
-Crossing = Crossing
-Longboat = Longboat
-Boombox = Boombox
-Fountain = Fountain
-Great-White = Great White
-Plane = Plane
-Satellite = Satellite
-Divided = Divided
-Pillars = Pillars
-Debug = Debug
+Ruins = руины
+Transistor = транзистор
+Eroded = Разъеденный
+Scales = весы
+Crossing = пересечение
+Longboat = баркас
+Boombox = Бумбокс
+Fountain = Фонтан
+Great-White = Большой белый
+Plane = уровень
+Satellite = спутниковое
+Divided = разделенный
+Pillars = столпы
+Debug = отлаживать
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX

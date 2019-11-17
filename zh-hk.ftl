@@ -13,20 +13,20 @@ Rhodium = 銠
 
 Sandbag = 沙袋
 
-Ruins = Ruins
-Transistor = Transistor
-Eroded = Eroded
-Scales = Scales
-Crossing = Crossing
-Longboat = Longboat
-Boombox = Boombox
-Fountain = Fountain
-Great-White = Great White
-Plane = Plane
-Satellite = Satellite
-Divided = Divided
-Pillars = Pillars
-Debug = Debug
+Ruins = 廢墟
+Transistor = 晶體管
+Eroded = 腐蝕的
+Scales = 秤
+Crossing = 路口
+Longboat = 長艇
+Boombox = 喇叭褲
+Fountain = 噴泉
+Great-White = 大白鯊
+Plane = 刨
+Satellite = 衛星
+Divided = 分為
+Pillars = 支柱
+Debug = 除錯
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
