@@ -57,7 +57,7 @@ Fullscreen = 全屏
 main = 主界面
 versus = 对抗模式
 training = 训练
-start-mode = Start: { TRANSLATE($value) }
+start-mode = 开始： { TRANSLATE($value) }
 
 # Audio Menu
 AUDIO = 音讯
