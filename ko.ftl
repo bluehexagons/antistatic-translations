@@ -135,7 +135,7 @@ chinese-cn = 중국어 간체
 chinese-hk = 중국어 번체
 korean = {ko-korean}
 
-en = {en-english}
+en = {en-english} ({english})
 es = {es-spanish} ({spanish})
 fr = {fr-french} ({french})
 it = {it-italian} ({italian})
@@ -144,4 +144,4 @@ ru = {ru-russian} ({russian})
 ja = {ja-japanese} ({japanese})
 zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
-ko = {korean} ({ko-korean})
+ko = {ko-korean}

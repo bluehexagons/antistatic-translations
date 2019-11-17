@@ -135,7 +135,7 @@ chinese-cn = 簡體中文
 chinese-hk = {zh-chinese-hk}
 korean = 韓語
 
-en = {en-english}
+en = {en-english} ({english})
 es = {es-spanish} ({spanish})
 fr = {fr-french} ({french})
 it = {it-italian} ({italian})
@@ -143,5 +143,5 @@ de = {de-german} ({german})
 ru = {ru-russian} ({russian})
 ja = {ja-japanese} ({japanese})
 zh = {zh-chinese-cn} ({chinese-cn})
-zh-hk = {zh-chinese-hk} ({chinese-hk})
-ko = {korean} ({ko-korean})
+zh-hk = {zh-chinese-hk}
+ko = {ko-korean} ({korean})
