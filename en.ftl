@@ -79,6 +79,7 @@ gcn_native = GCN native
 # Training Menu
 Swap-Character = Swap Character
 Overlays = Overlays
+training-press-start = Press Start
 
 drawHitbubbleInfo = Attack Info
 drawECB = Collision

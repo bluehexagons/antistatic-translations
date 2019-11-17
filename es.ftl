@@ -78,15 +78,16 @@ gcn_native = GCN nativo
 
 # Training Menu
 Swap-Character = Cambiar personaje
-Overlays = Overlays
+Overlays = Superposiciones
+training-press-start = Pulsa Start
 
-drawHitbubbleInfo = Attack Info
-drawECB = Collision
-drawHeatmap = Heatmap
-drawRawPosition = Raw Position
-drawStage = Stage Collision
-animations = Animations
-controllers = Controllers
+drawHitbubbleInfo = Información de Ataque
+drawECB = Colisión
+drawHeatmap = Mapa de Calor
+drawRawPosition = Posición sin Procesar
+drawStage = Colisión de la Etapa
+animations = Animaciones
+controllers = Controladores
 
 # Versus Menu
 FFA = FFA

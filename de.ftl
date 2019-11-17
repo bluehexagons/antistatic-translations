@@ -57,7 +57,7 @@ Fullscreen = Vollbild
 main = Hauptmenü
 versus = Versus
 training = Training
-start-mode = Start: { TRANSLATE($value) }
+start-mode = Anfang: { TRANSLATE($value) }
 
 # Audio Menu
 AUDIO = AUDIO
@@ -65,7 +65,7 @@ AUDIO = AUDIO
 Play-Audio = Ton Abspielen
 Play-Music = Spiel Musik
 
-Audio-volume = Volume: {$value}
+Audio-volume = Volumen: {$value}
 SFX-volume = Soundeffektlautstärke: {$value}
 Music-volume = Musiklautstärke: {$value}
 
@@ -78,15 +78,16 @@ gcn_native = GCN native
 
 # Training Menu
 Swap-Character = Charakter tauschen
-Overlays = Overlays
+Overlays = Überlagerungen
+training-press-start = Start drücken
 
-drawHitbubbleInfo = Attack Info
-drawECB = Collision
-drawHeatmap = Heatmap
-drawRawPosition = Raw Position
-drawStage = Stage Collision
-animations = Animations
-controllers = Controllers
+drawHitbubbleInfo = Angriffsinfo
+drawECB = Kollision
+drawHeatmap = Wärmekarte
+drawRawPosition = Rohe Position
+drawStage = Bühnenkollision
+animations = Animationen
+controllers = Controller
 
 # Versus Menu
 FFA = FFA

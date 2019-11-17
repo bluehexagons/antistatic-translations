@@ -43,15 +43,16 @@ Reset = Réinitialiser
 
 # Training Menu
 Swap-Character = Echange de personnage
-Overlays = Overlays
+Overlays = Superpositions
+training-press-start = Appuyez sur Start
 
-drawHitbubbleInfo = Attack Info
+drawHitbubbleInfo = Informations d'Attaque
 drawECB = Collision
-drawHeatmap = Heatmap
-drawRawPosition = Raw Position
-drawStage = Stage Collision
+drawHeatmap = Carte de Chaleur
+drawRawPosition = Position Brute
+drawStage = Collision d'Étape
 animations = Animations
-controllers = Controllers
+controllers = Contrôleurs
 
 # Main Menu
 Versus = Versus

@@ -74,19 +74,20 @@ CONTROLS = 操作模式
 
 standard = 标准
 keyboard = 键盘
-gcn_native = GCN native
+gcn_native = GCN原生
 
 # Training Menu
 Swap-Character = 交换字符
 Overlays = 叠加层
+training-press-start = 按下开始
 
-drawHitbubbleInfo = Attack Info
-drawECB = Collision
-drawHeatmap = Heatmap
-drawRawPosition = Raw Position
-drawStage = Stage Collision
-animations = Animations
-controllers = Controllers
+drawHitbubbleInfo = 攻击信息
+drawECB = 碰撞
+drawHeatmap = 热图
+drawRawPosition = 原始位置
+drawStage = 舞台碰撞
+animations = 动画制作
+controllers = 控制器
 
 # Versus Menu
 FFA = FFA
