@@ -120,6 +120,9 @@ it-italian = Italiano
 de-german = Deutsch
 ru-russian = Русский
 ja-japanese = 日本語
+zh-chinese-cn = 简体中文
+zh-chinese-hk = 繁體中文
+ko-korean = 한국어
 
 english = 英語
 spanish = スペイン語
@@ -128,6 +131,9 @@ italian = イタリアの
 german = ドイツ人
 russian = ロシア
 japanese = {ja-japanese}
+chinese-cn = 簡体字中国語
+chinese-hk = 繁体字中国語
+korean = 韓国語
 
 en = {en-english} ({english})
 es = {es-spanish} ({spanish})
@@ -136,3 +142,6 @@ it = {it-italian} ({italian})
 de = {de-german} ({german})
 ru = {ru-russian} ({russian})
 ja = {ja-japanese}
+zh = {zh-chinese-cn} ({chinese-cn})
+zh-hk = {zh-chinese-hk} ({chinese-hk})
+ko = {korean} ({ko-korean})

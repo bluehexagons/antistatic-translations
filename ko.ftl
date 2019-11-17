@@ -1,17 +1,17 @@
-hello-world = Hallo Welt! { TRANSLATE("ANTISTATIC") }
+hello-world = Hello, world! { TRANSLATE("ANTISTATIC") }
 
 # Nouns
 ANTISTATIC = ANTISTATIC
 Antistatic = Antistatic
 
-Silicon = Silicium
+Silicon = Silicon
 Iron = Iron
 Xenon = Xenon
 Helium = Helium
-Carbon = Kohlenstoff
+Carbon = Carbon
 Rhodium = Rhodium
 
-Sandbag = Sandsack
+Sandbag = Sandbag
 
 Ruins = Ruins
 Transistor = Transistor
@@ -32,29 +32,29 @@ mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
 
 # Navigation
-Back = Zurück
-Exit = Beenden
-Save = Speichern
-Cancel = Abbrechen
+Back = Back
+Exit = Exit
+Save = Save
+Cancel = Cancel
 Close-Symbol = X
 
-Modify = Ändern
-Reset = Zurücksetzen
+Modify = Modify
+Reset = Reset
 
 # Main Menu
 Versus = Versus
 Training = Training
-Settings = Optionen
-Controls = Tastenbelegung
+Settings = Settings
+Controls = Controls
 Discord = Discord
 
 # Settings Menu
-SETTINGS = OPTIONEN
+SETTINGS = SETTINGS
 Audio = Audio
-Windowed = Fenstermodus
-Fullscreen = Vollbild
+Windowed = Windowed
+Fullscreen = Fullscreen
 
-main = Hauptmenü
+main = Main Menu
 versus = Versus
 training = Training
 start-mode = Start: { TRANSLATE($value) }
@@ -62,22 +62,22 @@ start-mode = Start: { TRANSLATE($value) }
 # Audio Menu
 AUDIO = AUDIO
 
-Play-Audio = Ton Abspielen
-Play-Music = Spiel Musik
+Play-Audio = Play Audio
+Play-Music = Play Music
 
 Audio-volume = Volume: {$value}
-SFX-volume = Soundeffektlautstärke: {$value}
-Music-volume = Musiklautstärke: {$value}
+SFX-volume = SFX: {$value}
+Music-volume = Music: {$value}
 
 # Controls Menu
-CONTROLS = TASTENBELEGUNG
+CONTROLS = CONTROLS
 
 standard = standard
-keyboard = tastatur
+keyboard = keyboard
 gcn_native = GCN native
 
 # Training Menu
-Swap-Character = Charakter tauschen
+Swap-Character = Swap Character
 Overlays = Overlays
 
 drawHitbubbleInfo = Attack Info
@@ -90,27 +90,27 @@ controllers = Controllers
 
 # Versus Menu
 FFA = FFA
-Teams = Mannschaften
+Teams = Teams
 
-Host-Netplay = Host-Netplay
-Join-Netplay-Clipboard = Nehmen Sie an Netplay aus der Zwischenablage teil
-Disconnect = Trennen
-Copy-Lobby-Code = Kopieren Sie den Lobby-Code
+Host-Netplay = Host Netplay
+Join-Netplay-Clipboard = Join Netplay from Clipboard
+Disconnect = Disconnect
+Copy-Lobby-Code = Copy Lobby Code
 
 Random-Q = ?
 Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Characters = Zeichen
-Stages = Stufen
+Characters = Characters
+Stages = Stages
 AI = AI
 
-Starter = Anlasser
+Starter = Starter
 Legal = Legal
-Miscellaneous = Verschiedenes
+Miscellaneous = Miscellaneous
 
-Start-Battle = Starte den Kampf
+Start-Battle = Start Battle
 
 # Languages
 en-english = English
@@ -124,22 +124,22 @@ zh-chinese-cn = 简体中文
 zh-chinese-hk = 繁體中文
 ko-korean = 한국어
 
-english = Englisch
-spanish = Spanisch
-french = Französisch
-italian = Italienisch
-german = {de-german}
-russian = Russisch
-japanese = Japanisch
-chinese-cn = Vereinfachtes Chinesisch
-chinese-hk = Traditionelles Chinesisch
-korean = Koreanisch
+english = 영어
+spanish = 스페인의
+french = 프랑스 국민
+italian = 이탈리아 사람
+german = 독일 사람
+russian = 러시아인
+japanese = 일본어
+chinese-cn = 중국어 간체
+chinese-hk = 중국어 번체
+korean = {ko-korean}
 
-en = {en-english} ({english})
+en = {en-english}
 es = {es-spanish} ({spanish})
 fr = {fr-french} ({french})
 it = {it-italian} ({italian})
-de = {de-german}
+de = {de-german} ({german})
 ru = {ru-russian} ({russian})
 ja = {ja-japanese} ({japanese})
 zh = {zh-chinese-cn} ({chinese-cn})
