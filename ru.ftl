@@ -51,7 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = Настройки
 Audio = Звук
-Video = Video
+Video = Видео
 Windowed = Оконный режим
 Fullscreen = Во весь экран
 
@@ -71,7 +71,7 @@ SFX-volume = SFX: {$value}
 Music-volume = Музыка: {$value}
 
 # Video Menu
-VIDEO = VIDEO
+VIDEO = Видео
 
 shadow-off = Shadows: Off
 shadow-low = Shadows: Low

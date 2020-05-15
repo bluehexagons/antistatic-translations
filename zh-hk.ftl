@@ -51,7 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = 設置
 Audio = 音訊
-Video = Video
+Video = 視頻設置
 Windowed = 窗口模式
 Fullscreen = 全屏
 
@@ -71,7 +71,7 @@ SFX-volume = 特效： {$value}
 Music-volume = 音樂： {$value}
 
 # Video Menu
-VIDEO = VIDEO
+VIDEO = 視頻設置
 
 shadow-off = Shadows: Off
 shadow-low = Shadows: Low

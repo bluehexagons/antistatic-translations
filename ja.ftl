@@ -51,7 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = 設定
 Audio = オーディオ
-Video = Video
+Video = ビデオクオリティ
 Windowed = ウィンドウモード
 Fullscreen = フルスクリーン
 
@@ -71,7 +71,7 @@ SFX-volume = SFX：{$value}
 Music-volume = 音楽：{$value}
 
 # Video Menu
-VIDEO = VIDEO
+VIDEO = ビデオクオリティ
 
 shadow-off = Shadows: Off
 shadow-low = Shadows: Low

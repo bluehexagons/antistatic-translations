@@ -51,7 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = 설정
 Audio = 오디오
-Video = Video
+Video = 영상
 Windowed = 창 모드
 Fullscreen = 전체화면
 
@@ -71,7 +71,7 @@ SFX-volume = SFX : {$value}
 Music-volume = 음악: {$value}
 
 # Video Menu
-VIDEO = VIDEO
+VIDEO = 영상
 
 shadow-off = Shadows: Off
 shadow-low = Shadows: Low

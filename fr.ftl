@@ -74,7 +74,7 @@ training = Entrainement
 start-mode = Commencer: { TRANSLATE($value) }
 
 # Audio Menu
-AUDIO = SON
+AUDIO = Vidéo
 
 Play-Audio = Jouer Son
 Play-Music = Jouer de la Musique
@@ -84,7 +84,7 @@ SFX-volume = SFX: {$value}
 Music-volume = Musique: {$value}
 
 # Video Menu
-VIDEO = VIDEO
+VIDEO = VIDÉO
 
 shadow-off = Shadows: Off
 shadow-low = Shadows: Low
