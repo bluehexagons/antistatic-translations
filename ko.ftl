@@ -46,8 +46,8 @@ Versus = 대전 모드
 Training = 트레이닝
 Settings = 설정
 Controls = 조작 방식
-Discord = Discord
-Guide = Guide
+Discord = Discord {"\u29C9"}
+Guide = Guide {"\u29C9"}
 
 # Settings Menu
 SETTINGS = 설정

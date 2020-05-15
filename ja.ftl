@@ -46,8 +46,8 @@ Versus = 対戦
 Training = トレーニング
 Settings = 設定
 Controls = 操作方法
-Discord = Discord
-Guide = Guide
+Discord = Discord {"\u29C9"}
+Guide = Guide {"\u29C9"}
 
 # Settings Menu
 SETTINGS = 設定

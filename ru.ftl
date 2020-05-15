@@ -46,8 +46,8 @@ Versus = Поединок
 Training = Тренировка
 Settings = Настройки
 Controls = Управление
-Discord = Discord
-Guide = Guide
+Discord = Discord {"\u29C9"}
+Guide = Guide {"\u29C9"}
 
 # Settings Menu
 SETTINGS = Настройки

@@ -59,8 +59,8 @@ Versus = Versus
 Training = Entrainement
 Settings = Settings
 Controls = Controls
-Discord = Discord
-Guide = Guide
+Discord = Discord {"\u29C9"}
+Guide = Guide {"\u29C9"}
 
 # Settings Menu
 SETTINGS = SETTINGS
