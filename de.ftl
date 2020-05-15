@@ -47,6 +47,7 @@ Training = Training
 Settings = Optionen
 Controls = Tastenbelegung
 Discord = Discord
+Guide = Guide
 
 # Settings Menu
 SETTINGS = OPTIONEN

@@ -47,6 +47,7 @@ Training = 训练
 Settings = 设置
 Controls = 操作模式
 Discord = Discord
+Guide = Guide
 
 # Settings Menu
 SETTINGS = 设置

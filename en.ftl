@@ -47,6 +47,7 @@ Training = Training
 Settings = Settings
 Controls = Controls
 Discord = Discord
+Guide = Guide
 
 # Settings Menu
 SETTINGS = SETTINGS

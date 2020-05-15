@@ -47,6 +47,7 @@ Training = Addestramento
 Settings = Opzioni
 Controls = Comandi
 Discord = Discord
+Guide = Guide
 
 # Settings Menu
 SETTINGS = OPZIONI

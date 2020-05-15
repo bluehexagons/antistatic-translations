@@ -47,6 +47,7 @@ Training = 트레이닝
 Settings = 설정
 Controls = 조작 방식
 Discord = Discord
+Guide = Guide
 
 # Settings Menu
 SETTINGS = 설정
