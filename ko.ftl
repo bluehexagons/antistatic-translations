@@ -51,6 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = 설정
 Audio = 오디오
+Video = Video
 Windowed = 창 모드
 Fullscreen = 전체화면
 
@@ -68,6 +69,20 @@ Play-Music = 음악을 재생
 Audio-volume = 음량: {$value}
 SFX-volume = SFX : {$value}
 Music-volume = 음악: {$value}
+
+# Video Menu
+VIDEO = VIDEO
+
+shadow-off = Shadows: Off
+shadow-low = Shadows: Low
+shadow-highest = Shadows: Highest
+
+ssao-off = SSAO: Off
+ssao-on = SSAO: On
+ssao-full = SSAO: Full
+
+aa-off = Antialias: Off
+aa-fxaa = Antialias: FXAA
 
 # Controls Menu
 CONTROLS = 조작 방식

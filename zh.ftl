@@ -51,6 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = 设置
 Audio = 音讯
+Video = Video
 Windowed = 窗口模式
 Fullscreen = 全屏
 
@@ -68,6 +69,20 @@ Play-Music = 播放音乐
 Audio-volume = 体积： {$value}
 SFX-volume = 特效： {$value}
 Music-volume = 音乐： {$value}
+
+# Video Menu
+VIDEO = VIDEO
+
+shadow-off = Shadows: Off
+shadow-low = Shadows: Low
+shadow-highest = Shadows: Highest
+
+ssao-off = SSAO: Off
+ssao-on = SSAO: On
+ssao-full = SSAO: Full
+
+aa-off = Antialias: Off
+aa-fxaa = Antialias: FXAA
 
 # Controls Menu
 CONTROLS = 操作模式

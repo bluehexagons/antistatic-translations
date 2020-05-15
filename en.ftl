@@ -51,6 +51,7 @@ Discord = Discord
 # Settings Menu
 SETTINGS = SETTINGS
 Audio = Audio
+Video = Video
 Windowed = Windowed
 Fullscreen = Fullscreen
 
@@ -68,6 +69,20 @@ Play-Music = Play Music
 Audio-volume = Volume: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Music: {$value}
+
+# Video Menu
+VIDEO = VIDEO
+
+shadow-off = Shadows: Off
+shadow-low = Shadows: Low
+shadow-highest = Shadows: Highest
+
+ssao-off = SSAO: Off
+ssao-on = SSAO: On
+ssao-full = SSAO: Full
+
+aa-off = Antialias: Off
+aa-fxaa = Antialias: FXAA
 
 # Controls Menu
 CONTROLS = CONTROLS
