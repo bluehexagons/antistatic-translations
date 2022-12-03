@@ -74,6 +74,10 @@ Music-volume = Music: {$value}
 # Video Menu
 VIDEO = VIDEO
 
+vsync-off = Vsync: Off
+vsync-on = Vsync: On
+vsync-adaptive = Vsync: Adaptive
+
 shadow-off = Shadows: Off
 shadow-low = Shadows: Low
 shadow-highest = Shadows: Highest

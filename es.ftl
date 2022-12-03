@@ -137,11 +137,11 @@ Characters = Caracteres
 Stages = Etapas
 AI = AI
 
-Starter = Motor de arranque
+Starter = Empezar
 Legal = Legal
 Miscellaneous = Diverso
 
-Start-Battle = Comience la batalla
+Start-Battle = Comience la Batalla
 
 # Start Menu
 quit-info = Escudo + Ataque + Comienza a dejar de fumar
