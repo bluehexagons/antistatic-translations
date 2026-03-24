@@ -1,0 +1,32 @@
+{
+  "name": "@bluehexagons/antistatic-translations",
+  "version": "0.1.0",
+  "description": "Fluent translation files used by Antistatic",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./*.ftl": "./*.ftl",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "*.ftl",
+    "index.js",
+    "README.md",
+    "license.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluehexagons/antistatic-translations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluehexagons/antistatic-translations/issues"
+  },
+  "homepage": "https://github.com/bluehexagons/antistatic-translations#readme",
+  "license": "CC-BY-SA-4.0"
+}
