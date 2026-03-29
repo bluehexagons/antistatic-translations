@@ -6,7 +6,7 @@ Antistatic = Antistatic
 
 Silicon = Silicio
 Iron = Ferro
-Xenon = Xeno
+Xenon = Xenon
 Helium = Elio
 Carbon = Carbonio
 Rhodium = Rodio
@@ -23,7 +23,7 @@ Boombox = Boombox
 Fountain = Fontana
 Great-White = Grande Bianco
 Plane = Il Piano
-Satellite = Satellitare
+Satellite = Satellite
 Divided = Diviso
 Pillars = Pilastri
 Debug = Mettere a Punto
@@ -47,7 +47,7 @@ Training = Addestramento
 Settings = Opzioni
 Controls = Comandi
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = Guida {"\u29C9"}
 
 # Settings Menu
 SETTINGS = OPZIONI
@@ -65,7 +65,7 @@ start-mode = Inizio: { TRANSLATE($value) }
 AUDIO = AUDIO
 
 Play-Audio = Riprodurre Audio
-Play-Music = Suonare
+Play-Music = Riprodurre Musica
 
 Audio-volume = Volume: {$value}
 SFX-volume = SFX: {$value}
@@ -74,21 +74,25 @@ Music-volume = Musica: {$value}
 # Video Menu
 VIDEO = VIDEO
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = Vsync: Disattivato
+vsync-on = Vsync: Attivato
+vsync-adaptive = Vsync: Adattivo
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = Ombre: Disattivato
+shadow-low = Ombre: Basso
+shadow-highest = Ombre: Massimo
 
-aa-off = Antialias: Off
+ssao-off = SSAO: Disattivato
+ssao-on = SSAO: Attivato
+ssao-full = SSAO: Completo
+
+aa-off = Antialias: Disattivato
 aa-fxaa = Antialias: FXAA
 
 # Controls Menu
 CONTROLS = COMANDI
 
-standard = standard
+standard = Standard
 keyboard = tastiera
 gcn_native = GCN native
 
@@ -111,7 +115,7 @@ Teams = Squadre
 
 Host-Netplay = Netplay dell'host
 Join-Netplay-Clipboard = Unisciti a netplay dagli appunti
-Disconnect = Disconnect
+Disconnect = Disconnetti
 Copy-Lobby-Code = Copia il codice della lobby
 
 Random-Q = ?
@@ -120,19 +124,19 @@ Add-Symbol = +
 Tapjump-Symbol = TJ
 
 Characters = Personaggi
-Stages = Fasi
+Stages = Arene
 AI = AI
 
-Starter = Antipasti
+Starter = Starter
 Legal = Legale
 Miscellaneous = Miscellaneo
 
 Start-Battle = Inizia la battaglia
 
 # Start Menu
-quit-info = Scudo + Attacco + Inizia a uscire
+quit-info = Scudo + Attacco + Start per uscire
 paused = PAUSA
-tag-info = D-pad su / giù per tag in / out
+tag-info = D-pad su/giù per entrare/uscire
 
 # Languages
 en-english = English

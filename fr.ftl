@@ -57,13 +57,13 @@ controllers = Contrôleurs
 # Main Menu
 Versus = Versus
 Training = Entrainement
-Settings = Settings
-Controls = Controls
+Settings = Paramètres
+Controls = Contrôles
 Discord = Discord {"\u29C9"}
 Guide = Guide {"\u29C9"}
 
 # Settings Menu
-SETTINGS = SETTINGS
+SETTINGS = PARAMÈTRES
 Audio = Son
 Video = Video
 Windowed = Fenêtré
@@ -75,7 +75,7 @@ training = Entrainement
 start-mode = Commencer: { TRANSLATE($value) }
 
 # Audio Menu
-AUDIO = Vidéo
+AUDIO = SON
 
 Play-Audio = Jouer Son
 Play-Music = Jouer de la Musique
@@ -87,21 +87,25 @@ Music-volume = Musique: {$value}
 # Video Menu
 VIDEO = VIDÉO
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = Vsync: Désactivé
+vsync-on = Vsync: Activé
+vsync-adaptive = Vsync: Adaptatif
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = Ombres: Désactivé
+shadow-low = Ombres: Faible
+shadow-highest = Ombres: Maximum
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO: Désactivé
+ssao-on = SSAO: Activé
+ssao-full = SSAO: Complet
+
+aa-off = Anticrénelage: Désactivé
+aa-fxaa = Anticrénelage: FXAA
 
 # Controls Menu
-CONTROLS = CONTROLS
+CONTROLS = CONTRÔLES
 
-standard = régulier
+standard = Standard
 keyboard = clavier
 gcn_native = GCN native
 
@@ -120,19 +124,19 @@ Add-Symbol = +
 Tapjump-Symbol = TJ
 
 Characters = Personnages
-Stages = Étapes
+Stages = Arènes
 AI = AI
 
-Starter = Entrée
+Starter = Starter
 Legal = Légal
 Miscellaneous = Divers
 
 Start-Battle = Commencer le combat
 
 # Start Menu
-quit-info = Bouclier + Attaque + Commence à quitter
+quit-info = Bouclier + Attaque + Start pour quitter
 paused = EN PAUSE
-tag-info = D-pad up / down pour tag in / out
+tag-info = Croix directionnelle haut/bas pour entrer/sortir
 
 # Languages
 en-english = English

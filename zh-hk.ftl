@@ -19,10 +19,10 @@ Eroded = 腐蝕的
 Scales = 秤
 Crossing = 路口
 Longboat = 長艇
-Boombox = 喇叭褲
+Boombox = Boombox
 Fountain = 噴泉
 Great-White = 大白鯊
-Plane = 刨
+Plane = 平面
 Satellite = 衛星
 Divided = 分為
 Pillars = 支柱
@@ -45,9 +45,9 @@ Reset = 重啟
 Versus = 對抗模式
 Training = 訓練
 Settings = 設置
-Controls = 操作模式
+Controls = 操作
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = 指南 {"\u29C9"}
 
 # Settings Menu
 SETTINGS = 設置
@@ -67,33 +67,37 @@ AUDIO = 音訊
 Play-Audio = 播放音訊
 Play-Music = 播放音樂
 
-Audio-volume = 體積： {$value}
+Audio-volume = 音量： {$value}
 SFX-volume = 特效： {$value}
 Music-volume = 音樂： {$value}
 
 # Video Menu
 VIDEO = 視頻設置
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = 垂直同步：關閉
+vsync-on = 垂直同步：開啟
+vsync-adaptive = 垂直同步：自適應
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = 陰影：關閉
+shadow-low = 陰影：低
+shadow-highest = 陰影：最高
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO：關閉
+ssao-on = SSAO：開啟
+ssao-full = SSAO：完整
+
+aa-off = 抗鋸齒：關閉
+aa-fxaa = 抗鋸齒：FXAA
 
 # Controls Menu
-CONTROLS = 操作模式
+CONTROLS = 操作
 
 standard = 標準
 keyboard = 鍵盤
 gcn_native = GCN原生
 
 # Training Menu
-Swap-Character = 交換字符
+Swap-Character = 交換角色
 Overlays = 疊加層
 press-start = 按下開始
 
@@ -119,20 +123,20 @@ Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Characters = 性格
-Stages = 階段
+Characters = 角色
+Stages = 場地
 AI = AI
 
-Starter = 起動機
-Legal = 法律
-Miscellaneous = 雜
+Starter = 起始
+Legal = 賽事
+Miscellaneous = 其他
 
 Start-Battle = 開始戰鬥
 
 # Start Menu
-quit-info = 盾牌+攻擊+開始退出
+quit-info = 盾牌 + 攻擊 + 開始 以退出
 paused = 已暫停
-tag-info = D-pad上/下標記/標記
+tag-info = D-pad 上/下切換標籤進出
 
 # Languages
 en-english = English
@@ -152,7 +156,7 @@ french = 法文
 italian = 義大利文
 german = 德語
 russian = 俄語
-japanese = 日本
+japanese = 日語
 chinese-cn = 簡體中文
 chinese-hk = {zh-chinese-hk}
 korean = 韓語

@@ -47,7 +47,7 @@ Training = トレーニング
 Settings = 設定
 Controls = 操作方法
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = ガイド {"\u29C9"}
 
 # Settings Menu
 SETTINGS = 設定
@@ -68,22 +68,26 @@ Play-Audio = オーディオを再生する
 Play-Music = 音楽を再生
 
 Audio-volume = ボリューム：{$value}
-SFX-volume = SFX：{$value}
+SFX-volume = エフェクト：{$value}
 Music-volume = 音楽：{$value}
 
 # Video Menu
-VIDEO = ビデオクオリティ
+VIDEO = ビデオ品質
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = 垂直同期：オフ
+vsync-on = 垂直同期：オン
+vsync-adaptive = 垂直同期：適応
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = 影：オフ
+shadow-low = 影：低
+shadow-highest = 影：最高
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO：オフ
+ssao-on = SSAO：オン
+ssao-full = SSAO：フル
+
+aa-off = アンチエイリアス：オフ
+aa-fxaa = アンチエイリアス：FXAA
 
 # Controls Menu
 CONTROLS = 操作方法
@@ -119,20 +123,20 @@ Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Characters = キャラクターズ
+Characters = キャラクター
 Stages = ステージ
 AI = AI
 
 Starter = スターター
-Legal = 法的
+Legal = 公式
 Miscellaneous = その他
 
 Start-Battle = バトルを開始
 
 # Start Menu
-quit-info = シールド+攻撃+終了を開始
+quit-info = シールド+攻撃+スタートで終了
 paused = 一時停止
-tag-info = D /パッドで上下にタグ付け
+tag-info = Dパッド上下でタグイン/アウト
 
 # Languages
 en-english = English
@@ -149,8 +153,8 @@ ko-korean = 한국어
 english = 英語
 spanish = スペイン語
 french = フランス語
-italian = イタリアの
-german = ドイツ人
+italian = イタリア語
+german = ドイツ語
 russian = ロシア
 japanese = {ja-japanese}
 chinese-cn = 簡体字中国語

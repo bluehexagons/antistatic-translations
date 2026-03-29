@@ -5,7 +5,7 @@ ANTISTATIC = ANTISTATIC
 Antistatic = Antistatic
 
 Silicon = Silicium
-Iron = Iron
+Iron = Eisen
 Xenon = Xenon
 Helium = Helium
 Carbon = Kohlenstoff
@@ -21,7 +21,7 @@ Crossing = Kreuzung
 Longboat = Langboot
 Boombox = Boombox
 Fountain = Brunnen
-Great-White = Große Weiße
+Great-White = Großer Weißer
 Plane = Ebene
 Satellite = Satellit
 Divided = Geteilt
@@ -47,7 +47,7 @@ Training = Training
 Settings = Optionen
 Controls = Tastenbelegung
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = Anleitung {"\u29C9"}
 
 # Settings Menu
 SETTINGS = OPTIONEN
@@ -65,7 +65,7 @@ start-mode = Anfang: { TRANSLATE($value) }
 AUDIO = AUDIO
 
 Play-Audio = Ton Abspielen
-Play-Music = Spiel Musik
+Play-Music = Musik abspielen
 
 Audio-volume = Volumen: {$value}
 SFX-volume = Soundeffektlautstärke: {$value}
@@ -74,22 +74,26 @@ Music-volume = Musiklautstärke: {$value}
 # Video Menu
 VIDEO = VIDEO
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = Vsync: Aus
+vsync-on = Vsync: An
+vsync-adaptive = Vsync: Adaptiv
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = Schatten: Aus
+shadow-low = Schatten: Niedrig
+shadow-highest = Schatten: Maximal
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO: Aus
+ssao-on = SSAO: An
+ssao-full = SSAO: Voll
+
+aa-off = Antialiasing: Aus
+aa-fxaa = Antialiasing: FXAA
 
 # Controls Menu
 CONTROLS = TASTENBELEGUNG
 
-standard = standard
-keyboard = tastatur
+standard = Standard
+keyboard = Tastatur
 gcn_native = GCN native
 
 # Training Menu
@@ -123,7 +127,7 @@ Characters = Zeichen
 Stages = Stufen
 AI = AI
 
-Starter = Anlasser
+Starter = Starter
 Legal = Legal
 Miscellaneous = Verschiedenes
 

@@ -11,7 +11,7 @@ Helium = Гелий
 Carbon = Углерод
 Rhodium = Родий
 
-Sandbag = принуждать
+Sandbag = Мешок с песком
 
 Ruins = руины
 Transistor = транзистор
@@ -22,7 +22,7 @@ Longboat = баркас
 Boombox = Бумбокс
 Fountain = Фонтан
 Great-White = Большой белый
-Plane = уровень
+Plane = Плоскость
 Satellite = спутниковое
 Divided = разделенный
 Pillars = столпы
@@ -47,7 +47,7 @@ Training = Тренировка
 Settings = Настройки
 Controls = Управление
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = Руководство {"\u29C9"}
 
 # Settings Menu
 SETTINGS = Настройки
@@ -58,7 +58,7 @@ Fullscreen = Во весь экран
 
 main = Главное меню
 versus = Поединок
-training = Поединок
+training = Тренировка
 start-mode = Начать: { TRANSLATE($value) }
 
 # Audio Menu
@@ -67,23 +67,27 @@ AUDIO = Звук
 Play-Audio = Воспроизвести аудио
 Play-Music = Воспроизводить музыку
 
-Audio-volume = объем: {$value}
+Audio-volume = Громкость: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Музыка: {$value}
 
 # Video Menu
 VIDEO = Видео
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = Vsync: Выкл
+vsync-on = Vsync: Вкл
+vsync-adaptive = Vsync: Адаптивный
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = Тени: Выкл
+shadow-low = Тени: Низко
+shadow-highest = Тени: Максимум
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO: Выкл
+ssao-on = SSAO: Вкл
+ssao-full = SSAO: Полный
+
+aa-off = Антиалиасинг: Выкл
+aa-fxaa = Антиалиасинг: FXAA
 
 # Controls Menu
 CONTROLS = Управление
@@ -120,19 +124,19 @@ Add-Symbol = +
 Tapjump-Symbol = TJ
 
 Characters = Персонажи
-Stages = Этапы
+Stages = Арены
 AI = AI
 
 Starter = Стартер
-Legal = легальный
-Miscellaneous = Разнообразный
+Legal = Турнирные
+Miscellaneous = Разное
 
 Start-Battle = Начать бой
 
 # Start Menu
 quit-info = Щит + Атака + Старт, чтобы выйти
 paused = Приостановлено
-tag-info = D-Pad вверх / вниз, чтобы пометить в / из
+tag-info = D-Pad вверх/вниз для тега вход/выход
 
 # Languages
 en-english = English

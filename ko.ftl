@@ -6,7 +6,7 @@ Antistatic = Antistatic
 
 Silicon = 규소
 Iron = 철
-Xenon = 기호 엑스 에
+Xenon = 제논
 Helium = 헬륨
 Carbon = 탄소
 Rhodium = 로듐
@@ -47,7 +47,7 @@ Training = 트레이닝
 Settings = 설정
 Controls = 조작 방식
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = 가이드 {"\u29C9"}
 
 # Settings Menu
 SETTINGS = 설정
@@ -74,22 +74,26 @@ Music-volume = 음악: {$value}
 # Video Menu
 VIDEO = 영상
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = Vsync: 끄기
+vsync-on = Vsync: 켜기
+vsync-adaptive = Vsync: 적응형
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = 그림자: 끄기
+shadow-low = 그림자: 낮음
+shadow-highest = 그림자: 높음
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO: 끄기
+ssao-on = SSAO: 켜기
+ssao-full = SSAO: 풀
+
+aa-off = 안티앨리어싱: 끄기
+aa-fxaa = 안티앨리어싱: FXAA
 
 # Controls Menu
 CONTROLS = 조작 방식
 
 standard = 표준
-keyboard = 건반
+keyboard = 키보드
 gcn_native = GCN 네이티브
 
 # Training Menu
@@ -111,7 +115,7 @@ Teams = 팀
 
 Host-Netplay = 호스트 넷 플레이
 Join-Netplay-Clipboard = 클립 보드에서 Netplay에 참여
-Disconnect = 분리
+Disconnect = 연결 해제
 Copy-Lobby-Code = 로비 코드 복사
 
 Random-Q = ?
@@ -120,19 +124,19 @@ Add-Symbol = +
 Tapjump-Symbol = TJ
 
 Characters = 캐릭터
-Stages = 단계
+Stages = 스테이지
 AI = AI
 
-Starter = 기동기
-Legal = 적법한
-Miscellaneous = 여러 가지 잡다한
+Starter = 스타터
+Legal = 공식
+Miscellaneous = 기타
 
 Start-Battle = 전투 시작
 
 # Start Menu
-quit-info = 방패 + 공격 + 종료 시작
+quit-info = 방패 + 공격 + 시작으로 종료
 paused = 일시 중지됨
-tag-info = 태그 인 / 아웃을위한 D- 패드 위 / 아래
+tag-info = D-패드 위/아래로 태그 인/아웃
 
 # Languages
 en-english = English
@@ -147,11 +151,11 @@ zh-chinese-hk = 繁體中文
 ko-korean = 한국어
 
 english = 영어
-spanish = 스페인의
-french = 프랑스 국민
-italian = 이탈리아 사람
-german = 독일 사람
-russian = 러시아인
+spanish = 스페인어
+french = 프랑스어
+italian = 이탈리아어
+german = 독일어
+russian = 러시아어
 japanese = 일본어
 chinese-cn = 중국어 간체
 chinese-hk = 중국어 번체

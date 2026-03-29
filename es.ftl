@@ -11,15 +11,15 @@ Helium = Helio
 Carbon = Carbono
 Rhodium = Rodio
 
-Sandbag = Saco terrero
+Sandbag = Saco de arena
 
 Ruins = Restos
 Transistor = Transistor
 Eroded = Erosionado
-Scales = La Balanza
+Scales = Balanza
 Crossing = El Cruce
 Longboat = Longboat
-Boombox = Caja de Auge
+Boombox = Radiocassette
 Fountain = Fuente
 Great-White = Gran Blanco
 Plane = El Plano
@@ -33,7 +33,7 @@ mode-19XX = 19XX
 
 # Navigation
 Back = Volver
-Exit = Salida
+Exit = Salir
 Save = Guardar
 Cancel = Cancelar
 Close-Symbol = X
@@ -47,7 +47,7 @@ Training = Entrenamiento
 Settings = Opciones
 Controls = Controles
 Discord = Discord {"\u29C9"}
-Guide = Guide {"\u29C9"}
+Guide = Guía {"\u29C9"}
 
 # Settings Menu
 SETTINGS = OPCIONES
@@ -67,36 +67,26 @@ AUDIO = SONIDO
 Play-Audio = Reproducir Sonido
 Play-Music = Reproducir Música
 
-Audio-volume = Volume: {$value}
+Audio-volume = Volumen: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Música: {$value}
 
 # Video Menu
 VIDEO = VIDEO
 
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
+vsync-off = Vsync: Desactivado
+vsync-on = Vsync: Activado
+vsync-adaptive = Vsync: Adaptativo
 
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
+shadow-off = Sombras: Desactivado
+shadow-low = Sombras: Bajo
+shadow-highest = Sombras: Máximo
 
-aa-off = Antialias: Off
-aa-fxaa = Antialias: FXAA
+ssao-off = SSAO: Desactivado
+ssao-on = SSAO: Activado
+ssao-full = SSAO: Completo
 
-# Video Menu
-VIDEO = VIDEO
-
-shadow-off = Shadows: Off
-shadow-low = Shadows: Low
-shadow-highest = Shadows: Highest
-
-ssao-off = SSAO: Off
-ssao-on = SSAO: On
-ssao-full = SSAO: Full
-
-aa-off = Antialias: Off
+aa-off = Antialias: Desactivado
 aa-fxaa = Antialias: FXAA
 
 # Controls Menu
@@ -133,20 +123,20 @@ Sub-Symbol = -
 Add-Symbol = +
 Tapjump-Symbol = TJ
 
-Characters = Caracteres
-Stages = Etapas
+Characters = Personajes
+Stages = Escenarios
 AI = AI
 
-Starter = Empezar
-Legal = Legal
-Miscellaneous = Diverso
+Starter = Iniciales
+Legal = Competitivos
+Miscellaneous = Varios
 
-Start-Battle = Comience la Batalla
+Start-Battle = Comenzar batalla
 
 # Start Menu
-quit-info = Escudo + Ataque + Comienza a dejar de fumar
+quit-info = Escudo + Ataque + Start para salir
 paused = PAUSA
-tag-info = D-pad arriba / abajo para etiquetar entrada / salida
+tag-info = D-pad arriba / abajo para etiquetar
 
 # Languages
 en-english = English
