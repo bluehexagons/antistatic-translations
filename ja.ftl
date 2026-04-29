@@ -70,6 +70,8 @@ Play-Music = 音楽を再生
 Audio-volume = ボリューム：{$value}
 SFX-volume = エフェクト：{$value}
 Music-volume = 音楽：{$value}
+UI-volume = UI：{$value}
+Voice-volume = 音声：{$value}
 
 # Video Menu
 VIDEO = ビデオ品質

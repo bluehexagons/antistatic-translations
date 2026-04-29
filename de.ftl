@@ -70,6 +70,8 @@ Play-Music = Musik abspielen
 Audio-volume = Volumen: {$value}
 SFX-volume = Soundeffektlautstärke: {$value}
 Music-volume = Musiklautstärke: {$value}
+UI-volume = UI-Lautstärke: {$value}
+Voice-volume = Sprachlautstärke: {$value}
 
 # Video Menu
 VIDEO = VIDEO

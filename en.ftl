@@ -70,6 +70,8 @@ Play-Music = Play Music
 Audio-volume = Volume: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Music: {$value}
+UI-volume = UI: {$value}
+Voice-volume = Voice: {$value}
 
 # Video Menu
 VIDEO = VIDEO

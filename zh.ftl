@@ -70,6 +70,8 @@ Play-Music = 播放音乐
 Audio-volume = 音量： {$value}
 SFX-volume = 特效： {$value}
 Music-volume = 音乐： {$value}
+UI-volume = 界面： {$value}
+Voice-volume = 语音： {$value}
 
 # Video Menu
 VIDEO = 视频设置

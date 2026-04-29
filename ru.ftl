@@ -70,6 +70,8 @@ Play-Music = Воспроизводить музыку
 Audio-volume = Громкость: {$value}
 SFX-volume = SFX: {$value}
 Music-volume = Музыка: {$value}
+UI-volume = UI: {$value}
+Voice-volume = Голос: {$value}
 
 # Video Menu
 VIDEO = Видео
