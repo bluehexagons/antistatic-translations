@@ -120,6 +120,19 @@ Join-Netplay-Clipboard = Join Netplay from Clipboard
 Disconnect = Disconnect
 Copy-Lobby-Code = Copy Lobby Code
 
+# Controls Menu
+controls-title = CONTROLS
+controls-section-controllers = Controllers
+controls-section-mappings = Mappings
+controls-set-tag = Set Tag
+controls-edit-bindings = Edit Bindings
+controls-tag-untagged = (no tag)
+controls-tag-title = Player Tag
+controls-tag-prompt = P{$port} ({$layout}). Tags are 1-24 alphanumerics, "-", or "_". Leave blank to clear.
+controls-tag-confirm = Confirm
+controls-tag-clear = Clear
+controls-tag-cancel = Cancel
+
 # Netplay Menu
 NETPLAY = NETPLAY
 Netplay = Netplay
