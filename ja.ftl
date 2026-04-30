@@ -94,6 +94,14 @@ aa-fxaa = アンチエイリアス：FXAA
 perf-overlay-off = パフォーマンス表示：オフ
 perf-overlay-on = パフォーマンス表示：オン
 
+
+point-lights-off = ポイントライト：オフ
+point-lights-on = ポイントライト：オン
+
+particles-low = パーティクル：低
+particles-medium = パーティクル：中
+particles-full = パーティクル：高
+
 # Controls Menu
 CONTROLS = 操作方法
 

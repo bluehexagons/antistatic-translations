@@ -94,6 +94,13 @@ aa-fxaa = Antialias: FXAA
 perf-overlay-off = Perf overlay: Off
 perf-overlay-on = Perf overlay: On
 
+point-lights-off = Point lights: Off
+point-lights-on = Point lights: On
+
+particles-low = Particles: Low
+particles-medium = Particles: Medium
+particles-full = Particles: Full
+
 # Controls Menu
 CONTROLS = CONTROLS
 

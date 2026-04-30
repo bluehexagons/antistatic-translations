@@ -94,6 +94,14 @@ aa-fxaa = Антиалиасинг: FXAA
 perf-overlay-off = Индикатор производительности: Выкл
 perf-overlay-on = Индикатор производительности: Вкл
 
+
+point-lights-off = Точечные источники света: Выкл
+point-lights-on = Точечные источники света: Вкл
+
+particles-low = Частицы: Низко
+particles-medium = Частицы: Средне
+particles-full = Частицы: Максимум
+
 # Controls Menu
 CONTROLS = Управление
 

@@ -94,6 +94,14 @@ aa-fxaa = Antialias: FXAA
 perf-overlay-off = Indicatore prestazioni: Disattivato
 perf-overlay-on = Indicatore prestazioni: Attivato
 
+
+point-lights-off = Luci puntiformi: Disattivate
+point-lights-on = Luci puntiformi: Attivate
+
+particles-low = Particelle: Basso
+particles-medium = Particelle: Medio
+particles-full = Particelle: Massimo
+
 # Controls Menu
 CONTROLS = COMANDI
 

@@ -94,6 +94,14 @@ aa-fxaa = 抗锯齿：FXAA
 perf-overlay-off = 性能指示器：关闭
 perf-overlay-on = 性能指示器：开启
 
+
+point-lights-off = 点光源：关闭
+point-lights-on = 点光源：开启
+
+particles-low = 粒子：低
+particles-medium = 粒子：中
+particles-full = 粒子：高
+
 # Controls Menu
 CONTROLS = 操作
 

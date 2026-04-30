@@ -94,6 +94,14 @@ aa-fxaa = Antialiasing: FXAA
 perf-overlay-off = Leistungsanzeige: Aus
 perf-overlay-on = Leistungsanzeige: An
 
+
+point-lights-off = Punktlichter: Aus
+point-lights-on = Punktlichter: An
+
+particles-low = Partikel: Niedrig
+particles-medium = Partikel: Mittel
+particles-full = Partikel: Voll
+
 # Controls Menu
 CONTROLS = TASTENBELEGUNG
 

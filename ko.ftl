@@ -94,6 +94,14 @@ aa-fxaa = 안티앨리어싱: FXAA
 perf-overlay-off = 성능 표시: 끄기
 perf-overlay-on = 성능 표시: 켜기
 
+
+point-lights-off = 점광원: 끄기
+point-lights-on = 점광원: 켜기
+
+particles-low = 파티클: 낮음
+particles-medium = 파티클: 중간
+particles-full = 파티클: 높음
+
 # Controls Menu
 CONTROLS = 조작 방식
 

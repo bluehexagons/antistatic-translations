@@ -107,6 +107,14 @@ aa-fxaa = Anticrénelage: FXAA
 perf-overlay-off = Indicateur de perf : Désactivé
 perf-overlay-on = Indicateur de perf : Activé
 
+
+point-lights-off = Lumières ponctuelles : Désactivées
+point-lights-on = Lumières ponctuelles : Activées
+
+particles-low = Particules : Faible
+particles-medium = Particules : Moyen
+particles-full = Particules : Maximum
+
 # Controls Menu
 CONTROLS = CONTRÔLES
 
