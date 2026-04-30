@@ -91,6 +91,9 @@ ssao-full = SSAO：完整
 aa-off = 抗鋸齒：關閉
 aa-fxaa = 抗鋸齒：FXAA
 
+perf-overlay-off = 效能指示器：關閉
+perf-overlay-on = 效能指示器：開啟
+
 # Controls Menu
 CONTROLS = 操作
 

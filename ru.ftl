@@ -91,6 +91,9 @@ ssao-full = SSAO: Полный
 aa-off = Антиалиасинг: Выкл
 aa-fxaa = Антиалиасинг: FXAA
 
+perf-overlay-off = Индикатор производительности: Выкл
+perf-overlay-on = Индикатор производительности: Вкл
+
 # Controls Menu
 CONTROLS = Управление
 

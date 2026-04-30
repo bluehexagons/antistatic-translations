@@ -91,6 +91,9 @@ ssao-full = SSAO: Voll
 aa-off = Antialiasing: Aus
 aa-fxaa = Antialiasing: FXAA
 
+perf-overlay-off = Leistungsanzeige: Aus
+perf-overlay-on = Leistungsanzeige: An
+
 # Controls Menu
 CONTROLS = TASTENBELEGUNG
 

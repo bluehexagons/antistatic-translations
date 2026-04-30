@@ -91,6 +91,9 @@ ssao-full = SSAO：フル
 aa-off = アンチエイリアス：オフ
 aa-fxaa = アンチエイリアス：FXAA
 
+perf-overlay-off = パフォーマンス表示：オフ
+perf-overlay-on = パフォーマンス表示：オン
+
 # Controls Menu
 CONTROLS = 操作方法
 

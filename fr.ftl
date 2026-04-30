@@ -104,6 +104,9 @@ ssao-full = SSAO: Complet
 aa-off = Anticrénelage: Désactivé
 aa-fxaa = Anticrénelage: FXAA
 
+perf-overlay-off = Indicateur de perf : Désactivé
+perf-overlay-on = Indicateur de perf : Activé
+
 # Controls Menu
 CONTROLS = CONTRÔLES
 

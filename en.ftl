@@ -91,6 +91,9 @@ ssao-full = SSAO: Full
 aa-off = Antialias: Off
 aa-fxaa = Antialias: FXAA
 
+perf-overlay-off = Perf overlay: Off
+perf-overlay-on = Perf overlay: On
+
 # Controls Menu
 CONTROLS = CONTROLS
 

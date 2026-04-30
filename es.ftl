@@ -91,6 +91,9 @@ ssao-full = SSAO: Completo
 aa-off = Antialias: Desactivado
 aa-fxaa = Antialias: FXAA
 
+perf-overlay-off = Indicador de rendimiento: Desactivado
+perf-overlay-on = Indicador de rendimiento: Activado
+
 # Controls Menu
 CONTROLS = CONTROLES
 

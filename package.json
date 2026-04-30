@@ -1,6 +1,6 @@
 {
   "name": "@bluehexagons/antistatic-translations",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Fluent translation files used by Antistatic",
   "type": "module",
   "main": "index.js",
