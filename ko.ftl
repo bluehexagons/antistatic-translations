@@ -102,6 +102,13 @@ particles-low = 파티클: 낮음
 particles-medium = 파티클: 중간
 particles-full = 파티클: 높음
 
+
+max-fps-off = 최대 FPS: 끄기
+max-fps-30 = 최대 FPS: 30
+max-fps-60 = 최대 FPS: 60
+max-fps-120 = 최대 FPS: 120
+max-fps-144 = 최대 FPS: 144
+
 # Controls Menu
 CONTROLS = 조작 방식
 

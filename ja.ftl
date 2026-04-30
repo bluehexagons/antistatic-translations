@@ -102,6 +102,13 @@ particles-low = パーティクル：低
 particles-medium = パーティクル：中
 particles-full = パーティクル：高
 
+
+max-fps-off = 最大FPS：オフ
+max-fps-30 = 最大FPS：30
+max-fps-60 = 最大FPS：60
+max-fps-120 = 最大FPS：120
+max-fps-144 = 最大FPS：144
+
 # Controls Menu
 CONTROLS = 操作方法
 

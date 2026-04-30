@@ -102,6 +102,13 @@ particles-low = Partikel: Niedrig
 particles-medium = Partikel: Mittel
 particles-full = Partikel: Voll
 
+
+max-fps-off = Max. FPS: Aus
+max-fps-30 = Max. FPS: 30
+max-fps-60 = Max. FPS: 60
+max-fps-120 = Max. FPS: 120
+max-fps-144 = Max. FPS: 144
+
 # Controls Menu
 CONTROLS = TASTENBELEGUNG
 

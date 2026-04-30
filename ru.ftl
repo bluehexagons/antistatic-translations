@@ -102,6 +102,13 @@ particles-low = Частицы: Низко
 particles-medium = Частицы: Средне
 particles-full = Частицы: Максимум
 
+
+max-fps-off = Макс. FPS: Выкл
+max-fps-30 = Макс. FPS: 30
+max-fps-60 = Макс. FPS: 60
+max-fps-120 = Макс. FPS: 120
+max-fps-144 = Макс. FPS: 144
+
 # Controls Menu
 CONTROLS = Управление
 

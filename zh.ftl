@@ -102,6 +102,13 @@ particles-low = 粒子：低
 particles-medium = 粒子：中
 particles-full = 粒子：高
 
+
+max-fps-off = 最大帧率：关闭
+max-fps-30 = 最大帧率：30
+max-fps-60 = 最大帧率：60
+max-fps-120 = 最大帧率：120
+max-fps-144 = 最大帧率：144
+
 # Controls Menu
 CONTROLS = 操作
 
