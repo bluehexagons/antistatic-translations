@@ -112,6 +112,18 @@ max-fps-144 = 最大幀率：144
 # Controls Menu
 CONTROLS = 操作
 
+controls-title = 操作
+controls-section-controllers = 控制器
+controls-section-mappings = 映射
+controls-set-tag = 設置標籤
+controls-edit-bindings = 編輯按鍵綁定
+controls-tag-untagged = (無標籤)
+controls-tag-title = 玩家標籤
+controls-tag-prompt = P{$port} ({$layout})。標籤可以是1-24個字母數字、「-」或「_」字符。留空以清除。
+controls-tag-confirm = 確認
+controls-tag-clear = 清除
+controls-tag-cancel = 取消
+
 standard = 標準
 keyboard = 鍵盤
 gcn_native = GCN原生
@@ -216,6 +228,12 @@ netplay-help-find-random-match = Open Versus and queue for a random opponent.
 netplay-help-open-versus = Open the Versus menu without leaving this screen.
 netplay-help-back = Return to the main menu.
 netplay-help-unavailable = Netplay action help unavailable.
+netplay-help-advanced = Adjust advanced netplay settings like rollback and buffer.
+
+netplay-rollback = Rollback
+netplay-buffer = Net Buffer
+netplay-force-ipv4 = LAN Address
+
 netplay-direct-connect-prompt = Enter IP address:port. Port defaults to {$port}.
 netplay-stun-connect-title = Use STUN Service?
 netplay-stun-connect-prompt = This code used {$service} to discover {$address}:{$port}.

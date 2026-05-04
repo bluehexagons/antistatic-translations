@@ -112,6 +112,18 @@ max-fps-144 = 最大FPS：144
 # Controls Menu
 CONTROLS = 操作方法
 
+controls-title = 操作方法
+controls-section-controllers = コントローラー
+controls-section-mappings = マッピング
+controls-set-tag = タグを設定
+controls-edit-bindings = ボタン設定を編集
+controls-tag-untagged = (タグなし)
+controls-tag-title = プレイヤータグ
+controls-tag-prompt = P{$port} ({$layout})。タグは1-24文字の英数字、「-」、「_」が使用できます。空白にするとクリアされます。
+controls-tag-confirm = 確定
+controls-tag-clear = クリア
+controls-tag-cancel = キャンセル
+
 standard = 標準
 keyboard = キーボード
 gcn_native = GCNネイティブ
@@ -216,6 +228,12 @@ netplay-help-find-random-match = Open Versus and queue for a random opponent.
 netplay-help-open-versus = Open the Versus menu without leaving this screen.
 netplay-help-back = Return to the main menu.
 netplay-help-unavailable = Netplay action help unavailable.
+netplay-help-advanced = Adjust advanced netplay settings like rollback and buffer.
+
+netplay-rollback = Rollback
+netplay-buffer = Net Buffer
+netplay-force-ipv4 = LAN Address
+
 netplay-direct-connect-prompt = Enter IP address:port. Port defaults to {$port}.
 netplay-stun-connect-title = Use STUN Service?
 netplay-stun-connect-prompt = This code used {$service} to discover {$address}:{$port}.

@@ -231,6 +231,11 @@ netplay-help-find-random-match = Open Versus and queue for a random opponent.
 netplay-help-open-versus = Open the Versus menu without leaving this screen.
 netplay-help-back = Return to the main menu.
 netplay-help-unavailable = Netplay action help unavailable.
+netplay-help-advanced = Adjust advanced netplay settings like rollback and buffer.
+
+netplay-rollback = Rollback
+netplay-buffer = Net Buffer
+netplay-force-ipv4 = LAN Address
 
 netplay-direct-connect-prompt = Enter IP address:port. Port defaults to {$port}.
 netplay-stun-connect-title = Use STUN Service?

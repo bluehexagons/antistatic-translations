@@ -112,6 +112,18 @@ max-fps-144 = FPS max: 144
 # Controls Menu
 CONTROLS = COMANDI
 
+controls-title = COMANDI
+controls-section-controllers = Controller
+controls-section-mappings = Mappature
+controls-set-tag = Imposta tag
+controls-edit-bindings = Modifica configurazione
+controls-tag-untagged = (nessun tag)
+controls-tag-title = Tag giocatore
+controls-tag-prompt = P{$port} ({$layout}). I tag possono contenere 1-24 caratteri alfanumerici, "-" o "_". Lascia vuoto per cancellare.
+controls-tag-confirm = Conferma
+controls-tag-clear = Cancella
+controls-tag-cancel = Annulla
+
 standard = Standard
 keyboard = tastiera
 gcn_native = GCN native
@@ -216,6 +228,12 @@ netplay-help-find-random-match = Open Versus and queue for a random opponent.
 netplay-help-open-versus = Open the Versus menu without leaving this screen.
 netplay-help-back = Return to the main menu.
 netplay-help-unavailable = Netplay action help unavailable.
+netplay-help-advanced = Adjust advanced netplay settings like rollback and buffer.
+
+netplay-rollback = Rollback
+netplay-buffer = Net Buffer
+netplay-force-ipv4 = LAN Address
+
 netplay-direct-connect-prompt = Enter IP address:port. Port defaults to {$port}.
 netplay-stun-connect-title = Use STUN Service?
 netplay-stun-connect-prompt = This code used {$service} to discover {$address}:{$port}.

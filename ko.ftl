@@ -112,6 +112,18 @@ max-fps-144 = 최대 FPS: 144
 # Controls Menu
 CONTROLS = 조작 방식
 
+controls-title = 조작 방식
+controls-section-controllers = 컨트롤러
+controls-section-mappings = 매핑
+controls-set-tag = 태그 설정
+controls-edit-bindings = 버튼 설정 편집
+controls-tag-untagged = (태그 없음)
+controls-tag-title = 플레이어 태그
+controls-tag-prompt = P{$port} ({$layout}). 태그는 1-24자의 영숫자, "-", "_"를 사용할 수 있습니다. 지우려면 비워두세요.
+controls-tag-confirm = 확인
+controls-tag-clear = 지우기
+controls-tag-cancel = 취소
+
 standard = 표준
 keyboard = 키보드
 gcn_native = GCN 네이티브
@@ -216,6 +228,12 @@ netplay-help-find-random-match = Open Versus and queue for a random opponent.
 netplay-help-open-versus = Open the Versus menu without leaving this screen.
 netplay-help-back = Return to the main menu.
 netplay-help-unavailable = Netplay action help unavailable.
+netplay-help-advanced = Adjust advanced netplay settings like rollback and buffer.
+
+netplay-rollback = Rollback
+netplay-buffer = Net Buffer
+netplay-force-ipv4 = LAN Address
+
 netplay-direct-connect-prompt = Enter IP address:port. Port defaults to {$port}.
 netplay-stun-connect-title = Use STUN Service?
 netplay-stun-connect-prompt = This code used {$service} to discover {$address}:{$port}.
