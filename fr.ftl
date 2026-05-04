@@ -132,7 +132,7 @@ controls-set-tag = Définir le tag
 controls-edit-bindings = Modifier la configuration
 controls-tag-untagged = (aucun tag)
 controls-tag-title = Tag du joueur
-controls-tag-prompt = P{$port} ({$layout}). Les tags peuvent contenir 1-24 caractères alphanumériques, « - » ou « _ ». Laisser vide pour effacer.
+controls-tag-prompt = P{$port} ({$layout}). Les tags peuvent contenir 1-24 caractères alphanumériques, «-» ou «_». Laisser vide pour effacer.
 controls-tag-confirm = Confirmer
 controls-tag-clear = Effacer
 controls-tag-cancel = Annuler
@@ -169,7 +169,7 @@ netplay-action-please-wait = Veuillez patienter
 netplay-action-open-versus = Ouvrir Versus
 netplay-action-cancel-matchmaking = Annuler le matchmaking
 
-netplay-status-label = Netplay : {$status}
+netplay-status-label = Netplay: {$status}
 netplay-status-uninitialized = non initialisé
 netplay-status-initialized = initialisé
 netplay-status-waiting = en attente
