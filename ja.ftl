@@ -195,6 +195,18 @@ netplay-status-error = Netplayエラー
 netplay-status-error-message = Netplayエラー: {$error}
 netplay-status-unavailable = Netplayステータスは利用できません
 
+matchmaking-title = MATCHMAKING
+matchmaking-status-select-character = Select a character to queue
+matchmaking-status-no-controller = No controller connected
+matchmaking-status-searching = Searching for a match...
+matchmaking-status-searching-details = Searching... waited {$wait}s. Players waiting: {$players}. Longest wait: {$longest}s.
+matchmaking-status-searching-estimate = Searching... waited {$wait}s. Players waiting: {$players}. Completed matches averaged {$average}s.
+matchmaking-status-canceling = Canceling...
+matchmaking-status-found = Match found!
+matchmaking-status-connecting = Connecting...
+matchmaking-status-disconnecting = Disconnecting...
+matchmaking-status-error = {$error} Select a character to retry.
+
 netplay-detail-ready = ロビーをホストするか、コピーした招待を貼り付けるか、アドレスを手動で入力します。
 netplay-detail-lobby-code-ready = ロビーコード {$code} は共有する準備ができました。
 netplay-detail-creating-lobby-code = ロビーコードを作成中。

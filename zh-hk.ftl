@@ -195,6 +195,18 @@ netplay-status-error = Netplay錯誤
 netplay-status-error-message = Netplay錯誤: {$error}
 netplay-status-unavailable = Netplay狀態不可用
 
+matchmaking-title = MATCHMAKING
+matchmaking-status-select-character = Select a character to queue
+matchmaking-status-no-controller = No controller connected
+matchmaking-status-searching = Searching for a match...
+matchmaking-status-searching-details = Searching... waited {$wait}s. Players waiting: {$players}. Longest wait: {$longest}s.
+matchmaking-status-searching-estimate = Searching... waited {$wait}s. Players waiting: {$players}. Completed matches averaged {$average}s.
+matchmaking-status-canceling = Canceling...
+matchmaking-status-found = Match found!
+matchmaking-status-connecting = Connecting...
+matchmaking-status-disconnecting = Disconnecting...
+matchmaking-status-error = {$error} Select a character to retry.
+
 netplay-detail-ready = 主持大廳、貼上複製的邀請或手動輸入地址。
 netplay-detail-lobby-code-ready = 大廳代碼 {$code} 已準備好分享。
 netplay-detail-creating-lobby-code = 正在創建您的大廳代碼。
