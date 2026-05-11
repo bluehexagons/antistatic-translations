@@ -392,6 +392,7 @@ help-credits-help = View credits, copyright, and third-party attribution.
 help-back-help = Return to the main menu.
 help-help = Choose a help destination.
 controls-help = Choose a controller action.
+netplay-quick-play-help = Search for a random opponent using the selected controller.
 credits-help = Credits and attribution.
 
 credits-heading = Antistatic - credits and attribution
