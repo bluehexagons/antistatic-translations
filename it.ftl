@@ -569,6 +569,16 @@ versus-stage-preview-help = Passa sopra per vedere in anteprima questo stage; co
 versus-stage-preview-counterpick-help = Passa sopra per vedere in anteprima questo counterpick; conferma per selezionarlo e iniziare.
 versus-stage-preview-misc-help = Passa sopra per vedere in anteprima questo stage vario; conferma per selezionarlo e iniziare.
 versus-mode-selector-help = Passa tra le costanti versus di Antistatic e 19XX.
+netplay-copy-lobby-missing = Nessun codice lobby da copiare
+netplay-copy-lobby-copied = Codice lobby copiato negli appunti
+netplay-direct-connect-empty = Inserisci un indirizzo IP
+netplay-lobby-code-prompt = Inserisci un codice invito lobby, LAN o STUN.
+netplay-lobby-code-empty = Inserisci un codice lobby
+netplay-error-connecting = Errore di connessione: {$error}
+matchmaking-no-controller-connected = Nessun controller collegato
+battle-winner-log = Vincitore: {$player}
+battle-winner-message = Vincitore: Giocatore {$player}
+versus-start-sync-failed = Impossibile sincronizzare l’inizio del match
 
 main-menu-help = Passa su un'opzione per vedere cosa fa.
 netplay-main-help = Scegli un'azione netplay.

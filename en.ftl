@@ -569,6 +569,16 @@ versus-stage-preview-help = Hover to preview this stage; confirm to select it an
 versus-stage-preview-counterpick-help = Hover to preview this counterpick stage; confirm to select it and start.
 versus-stage-preview-misc-help = Hover to preview this miscellaneous stage; confirm to select it and start.
 versus-mode-selector-help = Switch between Antistatic and 19XX versus constants.
+netplay-copy-lobby-missing = No lobby code to copy
+netplay-copy-lobby-copied = Copied lobby code to clipboard
+netplay-direct-connect-empty = Enter an IP address
+netplay-lobby-code-prompt = Type a lobby, LAN, or STUN invite code.
+netplay-lobby-code-empty = Enter a lobby code
+netplay-error-connecting = Error connecting: {$error}
+matchmaking-no-controller-connected = No controller connected
+battle-winner-log = Winner: {$player}
+battle-winner-message = Winner: Player {$player}
+versus-start-sync-failed = Failed to sync battle start
 
 main-menu-help = Move over an option to see what it does.
 netplay-main-help = Choose a netplay action.

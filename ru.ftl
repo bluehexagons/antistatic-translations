@@ -569,6 +569,16 @@ versus-stage-preview-help = Наведите, чтобы просмотреть 
 versus-stage-preview-counterpick-help = Наведите, чтобы просмотреть counterpick-сцену; подтвердите, чтобы выбрать её и начать.
 versus-stage-preview-misc-help = Наведите, чтобы просмотреть прочую сцену; подтвердите, чтобы выбрать её и начать.
 versus-mode-selector-help = Переключение между правилами versus Antistatic и 19XX.
+netplay-copy-lobby-missing = Нет кода лобби для копирования
+netplay-copy-lobby-copied = Код лобби скопирован в буфер обмена
+netplay-direct-connect-empty = Введите IP-адрес
+netplay-lobby-code-prompt = Введите код приглашения лобби, LAN или STUN.
+netplay-lobby-code-empty = Введите код лобби
+netplay-error-connecting = Ошибка подключения: {$error}
+matchmaking-no-controller-connected = Контроллер не подключён
+battle-winner-log = Победитель: {$player}
+battle-winner-message = Победитель: Игрок {$player}
+versus-start-sync-failed = Не удалось синхронизировать начало боя
 
 main-menu-help = Наведите курсор на пункт, чтобы узнать, что он делает.
 netplay-main-help = Выберите действие сетевой игры.
