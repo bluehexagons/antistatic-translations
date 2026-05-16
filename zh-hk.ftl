@@ -313,7 +313,7 @@ Copy-Lobby-Code = 複製大廳代碼
 # Netplay Menu
 NETPLAY = NETPLAY
 Netplay = Netplay
-Direct-Connect = Direct Connect
+Direct-Connect = 直接連線
 Connect = Connect
 
 netplay-action-start-lobby = 開始大廳

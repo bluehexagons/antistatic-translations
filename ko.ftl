@@ -313,7 +313,7 @@ Copy-Lobby-Code = 로비 코드 복사
 # Netplay Menu
 NETPLAY = NETPLAY
 Netplay = Netplay
-Direct-Connect = Direct Connect
+Direct-Connect = 직접 연결
 Connect = Connect
 
 netplay-action-start-lobby = 로비 시작

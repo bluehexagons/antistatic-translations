@@ -313,7 +313,7 @@ Copy-Lobby-Code = Copier le code du lobby
 # Netplay Menu
 NETPLAY = NETPLAY
 Netplay = Netplay
-Direct-Connect = Direct Connect
+Direct-Connect = Connexion directe
 Connect = Connect
 
 netplay-action-start-lobby = Démarrer le lobby

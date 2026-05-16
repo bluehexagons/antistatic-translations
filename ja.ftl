@@ -313,7 +313,7 @@ Copy-Lobby-Code = ロビーコードのコピー
 # Netplay Menu
 NETPLAY = NETPLAY
 Netplay = Netplay
-Direct-Connect = Direct Connect
+Direct-Connect = 直接接続
 Connect = Connect
 
 netplay-action-start-lobby = ロビーを開始

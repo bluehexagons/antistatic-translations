@@ -305,7 +305,7 @@ controllers = Controladores
 FFA = FFA
 Teams = Equipos
 
-Host-Netplay = Host Netplay
+Host-Netplay = Alojar netplay
 Join-Netplay-Clipboard = Únete a netplay desde el portapapeles
 Disconnect = Desconectar
 Copy-Lobby-Code = Copiar código de lobby
@@ -313,7 +313,7 @@ Copy-Lobby-Code = Copiar código de lobby
 # Netplay Menu
 NETPLAY = NETPLAY
 Netplay = Netplay
-Direct-Connect = Direct Connect
+Direct-Connect = Conexión directa
 Connect = Connect
 
 netplay-action-start-lobby = Iniciar sala
