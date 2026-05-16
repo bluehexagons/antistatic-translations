@@ -459,6 +459,13 @@ quit-info = Shield + Attack + Start to quit
 paused = PAUSED
 tag-info = D-pad up/down to tag in/out
 
+# Pause Menu
+pause-resume = Resume
+pause-restart = Restart
+pause-quit = Quit
+pause-players = Players
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

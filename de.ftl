@@ -460,6 +460,13 @@ quit-info = Schild + Angriff + Start zum Beenden
 paused = PAUSIERT
 tag-info = D-Pad hoch / runter zum Markieren
 
+# Pause Menu
+pause-resume = Fortsetzen
+pause-restart = Neustart
+pause-quit = Beenden
+pause-players = Spieler
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

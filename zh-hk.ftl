@@ -459,6 +459,13 @@ quit-info = 盾牌 + 攻擊 + 開始 以退出
 paused = 已暫停
 tag-info = D-pad 上/下切換標籤進出
 
+# Pause Menu
+pause-resume = 繼續
+pause-restart = 重新開始
+pause-quit = 退出
+pause-players = 玩家
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

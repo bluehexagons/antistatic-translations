@@ -459,6 +459,13 @@ quit-info = Scudo + Attacco + Start per uscire
 paused = PAUSA
 tag-info = D-pad su/giù per entrare/uscire
 
+# Pause Menu
+pause-resume = Riprendi
+pause-restart = Riavvia
+pause-quit = Esci
+pause-players = Giocatori
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

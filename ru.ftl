@@ -459,6 +459,13 @@ quit-info = Щит + Атака + Старт, чтобы выйти
 paused = Приостановлено
 tag-info = D-Pad вверх/вниз для тега вход/выход
 
+# Pause Menu
+pause-resume = Продолжить
+pause-restart = Перезагрузка
+pause-quit = Выход
+pause-players = Игроки
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

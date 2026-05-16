@@ -459,6 +459,13 @@ quit-info = 방패 + 공격 + 시작으로 종료
 paused = 일시 중지됨
 tag-info = D-패드 위/아래로 태그 인/아웃
 
+# Pause Menu
+pause-resume = 계속
+pause-restart = 다시 시작
+pause-quit = 종료
+pause-players = 플레이어
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

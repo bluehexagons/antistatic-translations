@@ -459,6 +459,13 @@ quit-info = Bouclier + Attaque + Start pour quitter
 paused = EN PAUSE
 tag-info = Croix directionnelle haut/bas pour entrer/sortir
 
+# Pause Menu
+pause-resume = Reprendre
+pause-restart = Recommencer
+pause-quit = Quitter
+pause-players = Joueurs
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

@@ -459,6 +459,13 @@ quit-info = シールド+攻撃+スタートで終了
 paused = 一時停止
 tag-info = Dパッド上下でタグイン/アウト
 
+# Pause Menu
+pause-resume = 続ける
+pause-restart = リスタート
+pause-quit = 終了
+pause-players = プレイヤー
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español

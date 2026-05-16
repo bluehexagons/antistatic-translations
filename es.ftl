@@ -459,6 +459,13 @@ quit-info = Escudo + Ataque + Start para salir
 paused = PAUSA
 tag-info = D-pad arriba / abajo para etiquetar
 
+# Pause Menu
+pause-resume = Reanudar
+pause-restart = Reiniciar
+pause-quit = Salir
+pause-players = Jugadores
+pause-tap-jump = Tap Jump
+
 # Languages
 en-english = English
 es-spanish = Español
