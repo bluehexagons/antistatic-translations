@@ -466,6 +466,14 @@ pause-quit = 退出
 pause-players = 玩家
 pause-tap-jump = Tap Jump
 
+# Arcade Mode
+arcade-connect = 連接控制器並按任意按鈕加入。
+arcade-return-prompt = 按確認返回主菜單。
+
+# Replay
+replay-paused = 重放已暫停
+replay-controls = 確認：跳入  保存重放/右：步進  返回：重放菜單
+
 # Languages
 en-english = English
 es-spanish = Español

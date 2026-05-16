@@ -466,6 +466,14 @@ pause-quit = 종료
 pause-players = 플레이어
 pause-tap-jump = Tap Jump
 
+# Arcade Mode
+arcade-connect = 컨트롤러를 연결하고 아무 버튼이나 눌러 참가하세요.
+arcade-return-prompt = 확인을 눌러 메인 메뉴로 돌아갑니다.
+
+# Replay
+replay-paused = 재생 일시 중지됨
+replay-controls = 확인: 점프인  리플레이 저장/오른쪽: 스텝  뒤로: 리플레이 메뉴
+
 # Languages
 en-english = English
 es-spanish = Español

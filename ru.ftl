@@ -466,6 +466,14 @@ pause-quit = Выход
 pause-players = Игроки
 pause-tap-jump = Tap Jump
 
+# Arcade Mode
+arcade-connect = Подключите контроллер и нажмите любую кнопку для присоединения.
+arcade-return-prompt = Нажмите подтверждение для возврата в главное меню.
+
+# Replay
+replay-paused = Воспроизведение приостановлено
+replay-controls = Подтвердить: войти  Сохранить/Вправо: шаг  Назад: меню воспроизведения
+
 # Languages
 en-english = English
 es-spanish = Español

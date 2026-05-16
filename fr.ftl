@@ -466,6 +466,14 @@ pause-quit = Quitter
 pause-players = Joueurs
 pause-tap-jump = Tap Jump
 
+# Arcade Mode
+arcade-connect = Connectez une manette et appuyez sur n'importe quel bouton pour rejoindre.
+arcade-return-prompt = Appuyez sur confirmer pour retourner au menu principal.
+
+# Replay
+replay-paused = Lecture en pause
+replay-controls = Confirmer : entrer  Enregistrer/Droite : étape  Retour : menu de lecture
+
 # Languages
 en-english = English
 es-spanish = Español
