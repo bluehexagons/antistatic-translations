@@ -44,6 +44,7 @@ Reset = 重启
 # Main Menu
 Versus = 对抗模式
 Training = 训练
+battle-results = 对战结果
 Settings = 设置
 Controls = 操作
 Discord = Discord {"\u29C9"}

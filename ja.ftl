@@ -44,6 +44,7 @@ Reset = リセットする
 # Main Menu
 Versus = 対戦
 Training = トレーニング
+battle-results = バトル結果
 Settings = 設定
 Controls = 操作方法
 Discord = Discord {"\u29C9"}

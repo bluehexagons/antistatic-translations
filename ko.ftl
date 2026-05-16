@@ -44,6 +44,7 @@ Reset = 초기화
 # Main Menu
 Versus = 대전 모드
 Training = 트레이닝
+battle-results = 배틀 결과
 Settings = 설정
 Controls = 조작 방식
 Discord = Discord {"\u29C9"}

@@ -44,6 +44,7 @@ Reset = Ripristina
 # Main Menu
 Versus = Sfida
 Training = Addestramento
+battle-results = Risultati del combattimento
 Settings = Opzioni
 Controls = Comandi
 Discord = Discord {"\u29C9"}

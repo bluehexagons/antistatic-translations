@@ -44,6 +44,7 @@ Reset = Restablecer
 # Main Menu
 Versus = Versus
 Training = Entrenamiento
+battle-results = Resultados del combate
 Settings = Opciones
 Controls = Controles
 Discord = Discord {"\u29C9"}

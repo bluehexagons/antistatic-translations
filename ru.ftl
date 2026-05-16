@@ -44,6 +44,7 @@ Reset = Сброс
 # Main Menu
 Versus = Поединок
 Training = Тренировка
+battle-results = Результаты боя
 Settings = Настройки
 Controls = Управление
 Discord = Discord {"\u29C9"}

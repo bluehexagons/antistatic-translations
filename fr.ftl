@@ -57,6 +57,7 @@ controllers = Contrôleurs
 # Main Menu
 Versus = Versus
 Training = Entrainement
+battle-results = Résultats du combat
 Settings = Paramètres
 Controls = Contrôles
 Discord = Discord {"\u29C9"}
