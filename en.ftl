@@ -473,7 +473,7 @@ arcade-return-prompt = Press confirm to return to the main menu.
 
 # Replay
 replay-paused = Replay paused
-replay-controls = Confirm: jump in  Save Replay/Right: step  Back: replay menu
+replay-controls = Confirm: join  ←/→: frame  Back: menu  Save Replay: [key]
 
 # Languages
 en-english = English
