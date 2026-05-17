@@ -488,7 +488,7 @@ zh-chinese-hk = 繁體中文
 ko-korean = 한국어
 
 english = Anglais
-spanish = Espanol
+spanish = Espagnol
 french = {fr-french}
 italian = Italien
 german = Allemand

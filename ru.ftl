@@ -13,19 +13,19 @@ Rhodium = Родий
 
 Sandbag = Мешок с песком
 
-Ruins = руины
-Transistor = транзистор
+Ruins = Руины
+Transistor = Транзистор
 Eroded = Разъеденный
-Scales = весы
-Crossing = пересечение
-Longboat = баркас
+Scales = Весы
+Crossing = Пересечение
+Longboat = Баркас
 Boombox = Бумбокс
 Fountain = Фонтан
 Great-White = Большой белый
 Plane = Плоскость
-Satellite = спутниковое
-Divided = разделенный
-Pillars = столпы
+Satellite = Спутник
+Divided = Разделённый
+Pillars = Столпы
 Debug = отлаживать
 
 mode-Antistatic = {Antistatic}
@@ -489,14 +489,14 @@ ko-korean = 한국어
 
 english = английский
 spanish = испанский
-french = Французский
+french = французский
 italian = итальянский
-german = Немецкий
+german = немецкий
 russian = {ru-russian}
-japanese = японский язык
+japanese = японский
 chinese-cn = Упрощенный китайский
 chinese-hk = Традиционный китайский
-korean = Корейский
+korean = корейский
 
 en = {en-english} ({english})
 es = {es-spanish} ({spanish})

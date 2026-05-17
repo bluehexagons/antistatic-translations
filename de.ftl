@@ -306,9 +306,9 @@ FFA = FFA
 Teams = Mannschaften
 
 Host-Netplay = Netplay hosten
-Join-Netplay-Clipboard = Nehmen Sie an Netplay aus der Zwischenablage teil
+Join-Netplay-Clipboard = Netplay aus der Zwischenablage beitreten
 Disconnect = Trennen
-Copy-Lobby-Code = Kopieren Sie den Lobby-Code
+Copy-Lobby-Code = Lobby-Code kopieren
 
 # Netplay Menu
 NETPLAY = NETPLAY
@@ -367,7 +367,7 @@ matchmaking-status-connecting = Verbinden...
 matchmaking-status-disconnecting = Trennen...
 matchmaking-status-error = {$error} Wähle einen Charakter, um es erneut zu versuchen.
 
-netplay-detail-ready = Hosten Sie eine Lobby, fügen Sie eine kopierte Einladung ein oder geben Sie manuell eine Adresse ein.
+netplay-detail-ready = Hoste eine Lobby, füge eine kopierte Einladung ein oder gib manuell eine Adresse ein.
 netplay-detail-lobby-code-ready = Lobby-Code {$code} ist bereit zum Teilen.
 netplay-detail-creating-lobby-code = Erstelle deinen Lobby-Code.
 netplay-detail-waiting-for-host = Warte auf Antwort des Hosts auf deine Beitrittsanfrage.
