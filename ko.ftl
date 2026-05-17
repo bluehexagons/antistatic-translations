@@ -473,7 +473,7 @@ arcade-return-prompt = 확인을 눌러 메인 메뉴로 돌아갑니다.
 
 # Replay
 replay-paused = 재생 일시 중지됨
-replay-controls = 확인: 점프인  리플레이 저장/오른쪽: 스텝  뒤로: 리플레이 메뉴
+replay-controls = 확인: 참가  ←/→: 프레임  뒤로: 메뉴  리플레이 저장: [키]
 
 # Languages
 en-english = English

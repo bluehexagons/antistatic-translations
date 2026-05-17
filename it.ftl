@@ -473,7 +473,7 @@ arcade-return-prompt = Premi conferma per tornare al menu principale.
 
 # Replay
 replay-paused = Riproduzione in pausa
-replay-controls = Conferma: entra  Salva Replay/Destra: passo  Indietro: menu riproduzione
+replay-controls = Conferma: unisciti  ←/→: fotogramma  Indietro: menu  Salva Replay: [tasto]
 
 # Languages
 en-english = English

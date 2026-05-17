@@ -473,7 +473,7 @@ arcade-return-prompt = 按确认返回主菜单。
 
 # Replay
 replay-paused = 重放已暂停
-replay-controls = 确认：跳入  保存重放/右：步进  返回：重放菜单
+replay-controls = 确认：加入  ←/→：帧  返回：菜单  保存重放：[键]
 
 # Languages
 en-english = English

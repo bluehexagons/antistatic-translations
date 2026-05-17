@@ -474,7 +474,7 @@ arcade-return-prompt = Bestätigen zum Zurückgehen ins Hauptmenü.
 
 # Replay
 replay-paused = Wiedergabe angehalten
-replay-controls = Bestätigen: Einsteigen  Replay speichern/Rechts: Schritt  Zurück: Replay-Menü
+replay-controls = Bestätigen: Beitreten  ←/→: Bild  Zurück: Menü  Replay speichern: [Taste]
 
 # Languages
 en-english = English
