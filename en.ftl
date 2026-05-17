@@ -634,3 +634,102 @@ credits-tools = Production tools: Blender for 3D models; Audacity and LMMS for a
 credits-packages = bluehexagons packages: capacitor, trace, and antistatic-translations.
 credits-thanks = Thanks to the maintainers and contributors of these projects.
 credits-license = Third-party projects remain under their respective licenses.
+
+# Old UI hover/help text
+main-versus-help = Choose characters, CPUs, teams, rules, and a stage before starting a local match.
+main-arcade-help = Co-op CPU battles for everyone plugged in. Limited stocks, retry on loss.
+main-netplay-help = Host or join online games, quick play, and netplay connection settings.
+main-training-help = Open training mode with stage, CPU, color, palette, and debug controls.
+main-replays-help = Browse, preview, and play saved replay files.
+main-settings-help = Adjust audio, video, language, controller adapter, and start mode settings.
+main-controls-help = Create controller tags and edit per-tag control mappings.
+main-help-help = Open community and external guide links.
+main-exit-help = Quit Antistatic.
+
+settings-audio-help = Adjust master, sound effect, UI, voice, and music volume.
+settings-video-help = Change graphics preset, fullscreen, sync, effects, and frame limit options.
+settings-native-adapter-help = Inspect GameCube adapter status and setup notes.
+settings-language-help = Cycle the menu language.
+settings-start-mode-help = Choose which mode opens first at startup.
+shared-settings-help = Return to Settings.
+
+native-adapter-copy-udev-install-help = Copy the standard udev rule install and reload commands for 057e:0337.
+native-adapter-copy-udev-line-help = Copy only the standard 057e:0337 udev rule line.
+native-adapter-help-button-help = Open Windows and Linux setup notes for Dolphin/Slippi-compatible adapter installs.
+
+audio-master-help = Set the master output volume.
+audio-sfx-toggle-help = Toggle sound effects and UI sounds.
+audio-sfx-help = Set gameplay sound effect volume.
+audio-ui-help = Set menu and interface sound volume.
+audio-voice-help = Set character voice volume.
+audio-music-toggle-help = Toggle music playback.
+audio-music-help = Set music volume.
+
+video-preset-help = Apply a grouped graphics preset, or show Custom when individual settings differ.
+video-fullscreen-toggle-help = Switch between windowed and fullscreen display.
+video-display-help = Choose which display the game window or fullscreen mode should use.
+video-fullscreen-resolution-help = Choose the exclusive fullscreen mode resolution. Auto uses desktop fullscreen.
+video-windowed-resolution-help = Choose the window size used for windowed mode and fullscreen restore.
+video-render-scale-help = Render 3D graphics below or above window resolution while keeping UI native.
+video-vsync-help = Choose swap timing. Adaptive uses low-latency tear-if-late sync when the driver supports it.
+video-shadow-quality-help = Choose shadow quality or disable shadows.
+video-ssao-help = Choose ambient occlusion quality.
+video-antialias-help = Toggle FXAA anti-aliasing.
+video-perf-overlay-help = Show or hide the performance overlay.
+video-point-lights-help = Choose extra point-light quality.
+video-particle-quality-help = Choose particle effect density.
+video-max-fps-help = Set an optional frame-rate cap.
+video-apply-help = Apply changed video settings.
+
+replays-enabled-help = Record eligible Versus and Quick Play battles in memory. Disable this on memory-constrained systems.
+replays-auto-save-help = Save replays automatically at the results screen instead of waiting for a manual save press.
+replays-compression-help = Compress replay files when saving. Disable only if compression causes slow saves.
+
+netplay-copy-lobby-help = Copy the current lobby code when one is available.
+netplay-virtual-couch-help = Open lobby hosting, lobby-code joining, and advanced invite options.
+netplay-settings-menu-help = Configure rollback, input buffer, and LAN address behavior.
+netplay-back-help = Return to the main menu without disconnecting an established session.
+
+arcade-cpu-level-help = CPU difficulty level for opponents (0 easiest, 6 hardest).
+arcade-stocks-help = Stocks per battle.
+arcade-retries-help = Retries before a defeat ends the run.
+arcade-battles-help = Total number of battles in the run.
+arcade-start-help = Begin the run once every joined player has readied up.
+
+controls-remap-page-help = Rebind menu navigation, console, fullscreen, and training-mode keys.
+controls-remap-reset-binding-help = Reset {$action} to its default binding.
+controls-remap-reset-all-help = Restore every keyboard shortcut to its built-in default.
+
+replay-browser-help = Replay browser.
+replay-offline-only-help = Replays are only available offline because they load from the local filesystem.
+replay-refresh-help = Rescan saved replay files from {$dir}.
+replay-entry-help = {$players} on {$stage}; {$duration} ({$truncated}); {$result}; {$version}; {$compression}.
+replay-unreadable-help = Could not read replay: {$error}
+replay-actions-watch-help = Play the saved replay from the start. Jump In is available during replay playback.
+replay-actions-back-help = Return to the replay list.
+replay-load-help = Load saved replay files from the replay directory.
+replay-prev-help = Show newer replays.
+replay-next-help = Show older replays.
+replay-settings-help = Replay recording, auto-save, and compression options.
+audio-help = Adjust audio settings.
+video-help = Adjust video settings.
+replays-help = Replays are enabled by default and capped at 16 minutes per battle.
+native-adapter-help-text = Native Adapter gives direct 4-port polling. PC mode is simpler but uses SDL controller mappings.
+
+shortcut-menu-up-help = Move selection up in menus.
+shortcut-menu-down-help = Move selection down in menus.
+shortcut-menu-left-help = Move selection left or decrement a value.
+shortcut-menu-right-help = Move selection right or increment a value.
+shortcut-menu-confirm-help = Activate the focused item.
+shortcut-menu-next-help = Move to the next focusable item. Hold Shift to go back.
+shortcut-menu-page-up-help = Jump up several items.
+shortcut-menu-page-down-help = Jump down several items.
+shortcut-menu-home-help = Focus the first item in the list.
+shortcut-menu-end-help = Focus the last item in the list.
+shortcut-console-help = Open the in-game debug console.
+shortcut-chat-help = Open the chat prompt (say command).
+shortcut-fullscreen-help = Toggle fullscreen. Alt+Enter also works.
+shortcut-frame-step-help = Advance one frame while frozen. Requires debug mode.
+shortcut-freeze-help = Pause or unpause TAS. Requires debug mode.
+shortcut-save-state-help = Snapshot the current state in training mode.
+shortcut-restore-state-help = Restore the last training-mode snapshot.
