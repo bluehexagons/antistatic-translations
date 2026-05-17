@@ -92,11 +92,11 @@ ssao-full = SSAO: Full
 aa-off = Antialias: Off
 aa-fxaa = Antialias: FXAA
 
-perf-overlay-off = Perf overlay: Off
-perf-overlay-on = Perf overlay: On
+perf-overlay-off = Perf Overlay: Off
+perf-overlay-on = Perf Overlay: On
 
-point-lights-off = Point lights: Off
-point-lights-on = Point lights: On
+point-lights-off = Point Lights: Off
+point-lights-on = Point Lights: On
 
 particles-low = Particles: Low
 particles-medium = Particles: Medium
@@ -192,7 +192,7 @@ controls-remap-capture-input-help = The next button or stick you use will be foc
 controls-remap-capture-cancel = ESC to cancel
 controls-default-save-blocked = Default controls cannot be overwritten; set a tag first
 controls-default-reset-blocked = Default controls cannot be reset from this menu
-controls-tag-filter-entry-help = Type to filter saved controller tags; gamepads can use the dial pad.
+controls-tag-filter-entry-help = Type to filter saved controller tags; gamepads can use the D-pad.
 controls-tag-filter-label = Filter
 controls-tag-preconfigured = preconfigured
 controls-tag-rename-title = Rename Tag
@@ -596,7 +596,7 @@ battle-winner-log = Winner: {$player}
 battle-winner-message = Winner: Player {$player}
 versus-start-sync-failed = Failed to sync battle start
 
-main-menu-help = Move over an option to see what it does.
+main-menu-help = Hover over an option to see what it does.
 netplay-main-help = Choose a netplay action.
 netplay-settings-help = Adjust netplay behavior.
 netplay-advanced-help = Choose a connection tool.
@@ -637,7 +637,7 @@ credits-license = Third-party projects remain under their respective licenses.
 
 # Old UI hover/help text
 main-versus-help = Choose characters, CPUs, teams, rules, and a stage before starting a local match.
-main-arcade-help = Co-op CPU battles for everyone plugged in. Limited stocks, retry on loss.
+main-arcade-help = Co-op CPU battles for everyone plugged in. Limited stocks, retry on defeat.
 main-netplay-help = Host or join online games, quick play, and netplay connection settings.
 main-training-help = Open training mode with stage, CPU, color, palette, and debug controls.
 main-replays-help = Browse, preview, and play saved replay files.

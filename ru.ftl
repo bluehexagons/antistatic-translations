@@ -21,12 +21,12 @@ Crossing = Пересечение
 Longboat = Баркас
 Boombox = Бумбокс
 Fountain = Фонтан
-Great-White = Большой белый
+Great-White = Большой Белый
 Plane = Плоскость
 Satellite = Спутник
 Divided = Разделённый
 Pillars = Столпы
-Debug = отлаживать
+Debug = Отлаживать
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
@@ -38,7 +38,7 @@ Save = Сохранить
 Cancel = Отмена
 Close-Symbol = X
 
-Modify = изменять
+Modify = Изменить
 Reset = Сброс
 
 # Main Menu
@@ -66,7 +66,7 @@ start-mode = Начать: { TRANSLATE($value) }
 AUDIO = Звук
 
 Play-Audio = Воспроизвести аудио
-Play-Music = Воспроизводить музыку
+Play-Music = Воспроизвести музыку
 
 Audio-volume = Громкость: {$value}
 SFX-volume = SFX: {$value}
@@ -167,7 +167,7 @@ controls-remap-capture-input-help = Следующая нажатая кнопк
 controls-remap-capture-cancel = ESC для отмены
 controls-default-save-blocked = Управление по умолчанию нельзя перезаписать; сначала установите тег
 controls-default-reset-blocked = Управление по умолчанию нельзя сбросить из этого меню
-controls-tag-filter-entry-help = Введите текст для фильтрации сохранённых тегов контроллера; геймпады могут использовать круговую клавиатуру.
+controls-tag-filter-entry-help = Введите текст для фильтрации сохранённых тегов контроллера; геймпады могут использовать крестовину.
 controls-tag-filter-label = Фильтр
 controls-tag-preconfigured = преднастроен
 controls-tag-rename-title = Переименовать тег
@@ -294,7 +294,7 @@ Overlays = Накладки
 press-start = Нажмите Start
 
 drawHitbubbleInfo = Информация об атаке
-drawECB = коллизия
+drawECB = Коллизия
 drawHeatmap = Тепловая карта
 drawRawPosition = Сырая позиция
 drawStage = Стадия столкновения
