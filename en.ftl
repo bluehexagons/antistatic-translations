@@ -905,3 +905,70 @@ shortcut-overlap-menu = Menu-nav overlap: {$keys} also navigates menus. Controll
 shortcut-overlap-actions = Shortcut overlap: {$overlaps}. Controller binding wins during gameplay.
 shortcut-reset-all = Reset all shortcuts to defaults
 character-select-help = Select a character.
+
+# Follow-up translation coverage for replay browser/status text and Quick Play setup phases.
+# Replay browser rows are assembled in code and then localized via these message IDs.
+matchmaking-service-fallback-stun = fallback STUN
+matchmaking-status-preparing-binding = Preparing Quick Play... Opening the netplay socket.
+matchmaking-status-preparing-primary-stun = Preparing Quick Play... Checking your public UDP route via {$service}.
+matchmaking-status-preparing-fallback-stun = Preparing Quick Play... Primary STUN failed, retrying via {$service}.
+matchmaking-status-preparing-queueing = Preparing Quick Play... Joining the queue.
+matchmaking-status-connecting-tunneling = Match found. Opening the peer-to-peer route...
+matchmaking-status-connecting-peer = Peer route open. Finishing the connection handshake...
+matchmaking-status-waiting-peer = Route open. Waiting for the other player...
+matchmaking-status-starting-battle = Connection ready. Starting the match...
+netplay-experimental-note = Experimental — may be unstable
+netplay-detail-connecting-peer = Peer route open. Finishing the connection handshake...
+netplay-detail-waiting-for-peer = Route open. Waiting for the other player to finish connecting...
+netplay-detail-starting-battle = Connection ready. Starting the match...
+netplay-detail-matchmaking-binding = Preparing Quick Play. Opening the netplay socket...
+netplay-detail-matchmaking-primary-stun = Checking your public UDP route via {$service}...
+netplay-detail-matchmaking-fallback-stun = Primary STUN did not answer. Trying {$service}...
+netplay-detail-matchmaking-queueing = Joining the matchmaking queue...
+netplay-detail-matchmaking-wait = In queue for {$wait}s. Players waiting: {$players}.
+replay-stage-fallback = Stage {$number}
+replay-unknown-error = unknown error
+replay-title = REPLAY
+replays-title = REPLAYS
+replay-watch-button = Watch Replay
+replay-settings-button = Replay Settings
+replay-refresh-button = Refresh List
+replay-refreshing = Refreshing...
+replay-prev-button = Previous Page
+replay-prev-disabled = Previous Page -
+replay-next-button = Next Page
+replay-next-disabled = Next Page -
+replay-browser-scanning = Scanning replay directory...
+replay-browser-scan-failed = Replay scan failed.
+replay-browser-empty = 0 replays found.
+replay-browser-page =
+    {$first}-{$last} of {$count} { $count ->
+        [one] replay
+       *[other] replays
+    } · Page {$page}/{$pages}
+replay-browser-loading = Loading replays...
+replay-browser-scanning-files = Scanning saved replay files.
+replay-browser-scan-failed-detail = Replay scan failed: {$error}
+replay-browser-empty-slot = No replay in this slot.
+replay-browser-empty-list = No saved replays found.
+replay-browser-root-help = Replay files are loaded recursively from the local replay directory.
+replay-title-unreadable = Unreadable: {$name}
+replay-title-summary = {$date} - {$mode} - {$stage}
+replay-list-summary = {$date} - {$duration} - {$players} - {$result}
+replay-result-none = No result
+replay-result-none-winner = Winner: none
+replay-result-quit = Quit early
+replay-result-tie = Tie
+replay-result-winner = Winner: {$winner}
+replay-action-participants = Participants: {$players}
+replay-action-duration = Duration: {$duration}
+replay-action-duration-truncated = Duration: {$duration} (truncated)
+replay-action-result = Result: {$result}
+replay-action-stage = Stage: {$stage}
+replay-action-mode = Mode: {$mode}
+replay-action-version = Version: {$version}
+replay-action-file = File: {$compression}; Truncated: {$truncated}
+replay-compression-compressed = Compressed
+replay-compression-uncompressed = Uncompressed
+replay-truncated-yes = Yes
+replay-truncated-no = No

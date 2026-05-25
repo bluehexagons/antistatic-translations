@@ -889,3 +889,70 @@ shortcut-overlap-menu = Конфликт навигации меню: {$keys} т
 shortcut-overlap-actions = Конфликт горячих клавиш: {$overlaps}. Во время игры приоритет у привязки контроллера.
 shortcut-reset-all = Сбросить все горячие клавиши по умолчанию
 character-select-help = Выберите персонажа.
+
+matchmaking-service-fallback-stun = резервный STUN
+matchmaking-status-preparing-binding = Подготовка Quick Play... Открытие netplay-сокета.
+matchmaking-status-preparing-primary-stun = Подготовка Quick Play... Проверка вашего публичного UDP-маршрута через {$service}.
+matchmaking-status-preparing-fallback-stun = Подготовка Quick Play... Основной STUN не сработал, повтор через {$service}.
+matchmaking-status-preparing-queueing = Подготовка Quick Play... Вход в очередь.
+matchmaking-status-connecting-tunneling = Матч найден. Открываем peer-to-peer маршрут...
+matchmaking-status-connecting-peer = P2P-маршрут открыт. Завершаем рукопожатие соединения...
+matchmaking-status-waiting-peer = Маршрут открыт. Ждём другого игрока...
+matchmaking-status-starting-battle = Соединение готово. Запускаем матч...
+netplay-experimental-note = Экспериментально — возможна нестабильная работа
+netplay-detail-connecting-peer = P2P-маршрут открыт. Завершаем рукопожатие соединения...
+netplay-detail-waiting-for-peer = Маршрут открыт. Ждём, пока другой игрок завершит подключение...
+netplay-detail-starting-battle = Соединение готово. Запускаем матч...
+netplay-detail-matchmaking-binding = Подготовка Quick Play. Открытие netplay-сокета...
+netplay-detail-matchmaking-primary-stun = Проверка вашего публичного UDP-маршрута через {$service}...
+netplay-detail-matchmaking-fallback-stun = Основной STUN не ответил. Пробуем {$service}...
+netplay-detail-matchmaking-queueing = Входим в очередь матчмейкинга...
+netplay-detail-matchmaking-wait = В очереди {$wait}с. Ожидающих игроков: {$players}.
+replay-stage-fallback = Сцена {$number}
+replay-unknown-error = неизвестная ошибка
+replay-title = ПОВТОР
+replays-title = ПОВТОРЫ
+replay-watch-button = Смотреть повтор
+replay-settings-button = Настройки повторов
+replay-refresh-button = Обновить список
+replay-refreshing = Обновление...
+replay-prev-button = Предыдущая страница
+replay-prev-disabled = Предыдущая страница -
+replay-next-button = Следующая страница
+replay-next-disabled = Следующая страница -
+replay-browser-scanning = Сканирование каталога повторов...
+replay-browser-scan-failed = Сканирование повторов не удалось.
+replay-browser-empty = Найдено 0 повторов.
+replay-browser-page =
+    {$first}-{$last} из {$count} { $count ->
+        [one] повтор
+        [few] повтора
+        [many] повторов
+       *[other] повтора
+    } · Страница {$page}/{$pages}
+replay-browser-loading = Загрузка повторов...
+replay-browser-scanning-files = Сканирование сохранённых файлов повторов.
+replay-browser-scan-failed-detail = Сканирование повторов не удалось: {$error}
+replay-browser-empty-slot = В этом слоте нет повтора.
+replay-browser-empty-list = Сохранённые повторы не найдены.
+replay-browser-root-help = Файлы повторов загружаются рекурсивно из локального каталога повторов.
+replay-title-unreadable = Нечитаемо: {$name}
+replay-title-summary = {$date} - {$mode} - {$stage}
+replay-list-summary = {$date} - {$duration} - {$players} - {$result}
+replay-result-none = Нет результата
+replay-result-none-winner = Победитель: нет
+replay-result-quit = Выход раньше времени
+replay-result-tie = Ничья
+replay-result-winner = Победитель: {$winner}
+replay-action-participants = Участники: {$players}
+replay-action-duration = Длительность: {$duration}
+replay-action-duration-truncated = Длительность: {$duration} (обрезано)
+replay-action-result = Результат: {$result}
+replay-action-stage = Сцена: {$stage}
+replay-action-mode = Режим: {$mode}
+replay-action-version = Версия: {$version}
+replay-action-file = Файл: {$compression}; Обрезано: {$truncated}
+replay-compression-compressed = Сжатый
+replay-compression-uncompressed = Несжатый
+replay-truncated-yes = Да
+replay-truncated-no = Нет
