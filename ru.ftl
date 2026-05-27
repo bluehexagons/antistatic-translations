@@ -92,6 +92,9 @@ ssao-full = SSAO: Полный
 aa-off = Антиалиасинг: Выкл
 aa-fxaa = Антиалиасинг: FXAA
 
+bloom-off = Bloom: Выкл
+bloom-on = Bloom: Вкл
+
 perf-overlay-off = Индикатор производительности: Выкл
 perf-overlay-on = Индикатор производительности: Вкл
 
@@ -732,6 +735,7 @@ video-vsync-help = Выберите синхронизацию обмена. Ada
 video-shadow-quality-help = Выберите качество теней или отключите тени.
 video-ssao-help = Выберите качество окружающего затенения.
 video-antialias-help = Включите или выключите сглаживание FXAA.
+video-bloom-help = Добавляет мягкое свечение вокруг самых ярких бликов. Лучше на мощных видеокартах.
 video-perf-overlay-help = Показывайте или скрывайте оверлей производительности.
 video-point-lights-help = Выберите качество дополнительных точечных источников света.
 video-particle-quality-help = Выберите плотность эффектов частиц.

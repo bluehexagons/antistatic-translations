@@ -92,6 +92,9 @@ ssao-full = SSAO: Completo
 aa-off = Antialias: Disattivato
 aa-fxaa = Antialias: FXAA
 
+bloom-off = Bloom: Disattivato
+bloom-on = Bloom: Attivato
+
 perf-overlay-off = Indicatore prestazioni: Disattivato
 perf-overlay-on = Indicatore prestazioni: Attivato
 
@@ -732,6 +735,7 @@ video-vsync-help = Scegli il timing di scambio. Adattivo usa una sincronizzazion
 video-shadow-quality-help = Scegli la qualità delle ombre o disattiva le ombre.
 video-ssao-help = Scegli la qualità dell'occlusione ambientale.
 video-antialias-help = Attiva o disattiva l'anti-aliasing FXAA.
+video-bloom-help = Aggiunge un bagliore morbido attorno alle luci più intense. Ideale su GPU di fascia alta.
 video-perf-overlay-help = Mostra o nascondi l'overlay delle prestazioni.
 video-point-lights-help = Scegli la qualità delle luci puntiformi extra.
 video-particle-quality-help = Scegli la densità degli effetti particellari.

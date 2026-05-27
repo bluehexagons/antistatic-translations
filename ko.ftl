@@ -92,6 +92,9 @@ ssao-full = SSAO: 풀
 aa-off = 안티앨리어싱: 끄기
 aa-fxaa = 안티앨리어싱: FXAA
 
+bloom-off = Bloom: 끄기
+bloom-on = Bloom: 켜기
+
 perf-overlay-off = 성능 표시: 끄기
 perf-overlay-on = 성능 표시: 켜기
 
@@ -732,6 +735,7 @@ video-vsync-help = 스왑 타이밍을 선택합니다. Adaptive는 드라이버
 video-shadow-quality-help = 그림자 품질을 선택하거나 그림자를 끕니다.
 video-ssao-help = 주변 폐색 품질을 선택합니다.
 video-antialias-help = FXAA 안티앨리어싱을 켜거나 끕니다.
+video-bloom-help = 가장 밝은 하이라이트 주변에 부드러운 광채를 추가합니다. 고사양 GPU에서 가장 좋습니다.
 video-perf-overlay-help = 성능 오버레이를 표시하거나 숨깁니다.
 video-point-lights-help = 추가 포인트 라이트 품질을 선택합니다.
 video-particle-quality-help = 파티클 효과 밀도를 선택합니다.
