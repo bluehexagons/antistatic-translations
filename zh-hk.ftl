@@ -94,6 +94,8 @@ aa-fxaa = 抗鋸齒：FXAA
 
 bloom-off = Bloom：關閉
 bloom-on = Bloom：開啟
+reflections-off = 反射：關閉
+reflections-on = 反射：開啟
 
 perf-overlay-off = 效能指示器：關閉
 perf-overlay-on = 效能指示器：開啟
@@ -736,6 +738,7 @@ video-shadow-quality-help = 選擇陰影品質或停用陰影。
 video-ssao-help = 選擇環境光遮蔽品質。
 video-antialias-help = 切換 FXAA 抗鋸齒。
 video-bloom-help = 在最亮的高光周圍加入柔和的光暈。在高階 GPU 上效果最佳。
+video-reflections-help = 使用螢幕空間反射在光滑表面上映出場景。效能開銷較大，在高階 GPU 上效果最佳。
 video-perf-overlay-help = 顯示或隱藏效能疊加層。
 video-point-lights-help = 選擇額外點光源品質。
 video-particle-quality-help = 選擇粒子效果密度。

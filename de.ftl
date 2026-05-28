@@ -94,6 +94,8 @@ aa-fxaa = Antialiasing: FXAA
 
 bloom-off = Bloom: Aus
 bloom-on = Bloom: An
+reflections-off = Reflexionen: Aus
+reflections-on = Reflexionen: An
 
 perf-overlay-off = Leistungsanzeige: Aus
 perf-overlay-on = Leistungsanzeige: An
@@ -737,6 +739,7 @@ video-shadow-quality-help = Wähle Schattenqualität oder deaktiviere Schatten.
 video-ssao-help = Wähle die Qualität der Umgebungsverdeckung.
 video-antialias-help = Schalte FXAA-Kantenglättung ein oder aus.
 video-bloom-help = Fügt den hellsten Lichtern ein weiches Leuchten hinzu. Am besten auf leistungsstärkeren GPUs.
+video-reflections-help = Spiegelt die Szene auf glänzenden Oberflächen mittels Screen-Space-Reflexionen. Anspruchsvoll; am besten auf High-End-GPUs.
 video-perf-overlay-help = Zeige oder verstecke das Leistungs-Overlay.
 video-point-lights-help = Wähle die Qualität zusätzlicher Punktlichter.
 video-particle-quality-help = Wähle die Partikeleffektdichte.

@@ -107,6 +107,8 @@ aa-fxaa = Anticrénelage: FXAA
 
 bloom-off = Bloom : Désactivé
 bloom-on = Bloom : Activé
+reflections-off = Reflets : Désactivé
+reflections-on = Reflets : Activé
 
 perf-overlay-off = Indicateur de perf : Désactivé
 perf-overlay-on = Indicateur de perf : Activé
@@ -736,6 +738,7 @@ video-shadow-quality-help = Choisissez la qualité des ombres ou désactivez les
 video-ssao-help = Choisissez la qualité de l'occlusion ambiante.
 video-antialias-help = Activez ou désactivez l'anticrénelage FXAA.
 video-bloom-help = Ajoute une lueur douce autour des reflets les plus lumineux. Idéal sur GPU haut de gamme.
+video-reflections-help = Reflète la scène sur les surfaces brillantes grâce aux reflets en espace écran. Exigeant ; idéal sur GPU haut de gamme.
 video-perf-overlay-help = Affichez ou masquez la superposition de performances.
 video-point-lights-help = Choisissez la qualité des lumières ponctuelles supplémentaires.
 video-particle-quality-help = Choisissez la densité des effets de particules.
