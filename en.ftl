@@ -96,6 +96,8 @@ bloom-off = Bloom: Off
 bloom-on = Bloom: On
 reflections-off = Reflections: Off
 reflections-on = Reflections: On
+godrays-off = God Rays: Off
+godrays-on = God Rays: On
 
 perf-overlay-off = Perf Overlay: Off
 perf-overlay-on = Perf Overlay: On
@@ -743,6 +745,7 @@ video-ssao-help = Choose ambient occlusion quality.
 video-antialias-help = Toggle FXAA anti-aliasing.
 video-bloom-help = Add a soft glow around the brightest highlights. Best on higher-end GPUs.
 video-reflections-help = Mirror the scene in shiny surfaces with screen-space reflections. Demanding; best on high-end GPUs.
+video-godrays-help = Cast volumetric shafts of light from the sun through the scene. Demanding; best on high-end GPUs.
 video-perf-overlay-help = Show or hide the performance overlay.
 video-point-lights-help = Choose extra point-light quality.
 video-particle-quality-help = Choose particle effect density.

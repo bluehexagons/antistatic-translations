@@ -96,6 +96,8 @@ bloom-off = Bloom: Disattivato
 bloom-on = Bloom: Attivato
 reflections-off = Riflessi: Disattivato
 reflections-on = Riflessi: Attivato
+godrays-off = Raggi di luce: Disattivati
+godrays-on = Raggi di luce: Attivati
 
 perf-overlay-off = Indicatore prestazioni: Disattivato
 perf-overlay-on = Indicatore prestazioni: Attivato
@@ -739,6 +741,7 @@ video-ssao-help = Scegli la qualità dell'occlusione ambientale.
 video-antialias-help = Attiva o disattiva l'anti-aliasing FXAA.
 video-bloom-help = Aggiunge un bagliore morbido attorno alle luci più intense. Ideale su GPU di fascia alta.
 video-reflections-help = Riflette la scena sulle superfici lucide tramite riflessi in spazio schermo. Impegnativo; ideale su GPU di fascia alta.
+video-godrays-help = Proietta fasci di luce volumetrici dal sole attraverso la scena. Impegnativo; ideale su GPU di fascia alta.
 video-perf-overlay-help = Mostra o nascondi l'overlay delle prestazioni.
 video-point-lights-help = Scegli la qualità delle luci puntiformi extra.
 video-particle-quality-help = Scegli la densità degli effetti particellari.

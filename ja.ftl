@@ -96,6 +96,8 @@ bloom-off = Bloom：オフ
 bloom-on = Bloom：オン
 reflections-off = 反射：オフ
 reflections-on = 反射：オン
+godrays-off = 光芒：オフ
+godrays-on = 光芒：オン
 
 perf-overlay-off = パフォーマンス表示：オフ
 perf-overlay-on = パフォーマンス表示：オン
@@ -739,6 +741,7 @@ video-ssao-help = 環境遮蔽の品質を選びます。
 video-antialias-help = FXAA アンチエイリアスを切り替えます。
 video-bloom-help = 最も明るい部分の周囲に柔らかな光彩を加えます。高性能な GPU に最適です。
 video-reflections-help = スクリーンスペース反射で光沢のある表面にシーンを映し込みます。負荷が高く、高性能な GPU に最適です。
+video-godrays-help = 太陽からの体積光のシャフトをシーンに投射します。負荷が高く、高性能な GPU に最適です。
 video-perf-overlay-help = パフォーマンスオーバーレイを表示または非表示にします。
 video-point-lights-help = 追加のポイントライト品質を選びます。
 video-particle-quality-help = パーティクル効果の密度を選びます。

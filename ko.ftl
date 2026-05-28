@@ -96,6 +96,8 @@ bloom-off = Bloom: 끄기
 bloom-on = Bloom: 켜기
 reflections-off = 반사: 끄기
 reflections-on = 반사: 켜기
+godrays-off = 갓레이: 끄기
+godrays-on = 갓레이: 켜기
 
 perf-overlay-off = 성능 표시: 끄기
 perf-overlay-on = 성능 표시: 켜기
@@ -739,6 +741,7 @@ video-ssao-help = 주변 폐색 품질을 선택합니다.
 video-antialias-help = FXAA 안티앨리어싱을 켜거나 끕니다.
 video-bloom-help = 가장 밝은 하이라이트 주변에 부드러운 광채를 추가합니다. 고사양 GPU에서 가장 좋습니다.
 video-reflections-help = 화면 공간 반사로 광택 있는 표면에 장면을 비춥니다. 부하가 크며 고사양 GPU에서 가장 좋습니다.
+video-godrays-help = 태양에서 나오는 볼류메트릭 빛줄기를 장면에 드리웁니다. 부하가 크며 고사양 GPU에서 가장 좋습니다.
 video-perf-overlay-help = 성능 오버레이를 표시하거나 숨깁니다.
 video-point-lights-help = 추가 포인트 라이트 품질을 선택합니다.
 video-particle-quality-help = 파티클 효과 밀도를 선택합니다.
