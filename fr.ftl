@@ -109,6 +109,8 @@ bloom-off = Bloom : Désactivé
 bloom-on = Bloom : Activé
 reflections-off = Reflets : Désactivé
 reflections-on = Reflets : Activé
+reflections-low = Reflets : Faible
+reflections-high = Reflets : Élevé
 godrays-off = Rayons de soleil : Désactivé
 godrays-on = Rayons de soleil : Activé
 

@@ -96,6 +96,8 @@ bloom-off = Bloom：オフ
 bloom-on = Bloom：オン
 reflections-off = 反射：オフ
 reflections-on = 反射：オン
+reflections-low = 反射：低
+reflections-high = 反射：高
 godrays-off = 光芒：オフ
 godrays-on = 光芒：オン
 

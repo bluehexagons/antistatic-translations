@@ -96,6 +96,8 @@ bloom-off = Bloom: Off
 bloom-on = Bloom: On
 reflections-off = Reflections: Off
 reflections-on = Reflections: On
+reflections-low = Reflections: Low
+reflections-high = Reflections: High
 godrays-off = God Rays: Off
 godrays-on = God Rays: On
 

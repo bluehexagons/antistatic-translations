@@ -96,6 +96,8 @@ bloom-off = Bloom: Aus
 bloom-on = Bloom: An
 reflections-off = Reflexionen: Aus
 reflections-on = Reflexionen: An
+reflections-low = Reflexionen: Niedrig
+reflections-high = Reflexionen: Hoch
 godrays-off = Lichtstrahlen: Aus
 godrays-on = Lichtstrahlen: An
 

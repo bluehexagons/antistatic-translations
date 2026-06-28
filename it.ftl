@@ -96,6 +96,8 @@ bloom-off = Bloom: Disattivato
 bloom-on = Bloom: Attivato
 reflections-off = Riflessi: Disattivato
 reflections-on = Riflessi: Attivato
+reflections-low = Riflessi: Basso
+reflections-high = Riflessi: Alto
 godrays-off = Raggi di luce: Disattivati
 godrays-on = Raggi di luce: Attivati
 

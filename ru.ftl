@@ -96,6 +96,8 @@ bloom-off = Bloom: Выкл
 bloom-on = Bloom: Вкл
 reflections-off = Отражения: Выкл
 reflections-on = Отражения: Вкл
+reflections-low = Отражения: Низко
+reflections-high = Отражения: Высоко
 godrays-off = Лучи света: Выкл
 godrays-on = Лучи света: Вкл
 

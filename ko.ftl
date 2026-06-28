@@ -96,6 +96,8 @@ bloom-off = Bloom: 끄기
 bloom-on = Bloom: 켜기
 reflections-off = 반사: 끄기
 reflections-on = 반사: 켜기
+reflections-low = 반사: 낮음
+reflections-high = 반사: 높음
 godrays-off = 갓레이: 끄기
 godrays-on = 갓레이: 켜기
 

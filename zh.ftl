@@ -96,6 +96,8 @@ bloom-off = Bloom：关闭
 bloom-on = Bloom：开启
 reflections-off = 反射：关闭
 reflections-on = 反射：开启
+reflections-low = 反射：低
+reflections-high = 反射：高
 godrays-off = 体积光：关闭
 godrays-on = 体积光：开启
 
