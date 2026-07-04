@@ -77,6 +77,12 @@ Voice-volume = 音声：{$value}
 # Video Menu
 VIDEO = ビデオ品質
 
+graphics-preset-low = グラフィック：低
+graphics-preset-medium = グラフィック：中
+graphics-preset-high = グラフィック：高
+graphics-preset-max = グラフィック：最大
+graphics-preset-custom = グラフィック：カスタム
+
 vsync-off = 垂直同期：オフ
 vsync-on = 垂直同期：オン
 vsync-adaptive = 垂直同期：適応

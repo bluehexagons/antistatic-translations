@@ -77,6 +77,12 @@ Voice-volume = 음성: {$value}
 # Video Menu
 VIDEO = 영상
 
+graphics-preset-low = 그래픽: 낮음
+graphics-preset-medium = 그래픽: 중간
+graphics-preset-high = 그래픽: 높음
+graphics-preset-max = 그래픽: 최대
+graphics-preset-custom = 그래픽: 사용자 지정
+
 vsync-off = Vsync: 끄기
 vsync-on = Vsync: 켜기
 vsync-adaptive = Vsync: 적응형

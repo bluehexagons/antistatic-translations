@@ -77,6 +77,12 @@ Voice-volume = Voz: {$value}
 # Video Menu
 VIDEO = VIDEO
 
+graphics-preset-low = Gráficos: Bajo
+graphics-preset-medium = Gráficos: Medio
+graphics-preset-high = Gráficos: Alto
+graphics-preset-max = Gráficos: Máximo
+graphics-preset-custom = Gráficos: Personalizado
+
 vsync-off = Vsync: Desactivado
 vsync-on = Vsync: Activado
 vsync-adaptive = Vsync: Adaptativo

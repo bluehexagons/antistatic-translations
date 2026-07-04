@@ -77,6 +77,12 @@ Voice-volume = 语音： {$value}
 # Video Menu
 VIDEO = 视频设置
 
+graphics-preset-low = 图形：低
+graphics-preset-medium = 图形：中
+graphics-preset-high = 图形：高
+graphics-preset-max = 图形：最高
+graphics-preset-custom = 图形：自定义
+
 vsync-off = 垂直同步：关闭
 vsync-on = 垂直同步：开启
 vsync-adaptive = 垂直同步：自适应
