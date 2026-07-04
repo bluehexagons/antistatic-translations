@@ -97,6 +97,7 @@ ssao-full = SSAO: Полный
 
 aa-off = Антиалиасинг: Выкл
 aa-fxaa = Антиалиасинг: FXAA
+aa-fxaa-high = Антиалиасинг: FXAA высокий
 
 bloom-off = Bloom: Выкл
 bloom-on = Bloom: Вкл

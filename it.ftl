@@ -97,6 +97,7 @@ ssao-full = SSAO: Completo
 
 aa-off = Antialias: Disattivato
 aa-fxaa = Antialias: FXAA
+aa-fxaa-high = Antialias: FXAA alto
 
 bloom-off = Bloom: Disattivato
 bloom-on = Bloom: Attivato

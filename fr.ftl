@@ -110,6 +110,7 @@ ssao-full = SSAO: Complet
 
 aa-off = Anticrénelage: Désactivé
 aa-fxaa = Anticrénelage: FXAA
+aa-fxaa-high = Anticrénelage: FXAA élevé
 
 bloom-off = Bloom : Désactivé
 bloom-on = Bloom : Activé

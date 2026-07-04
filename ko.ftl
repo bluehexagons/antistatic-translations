@@ -97,6 +97,7 @@ ssao-full = SSAO: 풀
 
 aa-off = 안티앨리어싱: 끄기
 aa-fxaa = 안티앨리어싱: FXAA
+aa-fxaa-high = 안티앨리어싱: 고품질 FXAA
 
 bloom-off = Bloom: 끄기
 bloom-on = Bloom: 켜기

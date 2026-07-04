@@ -97,6 +97,7 @@ ssao-full = SSAO：フル
 
 aa-off = アンチエイリアス：オフ
 aa-fxaa = アンチエイリアス：FXAA
+aa-fxaa-high = アンチエイリアス：高品質 FXAA
 
 bloom-off = Bloom：オフ
 bloom-on = Bloom：オン

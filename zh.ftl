@@ -97,6 +97,7 @@ ssao-full = SSAO：完整
 
 aa-off = 抗锯齿：关闭
 aa-fxaa = 抗锯齿：FXAA
+aa-fxaa-high = 抗锯齿：高质量 FXAA
 
 bloom-off = Bloom：关闭
 bloom-on = Bloom：开启
