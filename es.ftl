@@ -971,3 +971,21 @@ replay-compression-compressed = Comprimido
 replay-compression-uncompressed = Sin comprimir
 replay-truncated-yes = Sí
 replay-truncated-no = No
+
+# Social y lista de CPU en versus
+press-any-button-or-key = Pulsa cualquier botón o tecla
+social-title = AMIGOS E INVITACIONES
+social-steam = Steam
+social-steam-help = Muestra tu sala en Steam y deja que tus amigos se unan desde su lista de amigos.
+social-discord = Discord
+social-discord-help = Muestra tu sala en Discord y deja que tus amigos soliciten unirse.
+social-info = Desactivado de forma predeterminada. Al activarlo, la integración carga el SDK de la plataforma y comparte el código de tu sala para que tus amigos puedan unirse. Las conexiones siguen usando el netplay propio de Antistatic.
+social-summary = Presencia enriquecida e invitaciones de Steam y Discord.
+social-settings-help = Presencia enriquecida e invitaciones de Steam y Discord. Desactivado de forma predeterminada.
+versus-add-cpu = Añadir CPU
+versus-cpu-page-prev = Ant.
+versus-cpu-page-next = Sig.
+versus-cpu-page-help = Cambiar la página de CPU visible.
+versus-no-cpus-added = No se han añadido CPU
+versus-cpu-page-range = CPU {$first}-{$last} / {$count}
+versus-cpu-page-total = CPU {$count} / {$max}

@@ -966,3 +966,21 @@ replay-compression-compressed = 압축됨
 replay-compression-uncompressed = 압축 안 함
 replay-truncated-yes = 예
 replay-truncated-no = 아니오
+
+# 소셜 기능 및 대전 CPU 목록
+press-any-button-or-key = 아무 버튼이나 키를 누르세요
+social-title = 친구 및 초대
+social-steam = Steam
+social-steam-help = Steam에 로비를 표시하고 친구 목록에서 친구가 참가할 수 있게 합니다.
+social-discord = Discord
+social-discord-help = Discord에 로비를 표시하고 친구가 참가를 요청할 수 있게 합니다.
+social-info = 기본적으로 꺼져 있습니다. 켜면 연동 기능이 플랫폼 SDK를 불러오고 로비 참가 코드를 공유하여 친구가 참가할 수 있게 합니다. 연결에는 계속 Antistatic 자체 넷플레이를 사용합니다.
+social-summary = Steam 및 Discord 리치 프레즌스와 초대.
+social-settings-help = Steam 및 Discord 리치 프레즌스와 초대. 기본적으로 꺼져 있습니다.
+versus-add-cpu = CPU 추가
+versus-cpu-page-prev = 이전
+versus-cpu-page-next = 다음
+versus-cpu-page-help = 표시할 CPU 페이지를 변경합니다.
+versus-no-cpus-added = 추가된 CPU가 없습니다
+versus-cpu-page-range = CPU {$first}-{$last} / {$count}
+versus-cpu-page-total = CPU {$count} / {$max}

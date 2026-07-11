@@ -966,3 +966,21 @@ replay-compression-compressed = 已壓縮
 replay-compression-uncompressed = 未壓縮
 replay-truncated-yes = 是
 replay-truncated-no = 否
+
+# 社交功能和對戰 CPU 清單
+press-any-button-or-key = 按任意按鈕或按鍵
+social-title = 好友和邀請
+social-steam = Steam
+social-steam-help = 在 Steam 顯示你的房間，讓好友能從好友清單加入。
+social-discord = Discord
+social-discord-help = 在 Discord 顯示你的房間，讓好友可以要求加入。
+social-info = 預設為關閉。啟用後，整合功能會載入平台 SDK 並分享你的房間加入碼，讓好友可以加入。連線仍使用 Antistatic 自家的網路對戰。
+social-summary = Steam 和 Discord 的豐富狀態及邀請。
+social-settings-help = Steam 和 Discord 的豐富狀態及邀請。預設為關閉。
+versus-add-cpu = 新增 CPU
+versus-cpu-page-prev = 上一頁
+versus-cpu-page-next = 下一頁
+versus-cpu-page-help = 變更顯示的 CPU 頁面。
+versus-no-cpus-added = 尚未新增 CPU
+versus-cpu-page-range = CPU {$first}-{$last} / {$count}
+versus-cpu-page-total = CPU {$count} / {$max}

@@ -975,3 +975,21 @@ replay-compression-compressed = Сжатый
 replay-compression-uncompressed = Несжатый
 replay-truncated-yes = Да
 replay-truncated-no = Нет
+
+# Социальные функции и список CPU в режиме Versus
+press-any-button-or-key = Нажмите любую кнопку или клавишу
+social-title = ДРУЗЬЯ И ПРИГЛАШЕНИЯ
+social-steam = Steam
+social-steam-help = Показывать вашу комнату в Steam, чтобы друзья могли присоединиться через список друзей.
+social-discord = Discord
+social-discord-help = Показывать вашу комнату в Discord, чтобы друзья могли запросить подключение.
+social-info = По умолчанию выключено. После включения интеграция загружает SDK платформы и делится кодом комнаты, чтобы друзья могли присоединиться. Для подключений по-прежнему используется собственный нетплей Antistatic.
+social-summary = Статус в Steam и Discord, а также приглашения.
+social-settings-help = Статус в Steam и Discord, а также приглашения. По умолчанию выключено.
+versus-add-cpu = Добавить CPU
+versus-cpu-page-prev = Назад
+versus-cpu-page-next = Далее
+versus-cpu-page-help = Сменить отображаемую страницу CPU.
+versus-no-cpus-added = CPU не добавлены
+versus-cpu-page-range = CPU {$first}-{$last} / {$count}
+versus-cpu-page-total = CPU {$count} / {$max}

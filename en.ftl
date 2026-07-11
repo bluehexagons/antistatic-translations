@@ -991,3 +991,21 @@ replay-compression-compressed = Compressed
 replay-compression-uncompressed = Uncompressed
 replay-truncated-yes = Yes
 replay-truncated-no = No
+
+# Social and versus CPU roster
+press-any-button-or-key = Press Any Button or Key
+social-title = FRIENDS & INVITES
+social-steam = Steam
+social-steam-help = Show your lobby on Steam and let friends join from their friends list.
+social-discord = Discord
+social-discord-help = Show your lobby on Discord and let friends ask to join.
+social-info = Off by default. When enabled, the integration loads its platform SDK and shares your lobby join code so friends can join you. Connections still use Antistatic’s own netplay.
+social-summary = Steam and Discord rich presence and invites.
+social-settings-help = Steam and Discord rich presence and invites. Disabled by default.
+versus-add-cpu = Add CPU
+versus-cpu-page-prev = Prev
+versus-cpu-page-next = Next
+versus-cpu-page-help = Change visible CPU page.
+versus-no-cpus-added = No CPUs added
+versus-cpu-page-range = CPU {$first}-{$last} / {$count}
+versus-cpu-page-total = CPU {$count} / {$max}

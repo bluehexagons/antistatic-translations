@@ -966,3 +966,21 @@ replay-compression-compressed = 圧縮
 replay-compression-uncompressed = 非圧縮
 replay-truncated-yes = はい
 replay-truncated-no = いいえ
+
+# ソーシャル機能と対戦CPUリスト
+press-any-button-or-key = いずれかのボタンまたはキーを押してください
+social-title = フレンドと招待
+social-steam = Steam
+social-steam-help = Steam にロビーを表示し、フレンドリストからフレンドが参加できるようにします。
+social-discord = Discord
+social-discord-help = Discord にロビーを表示し、フレンドが参加をリクエストできるようにします。
+social-info = 初期設定ではオフです。有効にすると、連携機能がプラットフォームの SDK を読み込み、ロビー参加コードを共有してフレンドが参加できるようにします。接続には引き続き Antistatic 独自のネットプレイを使用します。
+social-summary = Steam と Discord のリッチプレゼンスおよび招待。
+social-settings-help = Steam と Discord のリッチプレゼンスおよび招待。初期設定では無効です。
+versus-add-cpu = CPUを追加
+versus-cpu-page-prev = 前へ
+versus-cpu-page-next = 次へ
+versus-cpu-page-help = 表示するCPUページを変更します。
+versus-no-cpus-added = CPUが追加されていません
+versus-cpu-page-range = CPU {$first}-{$last} / {$count}
+versus-cpu-page-total = CPU {$count} / {$max}
