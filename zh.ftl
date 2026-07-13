@@ -30,6 +30,18 @@ Debug = 除错
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = 原版
+Physics = 物理
+color-preset-random = 随机
+color-preset-red = 红色
+color-preset-orange = 橙色
+color-preset-gold = 金色
+color-preset-green = 绿色
+color-preset-blue = 蓝色
+color-preset-purple = 紫色
+color-preset-pink = 粉色
+color-preset-white = 白色
+versus-color-preset-help = 选择一个颜色系列；每次选择都会获得轻微的随机变化。队伍模式下不可用。
 
 # Navigation
 Back = 返回
@@ -157,7 +169,7 @@ controls-tag-filter-help = 输入以筛选标签；ESC 清除或退出
 controls-tag-no-saved = 还没有已保存标签
 controls-tag-no-matches = 没有匹配的标签
 controls-tag-invalid = 标签无效（1-24个字符，字母数字/-/_；“default”已保留）
-controls-profile-help-untagged = 请先设置标签，再编辑控制或保存上跳默认值。
+controls-profile-help-untagged = 控制设置会保存到共享的无标签配置；只有保存上跳默认值时需要标签。
 controls-profile-help-tagged = 控制和上跳默认值会保存到此标签和此控制器类型。
 controls-choose-existing-tag = 选择现有标签
 controls-create-tag = 创建标签
@@ -202,7 +214,7 @@ controls-tag-delete-warning = 此操作无法撤销。
 controls-back-help = 返回控制。
 controls-tag-select-help = 选择或创建一个控制器标签。
 controls-edit-set-tag-first-help = 先创建控制器标签，再编辑游戏和菜单绑定。
-controls-edit-controls-help = 编辑此控制器标签的游戏和菜单绑定。
+controls-edit-controls-help = 编辑此控制器配置的游戏和菜单绑定。
 controls-tap-jump-set-tag-first-help = 先创建控制器标签，再设置默认轻点跳跃偏好。
 controls-tap-jump-default-help = 切换该控制器默认是否按上就跳。
 controls-create-new-tag-help = 创建新标签并将此控制器切换到它。
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = 角色
 Stages = 场地
-AI = AI
+CPU = CPU
 
 Starter = 起始
 Legal = 赛事

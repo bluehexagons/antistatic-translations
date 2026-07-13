@@ -30,6 +30,18 @@ Debug = Déboguer
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = Vanilla
+Physics = Physique
+color-preset-random = Aléatoire
+color-preset-red = Rouge
+color-preset-orange = Orange
+color-preset-gold = Or
+color-preset-green = Vert
+color-preset-blue = Bleu
+color-preset-purple = Violet
+color-preset-pink = Rose
+color-preset-white = Blanc
+versus-color-preset-help = Choisissez une famille de couleurs ; chaque choix reçoit une légère variation aléatoire. Désactivé en mode équipes.
 
 # Navigation
 Back = Retour
@@ -170,7 +182,7 @@ controls-tag-filter-help = Tapez pour filtrer les tags ; Échap efface ou quitte
 controls-tag-no-saved = Aucun tag enregistré pour le moment
 controls-tag-no-matches = Aucun tag correspondant
 controls-tag-invalid = Tag invalide (1-24 caractères, alphanumériques/-/_ ; « default » réservé)
-controls-profile-help-untagged = Définissez un tag avant de modifier les contrôles ou d'enregistrer les réglages de saut avec le stick.
+controls-profile-help-untagged = Les commandes sont enregistrées dans le profil partagé sans tag ; seul le saut avec le stick exige un tag.
 controls-profile-help-tagged = Les contrôles et le saut avec le stick par défaut sont enregistrés pour ce tag et ce type de manette.
 controls-choose-existing-tag = Choisir un tag existant
 controls-create-tag = Créer un tag
@@ -215,7 +227,7 @@ controls-tag-delete-warning = Cette action est irréversible.
 controls-back-help = Retour à Contrôles.
 controls-tag-select-help = Choisissez ou créez un tag de manette.
 controls-edit-set-tag-first-help = Créez d'abord un tag de manette, puis modifiez les affectations de jeu et de menu.
-controls-edit-controls-help = Modifier les affectations de jeu et de menu pour ce tag de manette.
+controls-edit-controls-help = Modifier les affectations de jeu et de menu pour ce profil de manette.
 controls-tap-jump-set-tag-first-help = Créez d'abord un tag de manette, puis définissez la préférence de saut sur appui par défaut.
 controls-tap-jump-default-help = Active ou désactive le saut par défaut de cette manette quand on appuie vers le haut.
 controls-create-new-tag-help = Créez un nouveau tag et affectez-y cette manette.
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = Personnages
 Stages = Arènes
-AI = AI
+CPU = CPU
 
 Starter = Starter
 Legal = Légal

@@ -30,6 +30,18 @@ Debug = Debug
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = Vanilla
+Physics = Physics
+color-preset-random = Random
+color-preset-red = Red
+color-preset-orange = Orange
+color-preset-gold = Gold
+color-preset-green = Green
+color-preset-blue = Blue
+color-preset-purple = Purple
+color-preset-pink = Pink
+color-preset-white = White
+versus-color-preset-help = Choose a color family; each choice gets a small random variation. Disabled while teams are enabled.
 
 # Navigation
 Back = Back
@@ -182,7 +194,7 @@ controls-tag-filter-help = Type to filter tags; ESC clears or exits
 controls-tag-no-saved = No saved tags yet
 controls-tag-no-matches = No matching tags
 controls-tag-invalid = Invalid tag (1-24 chars, alphanumerics/-/_; "default" reserved)
-controls-profile-help-untagged = Set a tag before editing controls or saving tap-jump defaults.
+controls-profile-help-untagged = Controls save to the shared untagged profile; set a tag only to save tap-jump defaults.
 controls-profile-help-tagged = Controls and tap-jump defaults save for this tag on this controller type.
 controls-choose-existing-tag = Choose Existing Tag
 controls-create-tag = Create Tag
@@ -227,7 +239,7 @@ controls-tag-delete-warning = This cannot be undone.
 controls-back-help = Return to Controls.
 controls-tag-select-help = Choose or create a controller tag.
 controls-edit-set-tag-first-help = Create a controller tag first, then edit gameplay and menu bindings.
-controls-edit-controls-help = Edit gameplay and menu bindings for this controller tag.
+controls-edit-controls-help = Edit gameplay and menu bindings for this controller profile.
 controls-tap-jump-set-tag-first-help = Create a controller tag first, then set the default tap-jump preference.
 controls-tap-jump-default-help = Toggle whether pressing up makes this controller jump by default.
 controls-create-new-tag-help = Create a new tag and switch this controller to it.
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = Characters
 Stages = Stages
-AI = AI
+CPU = CPU
 
 Starter = Starter
 Legal = Legal

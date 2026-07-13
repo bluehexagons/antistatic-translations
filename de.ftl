@@ -30,6 +30,18 @@ Debug = Debuggen
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = Vanilla
+Physics = Physik
+color-preset-random = Zufällig
+color-preset-red = Rot
+color-preset-orange = Orange
+color-preset-gold = Gold
+color-preset-green = Grün
+color-preset-blue = Blau
+color-preset-purple = Violett
+color-preset-pink = Pink
+color-preset-white = Weiß
+versus-color-preset-help = Wähle eine Farbfamilie; jede Auswahl erhält eine kleine zufällige Variation. Im Teammodus deaktiviert.
 
 # Navigation
 Back = Zurück
@@ -157,7 +169,7 @@ controls-tag-filter-help = Tippen zum Filtern; ESC löscht oder beendet
 controls-tag-no-saved = Noch keine gespeicherten Tags
 controls-tag-no-matches = Keine passenden Tags
 controls-tag-invalid = Ungültiger Tag (1-24 Zeichen, alphanumerisch/-/_; „default“ ist reserviert)
-controls-profile-help-untagged = Lege einen Tag fest, bevor du Belegungen bearbeitest oder Tap-Jump-Standards speicherst.
+controls-profile-help-untagged = Belegungen werden im gemeinsamen Profil ohne Tag gespeichert; nur Tap-Jump-Standards benötigen einen Tag.
 controls-profile-help-tagged = Belegungen und Tap-Jump-Standards werden für diesen Tag und diesen Controller-Typ gespeichert.
 controls-choose-existing-tag = Vorhandenen Tag auswählen
 controls-create-tag = Tag erstellen
@@ -202,7 +214,7 @@ controls-tag-delete-warning = Das kann nicht rückgängig gemacht werden.
 controls-back-help = Zurück zu Steuerung.
 controls-tag-select-help = Wähle oder erstelle ein Controller-Tag.
 controls-edit-set-tag-first-help = Erstelle zuerst ein Controller-Tag und bearbeite dann Gameplay- und Menübelegungen.
-controls-edit-controls-help = Gameplay- und Menübelegungen für dieses Controller-Tag bearbeiten.
+controls-edit-controls-help = Gameplay- und Menübelegungen für dieses Controllerprofil bearbeiten.
 controls-tap-jump-set-tag-first-help = Erstelle zuerst ein Controller-Tag und lege dann die Standard-Tap-Jump-Einstellung fest.
 controls-tap-jump-default-help = Umschalten, ob Hochdrücken diesen Controller standardmäßig springen lässt.
 controls-create-new-tag-help = Erstelle ein neues Tag und wechsle diesen Controller darauf.
@@ -480,7 +492,7 @@ Tapjump-Symbol = TJ
 
 Characters = Zeichen
 Stages = Stufen
-AI = AI
+CPU = CPU
 
 Starter = Starter
 Legal = Legal

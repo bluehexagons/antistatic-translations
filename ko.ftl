@@ -30,6 +30,18 @@ Debug = 디버그
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = 바닐라
+Physics = 물리
+color-preset-random = 무작위
+color-preset-red = 빨강
+color-preset-orange = 주황
+color-preset-gold = 금색
+color-preset-green = 초록
+color-preset-blue = 파랑
+color-preset-purple = 보라
+color-preset-pink = 분홍
+color-preset-white = 흰색
+versus-color-preset-help = 색상 계열을 선택합니다. 선택할 때마다 작은 무작위 변화가 적용됩니다. 팀 모드에서는 비활성화됩니다.
 
 # Navigation
 Back = 뒤로
@@ -157,7 +169,7 @@ controls-tag-filter-help = 입력해서 태그를 필터링하세요. ESC는 지
 controls-tag-no-saved = 저장된 태그가 아직 없습니다
 controls-tag-no-matches = 일치하는 태그가 없습니다
 controls-tag-invalid = 잘못된 태그입니다(1-24자, 영숫자/-/_; "default" 예약됨)
-controls-profile-help-untagged = 조작 설정을 편집하거나 탭 점프 기본값을 저장하기 전에 태그를 설정하세요.
+controls-profile-help-untagged = 조작 설정은 공유 태그 없음 프로필에 저장됩니다. 탭 점프 기본값 저장에만 태그가 필요합니다.
 controls-profile-help-tagged = 조작 설정과 탭 점프 기본값은 이 태그와 이 컨트롤러 유형에 저장됩니다.
 controls-choose-existing-tag = 기존 태그 선택
 controls-create-tag = 태그 만들기
@@ -202,7 +214,7 @@ controls-tag-delete-warning = 이 작업은 되돌릴 수 없습니다.
 controls-back-help = 컨트롤로 돌아갑니다.
 controls-tag-select-help = 컨트롤러 태그를 선택하거나 만드세요.
 controls-edit-set-tag-first-help = 먼저 컨트롤러 태그를 만든 뒤 게임플레이와 메뉴 바인딩을 수정하세요.
-controls-edit-controls-help = 이 컨트롤러 태그의 게임플레이와 메뉴 바인딩을 수정합니다.
+controls-edit-controls-help = 이 컨트롤러 프로필의 게임플레이와 메뉴 바인딩을 수정합니다.
 controls-tap-jump-set-tag-first-help = 먼저 컨트롤러 태그를 만든 뒤 기본 탭 점프 설정을 지정하세요.
 controls-tap-jump-default-help = 위를 눌렀을 때 이 컨트롤러가 기본적으로 점프할지 전환합니다.
 controls-create-new-tag-help = 새 태그를 만들고 이 컨트롤러를 그 태그로 전환합니다.
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = 캐릭터
 Stages = 스테이지
-AI = AI
+CPU = CPU
 
 Starter = 스타터
 Legal = 공식

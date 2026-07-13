@@ -30,6 +30,18 @@ Debug = Отлаживать
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = Ванильная
+Physics = Физика
+color-preset-random = Случайный
+color-preset-red = Красный
+color-preset-orange = Оранжевый
+color-preset-gold = Золотой
+color-preset-green = Зелёный
+color-preset-blue = Синий
+color-preset-purple = Фиолетовый
+color-preset-pink = Розовый
+color-preset-white = Белый
+versus-color-preset-help = Выберите семейство цветов; каждый выбор получает небольшую случайную вариацию. Отключено в командном режиме.
 
 # Navigation
 Back = Назад
@@ -157,7 +169,7 @@ controls-tag-filter-help = Введите текст для фильтрации
 controls-tag-no-saved = Сохранённых тегов пока нет
 controls-tag-no-matches = Подходящих тегов нет
 controls-tag-invalid = Недопустимый тег (1-24 символа, буквы/цифры/-/_; «default» зарезервирован)
-controls-profile-help-untagged = Установите тег перед редактированием управления или сохранением стандартного tap jump.
+controls-profile-help-untagged = Управление сохраняется в общем профиле без тега; тег нужен только для стандартного tap jump.
 controls-profile-help-tagged = Управление и стандартный tap jump сохраняются для этого тега и этого типа контроллера.
 controls-choose-existing-tag = Выбрать существующий тег
 controls-create-tag = Создать тег
@@ -202,7 +214,7 @@ controls-tag-delete-warning = Это действие нельзя отмени�
 controls-back-help = Вернуться к управлению.
 controls-tag-select-help = Выберите или создайте тег контроллера.
 controls-edit-set-tag-first-help = Сначала создайте тег контроллера, затем редактируйте игровые и меню-привязки.
-controls-edit-controls-help = Редактировать игровые и меню-привязки для этого тега контроллера.
+controls-edit-controls-help = Редактировать игровые и меню-привязки для этого профиля контроллера.
 controls-tap-jump-set-tag-first-help = Сначала создайте тег контроллера, затем задайте стандартное значение прыжка вверх.
 controls-tap-jump-default-help = Переключает, будет ли нажатие вверх по умолчанию заставлять этот контроллер прыгать.
 controls-create-new-tag-help = Создать новый тег и переключить на него этот контроллер.
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = Персонажи
 Stages = Арены
-AI = AI
+CPU = CPU
 
 Starter = Стартер
 Legal = Турнирные

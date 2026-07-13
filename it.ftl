@@ -30,6 +30,18 @@ Debug = Mettere a Punto
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = Vanilla
+Physics = Fisica
+color-preset-random = Casuale
+color-preset-red = Rosso
+color-preset-orange = Arancione
+color-preset-gold = Oro
+color-preset-green = Verde
+color-preset-blue = Blu
+color-preset-purple = Viola
+color-preset-pink = Rosa
+color-preset-white = Bianco
+versus-color-preset-help = Scegli una famiglia di colori; ogni scelta riceve una piccola variazione casuale. Disattivato in modalità squadre.
 
 # Navigation
 Back = Indietro
@@ -157,7 +169,7 @@ controls-tag-filter-help = Digita per filtrare i tag; ESC cancella o esce
 controls-tag-no-saved = Nessun tag salvato
 controls-tag-no-matches = Nessun tag corrispondente
 controls-tag-invalid = Tag non valido (1-24 caratteri, alfanumerici/-/_; "default" riservato)
-controls-profile-help-untagged = Imposta un tag prima di modificare i comandi o salvare i valori predefiniti di tap jump.
+controls-profile-help-untagged = I comandi vengono salvati nel profilo condiviso senza tag; solo il tap jump richiede un tag.
 controls-profile-help-tagged = Comandi e tap jump predefinito vengono salvati per questo tag e questo tipo di controller.
 controls-choose-existing-tag = Scegli tag esistente
 controls-create-tag = Crea tag
@@ -202,7 +214,7 @@ controls-tag-delete-warning = Questa azione non può essere annullata.
 controls-back-help = Torna a Controlli.
 controls-tag-select-help = Scegli o crea un tag controller.
 controls-edit-set-tag-first-help = Crea prima un tag controller, poi modifica le assegnazioni di gioco e menu.
-controls-edit-controls-help = Modifica le assegnazioni di gioco e menu per questo tag controller.
+controls-edit-controls-help = Modifica le assegnazioni di gioco e menu per questo profilo controller.
 controls-tap-jump-set-tag-first-help = Crea prima un tag controller, poi imposta la preferenza predefinita del tap jump.
 controls-tap-jump-default-help = Attiva o disattiva se premere su fa saltare questo controller per impostazione predefinita.
 controls-create-new-tag-help = Crea un nuovo tag e passa questo controller a esso.
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = Personaggi
 Stages = Arene
-AI = AI
+CPU = CPU
 
 Starter = Starter
 Legal = Legale

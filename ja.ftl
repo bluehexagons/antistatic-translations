@@ -30,6 +30,18 @@ Debug = デバッグ
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = バニラ
+Physics = 物理
+color-preset-random = ランダム
+color-preset-red = 赤
+color-preset-orange = オレンジ
+color-preset-gold = 金
+color-preset-green = 緑
+color-preset-blue = 青
+color-preset-purple = 紫
+color-preset-pink = ピンク
+color-preset-white = 白
+versus-color-preset-help = 色の系統を選びます。選ぶたびに小さなランダム変化が加わります。チームモードでは無効です。
 
 # Navigation
 Back = 戻る
@@ -157,7 +169,7 @@ controls-tag-filter-help = 入力してタグを絞り込み。ESCでクリア�
 controls-tag-no-saved = 保存済みタグはまだありません
 controls-tag-no-matches = 一致するタグがありません
 controls-tag-invalid = 無効なタグです (1-24文字、英数字/-/_。「default」は予約済み)
-controls-profile-help-untagged = ボタン設定の編集やタップジャンプ初期値の保存前にタグを設定してください。
+controls-profile-help-untagged = ボタン設定は共有のタグなしプロファイルに保存されます。タップジャンプ初期値の保存にのみタグが必要です。
 controls-profile-help-tagged = ボタン設定とタップジャンプ初期値は、このタグとコントローラー種類に保存されます。
 controls-choose-existing-tag = 既存のタグを選択
 controls-create-tag = タグを作成
@@ -202,7 +214,7 @@ controls-tag-delete-warning = この操作は取り消せません。
 controls-back-help = コントロールに戻ります。
 controls-tag-select-help = コントローラータグを選ぶか作成してください。
 controls-edit-set-tag-first-help = 先にコントローラータグを作成してから、ゲームプレイとメニューの割り当てを編集します。
-controls-edit-controls-help = このコントローラータグのゲームプレイとメニューの割り当てを編集します。
+controls-edit-controls-help = このコントローラープロファイルのゲームプレイとメニューの割り当てを編集します。
 controls-tap-jump-set-tag-first-help = 先にコントローラータグを作成してから、タップジャンプの既定値を設定します。
 controls-tap-jump-default-help = 上入力でこのコントローラーが既定でジャンプするかを切り替えます。
 controls-create-new-tag-help = 新しいタグを作成してこのコントローラーに切り替えます。
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = キャラクター
 Stages = ステージ
-AI = AI
+CPU = CPU
 
 Starter = スターター
 Legal = 公式

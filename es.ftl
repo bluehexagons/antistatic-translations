@@ -30,6 +30,18 @@ Debug = Depurar
 
 mode-Antistatic = {Antistatic}
 mode-19XX = 19XX
+mode-Vanilla = Vanilla
+Physics = Física
+color-preset-random = Aleatorio
+color-preset-red = Rojo
+color-preset-orange = Naranja
+color-preset-gold = Dorado
+color-preset-green = Verde
+color-preset-blue = Azul
+color-preset-purple = Morado
+color-preset-pink = Rosa
+color-preset-white = Blanco
+versus-color-preset-help = Elige una familia de colores; cada opción recibe una pequeña variación aleatoria. Desactivado en modo equipos.
 
 # Navigation
 Back = Volver
@@ -157,7 +169,7 @@ controls-tag-filter-help = Escribe para filtrar etiquetas; ESC borra o sale
 controls-tag-no-saved = Aún no hay etiquetas guardadas
 controls-tag-no-matches = No hay etiquetas coincidentes
 controls-tag-invalid = Etiqueta no válida (1-24 caracteres, alfanuméricos/-/_; "default" está reservada)
-controls-profile-help-untagged = Establece una etiqueta antes de editar controles o guardar valores predeterminados de tap jump.
+controls-profile-help-untagged = Los controles se guardan en el perfil compartido sin etiqueta; solo tap jump requiere una etiqueta.
 controls-profile-help-tagged = Los controles y el tap jump predeterminado se guardan para esta etiqueta y este tipo de controlador.
 controls-choose-existing-tag = Elegir etiqueta existente
 controls-create-tag = Crear etiqueta
@@ -202,7 +214,7 @@ controls-tag-delete-warning = Esto no se puede deshacer.
 controls-back-help = Volver a Controles.
 controls-tag-select-help = Elige o crea una etiqueta de controlador.
 controls-edit-set-tag-first-help = Crea primero una etiqueta de controlador y luego edita las asignaciones de juego y menú.
-controls-edit-controls-help = Edita las asignaciones de juego y menú para esta etiqueta de controlador.
+controls-edit-controls-help = Edita las asignaciones de juego y menú para este perfil de controlador.
 controls-tap-jump-set-tag-first-help = Crea primero una etiqueta de controlador y luego ajusta la preferencia predeterminada de tap jump.
 controls-tap-jump-default-help = Activa o desactiva que pulsar arriba haga saltar a este controlador por defecto.
 controls-create-new-tag-help = Crea una nueva etiqueta y cambia este controlador a ella.
@@ -479,7 +491,7 @@ Tapjump-Symbol = TJ
 
 Characters = Personajes
 Stages = Escenarios
-AI = AI
+CPU = CPU
 
 Starter = Iniciales
 Legal = Competitivos
