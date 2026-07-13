@@ -88,6 +88,11 @@ Voice-volume = 语音： {$value}
 
 # Video Menu
 VIDEO = 视频设置
+Quick-Setup = 快速设置
+Display = 显示
+Quality = 质量
+Effects = 特效
+Apply-Changes = 应用更改
 
 graphics-preset-low = 图形：低
 graphics-preset-medium = 图形：中

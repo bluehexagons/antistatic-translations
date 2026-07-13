@@ -88,6 +88,11 @@ Voice-volume = 音声：{$value}
 
 # Video Menu
 VIDEO = ビデオ品質
+Quick-Setup = クイック設定
+Display = ディスプレイ
+Quality = 品質
+Effects = エフェクト
+Apply-Changes = 変更を適用
 
 graphics-preset-low = グラフィック：低
 graphics-preset-medium = グラフィック：中

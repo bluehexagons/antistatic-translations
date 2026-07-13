@@ -88,6 +88,11 @@ Voice-volume = Sprachlautstärke: {$value}
 
 # Video Menu
 VIDEO = VIDEO
+Quick-Setup = Schnelle Einrichtung
+Display = Anzeige
+Quality = Qualität
+Effects = Effekte
+Apply-Changes = Änderungen anwenden
 
 graphics-preset-low = Grafik: Niedrig
 graphics-preset-medium = Grafik: Mittel

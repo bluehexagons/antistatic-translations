@@ -101,6 +101,11 @@ Voice-volume = Voix: {$value}
 
 # Video Menu
 VIDEO = VIDÉO
+Quick-Setup = Configuration rapide
+Display = Affichage
+Quality = Qualité
+Effects = Effets
+Apply-Changes = Appliquer les modifications
 
 graphics-preset-low = Graphismes : Faible
 graphics-preset-medium = Graphismes : Moyen
