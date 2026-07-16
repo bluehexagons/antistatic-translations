@@ -416,6 +416,24 @@ matchmaking-status-connecting = Connessione...
 matchmaking-status-disconnecting = Disconnessione...
 matchmaking-status-error = {$error} Seleziona un personaggio per riprovare.
 
+# Match by Code
+match-code-title = PARTITA TRAMITE CODICE
+match-code-hint = Condividi il tuo codice. Inserisci il suo. Premete entrambi Cerca. Maiuscole e minuscole non contano.
+match-code-own-label = Il tuo codice: {$code}
+match-code-peer-label = Codice del tuo amico: {$code}
+match-code-peer-unset = Codice del tuo amico: (non impostato)
+match-code-search = Cerca
+match-code-entry-limit = Massimo {$length} lettere o numeri
+match-code-own-prompt = Il tuo codice
+match-code-peer-prompt = Codice del tuo amico
+match-code-status-enter-peer = Inserisci il codice del tuo amico per creare una partita privata
+match-code-status-ready = Pronto — entrambi i giocatori devono premere Cerca
+match-code-error-enter-peer = Inserisci prima il codice del tuo amico
+match-code-error-own = Inserisci il codice del tuo amico, non il tuo
+match-code-error-invalid = Questo codice non è valido
+match-code-error-length = Il codice deve contenere da {$min} a {$max} lettere o numeri
+match-code-error-blocked = Questo codice non è consentito; scegline un altro
+
 netplay-detail-ready = Hosta un lobby, incolla un invito copiato o inserisci manualmente un indirizzo.
 netplay-detail-lobby-code-ready = Il codice lobby {$code} è pronto per essere condiviso.
 netplay-detail-creating-lobby-code = Creazione del tuo codice lobby.

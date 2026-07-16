@@ -416,6 +416,24 @@ matchmaking-status-connecting = 正在连接...
 matchmaking-status-disconnecting = 正在断开连接...
 matchmaking-status-error = {$error} 请选择一个角色后重试。
 
+# Match by Code
+match-code-title = 通过代码对战
+match-code-hint = 分享你的代码并输入好友的代码。双方都按“搜索”。不区分大小写。
+match-code-own-label = 你的代码：{$code}
+match-code-peer-label = 好友的代码：{$code}
+match-code-peer-unset = 好友的代码：（未设置）
+match-code-search = 搜索
+match-code-entry-limit = 最多 {$length} 个字母或数字
+match-code-own-prompt = 你的代码
+match-code-peer-prompt = 好友的代码
+match-code-status-enter-peer = 输入好友的代码以创建私人对战
+match-code-status-ready = 准备就绪 — 双方都应按“搜索”
+match-code-error-enter-peer = 请先输入好友的代码
+match-code-error-own = 请输入好友的代码，而不是你自己的代码
+match-code-error-invalid = 该代码无效
+match-code-error-length = 代码必须由 {$min}–{$max} 个字母或数字组成
+match-code-error-blocked = 不允许使用该代码；请选择其他代码
+
 netplay-detail-ready = 主持大厅、粘贴复制的邀请或手动输入地址。
 netplay-detail-lobby-code-ready = 大厅代码 {$code} 已准备好分享。
 netplay-detail-creating-lobby-code = 正在创建您的大厅代码。

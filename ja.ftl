@@ -416,6 +416,24 @@ matchmaking-status-connecting = 接続中...
 matchmaking-status-disconnecting = 切断中...
 matchmaking-status-error = {$error} もう一度試すにはキャラクターを選んでください。
 
+# Match by Code
+match-code-title = コードで対戦
+match-code-hint = 自分のコードを共有し、相手のコードを入力してください。2人とも「検索」を押します。大文字と小文字は区別されません。
+match-code-own-label = 自分のコード：{$code}
+match-code-peer-label = フレンドのコード：{$code}
+match-code-peer-unset = フレンドのコード：（未設定）
+match-code-search = 検索
+match-code-entry-limit = 英数字は最大{$length}文字
+match-code-own-prompt = 自分のコード
+match-code-peer-prompt = フレンドのコード
+match-code-status-enter-peer = フレンドのコードを入力してプライベート対戦を設定してください
+match-code-status-ready = 準備完了 — 2人とも「検索」を押してください
+match-code-error-enter-peer = 先にフレンドのコードを入力してください
+match-code-error-own = 自分のコードではなく、フレンドのコードを入力してください
+match-code-error-invalid = そのコードは無効です
+match-code-error-length = コードは{$min}～{$max}文字の英数字で入力してください
+match-code-error-blocked = そのコードは使用できません。別のコードを選んでください
+
 netplay-detail-ready = ロビーをホストするか、コピーした招待を貼り付けるか、アドレスを手動で入力します。
 netplay-detail-lobby-code-ready = ロビーコード {$code} は共有する準備ができました。
 netplay-detail-creating-lobby-code = ロビーコードを作成中。

@@ -416,6 +416,24 @@ matchmaking-status-connecting = Подключение...
 matchmaking-status-disconnecting = Отключение...
 matchmaking-status-error = {$error} Выберите персонажа, чтобы попробовать снова.
 
+# Match by Code
+match-code-title = МАТЧ ПО КОДУ
+match-code-hint = Поделитесь своим кодом и введите код друга. Оба нажмите «Поиск». Регистр не важен.
+match-code-own-label = Ваш код: {$code}
+match-code-peer-label = Код друга: {$code}
+match-code-peer-unset = Код друга: (не задан)
+match-code-search = Поиск
+match-code-entry-limit = Не более {$length} букв или цифр
+match-code-own-prompt = Ваш код
+match-code-peer-prompt = Код друга
+match-code-status-enter-peer = Введите код друга, чтобы создать закрытый матч
+match-code-status-ready = Готово — оба игрока должны нажать «Поиск»
+match-code-error-enter-peer = Сначала введите код друга
+match-code-error-own = Введите код друга, а не свой
+match-code-error-invalid = Этот код недействителен
+match-code-error-length = Код должен содержать от {$min} до {$max} букв или цифр
+match-code-error-blocked = Этот код запрещён; выберите другой
+
 netplay-detail-ready = Хостите лобби, вставьте скопированное приглашение или введите адрес вручную.
 netplay-detail-lobby-code-ready = Код лобби {$code} готов к обмену.
 netplay-detail-creating-lobby-code = Создание кода вашего лобби.

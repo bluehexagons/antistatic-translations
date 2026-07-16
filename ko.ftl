@@ -416,6 +416,24 @@ matchmaking-status-connecting = 연결 중...
 matchmaking-status-disconnecting = 연결 해제 중...
 matchmaking-status-error = {$error} 다시 시도하려면 캐릭터를 선택하세요.
 
+# Match by Code
+match-code-title = 코드로 매치
+match-code-hint = 내 코드를 공유하고 상대 코드를 입력하세요. 두 플레이어 모두 검색을 누르세요. 대소문자는 구분하지 않습니다.
+match-code-own-label = 내 코드: {$code}
+match-code-peer-label = 친구 코드: {$code}
+match-code-peer-unset = 친구 코드: (설정되지 않음)
+match-code-search = 검색
+match-code-entry-limit = 영문 또는 숫자 최대 {$length}자
+match-code-own-prompt = 내 코드
+match-code-peer-prompt = 친구 코드
+match-code-status-enter-peer = 친구 코드를 입력하여 비공개 매치를 설정하세요
+match-code-status-ready = 준비 완료 — 두 플레이어 모두 검색을 누르세요
+match-code-error-enter-peer = 먼저 친구 코드를 입력하세요
+match-code-error-own = 내 코드가 아닌 친구 코드를 입력하세요
+match-code-error-invalid = 유효하지 않은 코드입니다
+match-code-error-length = 코드는 {$min}~{$max}자의 영문 또는 숫자여야 합니다
+match-code-error-blocked = 사용할 수 없는 코드입니다. 다른 코드를 선택하세요
+
 netplay-detail-ready = 로비를 호스트하거나, 복사한 초대를 붙여넣거나, 주소를 수동으로 입력하세요.
 netplay-detail-lobby-code-ready = 로비 코드 {$code}가 공유할 준비가 되었습니다.
 netplay-detail-creating-lobby-code = 로비 코드 생성 중.
