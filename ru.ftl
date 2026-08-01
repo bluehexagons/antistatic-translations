@@ -1081,6 +1081,7 @@ controller-calibration-status-policy = политика
 controller-calibration-status-manual = вручную
 controller-calibration-status-not-saved = не сохранено
 controller-calibration-status-saved = сохранено
+controller-calibration-status-active-differs = Активная настройка отличается от сохранённой
 controller-calibration-draft-status = {$intent} · черновик {$draft} · активно {$active} · {$saved} · {$capture}
 controller-calibration-automatic-policy-state = Автокалибровка: {$state}
 controller-calibration-automatic-unavailable = недоступна

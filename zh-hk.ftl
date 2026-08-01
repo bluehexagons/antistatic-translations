@@ -1072,6 +1072,7 @@ controller-calibration-status-policy = 策略
 controller-calibration-status-manual = 手動
 controller-calibration-status-not-saved = 未儲存
 controller-calibration-status-saved = 已儲存
+controller-calibration-status-active-differs = 目前設定與已儲存設定不同
 controller-calibration-draft-status = {$intent} · 草稿{$draft} · 目前{$active} · {$saved} · {$capture}
 controller-calibration-automatic-policy-state = 自動校準：{$state}
 controller-calibration-automatic-unavailable = 無法使用

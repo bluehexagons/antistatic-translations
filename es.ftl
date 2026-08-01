@@ -1077,6 +1077,7 @@ controller-calibration-status-policy = automático
 controller-calibration-status-manual = manual
 controller-calibration-status-not-saved = no guardado
 controller-calibration-status-saved = guardado
+controller-calibration-status-active-differs = La calibración activa difiere de la guardada
 controller-calibration-draft-status = {$intent} · borrador {$draft} · activo {$active} · {$saved} · {$capture}
 controller-calibration-automatic-policy-state = Calibración automática: {$state}
 controller-calibration-automatic-unavailable = no disponible

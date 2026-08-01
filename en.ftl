@@ -1097,6 +1097,7 @@ controller-calibration-status-policy = policy
 controller-calibration-status-manual = manual
 controller-calibration-status-not-saved = not saved
 controller-calibration-status-saved = saved
+controller-calibration-status-active-differs = Active differs from saved
 controller-calibration-draft-status = {$intent} · draft {$draft} · active {$active} · {$saved} · {$capture}
 controller-calibration-automatic-policy-state = Automatic calibration: {$state}
 controller-calibration-automatic-unavailable = unavailable

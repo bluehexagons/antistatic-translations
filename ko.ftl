@@ -1072,6 +1072,7 @@ controller-calibration-status-policy = 정책
 controller-calibration-status-manual = 수동
 controller-calibration-status-not-saved = 저장 안 됨
 controller-calibration-status-saved = 저장됨
+controller-calibration-status-active-differs = 활성 설정이 저장된 설정과 다름
 controller-calibration-draft-status = {$intent} · 초안 {$draft} · 적용 {$active} · {$saved} · {$capture}
 controller-calibration-automatic-policy-state = 자동 보정: {$state}
 controller-calibration-automatic-unavailable = 사용 불가
