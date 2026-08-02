@@ -1269,6 +1269,7 @@ controller-calibration-trigger-response-curve = curva de respuesta
 controller-calibration-trigger-hard-press-threshold = umbral de pulsación fuerte
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}: {$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = Medido: ruido movimiento {$movementNoise}, interior {$movementInner}, exterior {$movementOuter}, cobertura {$movementCoverage}/16 · derecho ruido {$rightNoise}, interior {$rightInner}, exterior {$rightOuter}, cobertura {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = Gatillos: L ruido {$leftNoise}, interior {$leftInner}, exterior {$leftOuter} · R ruido {$rightNoise}, interior {$rightInner}, exterior {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}: asignado {$mapped} · juego {$gameplay} · {$zone} · ajustado {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}: asignado {$mapped} · juego {$gameplay} · {$zone} · fuerte {$hard}
 controller-calibration-zone-inner-dead = zona muerta interior

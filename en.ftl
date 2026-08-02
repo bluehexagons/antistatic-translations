@@ -1289,6 +1289,7 @@ controller-calibration-trigger-response-curve = response curve
 controller-calibration-trigger-hard-press-threshold = hard press threshold
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}: {$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = Measured: move noise {$movementNoise}, suggested inner {$movementInner}, outer {$movementOuter}, coverage {$movementCoverage}/16 · right noise {$rightNoise}, suggested inner {$rightInner}, outer {$rightOuter}, coverage {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = Triggers: L noise {$leftNoise}, suggested inner {$leftInner}, outer {$leftOuter} · R noise {$rightNoise}, suggested inner {$rightInner}, outer {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}: mapped {$mapped} · gameplay {$gameplay} · {$zone} · snapped {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}: mapped {$mapped} · gameplay {$gameplay} · {$zone} · hard {$hard}
 controller-calibration-zone-inner-dead = inner dead zone

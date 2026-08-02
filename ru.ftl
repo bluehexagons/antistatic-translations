@@ -1273,6 +1273,7 @@ controller-calibration-trigger-response-curve = кривая отклика
 controller-calibration-trigger-hard-press-threshold = порог сильного нажатия
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}: {$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = Измерено: шум движения {$movementNoise}, внутр. {$movementInner}, внеш. {$movementOuter}, охват {$movementCoverage}/16 · правый шум {$rightNoise}, внутр. {$rightInner}, внеш. {$rightOuter}, охват {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = Триггеры: L шум {$leftNoise}, внутр. {$leftInner}, внеш. {$leftOuter} · R шум {$rightNoise}, внутр. {$rightInner}, внеш. {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}: вход {$mapped} · игра {$gameplay} · {$zone} · привязка {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}: вход {$mapped} · игра {$gameplay} · {$zone} · сильное {$hard}
 controller-calibration-zone-inner-dead = внутренняя мёртвая зона

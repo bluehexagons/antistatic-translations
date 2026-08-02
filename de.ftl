@@ -1270,6 +1270,7 @@ controller-calibration-trigger-response-curve = Reaktionskurve
 controller-calibration-trigger-hard-press-threshold = Hartdruckschwelle
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}: {$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = Messung: Bewegung Rauschen {$movementNoise}, innen {$movementInner}, außen {$movementOuter}, Abdeckung {$movementCoverage}/16 · rechts Rauschen {$rightNoise}, innen {$rightInner}, außen {$rightOuter}, Abdeckung {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = Trigger: L Rauschen {$leftNoise}, innen {$leftInner}, außen {$leftOuter} · R Rauschen {$rightNoise}, innen {$rightInner}, außen {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}: zugeordnet {$mapped} · Spiel {$gameplay} · {$zone} · gerastert {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}: zugeordnet {$mapped} · Spiel {$gameplay} · {$zone} · hart {$hard}
 controller-calibration-zone-inner-dead = innere Totzone

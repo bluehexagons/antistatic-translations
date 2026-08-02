@@ -1264,6 +1264,7 @@ controller-calibration-trigger-response-curve = 応答カーブ
 controller-calibration-trigger-hard-press-threshold = 強押ししきい値
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}: {$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = 測定：移動ノイズ {$movementNoise}、内側 {$movementInner}、外側 {$movementOuter}、範囲 {$movementCoverage}/16 · 右ノイズ {$rightNoise}、内側 {$rightInner}、外側 {$rightOuter}、範囲 {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = トリガー：L ノイズ {$leftNoise}、内側 {$leftInner}、外側 {$leftOuter} · R ノイズ {$rightNoise}、内側 {$rightInner}、外側 {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}: 入力 {$mapped} · ゲーム {$gameplay} · {$zone} · スナップ {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}: 入力 {$mapped} · ゲーム {$gameplay} · {$zone} · 強押し {$hard}
 controller-calibration-zone-inner-dead = 内側デッドゾーン

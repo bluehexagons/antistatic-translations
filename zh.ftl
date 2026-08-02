@@ -1264,6 +1264,7 @@ controller-calibration-trigger-response-curve = 响应曲线
 controller-calibration-trigger-hard-press-threshold = 强按阈值
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}：{$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = 测量：移动噪声 {$movementNoise}、内 {$movementInner}、外 {$movementOuter}、覆盖 {$movementCoverage}/16 · 右摇杆噪声 {$rightNoise}、内 {$rightInner}、外 {$rightOuter}、覆盖 {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = 扳机：L 噪声 {$leftNoise}、内 {$leftInner}、外 {$leftOuter} · R 噪声 {$rightNoise}、内 {$rightInner}、外 {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}：映射 {$mapped} · 游戏 {$gameplay} · {$zone} · 吸附 {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}：映射 {$mapped} · 游戏 {$gameplay} · {$zone} · 强按 {$hard}
 controller-calibration-zone-inner-dead = 内死区

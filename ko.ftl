@@ -1264,6 +1264,7 @@ controller-calibration-trigger-response-curve = 응답 곡선
 controller-calibration-trigger-hard-press-threshold = 강한 누름 임계값
 controller-calibration-trigger-shaping-value = {$trigger} {$setting}: {$value}{$unit} · {$step}
 controller-calibration-deadzone-analysis = 측정: 이동 노이즈 {$movementNoise}, 내부 {$movementInner}, 외부 {$movementOuter}, 범위 {$movementCoverage}/16 · 오른쪽 노이즈 {$rightNoise}, 내부 {$rightInner}, 외부 {$rightOuter}, 범위 {$rightCoverage}/16
+controller-calibration-trigger-deadzone-analysis = 트리거: L 노이즈 {$leftNoise}, 내부 {$leftInner}, 외부 {$leftOuter} · R 노이즈 {$rightNoise}, 내부 {$rightInner}, 외부 {$rightOuter}
 controller-calibration-stick-diagnostic = {$stick}: 매핑 {$mapped} · 게임 {$gameplay} · {$zone} · 스냅 {$snapped} · {$snap}°
 controller-calibration-trigger-diagnostic = {$trigger}: 매핑 {$mapped} · 게임 {$gameplay} · {$zone} · 강한 입력 {$hard}
 controller-calibration-zone-inner-dead = 내부 데드존
