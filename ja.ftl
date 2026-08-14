@@ -472,7 +472,7 @@ Copy-Lobby-Code = ロビーコードのコピー
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = 直接接続
-Connect = Connect
+Connect = 接続
 
 netplay-action-start-lobby = ロビーを開始
 netplay-action-join-clipboard = クリップボードから参加
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = 詳細
 Clear-Spawns = スポーンをクリア
 Create-new-tag = 新しいタグを作成

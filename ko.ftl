@@ -472,7 +472,7 @@ Copy-Lobby-Code = 로비 코드 복사
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = 직접 연결
-Connect = Connect
+Connect = 연결
 
 netplay-action-start-lobby = 로비 시작
 netplay-action-join-clipboard = 클립보드에서 참여
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean}
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = 고급
 Clear-Spawns = 스폰 지우기
 Create-new-tag = 새 태그 만들기

@@ -472,7 +472,7 @@ Copy-Lobby-Code = Copier le code du lobby
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = Connexion directe
-Connect = Connect
+Connect = Se connecter
 
 netplay-action-start-lobby = Démarrer le lobby
 netplay-action-join-clipboard = Rejoindre depuis le presse-papiers
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = Avancé
 Clear-Spawns = Effacer les apparitions
 Create-new-tag = Créer un nouveau tag
@@ -1031,7 +1031,7 @@ controls-keyboard-shortcuts = Raccourcis clavier
 shortcut-unbound = (non attribué)
 shortcut-category-menu = Navigation des menus
 shortcut-category-general = Général
-shortcut-category-debug = Debug (TAS)
+shortcut-category-debug = Débogage (TAS)
 shortcut-category-training = Mode entraînement
 shortcut-label-menu-up = Monter
 shortcut-label-menu-down = Descendre
@@ -1292,14 +1292,14 @@ controller-calibration-phob-remap-warning = Les commandes utilisent les boutons 
 controller-calibration-phob-result-matched = Réponse de style phob correspondante
 controller-calibration-phob-result-none = pas encore de réponse
 controller-calibration-phob-result-unknown-custom = réponse inconnue ou personnalisée
-controller-calibration-phob-result-version-known = firmware {$version}
+controller-calibration-phob-result-version-known = micrologiciel {$version}
 controller-calibration-phob-result-version-no-response = aucune réponse du micrologiciel ; version inconnue
 controller-calibration-phob-return-safe = Retour à Safe Mode
 controller-calibration-phob-safe-recovery = Pour garantir le Safe Mode, débranchez puis rebranchez la manette. Rouvrez ce guide ; l'état détecté est réinitialisé à la déconnexion.
 controller-calibration-phob-setting-c-response-x-raw = C-stick Octet de réponse X
 controller-calibration-phob-setting-c-response-y-raw = C-stick Octet de réponse Y
-controller-calibration-phob-setting-c-snapback-x = C-stick snapback X
-controller-calibration-phob-setting-c-snapback-y = Casquette C-stick Y
+controller-calibration-phob-setting-c-snapback-x = snapback du C-stick X
+controller-calibration-phob-setting-c-snapback-y = snapback du C-stick Y
 controller-calibration-phob-setting-c-waveshaping-x = C-stick mise en forme d'onde X
 controller-calibration-phob-setting-c-waveshaping-x-raw = C-stick façonnage d'ondes X brut
 controller-calibration-phob-setting-c-waveshaping-y = C-stick mise en forme d'onde Y

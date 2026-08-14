@@ -472,7 +472,7 @@ Copy-Lobby-Code = Copia il codice della lobby
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = Connessione diretta
-Connect = Connect
+Connect = Connetti
 
 netplay-action-start-lobby = Avvia lobby
 netplay-action-join-clipboard = Unisci dagli appunti
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = Avanzate
 Clear-Spawns = Cancella spawn
 Create-new-tag = Crea nuovo tag
@@ -1298,8 +1298,8 @@ controller-calibration-phob-return-safe = Ritorno a Safe Mode
 controller-calibration-phob-safe-recovery = Per garantire Safe Mode, scollega e ricollega il controller. Poi riapri questa guida; lo stato rilevato si azzera alla disconnessione.
 controller-calibration-phob-setting-c-response-x-raw = C-stick X byte di risposta
 controller-calibration-phob-setting-c-response-y-raw = C-stick Byte di risposta Y
-controller-calibration-phob-setting-c-snapback-x = C-stick chiusura snapback X
-controller-calibration-phob-setting-c-snapback-y = C-stick snapback Y
+controller-calibration-phob-setting-c-snapback-x = snapback del C-stick X
+controller-calibration-phob-setting-c-snapback-y = snapback del C-stick Y
 controller-calibration-phob-setting-c-waveshaping-x = C-stick forma d'onda X
 controller-calibration-phob-setting-c-waveshaping-x-raw = C-stick waveshaping X grezzo
 controller-calibration-phob-setting-c-waveshaping-y = C-stick forma d'onda Y

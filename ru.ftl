@@ -472,7 +472,7 @@ Copy-Lobby-Code = Скопируйте код лобби
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = Прямое подключение
-Connect = Connect
+Connect = Подключиться
 
 netplay-action-start-lobby = Начать лобби
 netplay-action-join-clipboard = Присоединиться из буфера обмена
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = Дополнительно
 Clear-Spawns = Очистить точки спавна
 Create-new-tag = Создать новый тег

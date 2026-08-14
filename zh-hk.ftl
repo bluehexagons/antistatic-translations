@@ -472,7 +472,7 @@ Copy-Lobby-Code = 複製大廳代碼
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = 直接連線
-Connect = Connect
+Connect = 連線
 
 netplay-action-start-lobby = 開始大廳
 netplay-action-join-clipboard = 從剪貼簿加入
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk}
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = 進階
 Clear-Spawns = 清除出生點
 Create-new-tag = 建立新標籤

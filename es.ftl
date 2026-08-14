@@ -472,7 +472,7 @@ Copy-Lobby-Code = Copiar código de lobby
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = Conexión directa
-Connect = Connect
+Connect = Conectar
 
 netplay-action-start-lobby = Iniciar sala
 netplay-action-join-clipboard = Unirse desde el portapapeles
@@ -685,7 +685,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = Avanzado
 Clear-Spawns = Borrar apariciones
 Create-new-tag = Crear nueva etiqueta
@@ -1007,7 +1007,7 @@ results-remote-player = Jugador remoto
 results-replay-capture = Captura de repetición
 results-cpu = CPU
 results-title-player = P{$index}: {$name}
-results-title-slot = Slot {$index}: {$name}
+results-title-slot = Ranura {$index}: {$name}
 results-row-kos = KOs
 results-row-falls = Caídas
 results-row-sds = Auto-KOs
@@ -1031,7 +1031,7 @@ controls-keyboard-shortcuts = Atajos de teclado
 shortcut-unbound = (sin asignar)
 shortcut-category-menu = Navegación de menús
 shortcut-category-general = General
-shortcut-category-debug = Debug (TAS)
+shortcut-category-debug = Depuración (TAS)
 shortcut-category-training = Modo entrenamiento
 shortcut-label-menu-up = Mover arriba
 shortcut-label-menu-down = Mover abajo

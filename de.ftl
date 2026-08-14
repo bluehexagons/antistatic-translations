@@ -314,7 +314,7 @@ course-target-toggle-help = Blendet das Übungsziel dieses Bereichs für die akt
 course-defense-feedback-early = Schütze dich erst kurz vor dem Angriff.
 course-defense-feedback-late = Zu spät. Schütze dich, bevor der Angriff trifft.
 course-defense-feedback-success = Gutes Timing. Der Angriff wurde geblockt.
-course-demonstration-label = Demonstration
+course-demonstration-label = Vorführung
 course-demonstration-show = Standbild-Demo anzeigen
 course-demonstration-hide = Standbild-Demo ausblenden
 course-demonstration-help = Zeigt oder verbirgt ein unbewegtes Beispiel für den aktuellen Lernschritt.
@@ -472,7 +472,7 @@ Copy-Lobby-Code = Lobby-Code kopieren
 NETPLAY = NETPLAY
 Netplay = Netplay
 Direct-Connect = Direkt verbinden
-Connect = Connect
+Connect = Verbinden
 
 netplay-action-start-lobby = Lobby starten
 netplay-action-join-clipboard = Aus Zwischenablage beitreten
@@ -686,7 +686,7 @@ zh = {zh-chinese-cn} ({chinese-cn})
 zh-hk = {zh-chinese-hk} ({chinese-hk})
 ko = {ko-korean} ({korean})
 
-# Placeholder UI strings
+# Shared UI labels
 Advanced = Erweitert
 Clear-Spawns = Spawns löschen
 Create-new-tag = Neues Tag erstellen
@@ -990,7 +990,7 @@ arcade-results-gameover-title = Niederlage
 arcade-results-gameover-subtitle = Kampf {$current} von {$total} erreicht.
 replay-battle-controls = Replay: Replay speichern setzt Marker · Start pausiert · Steuerkreuz navigiert · Greifen ändert Tempo · Bestätigen/Angriff halten spult vor · Zurück beendet
 replay-battle-status = {$current} / {$total} · {$speed}x
-replay-marker-default = Marker {$number}
+replay-marker-default = Markierung {$number}
 replay-marker-added = {$label} bei {$time} hinzugefügt
 replay-marker-selected = {$label} · {$time}
 replay-marker-none = Keine Replay-Marker
