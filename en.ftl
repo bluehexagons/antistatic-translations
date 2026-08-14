@@ -872,6 +872,8 @@ settings-video-help = Change graphics preset, fullscreen, sync, effects, and fra
 settings-native-adapter-help = Inspect GameCube adapter status and setup notes.
 settings-language-help = Cycle the menu language.
 settings-start-mode-help = Choose which mode opens first at startup.
+settings-live-reload = Live Reload
+settings-live-reload-help = Reload character files from the Animator while editing locally. Disabled by default.
 shared-settings-help = Return to Settings.
 
 native-adapter-copy-udev-install-help = Copy the standard udev rule install and reload commands for 057e:0337.
