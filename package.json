@@ -2,6 +2,21 @@
   "name": "@bluehexagons/antistatic-translations",
   "version": "0.1.61",
   "description": "Fluent translation files used by Antistatic",
+  "homepage": "https://github.com/bluehexagons/antistatic-translations#readme",
+  "bugs": {
+    "url": "https://github.com/bluehexagons/antistatic-translations/issues"
+  },
+  "license": "CC-BY-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluehexagons/antistatic-translations.git"
+  },
+  "files": [
+    "*.ftl",
+    "index.js",
+    "README.md",
+    "license.md"
+  ],
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -11,22 +26,18 @@
     "./*.ftl": "./*.ftl",
     "./package.json": "./package.json"
   },
-  "files": [
-    "*.ftl",
-    "index.js",
-    "README.md",
-    "license.md"
-  ],
+  "scripts": {
+    "check": "npm run lint && npm run format:check",
+    "format": "oxfmt --write .oxfmtrc.json .oxlintrc.json index.js package.json README.md",
+    "format:check": "oxfmt --check .oxfmtrc.json .oxlintrc.json index.js package.json README.md",
+    "lint": "oxlint index.js --deny-warnings",
+    "lint:fix": "oxlint index.js --fix --deny-warnings"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.64.0",
+    "oxlint": "^1.79.0"
+  },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bluehexagons/antistatic-translations.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bluehexagons/antistatic-translations/issues"
-  },
-  "homepage": "https://github.com/bluehexagons/antistatic-translations#readme",
-  "license": "CC-BY-SA-4.0"
+  }
 }

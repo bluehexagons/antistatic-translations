@@ -1,7 +1,7 @@
-import { dirname, resolve } from 'path'
-import { fileURLToPath } from 'url'
+import { dirname, resolve } from 'path';
+import { fileURLToPath } from 'url';
 
-const packageDir = dirname(fileURLToPath(import.meta.url))
+const packageDir = dirname(fileURLToPath(import.meta.url));
 
 export const translationFiles = [
   'de.ftl',
@@ -14,15 +14,17 @@ export const translationFiles = [
   'ru.ftl',
   'zh.ftl',
   'zh-hk.ftl',
-]
+];
 
-export const translationLocales = translationFiles.map(fileName => fileName.replace(/\.ftl$/, ''))
-export const translationsDir = packageDir
-export const translationPath = fileName => resolve(packageDir, fileName)
+export const translationLocales = translationFiles.map((fileName) =>
+  fileName.replace(/\.ftl$/, ''),
+);
+export const translationsDir = packageDir;
+export const translationPath = (fileName) => resolve(packageDir, fileName);
 
 export default {
   translationFiles,
   translationLocales,
   translationsDir,
   translationPath,
-}
+};

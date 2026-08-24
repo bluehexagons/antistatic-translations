@@ -11,9 +11,15 @@ npm install git+https://github.com/bluehexagons/antistatic-translations.git
 ## Usage
 
 ```js
-import { translationsDir, translationFiles } from '@bluehexagons/antistatic-translations'
+import { translationsDir, translationFiles } from '@bluehexagons/antistatic-translations';
 ```
 
 This package is intentionally lightweight: it exposes the directory containing the `.ftl` files so applications can load them directly with Node.js filesystem APIs.
 
 The repository includes its package metadata directly so Git-based installs from public GitHub work without a submodule checkout.
+
+## Development
+
+Run `npm run check` to lint the JavaScript entry point with Oxlint and verify
+JavaScript, package metadata, and documentation formatting with Oxfmt. Fluent
+catalogs remain governed by Antistatic's translation audit.
