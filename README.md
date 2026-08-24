@@ -20,6 +20,10 @@ The repository includes its package metadata directly so Git-based installs from
 
 ## Development
 
+Development requires Node.js 20.19 or newer on the Node 20 line, or Node.js
+22.12 or newer. The published package remains compatible with Node.js 18 and
+newer.
+
 Run `npm run check` to lint the JavaScript entry point with Oxlint and verify
 JavaScript, package metadata, and documentation formatting with Oxfmt. Fluent
 catalogs remain governed by Antistatic's translation audit.
