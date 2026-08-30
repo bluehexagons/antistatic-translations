@@ -307,6 +307,7 @@ course-instruction-jumping-jump = Appuyez sur saut pour quitter le sol.
 course-instruction-jumping-air-jump = Appuyez à nouveau sur saut dans les airs pour effectuer un saut aérien.
 course-instruction-jumping-steer = Maintenez gauche ou droite après le saut pour vous diriger dans les airs.
 course-instruction-jumping-ledge-grab = Approchez un bord de plateforme par dessous pour vous y accrocher.
+course-instruction-jumping-ledge-option = Depuis le bord, choisissez une option : remonter, rouler, attaquer, sauter ou lâcher prise.
 course-instruction-jumping-wall-jump = Touchez le mur supérieur, puis donnez un coup sec dans la direction opposée pour rebondir dessus.
 course-instruction-attacks-normal = Touchez la cible d'entraînement avec une attaque normale.
 course-instruction-attacks-aerial = Sautez et touchez la cible d'entraînement avec une attaque aérienne.

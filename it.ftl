@@ -294,6 +294,7 @@ course-instruction-jumping-jump = Premi salto per staccarti da terra.
 course-instruction-jumping-air-jump = Premi di nuovo salto mentre sei in aria per eseguire un salto aereo.
 course-instruction-jumping-steer = Tieni premuto sinistra o destra dopo il salto per muoverti in aria.
 course-instruction-jumping-ledge-grab = Avvicinati dal basso al bordo di una piattaforma per afferrarlo.
+course-instruction-jumping-ledge-option = Dal bordo, scegli un'opzione: risali, rotola, attacca, salta o lasciati cadere.
 course-instruction-jumping-wall-jump = Tocca la parete superiore, poi muovi rapidamente lo stick in direzione opposta per saltare dalla parete.
 course-instruction-attacks-normal = Colpisci il bersaglio di pratica con un attacco normale.
 course-instruction-attacks-aerial = Salta e colpisci il bersaglio di pratica con un attacco aereo.

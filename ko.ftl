@@ -294,6 +294,7 @@ course-instruction-jumping-jump = 점프를 눌러 지면에서 뛰어오르세�
 course-instruction-jumping-air-jump = 공중에서 점프를 다시 눌러 공중 점프하세요.
 course-instruction-jumping-steer = 점프 후 왼쪽이나 오른쪽을 유지해 공중에서 이동하세요.
 course-instruction-jumping-ledge-grab = 발판 가장자리에 아래쪽에서 접근해 난간을 잡으세요.
+course-instruction-jumping-ledge-option = 난간에서 올라오기, 구르기, 공격, 점프, 놓기 중 하나를 선택하세요.
 course-instruction-jumping-wall-jump = 위쪽 벽에 닿은 뒤 벽 반대 방향으로 빠르게 입력해 벽 점프하세요.
 course-instruction-attacks-normal = 일반 공격으로 연습 대상을 맞히세요.
 course-instruction-attacks-aerial = 점프한 뒤 공중 공격으로 연습 대상을 맞히세요.

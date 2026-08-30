@@ -294,6 +294,7 @@ course-instruction-jumping-jump = ジャンプを押して地面から離れま�
 course-instruction-jumping-air-jump = 空中でもう一度ジャンプを押して空中ジャンプします。
 course-instruction-jumping-steer = ジャンプ後に左右を入力し続けて空中で移動します。
 course-instruction-jumping-ledge-grab = 足場の崖に下から近づいてつかまります。
+course-instruction-jumping-ledge-option = 崖につかまった状態で、登る、回避、攻撃、ジャンプ、手放すのいずれかを選びます。
 course-instruction-jumping-wall-jump = 上の壁に触れてから、壁と反対方向へ素早く入力して壁ジャンプします。
 course-instruction-attacks-normal = 通常攻撃で練習ターゲットに攻撃を当てます。
 course-instruction-attacks-aerial = ジャンプして空中攻撃を練習ターゲットに当てます。

@@ -294,6 +294,7 @@ course-instruction-jumping-jump = Нажмите прыжок, чтобы ото
 course-instruction-jumping-air-jump = Ещё раз нажмите прыжок в воздухе, чтобы выполнить воздушный прыжок.
 course-instruction-jumping-steer = После прыжка удерживайте влево или вправо, чтобы двигаться в воздухе.
 course-instruction-jumping-ledge-grab = Подлетите к краю платформы снизу, чтобы зацепиться за него.
+course-instruction-jumping-ledge-option = На краю выберите действие: забраться, перекатиться, атаковать, прыгнуть или отпустить край.
 course-instruction-jumping-wall-jump = Коснитесь верхней стены, затем резко отклоните стик от неё, чтобы выполнить прыжок от стены.
 course-instruction-attacks-normal = Попадите по тренировочной цели обычной атакой.
 course-instruction-attacks-aerial = Прыгните и попадите по тренировочной цели воздушной атакой.

@@ -319,6 +319,7 @@ course-instruction-jumping-jump = Press jump to leave the ground.
 course-instruction-jumping-air-jump = Press jump again while airborne to air jump.
 course-instruction-jumping-steer = Hold left or right after jumping to steer in the air.
 course-instruction-jumping-ledge-grab = Approach a platform edge from below to grab its ledge.
+course-instruction-jumping-ledge-option = From the ledge, choose an option: climb, roll, attack, jump, or drop.
 course-instruction-jumping-wall-jump = Touch the upper wall, then flick away from it to wall jump.
 course-instruction-attacks-normal = Hit the practice target with a normal attack.
 course-instruction-attacks-aerial = Jump and hit the practice target with an aerial attack.

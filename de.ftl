@@ -294,6 +294,7 @@ course-instruction-jumping-jump = Drücke Springen, um den Boden zu verlassen.
 course-instruction-jumping-air-jump = Drücke in der Luft erneut Springen, um einen Luftsprung auszuführen.
 course-instruction-jumping-steer = Halte nach dem Sprung links oder rechts, um dich in der Luft zu steuern.
 course-instruction-jumping-ledge-grab = Nähere dich einer Plattformkante von unten, um sie zu greifen.
+course-instruction-jumping-ledge-option = Wähle an der Kante eine Option: Hochklettern, Rollen, Angreifen, Springen oder Loslassen.
 course-instruction-jumping-wall-jump = Berühre die obere Wand und schnippe dann von ihr weg, um einen Wandsprung auszuführen.
 course-instruction-attacks-normal = Triff das Übungsziel mit einem normalen Angriff.
 course-instruction-attacks-aerial = Springe und triff das Übungsziel mit einem Luftangriff.

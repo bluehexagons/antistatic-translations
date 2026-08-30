@@ -294,6 +294,7 @@ course-instruction-jumping-jump = 按下跳躍離開地面。
 course-instruction-jumping-air-jump = 在空中再次按下跳躍來空中跳躍。
 course-instruction-jumping-steer = 跳躍後持續按住左或右，在空中移動。
 course-instruction-jumping-ledge-grab = 從下方靠近平台邊緣來抓住邊緣。
+course-instruction-jumping-ledge-option = 抓住邊緣後，選擇一種行動：爬上、翻滾、攻擊、跳躍或鬆手。
 course-instruction-jumping-wall-jump = 碰到上方牆壁後，快速向遠離牆壁的方向推動搖桿來蹬牆跳。
 course-instruction-attacks-normal = 用普通攻擊擊中練習目標。
 course-instruction-attacks-aerial = 跳躍並用空中攻擊擊中練習目標。
