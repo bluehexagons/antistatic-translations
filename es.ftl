@@ -309,6 +309,7 @@ course-instruction-defense-parry = Suelta el escudo justo antes del impacto para
 course-instruction-defense-grab = Agarra al objetivo de práctica.
 course-instruction-advanced-stick = Mueve rápidamente el stick derecho en cualquier dirección para hacer un ataque de stick.
 course-instruction-advanced-air-dodge = Salta y pulsa con fuerza un botón de escudo para esquivar en el aire.
+course-instruction-advanced-wave-dash = Salta y luego esquiva en diagonal hacia el suelo para hacer un wavedash.
 course-instruction-advanced-fast-fall = En el aire, pulsa abajo para hacer una caída rápida.
 course-instruction-advanced-lag-cancel = Tras un ataque aéreo, pulsa Escudo justo antes de aterrizar para cancelar el retraso de aterrizaje.
 course-instruction-advanced-recovery = En el aire, pulsa arriba y Especial para recuperarte con un especial arriba.

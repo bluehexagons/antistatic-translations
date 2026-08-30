@@ -309,6 +309,7 @@ course-instruction-defense-parry = Lass den Schild kurz vor dem Treffer los, um 
 course-instruction-defense-grab = Greife das Übungsziel.
 course-instruction-advanced-stick = Schnippe den rechten Stick in eine beliebige Richtung für einen Stick-Angriff.
 course-instruction-advanced-air-dodge = Springe und drücke dann kräftig eine Schildtaste, um in der Luft auszuweichen.
+course-instruction-advanced-wave-dash = Springe und weiche dann diagonal zum Boden aus, um einen Wavedash auszuführen.
 course-instruction-advanced-fast-fall = Drücke in der Luft nach unten, um schnell zu fallen.
 course-instruction-advanced-lag-cancel = Drücke nach einem Luftangriff kurz vor der Landung eine Schildtaste, um einen Lag-Cancel auszuführen.
 course-instruction-advanced-recovery = Drücke in der Luft nach oben und Spezial, um dich mit einem Up-Special zu retten.

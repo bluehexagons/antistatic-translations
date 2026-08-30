@@ -309,6 +309,7 @@ course-instruction-defense-parry = Отпустите щит перед самы
 course-instruction-defense-grab = Выполните захват тренировочной цели.
 course-instruction-advanced-stick = Резко отклоните правый стик в любом направлении, чтобы выполнить атаку стиком.
 course-instruction-advanced-air-dodge = Прыгните, затем сильно нажмите кнопку щита, чтобы уклониться в воздухе.
+course-instruction-advanced-wave-dash = Прыгните, затем уклонитесь по диагонали к земле, чтобы выполнить вейвдэш.
 course-instruction-advanced-fast-fall = В воздухе нажмите вниз, чтобы быстро упасть.
 course-instruction-advanced-lag-cancel = После воздушной атаки нажмите щит перед самым приземлением, чтобы отменить задержку приземления.
 course-instruction-advanced-recovery = В воздухе нажмите вверх и спецприём, чтобы восстановиться верхним спецприёмом.

@@ -309,6 +309,7 @@ course-instruction-defense-parry = 在攻击命中前松开盾来弹反。
 course-instruction-defense-grab = 抓取练习目标。
 course-instruction-advanced-stick = 向任意方向快速推动右摇杆来使出摇杆攻击。
 course-instruction-advanced-air-dodge = 跳跃后用力按下盾按钮来空中闪避。
+course-instruction-advanced-wave-dash = 跳跃后，斜向地面进行空中闪避来使出波浪冲刺。
 course-instruction-advanced-fast-fall = 在空中按下下方向来快速下落。
 course-instruction-advanced-lag-cancel = 空中攻击后，在落地前按下盾来取消落地硬直。
 course-instruction-advanced-recovery = 在空中按上方向和必杀技，用上必杀技回场。

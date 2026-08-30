@@ -334,6 +334,7 @@ course-instruction-defense-parry = Release shield just before the attack lands t
 course-instruction-defense-grab = Grab the practice target.
 course-instruction-advanced-stick = Flick the right stick in any direction for a stick attack.
 course-instruction-advanced-air-dodge = Jump, then press a shield button firmly to air dodge.
+course-instruction-advanced-wave-dash = Jump, then air dodge diagonally into the ground to wavedash.
 course-instruction-advanced-fast-fall = While airborne, press down to fast-fall.
 course-instruction-advanced-lag-cancel = After an aerial attack, press Shield just before landing to lag cancel.
 course-instruction-advanced-recovery = While airborne, press up and Special to recover with an up special.
