@@ -309,6 +309,7 @@ course-instruction-defense-grab = 練習ターゲットをつかみます。
 course-instruction-advanced-stick = 右スティックをいずれかの方向に素早く倒してスティック攻撃を出します。
 course-instruction-advanced-air-dodge = ジャンプ後にシールドボタンを強く押して空中回避します。
 course-instruction-advanced-fast-fall = 空中で下を入力して急降下します。
+course-instruction-advanced-lag-cancel = 空中攻撃の後、着地直前にシールドを押して着地隙をキャンセルします。
 course-instruction-advanced-recovery = 空中で上と必殺技を入力し、上必殺技で復帰します。
 course-instruction-directional-influence = 発射台に当たる瞬間に左右を入力し続けて、吹き飛び角度を変えます。
 course-instruction-teching-neutral = 発射台から着地する直前にシールドボタンを強く押して受け身を取ります。

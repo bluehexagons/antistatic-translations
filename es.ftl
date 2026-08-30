@@ -309,6 +309,7 @@ course-instruction-defense-grab = Agarra al objetivo de práctica.
 course-instruction-advanced-stick = Mueve rápidamente el stick derecho en cualquier dirección para hacer un ataque de stick.
 course-instruction-advanced-air-dodge = Salta y pulsa con fuerza un botón de escudo para esquivar en el aire.
 course-instruction-advanced-fast-fall = En el aire, pulsa abajo para hacer una caída rápida.
+course-instruction-advanced-lag-cancel = Tras un ataque aéreo, pulsa Escudo justo antes de aterrizar para cancelar el retraso de aterrizaje.
 course-instruction-advanced-recovery = En el aire, pulsa arriba y Especial para recuperarte con un especial arriba.
 course-instruction-directional-influence = Mantén izquierda o derecha cuando te golpee el lanzador para cambiar tu ángulo de lanzamiento.
 course-instruction-teching-neutral = Pulsa con fuerza un botón de escudo justo antes de aterrizar tras el lanzamiento para hacer un tech.

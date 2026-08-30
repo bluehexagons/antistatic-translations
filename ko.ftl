@@ -309,6 +309,7 @@ course-instruction-defense-grab = 연습 대상을 잡으세요.
 course-instruction-advanced-stick = 오른쪽 스틱을 아무 방향으로 빠르게 튕겨 스틱 공격을 사용하세요.
 course-instruction-advanced-air-dodge = 점프한 뒤 실드 버튼을 강하게 눌러 공중 회피하세요.
 course-instruction-advanced-fast-fall = 공중에서 아래를 입력해 급강하하세요.
+course-instruction-advanced-lag-cancel = 공중 공격 후 착지 직전에 실드를 눌러 착지 지연을 캔슬하세요.
 course-instruction-advanced-recovery = 공중에서 위와 특수기를 눌러 위 특수기로 복귀하세요.
 course-instruction-directional-influence = 발사대에 맞는 순간 왼쪽이나 오른쪽을 유지해 발사 각도를 바꾸세요.
 course-instruction-teching-neutral = 발사대에서 착지하기 직전에 실드 버튼을 강하게 눌러 낙법하세요.

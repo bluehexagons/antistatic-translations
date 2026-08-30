@@ -322,6 +322,7 @@ course-instruction-defense-grab = Saisissez la cible d'entraînement.
 course-instruction-advanced-stick = Donnez un coup sec au stick droit dans une direction pour effectuer une attaque au stick.
 course-instruction-advanced-air-dodge = Sautez, puis appuyez fermement sur un bouton de bouclier pour esquiver dans les airs.
 course-instruction-advanced-fast-fall = Dans les airs, appuyez vers le bas pour chuter rapidement.
+course-instruction-advanced-lag-cancel = Après une attaque aérienne, appuyez sur Bouclier juste avant d'atterrir pour annuler le délai d'atterrissage.
 course-instruction-advanced-recovery = Dans les airs, appuyez vers le haut et sur Spécial pour remonter avec un spécial haut.
 course-instruction-directional-influence = Maintenez gauche ou droite quand le propulseur vous touche pour modifier votre angle de projection.
 course-instruction-teching-neutral = Appuyez fermement sur un bouton de bouclier juste avant d'atterrir après la propulsion pour faire un tech.

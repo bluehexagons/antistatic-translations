@@ -334,6 +334,7 @@ course-instruction-defense-grab = Grab the practice target.
 course-instruction-advanced-stick = Flick the right stick in any direction for a stick attack.
 course-instruction-advanced-air-dodge = Jump, then press a shield button firmly to air dodge.
 course-instruction-advanced-fast-fall = While airborne, press down to fast-fall.
+course-instruction-advanced-lag-cancel = After an aerial attack, press Shield just before landing to lag cancel.
 course-instruction-advanced-recovery = While airborne, press up and Special to recover with an up special.
 course-instruction-directional-influence = Hold left or right as the launcher hits to change your launch angle.
 course-instruction-teching-neutral = Press a hard shield button just before landing from the launcher to tech.

@@ -309,6 +309,7 @@ course-instruction-defense-grab = Greife das Übungsziel.
 course-instruction-advanced-stick = Schnippe den rechten Stick in eine beliebige Richtung für einen Stick-Angriff.
 course-instruction-advanced-air-dodge = Springe und drücke dann kräftig eine Schildtaste, um in der Luft auszuweichen.
 course-instruction-advanced-fast-fall = Drücke in der Luft nach unten, um schnell zu fallen.
+course-instruction-advanced-lag-cancel = Drücke nach einem Luftangriff kurz vor der Landung eine Schildtaste, um einen Lag-Cancel auszuführen.
 course-instruction-advanced-recovery = Drücke in der Luft nach oben und Spezial, um dich mit einem Up-Special zu retten.
 course-instruction-directional-influence = Halte links oder rechts, wenn das Katapult trifft, um deinen Abflugwinkel zu ändern.
 course-instruction-teching-neutral = Drücke kurz vor der Landung nach dem Katapult kräftig eine Schildtaste, um zu techen.

@@ -309,6 +309,7 @@ course-instruction-defense-grab = Afferra il bersaglio di pratica.
 course-instruction-advanced-stick = Muovi rapidamente lo stick destro in una direzione per eseguire un attacco con lo stick.
 course-instruction-advanced-air-dodge = Salta, poi premi a fondo un pulsante scudo per schivare in aria.
 course-instruction-advanced-fast-fall = In aria, premi verso il basso per cadere rapidamente.
+course-instruction-advanced-lag-cancel = Dopo un attacco aereo, premi Scudo appena prima di atterrare per annullare il ritardo di atterraggio.
 course-instruction-advanced-recovery = In aria, premi verso l'alto e Speciale per recuperare con uno speciale in alto.
 course-instruction-directional-influence = Tieni premuto sinistra o destra quando il lanciatore ti colpisce per cambiare l'angolo di lancio.
 course-instruction-teching-neutral = Premi a fondo un pulsante scudo subito prima di atterrare dal lanciatore per eseguire un tech.
