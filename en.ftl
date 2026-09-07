@@ -1522,3 +1522,8 @@ privacy-feedback-warning = Do not include personal information, passwords, or pr
 privacy-feedback-help = Complete the subject and message, then send your feedback.
 privacy-feedback-required = Enter both a subject and a message.
 privacy-feedback-sent = Feedback sent. Report ID: {$id}
+
+## Motion interpolation
+motion-interpolation-off = Motion interpolation: Off
+motion-interpolation-on = Motion interpolation: On
+video-motion-interpolation-help = Smooths motion above 60 FPS. Adds one frame (16.7 ms) of visual delay. Vsync and Max FPS still apply.

@@ -1497,3 +1497,8 @@ privacy-feedback-warning = 個人情報、パスワード、非公開のアカ�
 privacy-feedback-help = 件名とメッセージを入力して、フィードバックを送信してください。
 privacy-feedback-required = 件名とメッセージの両方を入力してください。
 privacy-feedback-sent = フィードバックを送信しました。レポート ID：{$id}
+
+## Motion interpolation
+motion-interpolation-off = モーション補間: オフ
+motion-interpolation-on = モーション補間: オン
+video-motion-interpolation-help = 60 FPSを超える動きを滑らかにします。表示に1フレーム（16.7 ms）の遅延が加わります。垂直同期と最大FPSの設定は引き続き適用されます。

@@ -1497,3 +1497,8 @@ privacy-feedback-warning = 개인정보, 비밀번호 또는 비공개 계정 �
 privacy-feedback-help = 제목과 메시지를 작성한 후 의견을 보내세요.
 privacy-feedback-required = 제목과 메시지를 모두 입력하세요.
 privacy-feedback-sent = 의견을 보냈습니다. 보고서 ID: {$id}
+
+## Motion interpolation
+motion-interpolation-off = 모션 보간: 끄기
+motion-interpolation-on = 모션 보간: 켜기
+video-motion-interpolation-help = 60 FPS를 넘는 움직임을 부드럽게 합니다. 화면 표시에 1프레임(16.7 ms)의 지연이 추가됩니다. 수직 동기화와 최대 FPS 설정은 그대로 적용됩니다.

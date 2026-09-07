@@ -1497,3 +1497,8 @@ privacy-feedback-warning = 請勿填寫個人資料、密碼或私人帳戶資�
 privacy-feedback-help = 填寫主旨及訊息，然後傳送意見。
 privacy-feedback-required = 請填寫主旨及訊息。
 privacy-feedback-sent = 意見已傳送。報告 ID：{$id}
+
+## Motion interpolation
+motion-interpolation-off = 動作插值：關
+motion-interpolation-on = 動作插值：開
+video-motion-interpolation-help = 讓超過60 FPS的動作更流暢。會增加一幀（16.7毫秒）的畫面延遲。垂直同步和最大FPS設定仍然有效。

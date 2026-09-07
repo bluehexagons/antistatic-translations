@@ -1503,3 +1503,8 @@ privacy-feedback-warning = Keine persönlichen Daten, Passwörter oder privaten 
 privacy-feedback-help = Betreff und Nachricht ausfüllen und anschließend das Feedback senden.
 privacy-feedback-required = Betreff und Nachricht sind erforderlich.
 privacy-feedback-sent = Feedback gesendet. Berichts-ID: {$id}
+
+## Motion interpolation
+motion-interpolation-off = Bewegungsinterpolation: Aus
+motion-interpolation-on = Bewegungsinterpolation: An
+video-motion-interpolation-help = Glättet Bewegungen über 60 FPS. Fügt ein Bild (16,7 ms) Anzeigeverzögerung hinzu. Vsync und Max. FPS gelten weiterhin.

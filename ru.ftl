@@ -1506,3 +1506,8 @@ privacy-feedback-warning = Не указывайте личные данные, 
 privacy-feedback-help = Заполните тему и сообщение, затем отправьте отзыв.
 privacy-feedback-required = Введите тему и сообщение.
 privacy-feedback-sent = Отзыв отправлен. ID отчёта: {$id}
+
+## Motion interpolation
+motion-interpolation-off = Интерполяция движения: Выкл.
+motion-interpolation-on = Интерполяция движения: Вкл.
+video-motion-interpolation-help = Сглаживает движение при частоте выше 60 FPS. Добавляет один кадр (16,7 мс) задержки изображения. Vsync и ограничение FPS продолжают действовать.
