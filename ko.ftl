@@ -1502,3 +1502,13 @@ privacy-feedback-sent = 의견을 보냈습니다. 보고서 ID: {$id}
 motion-interpolation-off = 모션 보간: 끄기
 motion-interpolation-on = 모션 보간: 켜기
 video-motion-interpolation-help = 60 FPS를 넘는 움직임을 부드럽게 합니다. 화면 표시에 1프레임(16.7 ms)의 지연이 추가됩니다. 수직 동기화와 최대 FPS 설정은 그대로 적용됩니다.
+
+# Controller text entry
+text-entry-input = 입력
+text-entry-empty = (비어 있음)
+text-entry-controls-edit = { $cycle }: 문자 전환 · { $shift }: 대소문자{ $shiftState } · { $delete }: 삭제
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: 공백 · { $submit }: 완료 · { $cancel }: 취소
+       *[0] { $submit }: 완료 · { $cancel }: 취소
+    }

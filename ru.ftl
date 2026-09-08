@@ -1511,3 +1511,13 @@ privacy-feedback-sent = Отзыв отправлен. ID отчёта: {$id}
 motion-interpolation-off = Интерполяция движения: Выкл.
 motion-interpolation-on = Интерполяция движения: Вкл.
 video-motion-interpolation-help = Сглаживает движение при частоте выше 60 FPS. Добавляет один кадр (16,7 мс) задержки изображения. Vsync и ограничение FPS продолжают действовать.
+
+# Controller text entry
+text-entry-input = ВВОД
+text-entry-empty = (пусто)
+text-entry-controls-edit = { $cycle }: смена · { $shift }: регистр{ $shiftState } · { $delete }: удалить
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: пробел · { $submit }: готово · { $cancel }: отмена
+       *[0] { $submit }: готово · { $cancel }: отмена
+    }

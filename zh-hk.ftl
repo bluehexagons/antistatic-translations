@@ -1502,3 +1502,13 @@ privacy-feedback-sent = 意見已傳送。報告 ID：{$id}
 motion-interpolation-off = 動作插值：關
 motion-interpolation-on = 動作插值：開
 video-motion-interpolation-help = 讓超過60 FPS的動作更流暢。會增加一幀（16.7毫秒）的畫面延遲。垂直同步和最大FPS設定仍然有效。
+
+# Controller text entry
+text-entry-input = 輸入
+text-entry-empty = （空白）
+text-entry-controls-edit = { $cycle }: 切換字元 · { $shift }: 大小寫{ $shiftState } · { $delete }: 刪除
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: 空格 · { $submit }: 完成 · { $cancel }: 取消
+       *[0] { $submit }: 完成 · { $cancel }: 取消
+    }

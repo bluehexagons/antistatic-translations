@@ -1508,3 +1508,13 @@ privacy-feedback-sent = Feedback gesendet. Berichts-ID: {$id}
 motion-interpolation-off = Bewegungsinterpolation: Aus
 motion-interpolation-on = Bewegungsinterpolation: An
 video-motion-interpolation-help = Glättet Bewegungen über 60 FPS. Fügt ein Bild (16,7 ms) Anzeigeverzögerung hinzu. Vsync und Max. FPS gelten weiterhin.
+
+# Controller text entry
+text-entry-input = EINGABE
+text-entry-empty = (leer)
+text-entry-controls-edit = { $cycle }: wechseln · { $shift }: Groß/Klein{ $shiftState } · { $delete }: löschen
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: Leerzeichen · { $submit }: fertig · { $cancel }: abbrechen
+       *[0] { $submit }: fertig · { $cancel }: abbrechen
+    }

@@ -1527,3 +1527,13 @@ privacy-feedback-sent = Feedback sent. Report ID: {$id}
 motion-interpolation-off = Motion interpolation: Off
 motion-interpolation-on = Motion interpolation: On
 video-motion-interpolation-help = Smooths motion above 60 FPS. Adds one frame (16.7 ms) of visual delay. Vsync and Max FPS still apply.
+
+# Controller text entry
+text-entry-input = INPUT
+text-entry-empty = (empty)
+text-entry-controls-edit = { $cycle }: cycle · { $shift }: shift{ $shiftState } · { $delete }: delete
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: space · { $submit }: done · { $cancel }: cancel
+       *[0] { $submit }: done · { $cancel }: cancel
+    }

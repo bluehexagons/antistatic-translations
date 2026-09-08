@@ -1502,3 +1502,13 @@ privacy-feedback-sent = フィードバックを送信しました。レポー�
 motion-interpolation-off = モーション補間: オフ
 motion-interpolation-on = モーション補間: オン
 video-motion-interpolation-help = 60 FPSを超える動きを滑らかにします。表示に1フレーム（16.7 ms）の遅延が加わります。垂直同期と最大FPSの設定は引き続き適用されます。
+
+# Controller text entry
+text-entry-input = 入力
+text-entry-empty = （未入力）
+text-entry-controls-edit = { $cycle }: 文字切替 · { $shift }: 大文字/小文字{ $shiftState } · { $delete }: 削除
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: 空白 · { $submit }: 完了 · { $cancel }: キャンセル
+       *[0] { $submit }: 完了 · { $cancel }: キャンセル
+    }

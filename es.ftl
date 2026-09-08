@@ -1507,3 +1507,13 @@ privacy-feedback-sent = Comentarios enviados. ID del informe: {$id}
 motion-interpolation-off = Interpolación de movimiento: No
 motion-interpolation-on = Interpolación de movimiento: Sí
 video-motion-interpolation-help = Suaviza el movimiento por encima de 60 FPS. Añade un fotograma (16,7 ms) de retraso visual. Se siguen aplicando Vsync y el límite de FPS.
+
+# Controller text entry
+text-entry-input = TEXTO
+text-entry-empty = (vacío)
+text-entry-controls-edit = { $cycle }: alternar · { $shift }: mayús.{ $shiftState } · { $delete }: borrar
+text-entry-controls-finish =
+    { $spaceAllowed ->
+        [1] { $space }: espacio · { $submit }: aceptar · { $cancel }: cancelar
+       *[0] { $submit }: aceptar · { $cancel }: cancelar
+    }
