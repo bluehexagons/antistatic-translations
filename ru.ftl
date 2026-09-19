@@ -1524,3 +1524,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = Быстрый выход: {$value}
 versus-setting-fast-quit-help = Разрешить мгновенное завершение матча сочетанием Щит + Атака + Start. Не зависит от паузы.
+
+versus-reset-rules = Сбросить правила
+versus-reset-rules-help = Восстановить жизни, время, выносливость, паузу и быстрый выход по умолчанию. Сохранить бойцов, команды, физику и арену.
+versus-previous-rule-help = Выбрать предыдущее значение. Кнопка значения выбирает следующее.

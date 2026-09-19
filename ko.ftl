@@ -1515,3 +1515,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = 빠른 종료: {$value}
 versus-setting-fast-quit-help = 실드 + 공격 + Start로 대전을 즉시 종료할 수 있습니다. 일시 정지 설정과 별개입니다.
+
+versus-reset-rules = 규칙 초기화
+versus-reset-rules-help = 목숨, 시간, 체력, 일시 정지, 빠른 종료를 기본값으로 복원합니다. 캐릭터, 팀, 물리 설정, 스테이지는 유지합니다.
+versus-previous-rule-help = 이전 값을 선택합니다. 값 버튼을 누르면 다음 값을 선택합니다.

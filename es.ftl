@@ -1520,3 +1520,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = Salida rápida: {$value}
 versus-setting-fast-quit-help = Permite terminar la partida al instante con Escudo + Ataque + Start. Independiente de Pausa.
+
+versus-reset-rules = Restablecer reglas
+versus-reset-rules-help = Restablece vidas, tiempo, resistencia, Pausa y Salida rápida. Conserva luchadores, equipos, física y escenario.
+versus-previous-rule-help = Elige el valor anterior. El botón del valor elige el siguiente.

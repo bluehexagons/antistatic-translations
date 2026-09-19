@@ -1520,3 +1520,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = Uscita rapida: {$value}
 versus-setting-fast-quit-help = Consente di terminare subito la partita con Scudo + Attacco + Start. Indipendente da Pausa.
+
+versus-reset-rules = Ripristina regole
+versus-reset-rules-help = Ripristina vite, tempo, resistenza, Pausa e Uscita rapida. Mantiene lottatori, squadre, fisica e arena.
+versus-previous-rule-help = Scegli il valore precedente. Il pulsante del valore sceglie quello successivo.

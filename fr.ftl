@@ -1520,3 +1520,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = Quitter rapidement: {$value}
 versus-setting-fast-quit-help = Permet de terminer immédiatement le combat avec Bouclier + Attaque + Start. Indépendant de Pause.
+
+versus-reset-rules = Réinitialiser les règles
+versus-reset-rules-help = Rétablit les vies, le temps, l’endurance, la pause et la sortie rapide par défaut. Garde les combattants, équipes, physique et arène.
+versus-previous-rule-help = Choisir la valeur précédente. Le bouton de valeur choisit la suivante.

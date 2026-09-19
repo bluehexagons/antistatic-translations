@@ -1540,3 +1540,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = Fast Quit: {$value}
 versus-setting-fast-quit-help = Allow Shield + Attack + Start to end the match immediately. Independent of Pause.
+
+versus-reset-rules = Reset rules
+versus-reset-rules-help = Restore stocks, time, stamina, Pause and Fast Quit defaults. Keep fighters, teams, physics and stage.
+versus-previous-rule-help = Choose the previous value. The value button chooses the next value.

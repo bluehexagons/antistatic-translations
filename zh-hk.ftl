@@ -1515,3 +1515,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = 快速退出: {$value}
 versus-setting-fast-quit-help = 允許按護盾 + 攻擊 + Start立即結束對局。與暫停設定無關。
+
+versus-reset-rules = 重設規則
+versus-reset-rules-help = 恢復生命數、時間、體力、暫停和快速退出的預設值。保留角色、隊伍、物理設定和場地。
+versus-previous-rule-help = 選擇上一個值。點擊數值按鈕可選擇下一個值。

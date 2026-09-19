@@ -1515,3 +1515,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = 即終了: {$value}
 versus-setting-fast-quit-help = シールド + 攻撃 + Startで対戦を即座に終了できるようにします。ポーズ設定とは独立しています。
+
+versus-reset-rules = ルールをリセット
+versus-reset-rules-help = 残機、時間、体力、ポーズ、即終了を初期値に戻します。ファイター、チーム、物理設定、ステージは変更しません。
+versus-previous-rule-help = 前の値を選択します。値のボタンを押すと次の値を選択します。

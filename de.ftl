@@ -1521,3 +1521,7 @@ text-entry-controls-finish =
 
 versus-setting-fast-quit-value = Schnell beenden: {$value}
 versus-setting-fast-quit-help = Erlaubt Schild + Angriff + Start, um den Kampf sofort zu beenden. Unabhängig von Pause.
+
+versus-reset-rules = Regeln zurücksetzen
+versus-reset-rules-help = Setzt Leben, Zeit, Ausdauer, Pause und Schnell beenden zurück. Kämpfer, Teams, Physik und Arena bleiben erhalten.
+versus-previous-rule-help = Vorherigen Wert wählen. Die Wertschaltfläche wählt den nächsten Wert.
