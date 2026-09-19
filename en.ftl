@@ -1557,3 +1557,7 @@ replay-save-saved = Replay saved: {$detail}
 replay-save-failed = Replay save failed
 replay-save-failed-detail = Replay save failed: {$detail}
 pause-controller-label = P{$port}
+
+main-replays-label = Replays
+main-help-about-label = Help & About
+help-homepage-label = Homepage

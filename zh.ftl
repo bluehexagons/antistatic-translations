@@ -1532,3 +1532,7 @@ replay-save-saved = 回放已保存：{$detail}
 replay-save-failed = 回放保存失败
 replay-save-failed-detail = 回放保存失败：{$detail}
 pause-controller-label = 玩家{$port}
+
+main-replays-label = 回放
+main-help-about-label = 帮助与关于
+help-homepage-label = 主页

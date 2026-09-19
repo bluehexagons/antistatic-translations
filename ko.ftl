@@ -1532,3 +1532,7 @@ replay-save-saved = 리플레이 저장 완료: {$detail}
 replay-save-failed = 리플레이 저장 실패
 replay-save-failed-detail = 리플레이 저장 실패: {$detail}
 pause-controller-label = P{$port}
+
+main-replays-label = 리플레이
+main-help-about-label = 도움말 및 정보
+help-homepage-label = 홈페이지

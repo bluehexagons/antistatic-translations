@@ -1537,3 +1537,7 @@ replay-save-saved = Repetición guardada: {$detail}
 replay-save-failed = No se pudo guardar la repetición
 replay-save-failed-detail = No se pudo guardar la repetición: {$detail}
 pause-controller-label = J{$port}
+
+main-replays-label = Repeticiones
+main-help-about-label = Ayuda e información
+help-homepage-label = Página web

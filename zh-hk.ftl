@@ -1532,3 +1532,7 @@ replay-save-saved = 重播已儲存：{$detail}
 replay-save-failed = 重播儲存失敗
 replay-save-failed-detail = 重播儲存失敗：{$detail}
 pause-controller-label = 玩家{$port}
+
+main-replays-label = 重播
+main-help-about-label = 說明與關於
+help-homepage-label = 主頁

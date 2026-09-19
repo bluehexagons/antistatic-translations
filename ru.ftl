@@ -1541,3 +1541,7 @@ replay-save-saved = Повтор сохранён: {$detail}
 replay-save-failed = Не удалось сохранить повтор
 replay-save-failed-detail = Не удалось сохранить повтор: {$detail}
 pause-controller-label = И{$port}
+
+main-replays-label = Повторы
+main-help-about-label = Помощь и об игре
+help-homepage-label = Сайт

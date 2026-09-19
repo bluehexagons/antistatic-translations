@@ -1532,3 +1532,7 @@ replay-save-saved = リプレイを保存しました：{$detail}
 replay-save-failed = リプレイの保存に失敗しました
 replay-save-failed-detail = リプレイの保存に失敗しました：{$detail}
 pause-controller-label = P{$port}
+
+main-replays-label = リプレイ
+main-help-about-label = ヘルプ・情報
+help-homepage-label = ホームページ

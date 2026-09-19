@@ -1537,3 +1537,7 @@ replay-save-saved = Replay salvato: {$detail}
 replay-save-failed = Salvataggio del replay non riuscito
 replay-save-failed-detail = Salvataggio del replay non riuscito: {$detail}
 pause-controller-label = G{$port}
+
+main-replays-label = Replay
+main-help-about-label = Aiuto e informazioni
+help-homepage-label = Sito web

@@ -82,7 +82,7 @@ Guide = Guide {"\u29C9"}
 # Settings Menu
 SETTINGS = PARAMÈTRES
 Audio = Son
-Video = Video
+Video = Vidéo
 accessibility-title = Accessibilité
 settings-accessibility-help = Réglez les mouvements, les effets d'impact, les sons du menu et la visibilité du focus.
 accessibility-reduced-motion = Mouvements réduits
@@ -1537,3 +1537,7 @@ replay-save-saved = Replay enregistré : {$detail}
 replay-save-failed = Échec de l’enregistrement du replay
 replay-save-failed-detail = Échec de l’enregistrement du replay : {$detail}
 pause-controller-label = J{$port}
+
+main-replays-label = Replays
+main-help-about-label = Aide et à propos
+help-homepage-label = Site web
