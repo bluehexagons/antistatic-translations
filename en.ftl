@@ -1544,3 +1544,16 @@ versus-setting-fast-quit-help = Allow Shield + Attack + Start to end the match i
 versus-reset-rules = Reset rules
 versus-reset-rules-help = Restore stocks, time, stamina, Pause and Fast Quit defaults. Keep fighters, teams, physics and stage.
 versus-previous-rule-help = Choose the previous value. The value button chooses the next value.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = Connect a local controller before jumping in.
+replay-jump-in-unavailable = No replay players are available to jump into.
+replay-jump-in-controller = {$controller} joined the battle.
+replay-jump-in-controllers = {$count} controllers joined the battle.
+results-returning-versus = Returning to Versus...
+replay-save-prompt = Save replay: press {$binding}
+replay-save-saving = Saving replay...
+replay-save-saved = Replay saved: {$detail}
+replay-save-failed = Replay save failed
+replay-save-failed-detail = Replay save failed: {$detail}
+pause-controller-label = P{$port}

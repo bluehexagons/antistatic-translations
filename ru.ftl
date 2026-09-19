@@ -1528,3 +1528,16 @@ versus-setting-fast-quit-help = Разрешить мгновенное заве
 versus-reset-rules = Сбросить правила
 versus-reset-rules-help = Восстановить жизни, время, выносливость, паузу и быстрый выход по умолчанию. Сохранить бойцов, команды, физику и арену.
 versus-previous-rule-help = Выбрать предыдущее значение. Кнопка значения выбирает следующее.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = Подключите локальный контроллер, чтобы вступить в бой.
+replay-jump-in-unavailable = В повторе нет доступных для управления игроков.
+replay-jump-in-controller = {$controller} вступает в бой.
+replay-jump-in-controllers = Контроллеров, вступивших в бой: {$count}.
+results-returning-versus = Возврат в режим Versus...
+replay-save-prompt = Сохранить повтор: нажмите {$binding}
+replay-save-saving = Сохранение повтора...
+replay-save-saved = Повтор сохранён: {$detail}
+replay-save-failed = Не удалось сохранить повтор
+replay-save-failed-detail = Не удалось сохранить повтор: {$detail}
+pause-controller-label = И{$port}

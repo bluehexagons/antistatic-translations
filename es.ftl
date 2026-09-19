@@ -1524,3 +1524,16 @@ versus-setting-fast-quit-help = Permite terminar la partida al instante con Escu
 versus-reset-rules = Restablecer reglas
 versus-reset-rules-help = Restablece vidas, tiempo, resistencia, Pausa y Salida rápida. Conserva luchadores, equipos, física y escenario.
 versus-previous-rule-help = Elige el valor anterior. El botón del valor elige el siguiente.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = Conecta un mando local antes de entrar en la partida.
+replay-jump-in-unavailable = No hay jugadores de la repetición disponibles para controlar.
+replay-jump-in-controller = {$controller} se ha unido al combate.
+replay-jump-in-controllers = {$count} mandos se han unido al combate.
+results-returning-versus = Volviendo a Versus...
+replay-save-prompt = Guardar repetición: pulsa {$binding}
+replay-save-saving = Guardando repetición...
+replay-save-saved = Repetición guardada: {$detail}
+replay-save-failed = No se pudo guardar la repetición
+replay-save-failed-detail = No se pudo guardar la repetición: {$detail}
+pause-controller-label = J{$port}

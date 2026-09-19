@@ -1525,3 +1525,16 @@ versus-setting-fast-quit-help = Erlaubt Schild + Angriff + Start, um den Kampf s
 versus-reset-rules = Regeln zurücksetzen
 versus-reset-rules-help = Setzt Leben, Zeit, Ausdauer, Pause und Schnell beenden zurück. Kämpfer, Teams, Physik und Arena bleiben erhalten.
 versus-previous-rule-help = Vorherigen Wert wählen. Die Wertschaltfläche wählt den nächsten Wert.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = Schließe vor dem Einstieg einen lokalen Controller an.
+replay-jump-in-unavailable = Keine Replay-Spieler zum Übernehmen verfügbar.
+replay-jump-in-controller = {$controller} ist dem Kampf beigetreten.
+replay-jump-in-controllers = {$count} Controller sind dem Kampf beigetreten.
+results-returning-versus = Zurück zu Versus...
+replay-save-prompt = Replay speichern: {$binding} drücken
+replay-save-saving = Replay wird gespeichert...
+replay-save-saved = Replay gespeichert: {$detail}
+replay-save-failed = Replay konnte nicht gespeichert werden
+replay-save-failed-detail = Replay konnte nicht gespeichert werden: {$detail}
+pause-controller-label = S{$port}

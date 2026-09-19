@@ -1519,3 +1519,16 @@ versus-setting-fast-quit-help = シールド + 攻撃 + Startで対戦を即座�
 versus-reset-rules = ルールをリセット
 versus-reset-rules-help = 残機、時間、体力、ポーズ、即終了を初期値に戻します。ファイター、チーム、物理設定、ステージは変更しません。
 versus-previous-rule-help = 前の値を選択します。値のボタンを押すと次の値を選択します。
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = 対戦に参加するには、ローカルコントローラーを接続してください。
+replay-jump-in-unavailable = 操作できるリプレイのプレイヤーがいません。
+replay-jump-in-controller = {$controller} が対戦に参加しました。
+replay-jump-in-controllers = {$count} 台のコントローラーが対戦に参加しました。
+results-returning-versus = 対戦モードに戻ります…
+replay-save-prompt = リプレイを保存：{$binding} を押す
+replay-save-saving = リプレイを保存中…
+replay-save-saved = リプレイを保存しました：{$detail}
+replay-save-failed = リプレイの保存に失敗しました
+replay-save-failed-detail = リプレイの保存に失敗しました：{$detail}
+pause-controller-label = P{$port}

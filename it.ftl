@@ -1524,3 +1524,16 @@ versus-setting-fast-quit-help = Consente di terminare subito la partita con Scud
 versus-reset-rules = Ripristina regole
 versus-reset-rules-help = Ripristina vite, tempo, resistenza, Pausa e Uscita rapida. Mantiene lottatori, squadre, fisica e arena.
 versus-previous-rule-help = Scegli il valore precedente. Il pulsante del valore sceglie quello successivo.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = Collega un controller locale prima di entrare in battaglia.
+replay-jump-in-unavailable = Non ci sono giocatori del replay da controllare.
+replay-jump-in-controller = {$controller} è entrato in battaglia.
+replay-jump-in-controllers = {$count} controller sono entrati in battaglia.
+results-returning-versus = Ritorno a Versus...
+replay-save-prompt = Salva replay: premi {$binding}
+replay-save-saving = Salvataggio del replay...
+replay-save-saved = Replay salvato: {$detail}
+replay-save-failed = Salvataggio del replay non riuscito
+replay-save-failed-detail = Salvataggio del replay non riuscito: {$detail}
+pause-controller-label = G{$port}

@@ -1519,3 +1519,16 @@ versus-setting-fast-quit-help = 允许按护盾 + 攻击 + Start立即结束对�
 versus-reset-rules = 重置规则
 versus-reset-rules-help = 恢复生命数、时间、体力、暂停和快速退出的默认值。保留角色、队伍、物理设置和场地。
 versus-previous-rule-help = 选择上一个值。点击数值按钮可选择下一个值。
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = 请先连接本地控制器，再加入对战。
+replay-jump-in-unavailable = 没有可接管的回放玩家。
+replay-jump-in-controller = {$controller} 已加入对战。
+replay-jump-in-controllers = {$count} 个控制器已加入对战。
+results-returning-versus = 正在返回对战模式…
+replay-save-prompt = 保存回放：按 {$binding}
+replay-save-saving = 正在保存回放…
+replay-save-saved = 回放已保存：{$detail}
+replay-save-failed = 回放保存失败
+replay-save-failed-detail = 回放保存失败：{$detail}
+pause-controller-label = 玩家{$port}

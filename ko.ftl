@@ -1519,3 +1519,16 @@ versus-setting-fast-quit-help = 실드 + 공격 + Start로 대전을 즉시 종�
 versus-reset-rules = 규칙 초기화
 versus-reset-rules-help = 목숨, 시간, 체력, 일시 정지, 빠른 종료를 기본값으로 복원합니다. 캐릭터, 팀, 물리 설정, 스테이지는 유지합니다.
 versus-previous-rule-help = 이전 값을 선택합니다. 값 버튼을 누르면 다음 값을 선택합니다.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = 대전에 참가하려면 로컬 컨트롤러를 연결하세요.
+replay-jump-in-unavailable = 조작할 수 있는 리플레이 플레이어가 없습니다.
+replay-jump-in-controller = {$controller}이(가) 대전에 참가했습니다.
+replay-jump-in-controllers = 컨트롤러 {$count}개가 대전에 참가했습니다.
+results-returning-versus = 대전 모드로 돌아가는 중...
+replay-save-prompt = 리플레이 저장: {$binding} 누르기
+replay-save-saving = 리플레이 저장 중...
+replay-save-saved = 리플레이 저장 완료: {$detail}
+replay-save-failed = 리플레이 저장 실패
+replay-save-failed-detail = 리플레이 저장 실패: {$detail}
+pause-controller-label = P{$port}

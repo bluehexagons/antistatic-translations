@@ -1524,3 +1524,16 @@ versus-setting-fast-quit-help = Permet de terminer immédiatement le combat avec
 versus-reset-rules = Réinitialiser les règles
 versus-reset-rules-help = Rétablit les vies, le temps, l’endurance, la pause et la sortie rapide par défaut. Garde les combattants, équipes, physique et arène.
 versus-previous-rule-help = Choisir la valeur précédente. Le bouton de valeur choisit la suivante.
+
+# Replay feedback and pause controller labels
+replay-jump-in-connect = Connectez une manette locale avant de rejoindre le combat.
+replay-jump-in-unavailable = Aucun joueur du replay ne peut être contrôlé.
+replay-jump-in-controller = {$controller} a rejoint le combat.
+replay-jump-in-controllers = {$count} manettes ont rejoint le combat.
+results-returning-versus = Retour au mode Versus...
+replay-save-prompt = Enregistrer le replay : appuyez sur {$binding}
+replay-save-saving = Enregistrement du replay...
+replay-save-saved = Replay enregistré : {$detail}
+replay-save-failed = Échec de l’enregistrement du replay
+replay-save-failed-detail = Échec de l’enregistrement du replay : {$detail}
+pause-controller-label = J{$port}
