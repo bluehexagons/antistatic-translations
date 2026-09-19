@@ -1512,3 +1512,6 @@ text-entry-controls-finish =
         [1] { $space }: 공백 · { $submit }: 완료 · { $cancel }: 취소
        *[0] { $submit }: 완료 · { $cancel }: 취소
     }
+
+versus-setting-fast-quit-value = 빠른 종료: {$value}
+versus-setting-fast-quit-help = 실드 + 공격 + Start로 대전을 즉시 종료할 수 있습니다. 일시 정지 설정과 별개입니다.

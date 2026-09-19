@@ -1517,3 +1517,6 @@ text-entry-controls-finish =
         [1] { $space }: espace · { $submit }: valider · { $cancel }: annuler
        *[0] { $submit }: valider · { $cancel }: annuler
     }
+
+versus-setting-fast-quit-value = Quitter rapidement: {$value}
+versus-setting-fast-quit-help = Permet de terminer immédiatement le combat avec Bouclier + Attaque + Start. Indépendant de Pause.

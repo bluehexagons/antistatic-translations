@@ -1518,3 +1518,6 @@ text-entry-controls-finish =
         [1] { $space }: Leerzeichen · { $submit }: fertig · { $cancel }: abbrechen
        *[0] { $submit }: fertig · { $cancel }: abbrechen
     }
+
+versus-setting-fast-quit-value = Schnell beenden: {$value}
+versus-setting-fast-quit-help = Erlaubt Schild + Angriff + Start, um den Kampf sofort zu beenden. Unabhängig von Pause.

@@ -1512,3 +1512,6 @@ text-entry-controls-finish =
         [1] { $space }: 空白 · { $submit }: 完了 · { $cancel }: キャンセル
        *[0] { $submit }: 完了 · { $cancel }: キャンセル
     }
+
+versus-setting-fast-quit-value = 即終了: {$value}
+versus-setting-fast-quit-help = シールド + 攻撃 + Startで対戦を即座に終了できるようにします。ポーズ設定とは独立しています。

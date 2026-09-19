@@ -1512,3 +1512,6 @@ text-entry-controls-finish =
         [1] { $space }: 空格 · { $submit }: 完成 · { $cancel }: 取消
        *[0] { $submit }: 完成 · { $cancel }: 取消
     }
+
+versus-setting-fast-quit-value = 快速退出: {$value}
+versus-setting-fast-quit-help = 允許按護盾 + 攻擊 + Start立即結束對局。與暫停設定無關。

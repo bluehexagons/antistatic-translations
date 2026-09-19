@@ -1537,3 +1537,6 @@ text-entry-controls-finish =
         [1] { $space }: space · { $submit }: done · { $cancel }: cancel
        *[0] { $submit }: done · { $cancel }: cancel
     }
+
+versus-setting-fast-quit-value = Fast Quit: {$value}
+versus-setting-fast-quit-help = Allow Shield + Attack + Start to end the match immediately. Independent of Pause.

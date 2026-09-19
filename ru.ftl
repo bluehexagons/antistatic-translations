@@ -1521,3 +1521,6 @@ text-entry-controls-finish =
         [1] { $space }: пробел · { $submit }: готово · { $cancel }: отмена
        *[0] { $submit }: готово · { $cancel }: отмена
     }
+
+versus-setting-fast-quit-value = Быстрый выход: {$value}
+versus-setting-fast-quit-help = Разрешить мгновенное завершение матча сочетанием Щит + Атака + Start. Не зависит от паузы.

@@ -1517,3 +1517,6 @@ text-entry-controls-finish =
         [1] { $space }: espacio · { $submit }: aceptar · { $cancel }: cancelar
        *[0] { $submit }: aceptar · { $cancel }: cancelar
     }
+
+versus-setting-fast-quit-value = Salida rápida: {$value}
+versus-setting-fast-quit-help = Permite terminar la partida al instante con Escudo + Ataque + Start. Independiente de Pausa.
