@@ -701,7 +701,7 @@ arcade-return-prompt = Presiona confirmar para volver al menú principal.
 
 # Replay
 replay-paused = Reproducción pausada
-replay-controls = Confirmar: unirse  ←/→: fotograma  Atrás: menú  Guardar Replay: [tecla]
+replay-controls = Start: continuar · Confirmar: unirse · ←: reiniciar · →: fotograma · Atrás: menú · {$binding}: marcador
 
 # Languages
 en-english = English

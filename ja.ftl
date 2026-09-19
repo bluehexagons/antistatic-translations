@@ -701,7 +701,7 @@ arcade-return-prompt = 確認を押してメインメニューに戻ります。
 
 # Replay
 replay-paused = リプレイ一時停止中
-replay-controls = 確認: 参加する  ←/→: フレーム  戻る: メニュー  リプレイを保存: [キー]
+replay-controls = Start：再開 · 確認：参加 · ←：最初から · →：コマ送り · 戻る：メニュー · {$binding}：マーカー
 
 # Languages
 en-english = English

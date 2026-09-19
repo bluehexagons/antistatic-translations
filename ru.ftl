@@ -701,7 +701,7 @@ arcade-return-prompt = Нажмите подтверждение для возв
 
 # Replay
 replay-paused = Воспроизведение приостановлено
-replay-controls = Подтвердить: присоединиться  ←/→: кадр  Назад: меню  Сохранить: [клавиша]
+replay-controls = Start: продолжить · Подтвердить: вступить · ←: сначала · →: кадр · Назад: меню · {$binding}: метка
 
 # Languages
 en-english = English

@@ -701,7 +701,7 @@ arcade-return-prompt = 확인을 눌러 메인 메뉴로 돌아갑니다.
 
 # Replay
 replay-paused = 재생 일시 중지됨
-replay-controls = 확인: 참가  ←/→: 프레임  뒤로: 메뉴  리플레이 저장: [키]
+replay-controls = Start: 재개 · 확인: 참가 · ←: 처음부터 · →: 한 프레임 · 뒤로: 메뉴 · {$binding}: 마커
 
 # Languages
 en-english = English

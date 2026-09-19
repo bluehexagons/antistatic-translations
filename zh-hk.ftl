@@ -701,7 +701,7 @@ arcade-return-prompt = 按確認返回主菜單。
 
 # Replay
 replay-paused = 重放已暫停
-replay-controls = 確認：加入  ←/→：幀  返回：菜單  保存重放：[鍵]
+replay-controls = Start：繼續 · 確認：加入 · ←：重新開始 · →：逐幀 · 返回：選單 · {$binding}：標記
 
 # Languages
 en-english = English

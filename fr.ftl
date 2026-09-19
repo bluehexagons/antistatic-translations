@@ -701,7 +701,7 @@ arcade-return-prompt = Appuyez sur confirmer pour retourner au menu principal.
 
 # Replay
 replay-paused = Lecture en pause
-replay-controls = Confirmer : rejoindre  ←/→ : image  Retour : menu  Enregistrer : [touche]
+replay-controls = Start : reprendre · Confirmer : rejoindre · ← : recommencer · → : image · Retour : menu · {$binding} : repère
 
 # Languages
 en-english = English
