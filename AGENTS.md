@@ -9,7 +9,7 @@ audited from the adjacent Antistatic checkout.
 
 ## Environment and validation
 
-The standard Linux host is an infra-tools-managed agent VM with related
+The standard Linux host is a Basaltwater-managed agent VM with related
 repositories beside one another below `~/repos`.
 
 - `npm ci`: install the JavaScript lint/format tooling.
