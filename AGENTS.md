@@ -12,6 +12,10 @@ audited from the adjacent Antistatic checkout.
 The standard Linux host is a Basaltwater-managed agent VM with related
 repositories beside one another below `~/repos`.
 
+Select `.nvmrc` with `nvm use` before npm commands. On Basaltwater,
+`basaltw node exec -- npm run check` selects the project runtime without
+changing the host default; `basaltw node install` installs a missing pin.
+
 - `npm ci`: install the JavaScript lint/format tooling.
 - `npm run check`: validate package JavaScript, metadata, and formatting.
 - From `../antistatic`, run the translation audit commands in
