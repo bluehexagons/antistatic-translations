@@ -1576,3 +1576,7 @@ network-invalid-server = 请输入不含凭据、查询参数或片段的HTTP或
 network-invalid-stun = 请输入STUN主机和端口（1–65535），例如stun.example.com:3478。
 network-saved = 网络设置已保存。之前的在线会话已关闭。
 network-override = 环境变量覆盖已启用：服务{ $server }；STUN { $stun }。
+
+models-low = 模型：低
+models-high = 模型：高
+video-model-quality-help = 选择原始低多边形模型或细节更丰富的模型。仅改变外观。

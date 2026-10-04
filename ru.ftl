@@ -1585,3 +1585,7 @@ network-invalid-server = Введите URL HTTP или HTTPS без учётн�
 network-invalid-stun = Введите хост STUN и порт (1–65535), например stun.example.com:3478.
 network-saved = Настройки сети сохранены. Предыдущие сетевые сессии закрыты.
 network-override = Действуют переменные окружения: служба { $server }; STUN { $stun }.
+
+models-low = Модели: Низкое качество
+models-high = Модели: Высокое качество
+video-model-quality-help = Выберите исходные низкополигональные модели или более детализированные модели. Меняется только внешний вид.

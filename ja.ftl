@@ -1576,3 +1576,7 @@ network-invalid-server = 認証情報、クエリ、フラグメントのないH
 network-invalid-stun = STUNのホストとポート（1〜65535）を入力してください。例: stun.example.com:3478
 network-saved = ネットワーク設定を保存しました。以前のオンラインセッションを終了しました。
 network-override = 環境変数による上書きが有効です。サービス: { $server }、STUN: { $stun }。
+
+models-low = モデル：低
+models-high = モデル：高
+video-model-quality-help = 元のローポリモデルか、より詳細なモデルを選択します。見た目のみが変わります。

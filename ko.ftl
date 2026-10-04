@@ -1576,3 +1576,7 @@ network-invalid-server = 인증 정보, 쿼리 및 프래그먼트가 없는 HTT
 network-invalid-stun = STUN 호스트와 포트(1–65535)를 입력하세요. 예: stun.example.com:3478
 network-saved = 네트워크 설정을 저장했습니다. 이전 온라인 세션을 종료했습니다.
 network-override = 환경 변수 재정의가 활성화되었습니다: 서비스 { $server }; STUN { $stun }.
+
+models-low = 모델: 낮음
+models-high = 모델: 높음
+video-model-quality-help = 원본 저폴리곤 모델 또는 더 세밀한 모델을 선택합니다. 외형만 변경됩니다.

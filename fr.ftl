@@ -1581,3 +1581,7 @@ network-invalid-server = Saisissez une URL HTTP ou HTTPS sans identifiants, para
 network-invalid-stun = Saisissez un hôte STUN et un port (1–65535), par exemple stun.example.com:3478.
 network-saved = Paramètres réseau enregistrés. Les sessions en ligne précédentes sont fermées.
 network-override = Variables d’environnement prioritaires : service { $server } ; STUN { $stun }.
+
+models-low = Modèles : Basse
+models-high = Modèles : Haute
+video-model-quality-help = Choisissez les modèles originaux à faible nombre de polygones ou des modèles plus détaillés. Seule l’apparence change.
