@@ -9,12 +9,19 @@ audited from the adjacent Antistatic checkout.
 
 ## Environment and validation
 
-The standard Linux host is a Basaltwater-managed agent VM with related
-repositories beside one another below `~/repos`.
+Linux development supports Basaltwater-managed CachyOS workstations and Debian
+hosts. Keep primary checkouts beside one another under `~/repos` or the
+configured `--agent-workspace` root; locate primary checkouts with
+`git worktree list` when using isolated worktrees. See Antistatic's
+[workspace guide](https://github.com/bluehexagons/antistatic/blob/main/docs/sister-repositories.md).
+Use the actual OS's Basaltwater guidance for host diagnosis. Package checks
+work independently of Basaltwater; catalog audits need the game source checkout.
 
 Select `.nvmrc` with `nvm use` before npm commands. On Basaltwater,
 `basaltw node exec -- npm run check` selects the project runtime without
-changing the host default; `basaltw node install` installs a missing pin.
+changing the host default; `basaltw node install` installs a missing pin and
+prepares NVM on demand on CachyOS. Ordinary NVM or compatible system Node also
+works. Install locked dependencies independently in each checkout/worktree.
 
 - `npm ci`: install the JavaScript lint/format tooling.
 - `npm run check`: validate package JavaScript, metadata, and formatting.
