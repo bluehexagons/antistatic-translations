@@ -948,6 +948,7 @@ audio-voice-help = 設定角色語音音量。
 audio-music-toggle-help = 切換音樂播放。
 audio-music-help = 設定音樂音量。
 video-navigation-hint = 方向鍵導覽 · 確認鍵更改值 · 返回鍵返回
+video-render-target-memory = 渲染目標＋圖集（估算）：{ $memory }
 video-preset-help = 套用分組的圖形預設，或在各項設定不同時顯示自訂。
 video-fullscreen-toggle-help = 在視窗模式和全螢幕之間切換。
 video-display-help = 選擇遊戲視窗或全螢幕模式要使用的顯示器。

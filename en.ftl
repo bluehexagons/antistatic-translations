@@ -952,6 +952,7 @@ audio-music-toggle-help = Toggle music playback.
 audio-music-help = Set music volume.
 
 video-navigation-hint = Directions navigate · Confirm changes value · Back returns
+video-render-target-memory = Render targets + atlas (est.): { $memory }
 video-preset-help = Apply a grouped graphics preset, or show Custom when individual settings differ.
 video-fullscreen-toggle-help = Switch between windowed and fullscreen display.
 video-display-help = Choose which display the game window or fullscreen mode should use.

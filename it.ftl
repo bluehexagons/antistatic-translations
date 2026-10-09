@@ -948,6 +948,7 @@ audio-voice-help = Imposta il volume delle voci dei personaggi.
 audio-music-toggle-help = Attiva o disattiva la riproduzione musicale.
 audio-music-help = Imposta il volume della musica.
 video-navigation-hint = Le direzioni navigano · Conferma cambia il valore · Indietro ritorna
+video-render-target-memory = Target di rendering + atlante (stima): { $memory }
 video-preset-help = Applica un preset grafico raggruppato, o mostra Personalizzato quando le impostazioni individuali differiscono.
 video-fullscreen-toggle-help = Passa da finestra a schermo intero e viceversa.
 video-display-help = Scegli quale schermo deve usare la finestra del gioco o la modalità schermo intero.

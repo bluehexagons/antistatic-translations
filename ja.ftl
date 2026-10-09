@@ -948,6 +948,7 @@ audio-voice-help = キャラクターボイスの音量を設定します。
 audio-music-toggle-help = 音楽再生を切り替えます。
 audio-music-help = 音楽の音量を設定します。
 video-navigation-hint = 方向入力で移動 · 決定で値を変更 · 戻るで前画面へ
+video-render-target-memory = 描画ターゲット＋アトラス（推定）：{ $memory }
 video-preset-help = グループ化されたグラフィックプリセットを適用するか、個別設定が異なる場合は カスタム を表示します。
 video-fullscreen-toggle-help = ウィンドウ表示とフルスクリーン表示を切り替えます。
 video-display-help = ゲームウィンドウまたはフルスクリーンモードで使用するディスプレイを選びます。

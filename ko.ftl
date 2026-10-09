@@ -948,6 +948,7 @@ audio-voice-help = 캐릭터 보이스 볼륨을 설정합니다.
 audio-music-toggle-help = 음악 재생을 켜거나 끕니다.
 audio-music-help = 음악 볼륨을 설정합니다.
 video-navigation-hint = 방향으로 이동 · 확인으로 값 변경 · 뒤로 돌아가기
+video-render-target-memory = 렌더 타깃 + 아틀라스(예상): { $memory }
 video-preset-help = 그룹화된 그래픽 프리셋을 적용하거나, 개별 설정이 다를 때는 사용자 지정을 표시합니다.
 video-fullscreen-toggle-help = 창 모드와 전체 화면 표시를 전환합니다.
 video-display-help = 게임 창이나 전체 화면 모드에서 사용할 디스플레이를 선택합니다.

@@ -949,6 +949,7 @@ audio-voice-help = Stelle die Lautstärke der Charakterstimmen ein.
 audio-music-toggle-help = Schalte die Musikwiedergabe ein oder aus.
 audio-music-help = Stelle die Musiklautstärke ein.
 video-navigation-hint = Richtungen navigieren · Bestätigen ändert den Wert · Zurück kehrt zurück
+video-render-target-memory = Renderziele + Atlas (geschätzt): { $memory }
 video-preset-help = Wende eine gruppierte Grafik-Voreinstellung an oder zeige Benutzerdefiniert, wenn sich einzelne Einstellungen unterscheiden.
 video-fullscreen-toggle-help = Wechsle zwischen Fenster- und Vollbildanzeige.
 video-display-help = Wähle, welches Display das Spiel im Fenster- oder Vollbildmodus verwenden soll.
