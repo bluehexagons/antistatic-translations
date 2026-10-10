@@ -709,6 +709,7 @@ pause-tap-jump = Tap Jump
 # Arcade Mode
 arcade-connect = 連接控制器並按任意按鈕加入。
 arcade-return-prompt = 按確認返回主菜單。
+arcade-return-to-arcade-prompt = 按確認返回街機菜單。
 
 # Replay
 replay-paused = 重放已暫停

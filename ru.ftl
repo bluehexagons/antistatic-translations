@@ -709,6 +709,7 @@ pause-tap-jump = Tap Jump
 # Arcade Mode
 arcade-connect = Подключите контроллер и нажмите любую кнопку для присоединения.
 arcade-return-prompt = Нажмите подтверждение для возврата в главное меню.
+arcade-return-to-arcade-prompt = Нажмите подтверждение для возврата в меню аркады.
 
 # Replay
 replay-paused = Воспроизведение приостановлено
