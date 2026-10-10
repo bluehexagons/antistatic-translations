@@ -1609,3 +1609,4 @@ native-adapter-pc-mode-guidance = Mayflash 和通用轉接器的 PC 模式可在
 native-adapter-copy-linux-setup = 複製 Linux 設定
 native-adapter-copy-udev-rule = 複製 udev 規則
 native-adapter-setup-guidance = 設定：請使用相容 WUP-028 的轉接器，並切換至 Wii U/NS 模式。
+point-lights-limited = 點光源：有限

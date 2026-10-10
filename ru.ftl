@@ -1618,3 +1618,4 @@ native-adapter-pc-mode-guidance = Адаптеры Mayflash и другие ад
 native-adapter-copy-linux-setup = Копировать настройку Linux
 native-adapter-copy-udev-rule = Копировать правило udev
 native-adapter-setup-guidance = Настройка: используйте адаптер, совместимый с WUP-028, в режиме Wii U/NS.
+point-lights-limited = Точечные источники света: Ограничены

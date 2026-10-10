@@ -1614,3 +1614,4 @@ native-adapter-pc-mode-guidance = Le mode PC des adaptateurs Mayflash ou génér
 native-adapter-copy-linux-setup = Copier la configuration Linux
 native-adapter-copy-udev-rule = Copier la règle udev
 native-adapter-setup-guidance = Configuration : utilisez un adaptateur compatible WUP-028 en mode Wii U/NS.
+point-lights-limited = Lumières ponctuelles : Limitées
