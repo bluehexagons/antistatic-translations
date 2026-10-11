@@ -1616,3 +1616,11 @@ native-adapter-copy-udev-rule = Copia regola udev
 native-adapter-setup-guidance = Configurazione: usa un adattatore compatibile con WUP-028 in modalità Wii U/NS.
 point-lights-limited = Luci puntiformi: Limitate
 native-adapter-help-button-label = Aiuto adattatore
+
+# Experimental translucent material lighting; changes apply at game launch.
+translucent-lighting-basic = Illuminazione traslucida: Base
+translucent-lighting-pbr = Illuminazione traslucida: PBR
+video-translucent-lighting-help = Illuminazione sperimentale dei materiali traslucidi. Applica le modifiche e riavvia il gioco.
+video-translucent-lighting-override-help = Controllata da un’impostazione di avvio. Riavvia senza questa impostazione per usare l’opzione salvata.
+video-translucent-lighting-unavailable-help = Questa versione del gioco non supporta l’opzione salvata per l’illuminazione traslucida.
+video-translucent-lighting-restart = Riavvia per applicare l’illuminazione traslucida.

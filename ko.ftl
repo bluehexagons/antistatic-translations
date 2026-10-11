@@ -1611,3 +1611,11 @@ native-adapter-copy-udev-rule = udev 규칙 복사
 native-adapter-setup-guidance = 설정: WUP-028 호환 어댑터를 Wii U/NS 모드로 사용하세요.
 point-lights-limited = 포인트 조명: 제한
 native-adapter-help-button-label = 어댑터 도움말
+
+# Experimental translucent material lighting; changes apply at game launch.
+translucent-lighting-basic = 반투명 조명: 기본
+translucent-lighting-pbr = 반투명 조명: PBR
+video-translucent-lighting-help = 반투명 모델용 실험적 재질 조명입니다. 변경 사항을 적용한 뒤 게임을 다시 시작하세요.
+video-translucent-lighting-override-help = 실행 시 지정한 설정이 우선합니다. 저장된 옵션을 사용하려면 지정한 설정 없이 다시 시작하세요.
+video-translucent-lighting-unavailable-help = 이 게임 버전은 반투명 조명 옵션 저장을 지원하지 않습니다.
+video-translucent-lighting-restart = 반투명 조명을 적용하려면 다시 시작하세요.

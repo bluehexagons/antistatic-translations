@@ -1611,3 +1611,11 @@ native-adapter-copy-udev-rule = 复制 udev 规则
 native-adapter-setup-guidance = 设置：请使用兼容 WUP-028 的适配器，并切换到 Wii U/NS 模式。
 point-lights-limited = 点光源：有限
 native-adapter-help-button-label = 适配器帮助
+
+# Experimental translucent material lighting; changes apply at game launch.
+translucent-lighting-basic = 半透明光照：基础
+translucent-lighting-pbr = 半透明光照：PBR
+video-translucent-lighting-help = 为半透明模型提供实验性材质光照。应用更改后请重启游戏。
+video-translucent-lighting-override-help = 启动时的覆盖设置优先生效。要使用已保存的选项，请移除覆盖设置后重启。
+video-translucent-lighting-unavailable-help = 此游戏版本不支持保存半透明光照选项。
+video-translucent-lighting-restart = 重启以应用半透明光照。

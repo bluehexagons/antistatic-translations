@@ -1620,3 +1620,11 @@ native-adapter-copy-udev-rule = Копировать правило udev
 native-adapter-setup-guidance = Настройка: используйте адаптер, совместимый с WUP-028, в режиме Wii U/NS.
 point-lights-limited = Точечные источники света: Ограничены
 native-adapter-help-button-label = Справка по адаптеру
+
+# Experimental translucent material lighting; changes apply at game launch.
+translucent-lighting-basic = Полупрозрачность: Простая
+translucent-lighting-pbr = Полупрозрачность: PBR
+video-translucent-lighting-help = Экспериментальное освещение материалов полупрозрачных моделей. Примените изменения и перезапустите игру.
+video-translucent-lighting-override-help = Управляется параметром запуска. Перезапустите без него, чтобы использовать сохранённую настройку.
+video-translucent-lighting-unavailable-help = Эта версия игры не поддерживает сохранённую настройку освещения полупрозрачных моделей.
+video-translucent-lighting-restart = Перезапустите для применения освещения полупрозрачности.
