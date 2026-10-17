@@ -5,7 +5,7 @@ Contains translation FTL files used in Antistatic. FTL is a Fluent Translation L
 ## Installation
 
 ```bash
-npm install git+https://github.com/bluehexagons/antistatic-translations.git
+npm install https://codeload.github.com/bluehexagons/antistatic-translations/tar.gz/refs/tags/v0.1.102
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ import { translationsDir, translationFiles } from '@bluehexagons/antistatic-tran
 
 This package is intentionally lightweight: it exposes the directory containing the `.ftl` files so applications can load them directly with Node.js filesystem APIs.
 
-The repository includes its package metadata directly so Git-based installs from public GitHub work without a submodule checkout.
+The tagged archive includes its package metadata and catalogs, so installs need no sibling checkout.
 
 ## Development
 
