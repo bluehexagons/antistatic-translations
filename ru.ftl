@@ -492,6 +492,7 @@ controls-quick-map-assign-input = Назначить {$input}
 controls-quick-map-unavailable-status = Быстрая раскладка недоступна для этого контроллера. Изменения не сохранены.
 controls-remap-autosave-status = Изменения сохраняются автоматически.
 controls-remap-saved-status = Сохранено автоматически.
+controls-remap-save-failed-status = Не удалось сохранить настройки управления. Повторите попытку.
 controls-remap-blocked-menu-controls-status = Заблокировано: сохраните Подтвердить UI, Назад UI, горизонтальную и вертикальную навигацию меню. Изменения не сохранены.
 controls-remap-default-reset-blocked-status = Встроенное управление по умолчанию нельзя сбросить. Изменения не сохранены.
 controls-layout-standard = Xbox / Стандартная

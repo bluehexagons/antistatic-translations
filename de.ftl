@@ -492,6 +492,7 @@ controls-quick-map-assign-input = {$input} zuweisen
 controls-quick-map-unavailable-status = Schnellbelegung ist für diesen Controller nicht verfügbar. Keine Änderungen gespeichert.
 controls-remap-autosave-status = Änderungen werden automatisch gespeichert.
 controls-remap-saved-status = Automatisch gespeichert.
+controls-remap-save-failed-status = Die Steuerung konnte nicht gespeichert werden. Erneut versuchen.
 controls-remap-blocked-menu-controls-status = Blockiert: UI Bestätigen, UI Zurück sowie horizontale und vertikale Menünavigation beibehalten. Keine Änderungen gespeichert.
 controls-remap-default-reset-blocked-status = Integrierte Standardbelegung kann nicht zurückgesetzt werden. Keine Änderungen gespeichert.
 controls-layout-standard = Xbox / Standard

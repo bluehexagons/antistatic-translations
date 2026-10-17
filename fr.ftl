@@ -505,6 +505,7 @@ controls-quick-map-assign-input = Assigner {$input}
 controls-quick-map-unavailable-status = La configuration rapide est indisponible pour cette manette. Aucun changement enregistré.
 controls-remap-autosave-status = Les changements sont enregistrés automatiquement.
 controls-remap-saved-status = Enregistré automatiquement.
+controls-remap-save-failed-status = Impossible d’enregistrer les commandes. Réessayez.
 controls-remap-blocked-menu-controls-status = Bloqué : gardez Confirmer UI, Retour UI et la navigation horizontale et verticale du menu. Aucun changement enregistré.
 controls-remap-default-reset-blocked-status = Les contrôles intégrés par défaut ne peuvent pas être réinitialisés. Aucun changement enregistré.
 controls-layout-standard = Xbox / standard

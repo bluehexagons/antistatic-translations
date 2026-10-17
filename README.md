@@ -5,7 +5,7 @@ Contains translation FTL files used in Antistatic. FTL is a Fluent Translation L
 ## Installation
 
 ```bash
-npm install https://codeload.github.com/bluehexagons/antistatic-translations/tar.gz/refs/tags/v0.1.102
+npm install https://codeload.github.com/bluehexagons/antistatic-translations/tar.gz/refs/tags/v0.1.103
 ```
 
 ## Usage

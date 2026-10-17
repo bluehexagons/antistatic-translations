@@ -492,6 +492,7 @@ controls-quick-map-assign-input = {$input} 할당
 controls-quick-map-unavailable-status = 이 컨트롤러에서는 빠른 매핑을 사용할 수 없습니다. 변경 사항이 저장되지 않았습니다.
 controls-remap-autosave-status = 변경 사항은 자동으로 저장됩니다.
 controls-remap-saved-status = 자동 저장되었습니다.
+controls-remap-save-failed-status = 조작 설정을 저장하지 못했습니다. 다시 시도하세요.
 controls-remap-blocked-menu-controls-status = 차단됨: UI 확인, UI 뒤로, 메뉴 가로 및 세로 탐색을 유지하세요. 변경 사항이 저장되지 않았습니다.
 controls-remap-default-reset-blocked-status = 내장 기본 조작 설정은 재설정할 수 없습니다. 변경 사항이 저장되지 않았습니다.
 controls-layout-standard = Xbox / 표준

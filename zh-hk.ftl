@@ -492,6 +492,7 @@ controls-quick-map-assign-input = 分配 {$input}
 controls-quick-map-unavailable-status = 此控制器不支援快速映射。未儲存任何變更。
 controls-remap-autosave-status = 變更會自動儲存。
 controls-remap-saved-status = 已自動儲存。
+controls-remap-save-failed-status = 無法儲存操作設定。請重試。
 controls-remap-blocked-menu-controls-status = 已阻止：請保留 UI 確認、UI 返回及選單的水平和垂直導覽。未儲存任何變更。
 controls-remap-default-reset-blocked-status = 無法重設內置預設控制。未儲存任何變更。
 controls-layout-standard = Xbox / 標準

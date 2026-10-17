@@ -492,6 +492,7 @@ controls-quick-map-assign-input = Assegna {$input}
 controls-quick-map-unavailable-status = La mappatura rapida non è disponibile per questo controller. Nessuna modifica salvata.
 controls-remap-autosave-status = Le modifiche vengono salvate automaticamente.
 controls-remap-saved-status = Salvato automaticamente.
+controls-remap-save-failed-status = Impossibile salvare i comandi. Riprova.
 controls-remap-blocked-menu-controls-status = Bloccato: mantieni Conferma UI, Indietro UI e la navigazione orizzontale e verticale del menu. Nessuna modifica salvata.
 controls-remap-default-reset-blocked-status = I comandi predefiniti integrati non possono essere ripristinati. Nessuna modifica salvata.
 controls-layout-standard = Xbox / Standard

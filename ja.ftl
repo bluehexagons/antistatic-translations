@@ -492,6 +492,7 @@ controls-quick-map-assign-input = {$input} を割り当て
 controls-quick-map-unavailable-status = このコントローラーではクイックマップを利用できません。変更は保存されませんでした。
 controls-remap-autosave-status = 変更は自動保存されます。
 controls-remap-saved-status = 自動保存しました。
+controls-remap-save-failed-status = 操作設定を保存できませんでした。もう一度お試しください。
 controls-remap-blocked-menu-controls-status = ブロック: UI 決定、UI 戻る、メニューの横・縦ナビゲーションを残してください。変更は保存されませんでした。
 controls-remap-default-reset-blocked-status = 組み込みの初期設定はリセットできません。変更は保存されませんでした。
 controls-layout-standard = Xbox / 標準

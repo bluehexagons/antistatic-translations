@@ -517,6 +517,7 @@ controls-quick-map-assign-input = Assign {$input}
 controls-quick-map-unavailable-status = Quick Map is unavailable for this controller. No changes were saved.
 controls-remap-autosave-status = Changes save automatically.
 controls-remap-saved-status = Saved automatically.
+controls-remap-save-failed-status = Could not save controls. Try again.
 controls-remap-blocked-menu-controls-status = Blocked: keep UI Confirm, UI Back, and horizontal and vertical menu navigation. No changes were saved.
 controls-remap-default-reset-blocked-status = Built-in default controls cannot be reset. No changes were saved.
 controls-layout-standard = Xbox / Standard
