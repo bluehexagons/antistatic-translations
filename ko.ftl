@@ -1620,3 +1620,35 @@ video-translucent-lighting-help = 반투명 모델용 실험적 재질 조명입
 video-translucent-lighting-override-help = 실행 시 지정한 설정이 우선합니다. 저장된 옵션을 사용하려면 지정한 설정 없이 다시 시작하세요.
 video-translucent-lighting-unavailable-help = 이 게임 버전은 반투명 조명 옵션 저장을 지원하지 않습니다.
 video-translucent-lighting-restart = 반투명 조명을 적용하려면 다시 시작하세요.
+
+# Native USB scan diagnostics
+native-adapter-status-paused = 상태: 기본 어댑터 {$count}/{$total}개 연결됨; 폴링 중지됨
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] 기본 USB가 초기화되지 않았습니다.
+        [disabled] 이 세션에서는 기본 USB가 비활성화되어 있습니다.
+        [unavailable] 기본 USB를 사용할 수 없습니다. 어댑터 설정을 확인하세요.
+        [not-run] 아직 어댑터를 검색하지 않았습니다.
+        [none] Wii U/NS 모드의 기본 어댑터를 찾지 못했습니다.
+        *[complete] 검색 완료. 기본 모드: Wii U/NS.
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}: {$operation} 실패 (오류 {$code}).
+native-adapter-scan-global-issue = {$operation} 실패 (오류 {$code}).
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] USB 동기화
+        [initialize] USB 초기화
+        [enumerate] USB 장치 검색
+        [describe] USB 식별
+        [open] 어댑터 접근
+        [driver] 드라이버 설정
+        [claim] 인터페이스 확보
+        [configure] 어댑터 구성
+        [start] 어댑터 시작
+        [read] 어댑터 읽기
+        *[thread] 폴링 스레드 시작
+    }
+native-adapter-scan-access = USB {$bus}:{$address}: 권한과 드라이버 설정을 확인하세요.
+native-adapter-scan-busy = USB {$bus}:{$address}: 다른 앱이나 드라이버가 이 어댑터를 사용 중입니다.
+native-adapter-scan-more = 기타 문제: {$count}개.
+native-adapter-scan-overflow = 연결 한도를 초과한 어댑터: {$count}개.

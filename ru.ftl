@@ -1629,3 +1629,35 @@ video-translucent-lighting-help = Экспериментальное освещ�
 video-translucent-lighting-override-help = Управляется параметром запуска. Перезапустите без него, чтобы использовать сохранённую настройку.
 video-translucent-lighting-unavailable-help = Эта версия игры не поддерживает сохранённую настройку освещения полупрозрачных моделей.
 video-translucent-lighting-restart = Перезапустите для применения освещения полупрозрачности.
+
+# Native USB scan diagnostics
+native-adapter-status-paused = Состояние: подключено нативных адаптеров {$count} из {$total}; опрос остановлен
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] Нативный USB не инициализирован.
+        [disabled] Нативный USB отключён в этом сеансе.
+        [unavailable] Нативный USB недоступен. Проверьте настройку адаптера.
+        [not-run] Поиск адаптеров ещё не запускался.
+        [none] Нативный адаптер в режиме Wii U/NS не найден.
+        *[complete] Поиск завершён. Нативный режим: Wii U/NS.
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}: сбой операции «{$operation}» (ошибка {$code}).
+native-adapter-scan-global-issue = Сбой операции «{$operation}» (ошибка {$code}).
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] синхронизация USB
+        [initialize] инициализация USB
+        [enumerate] поиск устройств USB
+        [describe] идентификация USB
+        [open] доступ к адаптеру
+        [driver] настройка драйвера
+        [claim] захват интерфейса
+        [configure] настройка адаптера
+        [start] запуск адаптера
+        [read] чтение адаптера
+        *[thread] запуск потока опроса
+    }
+native-adapter-scan-access = USB {$bus}:{$address}: проверьте права доступа и настройку драйвера.
+native-adapter-scan-busy = USB {$bus}:{$address}: адаптер занят другим приложением или драйвером.
+native-adapter-scan-more = Других проблем: {$count}.
+native-adapter-scan-overflow = Адаптеров сверх лимита: {$count}.

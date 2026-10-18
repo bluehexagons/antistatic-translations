@@ -1625,3 +1625,35 @@ video-translucent-lighting-help = Illuminazione sperimentale dei materiali trasl
 video-translucent-lighting-override-help = Controllata da un’impostazione di avvio. Riavvia senza questa impostazione per usare l’opzione salvata.
 video-translucent-lighting-unavailable-help = Questa versione del gioco non supporta l’opzione salvata per l’illuminazione traslucida.
 video-translucent-lighting-restart = Riavvia per applicare l’illuminazione traslucida.
+
+# Native USB scan diagnostics
+native-adapter-status-paused = Stato: {$count} adattatori nativi connessi su {$total}; polling interrotto
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] USB nativo non inizializzato.
+        [disabled] USB nativo disattivato in questa sessione.
+        [unavailable] USB nativo non disponibile. Controlla la configurazione dell’adattatore.
+        [not-run] La ricerca degli adattatori non è ancora stata eseguita.
+        [none] Nessun adattatore nativo in modalità Wii U/NS trovato.
+        *[complete] Ricerca completata. Modalità nativa: Wii U/NS.
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}: operazione «{$operation}» non riuscita (errore {$code}).
+native-adapter-scan-global-issue = Operazione «{$operation}» non riuscita (errore {$code}).
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] sincronizzazione USB
+        [initialize] inizializzazione USB
+        [enumerate] ricerca dei dispositivi USB
+        [describe] identificazione USB
+        [open] accesso all’adattatore
+        [driver] configurazione del driver
+        [claim] acquisizione dell’interfaccia
+        [configure] configurazione dell’adattatore
+        [start] avvio dell’adattatore
+        [read] lettura dell’adattatore
+        *[thread] avvio del thread di polling
+    }
+native-adapter-scan-access = USB {$bus}:{$address}: controlla i permessi e la configurazione del driver.
+native-adapter-scan-busy = USB {$bus}:{$address}: un’altra applicazione o un driver sta usando questo adattatore.
+native-adapter-scan-more = Altri problemi: {$count}.
+native-adapter-scan-overflow = Adattatori oltre la capacità: {$count}.

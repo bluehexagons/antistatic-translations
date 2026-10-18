@@ -1620,3 +1620,35 @@ video-translucent-lighting-help = 半透明モデル向けの実験的なマテ�
 video-translucent-lighting-override-help = 起動時の設定が優先されています。保存した設定を使うには、起動時の指定を外して再起動してください。
 video-translucent-lighting-unavailable-help = このゲームのバージョンでは、半透明ライティングの設定保存に対応していません。
 video-translucent-lighting-restart = 半透明ライティングを適用するには再起動してください。
+
+# Native USB scan diagnostics
+native-adapter-status-paused = 状態：ネイティブアダプター {$count}/{$total} 台接続・ポーリング停止中
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] ネイティブUSBは初期化されていません。
+        [disabled] このセッションではネイティブUSBが無効です。
+        [unavailable] ネイティブUSBを利用できません。アダプターの設定を確認してください。
+        [not-run] アダプターの検索はまだ実行されていません。
+        [none] Wii U/NSモードのネイティブアダプターが見つかりません。
+        *[complete] 検索完了。ネイティブモード：Wii U/NS。
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}：{$operation}に失敗しました（エラー {$code}）。
+native-adapter-scan-global-issue = {$operation}に失敗しました（エラー {$code}）。
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] USB同期
+        [initialize] USB初期化
+        [enumerate] USBデバイス検索
+        [describe] USB識別
+        [open] アダプターへのアクセス
+        [driver] ドライバー設定
+        [claim] インターフェースの確保
+        [configure] アダプター設定
+        [start] アダプター起動
+        [read] アダプター読み取り
+        *[thread] ポーリングスレッド起動
+    }
+native-adapter-scan-access = USB {$bus}:{$address}：アクセス権限とドライバー設定を確認してください。
+native-adapter-scan-busy = USB {$bus}:{$address}：別のアプリまたはドライバーがこのアダプターを使用しています。
+native-adapter-scan-more = その他の問題：{$count} 件。
+native-adapter-scan-overflow = 接続上限を超えたアダプター：{$count} 台。

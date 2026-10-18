@@ -1626,3 +1626,35 @@ video-translucent-lighting-help = Experimentelle Materialbeleuchtung für durchs
 video-translucent-lighting-override-help = Durch eine Startvorgabe gesteuert. Ohne diese Vorgabe neu starten, um die gespeicherte Option zu verwenden.
 video-translucent-lighting-unavailable-help = Diese Spielversion unterstützt die gespeicherte Option für transluzente Beleuchtung nicht.
 video-translucent-lighting-restart = Für transluzente Beleuchtung neu starten.
+
+# Native USB scan diagnostics
+native-adapter-status-paused = Status: {$count} von {$total} nativen Adaptern verbunden; Abfrage gestoppt
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] Natives USB ist nicht initialisiert.
+        [disabled] Natives USB ist in dieser Sitzung deaktiviert.
+        [unavailable] Natives USB ist nicht verfügbar. Adaptereinrichtung prüfen.
+        [not-run] Die Adaptersuche wurde noch nicht ausgeführt.
+        [none] Kein nativer Wii U/NS-Adapter gefunden.
+        *[complete] Suche abgeschlossen. Nativer Modus: Wii U/NS.
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}: {$operation} fehlgeschlagen (Fehler {$code}).
+native-adapter-scan-global-issue = {$operation} fehlgeschlagen (Fehler {$code}).
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] USB-Synchronisierung
+        [initialize] USB-Initialisierung
+        [enumerate] USB-Gerätesuche
+        [describe] USB-Erkennung
+        [open] Adapterzugriff
+        [driver] Treibereinrichtung
+        [claim] Belegen der Schnittstelle
+        [configure] Adapterkonfiguration
+        [start] Adapterstart
+        [read] Lesen des Adapters
+        *[thread] Start des Abfrage-Threads
+    }
+native-adapter-scan-access = USB {$bus}:{$address}: Berechtigungen und Treibereinrichtung prüfen.
+native-adapter-scan-busy = USB {$bus}:{$address}: Eine andere Anwendung oder ein Treiber belegt diesen Adapter.
+native-adapter-scan-more = Weitere Probleme: {$count}.
+native-adapter-scan-overflow = Adapter über dem Kapazitätslimit: {$count}.

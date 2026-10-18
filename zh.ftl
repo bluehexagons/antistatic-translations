@@ -1620,3 +1620,35 @@ video-translucent-lighting-help = 为半透明模型提供实验性材质光照�
 video-translucent-lighting-override-help = 启动时的覆盖设置优先生效。要使用已保存的选项，请移除覆盖设置后重启。
 video-translucent-lighting-unavailable-help = 此游戏版本不支持保存半透明光照选项。
 video-translucent-lighting-restart = 重启以应用半透明光照。
+
+# Native USB scan diagnostics
+native-adapter-status-paused = 状态：已连接 {$count}/{$total} 个原生适配器；轮询已停止
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] 原生 USB 尚未初始化。
+        [disabled] 本次会话已禁用原生 USB。
+        [unavailable] 原生 USB 不可用。请检查适配器设置。
+        [not-run] 尚未扫描适配器。
+        [none] 未找到处于 Wii U/NS 模式的原生适配器。
+        *[complete] 扫描完成。原生模式：Wii U/NS。
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}：{$operation}失败（错误 {$code}）。
+native-adapter-scan-global-issue = {$operation}失败（错误 {$code}）。
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] USB 同步
+        [initialize] USB 初始化
+        [enumerate] USB 设备扫描
+        [describe] USB 识别
+        [open] 适配器访问
+        [driver] 驱动程序设置
+        [claim] 接口占用
+        [configure] 适配器配置
+        [start] 适配器启动
+        [read] 适配器读取
+        *[thread] 轮询线程启动
+    }
+native-adapter-scan-access = USB {$bus}:{$address}：请检查访问权限和驱动程序设置。
+native-adapter-scan-busy = USB {$bus}:{$address}：其他应用或驱动程序已占用此适配器。
+native-adapter-scan-more = 其他问题：{$count} 个。
+native-adapter-scan-overflow = 超出连接上限的适配器：{$count} 个。

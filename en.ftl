@@ -1645,3 +1645,35 @@ video-translucent-lighting-help = Experimental material lighting for translucent
 video-translucent-lighting-override-help = Controlled by a launch override. Restart without the override to use the saved option.
 video-translucent-lighting-unavailable-help = This game build does not support the saved translucent-lighting option.
 video-translucent-lighting-restart = Restart to apply translucent lighting.
+
+# Native USB scan diagnostics
+native-adapter-status-paused = Status: {$count} of {$total} native adapters connected; polling stopped
+native-adapter-scan-state =
+    { $state ->
+        [not-initialized] Native USB is not initialized.
+        [disabled] Native USB is disabled in this session.
+        [unavailable] Native USB is unavailable. Check adapter setup.
+        [not-run] The adapter scan has not run yet.
+        [none] No native Wii U/NS adapter found.
+        *[complete] Scan complete. Native mode: Wii U/NS.
+    }
+native-adapter-scan-issue = USB {$bus}:{$address}: {$operation} failed (error {$code}).
+native-adapter-scan-global-issue = {$operation} failed (error {$code}).
+native-adapter-scan-operation =
+    { $stage ->
+        [locking] USB synchronization
+        [initialize] USB initialization
+        [enumerate] USB device scan
+        [describe] USB identification
+        [open] adapter access
+        [driver] driver setup
+        [claim] interface claim
+        [configure] adapter configuration
+        [start] adapter start
+        [read] adapter read
+        *[thread] polling thread start
+    }
+native-adapter-scan-access = USB {$bus}:{$address}: check permissions and driver setup.
+native-adapter-scan-busy = USB {$bus}:{$address}: another app or driver has claimed this adapter.
+native-adapter-scan-more = Other issues: {$count}.
+native-adapter-scan-overflow = Adapters beyond capacity: {$count}.
