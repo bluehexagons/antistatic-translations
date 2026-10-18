@@ -1637,8 +1637,8 @@ native-adapter-scan-state =
         [none] Aucun adaptateur natif en mode Wii U/NS détecté.
         *[complete] Recherche terminée. Mode natif : Wii U/NS.
     }
-native-adapter-scan-issue = USB {$bus}:{$address} : échec de {$operation} (erreur {$code}).
-native-adapter-scan-global-issue = Échec de {$operation} (erreur {$code}).
+native-adapter-scan-issue = USB {$bus}:{$address} : échec : {$operation} (erreur {$code}).
+native-adapter-scan-global-issue = Échec : {$operation} (erreur {$code}).
 native-adapter-scan-operation =
     { $stage ->
         [locking] la synchronisation USB
