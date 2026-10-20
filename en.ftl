@@ -935,7 +935,7 @@ main-exit-help = Quit Antistatic.
 settings-audio-help = Adjust master, sound effect, UI, voice, and music volume.
 settings-video-help = Change graphics preset, fullscreen, sync, effects, and frame limit options.
 settings-native-adapter-help = Inspect GameCube adapter status and setup notes.
-settings-language-help = Cycle the menu language.
+settings-language-help = Choose the menu language.
 settings-start-mode-help = Choose which mode opens first at startup.
 settings-live-reload = Live Reload
 settings-live-reload-help = Reload character files from the Animator while editing locally. Disabled by default.
@@ -953,7 +953,7 @@ audio-voice-help = Set character voice volume.
 audio-music-toggle-help = Toggle music playback.
 audio-music-help = Set music volume.
 
-video-navigation-hint = Directions navigate · Confirm changes value · Back returns
+video-navigation-hint = Directions navigate · Confirm selects · Back returns
 video-render-target-memory = Render targets + atlas (est.): { $memory }
 video-preset-help = Apply a grouped graphics preset, or show Custom when individual settings differ.
 video-fullscreen-toggle-help = Switch between windowed and fullscreen display.
