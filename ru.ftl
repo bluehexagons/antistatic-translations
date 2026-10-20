@@ -1631,14 +1631,6 @@ native-adapter-setup-guidance = Настройка: используйте ад�
 point-lights-limited = Точечные источники света: Ограничены
 native-adapter-help-button-label = Справка по адаптеру
 
-# Experimental translucent material lighting; changes apply at game launch.
-translucent-lighting-basic = Полупрозрачность: Простая
-translucent-lighting-pbr = Полупрозрачность: PBR
-video-translucent-lighting-help = Экспериментальное освещение материалов полупрозрачных моделей. Примените изменения и перезапустите игру.
-video-translucent-lighting-override-help = Управляется параметром запуска. Перезапустите без него, чтобы использовать сохранённую настройку.
-video-translucent-lighting-unavailable-help = Эта версия игры не поддерживает сохранённую настройку освещения полупрозрачных моделей.
-video-translucent-lighting-restart = Перезапустите для применения освещения полупрозрачности.
-
 # Native USB scan diagnostics
 native-adapter-status-paused = Состояние: подключено нативных адаптеров {$count} из {$total}; опрос остановлен
 native-adapter-scan-state =

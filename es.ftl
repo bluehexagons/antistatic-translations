@@ -1627,14 +1627,6 @@ native-adapter-setup-guidance = Configuración: usa un adaptador compatible con 
 point-lights-limited = Luces puntuales: Limitadas
 native-adapter-help-button-label = Ayuda del adaptador
 
-# Experimental translucent material lighting; changes apply at game launch.
-translucent-lighting-basic = Iluminación translúcida: Básica
-translucent-lighting-pbr = Iluminación translúcida: PBR
-video-translucent-lighting-help = Iluminación de materiales experimental para modelos translúcidos. Aplica los cambios y reinicia el juego.
-video-translucent-lighting-override-help = Controlada por una opción de inicio. Reinicia sin esa opción para usar el ajuste guardado.
-video-translucent-lighting-unavailable-help = Esta versión del juego no admite el ajuste guardado de iluminación translúcida.
-video-translucent-lighting-restart = Reinicia para aplicar la iluminación translúcida.
-
 # Native USB scan diagnostics
 native-adapter-status-paused = Estado: {$count} de {$total} adaptadores nativos conectados; sondeo detenido
 native-adapter-scan-state =
