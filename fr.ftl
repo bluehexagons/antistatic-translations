@@ -1668,3 +1668,9 @@ camera-guide-reset = Réinitialiser le cadre
 camera-guide-hide = Masquer les commandes
 camera-guide-exit = Reprendre le jeu
 camera-guide-mouse = Souris : glisser pour orbiter, glisser avec le bouton droit pour déplacer, molette pour zoomer. Clic milieu ou F1 affiche ou masque les commandes.
+
+indirect-lighting = Éclairage indirect
+video-indirect-lighting-help = Approxime la lumière diffuse renvoyée par les surfaces visibles. Les sources masquées ou hors écran ne sont pas prises en compte.
+indirect-lighting-off = Éclairage indirect : Désactivé
+indirect-lighting-medium = Éclairage indirect : Moyen
+indirect-lighting-high = Éclairage indirect : Élevé

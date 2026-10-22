@@ -1688,3 +1688,9 @@ camera-guide-reset = Reset framing
 camera-guide-hide = Hide controls
 camera-guide-exit = Return to play
 camera-guide-mouse = Mouse: drag to orbit, right-drag to pan, wheel to zoom. Middle-click or F1 shows or hides these controls.
+
+indirect-lighting = Indirect Lighting
+video-indirect-lighting-help = Approximate diffuse bounce from visible surfaces. Hidden and offscreen light sources are not included.
+indirect-lighting-off = Indirect Lighting: Off
+indirect-lighting-medium = Indirect Lighting: Medium
+indirect-lighting-high = Indirect Lighting: High

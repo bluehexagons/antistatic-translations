@@ -1663,3 +1663,9 @@ camera-guide-reset = 重設構圖
 camera-guide-hide = 隱藏操作說明
 camera-guide-exit = 返回對戰
 camera-guide-mouse = 滑鼠：拖曳環繞，右鍵拖曳平移，滾輪縮放。中鍵或 F1 顯示或隱藏操作說明。
+
+indirect-lighting = 間接光照
+video-indirect-lighting-help = 近似計算可見表面反射的漫射光。不包括被遮擋或位於畫面外的光源。
+indirect-lighting-off = 間接光照：關閉
+indirect-lighting-medium = 間接光照：中
+indirect-lighting-high = 間接光照：高

@@ -1663,3 +1663,9 @@ camera-guide-reset = 構図をリセット
 camera-guide-hide = 操作ガイドを隠す
 camera-guide-exit = プレイに戻る
 camera-guide-mouse = マウス：ドラッグで周回、右ドラッグでパン、ホイールでズーム。中クリックまたはF1で操作ガイドの表示を切り替えます。
+
+indirect-lighting = 間接照明
+video-indirect-lighting-help = 画面内に見える表面からの拡散反射光を近似します。遮蔽された光源や画面外の光源は含まれません。
+indirect-lighting-off = 間接照明：オフ
+indirect-lighting-medium = 間接照明：中
+indirect-lighting-high = 間接照明：高

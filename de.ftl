@@ -1669,3 +1669,9 @@ camera-guide-reset = Bild zurücksetzen
 camera-guide-hide = Steuerung ausblenden
 camera-guide-exit = Weiterspielen
 camera-guide-mouse = Maus: Ziehen zum Umkreisen, rechts ziehen zum Verschieben, Mausrad zum Zoomen. Mittelklick oder F1 blendet die Steuerung ein oder aus.
+
+indirect-lighting = Indirekte Beleuchtung
+video-indirect-lighting-help = Nähert diffuses, von sichtbaren Oberflächen reflektiertes Licht an. Verdeckte und außerhalb des Bildschirms liegende Lichtquellen werden nicht berücksichtigt.
+indirect-lighting-off = Indirekte Beleuchtung: Aus
+indirect-lighting-medium = Indirekte Beleuchtung: Mittel
+indirect-lighting-high = Indirekte Beleuchtung: Hoch

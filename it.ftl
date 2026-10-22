@@ -1668,3 +1668,9 @@ camera-guide-reset = Reimposta il quadro
 camera-guide-hide = Nascondi comandi
 camera-guide-exit = Torna a giocare
 camera-guide-mouse = Mouse: trascina per orbitare, trascina con il tasto destro per spostare, rotellina per lo zoom. Clic centrale o F1 mostra o nasconde i comandi.
+
+indirect-lighting = Illuminazione indiretta
+video-indirect-lighting-help = Approssima la luce diffusa rimbalzata dalle superfici visibili. Le sorgenti luminose nascoste o fuori schermo non sono incluse.
+indirect-lighting-off = Illuminazione indiretta: Disattivata
+indirect-lighting-medium = Illuminazione indiretta: Media
+indirect-lighting-high = Illuminazione indiretta: Alta

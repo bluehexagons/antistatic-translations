@@ -1668,3 +1668,9 @@ camera-guide-reset = Restablecer encuadre
 camera-guide-hide = Ocultar controles
 camera-guide-exit = Volver a jugar
 camera-guide-mouse = Ratón: arrastrar para orbitar, arrastrar con el botón derecho para desplazar y rueda para zoom. El botón central o F1 muestra u oculta los controles.
+
+indirect-lighting = Iluminación indirecta
+video-indirect-lighting-help = Aproxima la luz difusa rebotada por las superficies visibles. No incluye fuentes de luz ocultas ni fuera de pantalla.
+indirect-lighting-off = Iluminación indirecta: Desactivada
+indirect-lighting-medium = Iluminación indirecta: Media
+indirect-lighting-high = Iluminación indirecta: Alta

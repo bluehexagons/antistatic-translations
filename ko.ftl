@@ -1663,3 +1663,9 @@ camera-guide-reset = 구도 초기화
 camera-guide-hide = 조작 안내 숨기기
 camera-guide-exit = 플레이로 돌아가기
 camera-guide-mouse = 마우스: 드래그로 회전, 오른쪽 드래그로 이동, 휠로 확대/축소. 가운데 클릭 또는 F1로 조작 안내를 표시하거나 숨깁니다.
+
+indirect-lighting = 간접 조명
+video-indirect-lighting-help = 화면에 보이는 표면에서 반사되는 확산광을 근사합니다. 가려졌거나 화면 밖에 있는 광원은 포함되지 않습니다.
+indirect-lighting-off = 간접 조명: 끄기
+indirect-lighting-medium = 간접 조명: 중간
+indirect-lighting-high = 간접 조명: 높음
