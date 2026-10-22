@@ -5,7 +5,7 @@ Contains translation FTL files used in Antistatic. FTL is a Fluent Translation L
 ## Installation
 
 ```bash
-npm install https://codeload.github.com/bluehexagons/antistatic-translations/tar.gz/refs/tags/v0.1.109
+npm install https://codeload.github.com/bluehexagons/antistatic-translations/tar.gz/refs/tags/v0.1.110
 ```
 
 ## Usage
@@ -20,9 +20,7 @@ The tagged archive includes its package metadata and catalogs, so installs need 
 
 ## Development
 
-Development requires Node.js 20.19 or newer on the Node 20 line, or Node.js
-22.12 or newer. The published package remains compatible with Node.js 18 and
-newer.
+Development and the published package require Node.js 24 or newer.
 
 Run `npm run check` to lint the JavaScript entry point with Oxlint and verify
 JavaScript, package metadata, and documentation formatting with Oxfmt. Fluent
