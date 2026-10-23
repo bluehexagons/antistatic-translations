@@ -133,6 +133,8 @@ Apply-Changes = 套用變更
 graphics-preset-low = 圖形：低
 graphics-preset-medium = 圖形：中
 graphics-preset-high = 圖形：高
+graphics-preset-ultra = 圖形：超高
+graphics-preset-cinematic = 圖形：電影級
 graphics-preset-max = 圖形：最高
 graphics-preset-custom = 圖形：自訂
 
@@ -1669,3 +1671,5 @@ video-indirect-lighting-help = 近似計算可見表面反射的漫射光。不�
 indirect-lighting-off = 間接光照：關閉
 indirect-lighting-medium = 間接光照：中
 indirect-lighting-high = 間接光照：高
+indirect-lighting-ultra = 間接光照：超高
+indirect-lighting-cinematic = 間接光照：電影級

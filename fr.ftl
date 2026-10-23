@@ -146,6 +146,8 @@ Apply-Changes = Appliquer les modifications
 graphics-preset-low = Graphismes : Faible
 graphics-preset-medium = Graphismes : Moyen
 graphics-preset-high = Graphismes : Élevé
+graphics-preset-ultra = Graphismes : Ultra
+graphics-preset-cinematic = Graphismes : Cinématique
 graphics-preset-max = Graphismes : Maximum
 graphics-preset-custom = Graphismes : Personnalisé
 
@@ -1674,3 +1676,5 @@ video-indirect-lighting-help = Approxime la lumière diffuse renvoyée par les s
 indirect-lighting-off = Éclairage indirect : Désactivé
 indirect-lighting-medium = Éclairage indirect : Moyen
 indirect-lighting-high = Éclairage indirect : Élevé
+indirect-lighting-ultra = Éclairage indirect : Ultra
+indirect-lighting-cinematic = Éclairage indirect : Cinématique

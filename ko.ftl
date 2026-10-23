@@ -133,6 +133,8 @@ Apply-Changes = 변경 사항 적용
 graphics-preset-low = 그래픽: 낮음
 graphics-preset-medium = 그래픽: 중간
 graphics-preset-high = 그래픽: 높음
+graphics-preset-ultra = 그래픽: 울트라
+graphics-preset-cinematic = 그래픽: 시네마틱
 graphics-preset-max = 그래픽: 최대
 graphics-preset-custom = 그래픽: 사용자 지정
 
@@ -1669,3 +1671,5 @@ video-indirect-lighting-help = 화면에 보이는 표면에서 반사되는 확
 indirect-lighting-off = 간접 조명: 끄기
 indirect-lighting-medium = 간접 조명: 중간
 indirect-lighting-high = 간접 조명: 높음
+indirect-lighting-ultra = 간접 조명: 울트라
+indirect-lighting-cinematic = 간접 조명: 시네마틱

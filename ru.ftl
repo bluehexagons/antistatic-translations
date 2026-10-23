@@ -133,6 +133,8 @@ Apply-Changes = Применить изменения
 graphics-preset-low = Графика: Низко
 graphics-preset-medium = Графика: Средне
 graphics-preset-high = Графика: Высоко
+graphics-preset-ultra = Графика: Ультра
+graphics-preset-cinematic = Графика: Кинематографическая
 graphics-preset-max = Графика: Максимум
 graphics-preset-custom = Графика: Пользовательская
 
@@ -1678,3 +1680,5 @@ video-indirect-lighting-help = Приближённо рассчитывает �
 indirect-lighting-off = Непрямое освещение: Выкл
 indirect-lighting-medium = Непрямое освещение: Среднее
 indirect-lighting-high = Непрямое освещение: Высокое
+indirect-lighting-ultra = Непрямое освещение: Ультра
+indirect-lighting-cinematic = Непрямое освещение: Кинематографическое

@@ -133,6 +133,8 @@ Apply-Changes = 変更を適用
 graphics-preset-low = グラフィック：低
 graphics-preset-medium = グラフィック：中
 graphics-preset-high = グラフィック：高
+graphics-preset-ultra = グラフィック：ウルトラ
+graphics-preset-cinematic = グラフィック：シネマティック
 graphics-preset-max = グラフィック：最大
 graphics-preset-custom = グラフィック：カスタム
 
@@ -1669,3 +1671,5 @@ video-indirect-lighting-help = 画面内に見える表面からの拡散反射�
 indirect-lighting-off = 間接照明：オフ
 indirect-lighting-medium = 間接照明：中
 indirect-lighting-high = 間接照明：高
+indirect-lighting-ultra = 間接照明：ウルトラ
+indirect-lighting-cinematic = 間接照明：シネマティック

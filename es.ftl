@@ -133,6 +133,8 @@ Apply-Changes = Aplicar cambios
 graphics-preset-low = Gráficos: Bajo
 graphics-preset-medium = Gráficos: Medio
 graphics-preset-high = Gráficos: Alto
+graphics-preset-ultra = Gráficos: Ultra
+graphics-preset-cinematic = Gráficos: Cinemático
 graphics-preset-max = Gráficos: Máximo
 graphics-preset-custom = Gráficos: Personalizado
 
@@ -1674,3 +1676,5 @@ video-indirect-lighting-help = Aproxima la luz difusa rebotada por las superfici
 indirect-lighting-off = Iluminación indirecta: Desactivada
 indirect-lighting-medium = Iluminación indirecta: Media
 indirect-lighting-high = Iluminación indirecta: Alta
+indirect-lighting-ultra = Iluminación indirecta: Ultra
+indirect-lighting-cinematic = Iluminación indirecta: Cinemática

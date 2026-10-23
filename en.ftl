@@ -133,6 +133,8 @@ Apply-Changes = Apply Changes
 graphics-preset-low = Graphics: Low
 graphics-preset-medium = Graphics: Medium
 graphics-preset-high = Graphics: High
+graphics-preset-ultra = Graphics: Ultra
+graphics-preset-cinematic = Graphics: Cinematic
 graphics-preset-max = Graphics: Max
 graphics-preset-custom = Graphics: Custom
 
@@ -1694,3 +1696,5 @@ video-indirect-lighting-help = Approximate diffuse bounce from visible surfaces.
 indirect-lighting-off = Indirect Lighting: Off
 indirect-lighting-medium = Indirect Lighting: Medium
 indirect-lighting-high = Indirect Lighting: High
+indirect-lighting-ultra = Indirect Lighting: Ultra
+indirect-lighting-cinematic = Indirect Lighting: Cinematic
