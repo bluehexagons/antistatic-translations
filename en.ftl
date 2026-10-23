@@ -1698,3 +1698,11 @@ indirect-lighting-medium = Indirect Lighting: Medium
 indirect-lighting-high = Indirect Lighting: High
 indirect-lighting-ultra = Indirect Lighting: Ultra
 indirect-lighting-cinematic = Indirect Lighting: Cinematic
+
+atmosphere-quality = Atmosphere
+video-atmosphere-quality-help = Adjust sampling of authored shadowed fog. Requires High shadows. Basic keeps unshadowed fog; finer sampling costs more GPU time.
+atmosphere-quality-basic = Atmosphere: Basic
+atmosphere-quality-medium = Atmosphere: Medium
+atmosphere-quality-high = Atmosphere: High
+atmosphere-quality-ultra = Atmosphere: Ultra
+atmosphere-quality-cinematic = Atmosphere: Cinematic

@@ -1679,3 +1679,11 @@ indirect-lighting-medium = Indirekte Beleuchtung: Mittel
 indirect-lighting-high = Indirekte Beleuchtung: Hoch
 indirect-lighting-ultra = Indirekte Beleuchtung: Ultra
 indirect-lighting-cinematic = Indirekte Beleuchtung: Kinoqualität
+
+atmosphere-quality = Atmosphäre
+video-atmosphere-quality-help = Abtastung von Nebel mit aktivierten Schatten anpassen. Erfordert hohe Schattenqualität. Einfach behält unbeschatteten Nebel bei; feinere Abtastung benötigt mehr GPU-Zeit.
+atmosphere-quality-basic = Atmosphäre: Einfach
+atmosphere-quality-medium = Atmosphäre: Mittel
+atmosphere-quality-high = Atmosphäre: Hoch
+atmosphere-quality-ultra = Atmosphäre: Ultra
+atmosphere-quality-cinematic = Atmosphäre: Kinoqualität

@@ -1678,3 +1678,11 @@ indirect-lighting-medium = Illuminazione indiretta: Media
 indirect-lighting-high = Illuminazione indiretta: Alta
 indirect-lighting-ultra = Illuminazione indiretta: Ultra
 indirect-lighting-cinematic = Illuminazione indiretta: Cinematografica
+
+atmosphere-quality = Atmosfera
+video-atmosphere-quality-help = Regola il campionamento della nebbia con ombre attivate dallo scenario. Richiede ombre alte. Base mantiene la nebbia senza ombre; un campionamento più fine richiede più tempo della GPU.
+atmosphere-quality-basic = Atmosfera: Base
+atmosphere-quality-medium = Atmosfera: Media
+atmosphere-quality-high = Atmosfera: Alta
+atmosphere-quality-ultra = Atmosfera: Ultra
+atmosphere-quality-cinematic = Atmosfera: Cinematografica

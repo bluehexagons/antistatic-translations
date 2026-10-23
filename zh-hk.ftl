@@ -1673,3 +1673,11 @@ indirect-lighting-medium = 間接光照：中
 indirect-lighting-high = 間接光照：高
 indirect-lighting-ultra = 間接光照：超高
 indirect-lighting-cinematic = 間接光照：電影級
+
+atmosphere-quality = 大氣
+video-atmosphere-quality-help = 調整場景啟用的帶陰影霧效的取樣品質。需要高陰影設定。基本級保留無陰影霧效；更精細的取樣會增加 GPU 耗時。
+atmosphere-quality-basic = 大氣：基本
+atmosphere-quality-medium = 大氣：中
+atmosphere-quality-high = 大氣：高
+atmosphere-quality-ultra = 大氣：超高
+atmosphere-quality-cinematic = 大氣：電影級

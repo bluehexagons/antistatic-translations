@@ -1673,3 +1673,11 @@ indirect-lighting-medium = 간접 조명: 중간
 indirect-lighting-high = 간접 조명: 높음
 indirect-lighting-ultra = 간접 조명: 울트라
 indirect-lighting-cinematic = 간접 조명: 시네마틱
+
+atmosphere-quality = 대기
+video-atmosphere-quality-help = 스테이지에서 활성화한 그림자 있는 안개의 샘플링을 조정합니다. 높은 그림자 품질이 필요합니다. 기본은 그림자 없는 안개를 유지하며, 더 정밀한 샘플링은 GPU 처리 시간이 늘어납니다.
+atmosphere-quality-basic = 대기: 기본
+atmosphere-quality-medium = 대기: 중간
+atmosphere-quality-high = 대기: 높음
+atmosphere-quality-ultra = 대기: 울트라
+atmosphere-quality-cinematic = 대기: 시네마틱

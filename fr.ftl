@@ -1678,3 +1678,11 @@ indirect-lighting-medium = Éclairage indirect : Moyen
 indirect-lighting-high = Éclairage indirect : Élevé
 indirect-lighting-ultra = Éclairage indirect : Ultra
 indirect-lighting-cinematic = Éclairage indirect : Cinématique
+
+atmosphere-quality = Atmosphère
+video-atmosphere-quality-help = Règle l’échantillonnage du brouillard avec ombres prévu par le décor. Nécessite des ombres élevées. Basique conserve le brouillard sans ombres ; un échantillonnage plus fin demande plus de temps GPU.
+atmosphere-quality-basic = Atmosphère: Basique
+atmosphere-quality-medium = Atmosphère: Moyenne
+atmosphere-quality-high = Atmosphère: Élevée
+atmosphere-quality-ultra = Atmosphère: Ultra
+atmosphere-quality-cinematic = Atmosphère: Cinématique

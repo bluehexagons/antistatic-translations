@@ -1673,3 +1673,11 @@ indirect-lighting-medium = 間接照明：中
 indirect-lighting-high = 間接照明：高
 indirect-lighting-ultra = 間接照明：ウルトラ
 indirect-lighting-cinematic = 間接照明：シネマティック
+
+atmosphere-quality = 大気
+video-atmosphere-quality-help = ステージで有効にされた影付きの霧のサンプリング品質を調整します。影の設定を最高にする必要があります。基本では影なしの霧を維持します。細かいサンプリングほどGPU処理時間が増えます。
+atmosphere-quality-basic = 大気：基本
+atmosphere-quality-medium = 大気：中
+atmosphere-quality-high = 大気：高
+atmosphere-quality-ultra = 大気：ウルトラ
+atmosphere-quality-cinematic = 大気：シネマティック

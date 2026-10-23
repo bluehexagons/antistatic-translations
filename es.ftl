@@ -1678,3 +1678,11 @@ indirect-lighting-medium = Iluminación indirecta: Media
 indirect-lighting-high = Iluminación indirecta: Alta
 indirect-lighting-ultra = Iluminación indirecta: Ultra
 indirect-lighting-cinematic = Iluminación indirecta: Cinemática
+
+atmosphere-quality = Atmósfera
+video-atmosphere-quality-help = Ajusta el muestreo de la niebla con sombras habilitadas por el escenario. Requiere sombras altas. Básica conserva la niebla sin sombras; un muestreo más fino consume más tiempo de GPU.
+atmosphere-quality-basic = Atmósfera: Básica
+atmosphere-quality-medium = Atmósfera: Media
+atmosphere-quality-high = Atmósfera: Alta
+atmosphere-quality-ultra = Atmósfera: Ultra
+atmosphere-quality-cinematic = Atmósfera: Cinemática

@@ -1682,3 +1682,11 @@ indirect-lighting-medium = Непрямое освещение: Среднее
 indirect-lighting-high = Непрямое освещение: Высокое
 indirect-lighting-ultra = Непрямое освещение: Ультра
 indirect-lighting-cinematic = Непрямое освещение: Кинематографическое
+
+atmosphere-quality = Атмосфера
+video-atmosphere-quality-help = Настройка выборок для тумана с тенями, включёнными в сцене. Требует высокого качества теней. Базовая настройка сохраняет туман без теней; более точные выборки увеличивают время работы GPU.
+atmosphere-quality-basic = Атмосфера: Базовая
+atmosphere-quality-medium = Атмосфера: Средняя
+atmosphere-quality-high = Атмосфера: Высокая
+atmosphere-quality-ultra = Атмосфера: Ультра
+atmosphere-quality-cinematic = Атмосфера: Кинематографическая
