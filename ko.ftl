@@ -1681,3 +1681,8 @@ atmosphere-quality-medium = 대기: 중간
 atmosphere-quality-high = 대기: 높음
 atmosphere-quality-ultra = 대기: 울트라
 atmosphere-quality-cinematic = 대기: 시네마틱
+
+native-adapter-high-polling = 어댑터 고속 폴링
+native-adapter-polling-guidance = 끄기: 약 125 Hz. 켜기: 가능한 기본 속도 사용. 1000 Hz에는 호환 하드웨어와 시스템 설정이 필요합니다. 각 어댑터의 측정값을 확인하세요.
+native-adapter-polling-linux = Linux에서는 폴링 드라이버를 별도로 설정해야 합니다. 변경 시 어댑터가 초기화될 수 있으므로 먼저 게임을 종료하세요. 시스템 요구 사항은 모듈 안내를 확인하세요.
+native-adapter-polling-guide = Linux 폴링 모듈 안내 ↗

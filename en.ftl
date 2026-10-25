@@ -1706,3 +1706,8 @@ atmosphere-quality-medium = Atmosphere: Medium
 atmosphere-quality-high = Atmosphere: High
 atmosphere-quality-ultra = Atmosphere: Ultra
 atmosphere-quality-cinematic = Atmosphere: Cinematic
+
+native-adapter-high-polling = Higher adapter polling
+native-adapter-polling-guidance = Off: about 125 Hz. On: use the available native rate. 1000 Hz needs compatible hardware and system setup; check each adapter’s measured rate.
+native-adapter-polling-linux = Linux needs separate polling-driver setup. Changing it can reset adapters; close the game first. See the module guide for system requirements.
+native-adapter-polling-guide = Linux polling module guide ↗

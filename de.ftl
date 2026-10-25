@@ -1687,3 +1687,8 @@ atmosphere-quality-medium = Atmosphäre: Mittel
 atmosphere-quality-high = Atmosphäre: Hoch
 atmosphere-quality-ultra = Atmosphäre: Ultra
 atmosphere-quality-cinematic = Atmosphäre: Kinoqualität
+
+native-adapter-high-polling = Höhere Adapter-Abfragerate
+native-adapter-polling-guidance = Aus: etwa 125 Hz. Ein: verfügbare native Rate. 1000 Hz erfordern geeignete Hardware und Systemeinrichtung; prüfe die gemessene Rate jedes Adapters.
+native-adapter-polling-linux = Linux benötigt eine separate Einrichtung des Abfragetreibers. Änderungen können Adapter zurücksetzen; schließe vorher das Spiel. Systemanforderungen stehen in der Modulanleitung.
+native-adapter-polling-guide = Anleitung zum Linux-Abfragemodul ↗

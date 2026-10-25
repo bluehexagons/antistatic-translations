@@ -1681,3 +1681,8 @@ atmosphere-quality-medium = 大気：中
 atmosphere-quality-high = 大気：高
 atmosphere-quality-ultra = 大気：ウルトラ
 atmosphere-quality-cinematic = 大気：シネマティック
+
+native-adapter-high-polling = アダプターの高速ポーリング
+native-adapter-polling-guidance = オフ：約125 Hz。オン：利用可能なネイティブ速度。1000 Hzには対応機器とシステム設定が必要です。各アダプターの実測値を確認してください。
+native-adapter-polling-linux = Linuxではポーリング用ドライバーの別途設定が必要です。変更時にアダプターがリセットされる場合があるため、先にゲームを終了してください。要件はモジュールのガイドを確認してください。
+native-adapter-polling-guide = Linuxポーリングモジュールのガイド ↗

@@ -1686,3 +1686,8 @@ atmosphere-quality-medium = Atmosfera: Media
 atmosphere-quality-high = Atmosfera: Alta
 atmosphere-quality-ultra = Atmosfera: Ultra
 atmosphere-quality-cinematic = Atmosfera: Cinematografica
+
+native-adapter-high-polling = Frequenza adattatore più alta
+native-adapter-polling-guidance = Disattivato: circa 125 Hz. Attivato: frequenza nativa disponibile. 1000 Hz richiede hardware e configurazione compatibili; controlla la misura di ogni adattatore.
+native-adapter-polling-linux = Linux richiede una configurazione separata del driver di polling. Le modifiche possono reimpostare gli adattatori: chiudi prima il gioco. Consulta i requisiti nella guida al modulo.
+native-adapter-polling-guide = Guida al modulo di polling Linux ↗

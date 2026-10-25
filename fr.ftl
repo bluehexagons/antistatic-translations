@@ -1686,3 +1686,8 @@ atmosphere-quality-medium = Atmosphère: Moyenne
 atmosphere-quality-high = Atmosphère: Élevée
 atmosphere-quality-ultra = Atmosphère: Ultra
 atmosphere-quality-cinematic = Atmosphère: Cinématique
+
+native-adapter-high-polling = Fréquence supérieure des adaptateurs
+native-adapter-polling-guidance = Désactivé : environ 125 Hz. Activé : fréquence native disponible. 1000 Hz exige un matériel et un système adaptés ; vérifiez la mesure de chaque adaptateur.
+native-adapter-polling-linux = Linux exige une configuration séparée du pilote de scrutation. Les changements peuvent réinitialiser les adaptateurs ; fermez le jeu avant. Consultez les prérequis du module.
+native-adapter-polling-guide = Guide du module de scrutation Linux ↗

@@ -1686,3 +1686,8 @@ atmosphere-quality-medium = Atmósfera: Media
 atmosphere-quality-high = Atmósfera: Alta
 atmosphere-quality-ultra = Atmósfera: Ultra
 atmosphere-quality-cinematic = Atmósfera: Cinemática
+
+native-adapter-high-polling = Mayor frecuencia del adaptador
+native-adapter-polling-guidance = Desactivado: unos 125 Hz. Activado: frecuencia nativa disponible. 1000 Hz requiere hardware y configuración compatibles; revisa la medición de cada adaptador.
+native-adapter-polling-linux = Linux requiere configurar un controlador de sondeo aparte. Los cambios pueden reiniciar adaptadores; cierra el juego antes. Consulta los requisitos en la guía del módulo.
+native-adapter-polling-guide = Guía del módulo de sondeo para Linux ↗

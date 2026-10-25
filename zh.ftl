@@ -1681,3 +1681,8 @@ atmosphere-quality-medium = 大气：中
 atmosphere-quality-high = 大气：高
 atmosphere-quality-ultra = 大气：超高
 atmosphere-quality-cinematic = 大气：电影级
+
+native-adapter-high-polling = 提高适配器轮询频率
+native-adapter-polling-guidance = 关闭：约125 Hz。开启：使用可用的原生频率。1000 Hz需要兼容的硬件和系统设置；请查看每个适配器的实测频率。
+native-adapter-polling-linux = Linux需要单独设置轮询驱动。更改设置可能重置适配器，请先关闭游戏。系统要求请参阅模块指南。
+native-adapter-polling-guide = Linux轮询模块指南 ↗

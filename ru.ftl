@@ -1690,3 +1690,8 @@ atmosphere-quality-medium = Атмосфера: Средняя
 atmosphere-quality-high = Атмосфера: Высокая
 atmosphere-quality-ultra = Атмосфера: Ультра
 atmosphere-quality-cinematic = Атмосфера: Кинематографическая
+
+native-adapter-high-polling = Высокая частота опроса адаптеров
+native-adapter-polling-guidance = Выкл.: около 125 Гц. Вкл.: доступная штатная частота. Для 1000 Гц нужны совместимое оборудование и настройка системы; проверьте частоту каждого адаптера.
+native-adapter-polling-linux = В Linux драйвер опроса настраивается отдельно. Изменения могут сбросить адаптеры: сначала закройте игру. Системные требования указаны в руководстве к модулю.
+native-adapter-polling-guide = Руководство по модулю опроса Linux ↗

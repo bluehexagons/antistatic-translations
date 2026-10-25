@@ -1681,3 +1681,8 @@ atmosphere-quality-medium = 大氣：中
 atmosphere-quality-high = 大氣：高
 atmosphere-quality-ultra = 大氣：超高
 atmosphere-quality-cinematic = 大氣：電影級
+
+native-adapter-high-polling = 提高轉接器輪詢頻率
+native-adapter-polling-guidance = 關閉：約125 Hz。開啟：使用可用的原生頻率。1000 Hz需要相容的硬件和系統設定；請查看每個轉接器的實測頻率。
+native-adapter-polling-linux = Linux需要另外設定輪詢驅動程式。更改設定可能重設轉接器，請先關閉遊戲。系統要求請參閱模組指南。
+native-adapter-polling-guide = Linux輪詢模組指南 ↗
