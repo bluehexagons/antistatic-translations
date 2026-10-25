@@ -1691,3 +1691,16 @@ native-adapter-high-polling = Fréquence supérieure des adaptateurs
 native-adapter-polling-guidance = Désactivé : environ 125 Hz. Activé : fréquence native disponible. 1000 Hz exige un matériel et un système adaptés ; vérifiez la mesure de chaque adaptateur.
 native-adapter-polling-linux = Linux exige une configuration séparée du pilote de scrutation. Les changements peuvent réinitialiser les adaptateurs ; fermez le jeu avant. Consultez les prérequis du module.
 native-adapter-polling-guide = Guide du module de scrutation Linux ↗
+
+controller-trigger-release-title = Vérifier le relâchement des gâchettes
+controller-trigger-release-device = Adaptateur { $adapter }, port { $port }
+controller-trigger-release-ready = Une gâchette est peut-être maintenue. Relâchez L et R, puis choisissez « Vérifier ».
+controller-trigger-release-check = Vérifier
+controller-trigger-release-skip = Passer
+controller-trigger-release-calibration = Calibrage
+controller-trigger-release-waiting = Relâchez tous les boutons et recentrez les deux sticks.
+controller-trigger-release-sampling = Gardez toutes les commandes relâchées pendant la vérification.
+controller-trigger-release-success = Gâchettes corrigées pour cette connexion.
+controller-trigger-release-failed = Échec de la vérification. Réessayez ou utilisez le calibrage.
+controller-trigger-release-session = Le calibrage enregistré et la course des gâchettes restent inchangés.
+controller-trigger-release-done = Terminé

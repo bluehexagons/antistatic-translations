@@ -1686,3 +1686,16 @@ native-adapter-high-polling = 어댑터 고속 폴링
 native-adapter-polling-guidance = 끄기: 약 125 Hz. 켜기: 가능한 기본 속도 사용. 1000 Hz에는 호환 하드웨어와 시스템 설정이 필요합니다. 각 어댑터의 측정값을 확인하세요.
 native-adapter-polling-linux = Linux에서는 폴링 드라이버를 별도로 설정해야 합니다. 변경 시 어댑터가 초기화될 수 있으므로 먼저 게임을 종료하세요. 시스템 요구 사항은 모듈 안내를 확인하세요.
 native-adapter-polling-guide = Linux 폴링 모듈 안내 ↗
+
+controller-trigger-release-title = 트리거 놓임 확인
+controller-trigger-release-device = 어댑터 { $adapter }, 포트 { $port }
+controller-trigger-release-ready = 트리거가 눌린 상태일 수 있습니다. L과 R을 놓고 ‘확인’을 선택하세요.
+controller-trigger-release-check = 확인
+controller-trigger-release-skip = 건너뛰기
+controller-trigger-release-calibration = 보정
+controller-trigger-release-waiting = 모든 버튼을 놓고 양쪽 스틱을 가운데로 놓으세요.
+controller-trigger-release-sampling = 확인하는 동안 모든 조작을 놓고 있으세요.
+controller-trigger-release-success = 이 연결의 트리거를 보정했습니다.
+controller-trigger-release-failed = 놓임 확인에 실패했습니다. 다시 시도하거나 보정을 사용하세요.
+controller-trigger-release-session = 저장된 보정과 트리거 이동 범위는 바뀌지 않습니다.
+controller-trigger-release-done = 완료

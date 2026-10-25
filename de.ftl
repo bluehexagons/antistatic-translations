@@ -1692,3 +1692,16 @@ native-adapter-high-polling = Höhere Adapter-Abfragerate
 native-adapter-polling-guidance = Aus: etwa 125 Hz. Ein: verfügbare native Rate. 1000 Hz erfordern geeignete Hardware und Systemeinrichtung; prüfe die gemessene Rate jedes Adapters.
 native-adapter-polling-linux = Linux benötigt eine separate Einrichtung des Abfragetreibers. Änderungen können Adapter zurücksetzen; schließe vorher das Spiel. Systemanforderungen stehen in der Modulanleitung.
 native-adapter-polling-guide = Anleitung zum Linux-Abfragemodul ↗
+
+controller-trigger-release-title = Triggerfreigabe prüfen
+controller-trigger-release-device = Adapter { $adapter }, Anschluss { $port }
+controller-trigger-release-ready = Ein Trigger kann gedrückt sein. L und R loslassen, dann „Prüfen“ wählen.
+controller-trigger-release-check = Prüfen
+controller-trigger-release-skip = Überspringen
+controller-trigger-release-calibration = Kalibrierung
+controller-trigger-release-waiting = Alle Tasten loslassen und beide Sticks zentrieren.
+controller-trigger-release-sampling = Alle Bedienelemente loslassen, während wir prüfen.
+controller-trigger-release-success = Trigger für diese Verbindung korrigiert.
+controller-trigger-release-failed = Freigabeprüfung fehlgeschlagen. Erneut versuchen oder Kalibrierung öffnen.
+controller-trigger-release-session = Gespeicherte Kalibrierung und Triggerweg bleiben unverändert.
+controller-trigger-release-done = Fertig

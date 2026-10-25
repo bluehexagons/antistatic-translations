@@ -1691,3 +1691,16 @@ native-adapter-high-polling = Frequenza adattatore più alta
 native-adapter-polling-guidance = Disattivato: circa 125 Hz. Attivato: frequenza nativa disponibile. 1000 Hz richiede hardware e configurazione compatibili; controlla la misura di ogni adattatore.
 native-adapter-polling-linux = Linux richiede una configurazione separata del driver di polling. Le modifiche possono reimpostare gli adattatori: chiudi prima il gioco. Consulta i requisiti nella guida al modulo.
 native-adapter-polling-guide = Guida al modulo di polling Linux ↗
+
+controller-trigger-release-title = Verifica rilascio grilletti
+controller-trigger-release-device = Adattatore { $adapter }, porta { $port }
+controller-trigger-release-ready = Un grilletto potrebbe essere premuto. Rilascia L e R, poi scegli «Verifica».
+controller-trigger-release-check = Verifica
+controller-trigger-release-skip = Salta
+controller-trigger-release-calibration = Calibrazione
+controller-trigger-release-waiting = Rilascia tutti i pulsanti e centra entrambi gli stick.
+controller-trigger-release-sampling = Tieni tutti i comandi rilasciati durante la verifica.
+controller-trigger-release-success = Grilletti corretti per questa connessione.
+controller-trigger-release-failed = Verifica del rilascio non riuscita. Riprova o usa Calibrazione.
+controller-trigger-release-session = La calibrazione salvata e la corsa dei grilletti restano invariate.
+controller-trigger-release-done = Fatto

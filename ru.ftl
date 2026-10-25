@@ -1695,3 +1695,16 @@ native-adapter-high-polling = Высокая частота опроса ада�
 native-adapter-polling-guidance = Выкл.: около 125 Гц. Вкл.: доступная штатная частота. Для 1000 Гц нужны совместимое оборудование и настройка системы; проверьте частоту каждого адаптера.
 native-adapter-polling-linux = В Linux драйвер опроса настраивается отдельно. Изменения могут сбросить адаптеры: сначала закройте игру. Системные требования указаны в руководстве к модулю.
 native-adapter-polling-guide = Руководство по модулю опроса Linux ↗
+
+controller-trigger-release-title = Проверка отпускания триггеров
+controller-trigger-release-device = Адаптер { $adapter }, порт { $port }
+controller-trigger-release-ready = Возможно, триггер зажат. Отпустите L и R, затем выберите «Проверить».
+controller-trigger-release-check = Проверить
+controller-trigger-release-skip = Пропустить
+controller-trigger-release-calibration = Калибровка
+controller-trigger-release-waiting = Отпустите все кнопки и верните оба стика в центр.
+controller-trigger-release-sampling = Не нажимайте кнопки и не двигайте стики во время проверки.
+controller-trigger-release-success = Триггеры скорректированы для этого подключения.
+controller-trigger-release-failed = Не удалось проверить отпускание. Повторите попытку или откройте калибровку.
+controller-trigger-release-session = Сохранённая калибровка и ход триггеров не изменятся.
+controller-trigger-release-done = Готово

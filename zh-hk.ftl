@@ -1686,3 +1686,16 @@ native-adapter-high-polling = 提高轉接器輪詢頻率
 native-adapter-polling-guidance = 關閉：約125 Hz。開啟：使用可用的原生頻率。1000 Hz需要相容的硬件和系統設定；請查看每個轉接器的實測頻率。
 native-adapter-polling-linux = Linux需要另外設定輪詢驅動程式。更改設定可能重設轉接器，請先關閉遊戲。系統要求請參閱模組指南。
 native-adapter-polling-guide = Linux輪詢模組指南 ↗
+
+controller-trigger-release-title = 檢查扳機是否已放開
+controller-trigger-release-device = 轉接器 { $adapter }，連接埠 { $port }
+controller-trigger-release-ready = 扳機可能仍然按下。請放開 L 和 R，然後選擇「檢查」。
+controller-trigger-release-check = 檢查
+controller-trigger-release-skip = 略過
+controller-trigger-release-calibration = 校準
+controller-trigger-release-waiting = 請放開所有按鈕，並將兩邊搖桿置中。
+controller-trigger-release-sampling = 檢查期間請保持所有控制放開。
+controller-trigger-release-success = 已校正此連線的扳機。
+controller-trigger-release-failed = 扳機放開檢查失敗。請重試或使用「校準」。
+controller-trigger-release-session = 已儲存的校準和扳機行程維持不變。
+controller-trigger-release-done = 完成

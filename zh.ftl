@@ -1686,3 +1686,16 @@ native-adapter-high-polling = 提高适配器轮询频率
 native-adapter-polling-guidance = 关闭：约125 Hz。开启：使用可用的原生频率。1000 Hz需要兼容的硬件和系统设置；请查看每个适配器的实测频率。
 native-adapter-polling-linux = Linux需要单独设置轮询驱动。更改设置可能重置适配器，请先关闭游戏。系统要求请参阅模块指南。
 native-adapter-polling-guide = Linux轮询模块指南 ↗
+
+controller-trigger-release-title = 检查扳机是否已释放
+controller-trigger-release-device = 适配器 { $adapter }，端口 { $port }
+controller-trigger-release-ready = 扳机可能仍处于按下状态。请松开 L 和 R，然后选择“检查”。
+controller-trigger-release-check = 检查
+controller-trigger-release-skip = 跳过
+controller-trigger-release-calibration = 校准
+controller-trigger-release-waiting = 请松开所有按钮，并将两个摇杆置于中央。
+controller-trigger-release-sampling = 检查期间请保持所有控件松开。
+controller-trigger-release-success = 已校正此连接的扳机。
+controller-trigger-release-failed = 扳机释放检查失败。请重试或使用“校准”。
+controller-trigger-release-session = 已保存的校准和扳机行程保持不变。
+controller-trigger-release-done = 完成

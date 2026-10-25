@@ -1691,3 +1691,16 @@ native-adapter-high-polling = Mayor frecuencia del adaptador
 native-adapter-polling-guidance = Desactivado: unos 125 Hz. Activado: frecuencia nativa disponible. 1000 Hz requiere hardware y configuración compatibles; revisa la medición de cada adaptador.
 native-adapter-polling-linux = Linux requiere configurar un controlador de sondeo aparte. Los cambios pueden reiniciar adaptadores; cierra el juego antes. Consulta los requisitos en la guía del módulo.
 native-adapter-polling-guide = Guía del módulo de sondeo para Linux ↗
+
+controller-trigger-release-title = Comprobar la liberación de los gatillos
+controller-trigger-release-device = Adaptador { $adapter }, puerto { $port }
+controller-trigger-release-ready = Puede que haya un gatillo pulsado. Suelta L y R y elige «Comprobar».
+controller-trigger-release-check = Comprobar
+controller-trigger-release-skip = Omitir
+controller-trigger-release-calibration = Calibración
+controller-trigger-release-waiting = Suelta todos los botones y centra ambos sticks.
+controller-trigger-release-sampling = Mantén todos los controles sueltos mientras comprobamos.
+controller-trigger-release-success = Gatillos corregidos para esta conexión.
+controller-trigger-release-failed = No se pudo comprobar la liberación. Reintenta o usa Calibración.
+controller-trigger-release-session = La calibración guardada y el recorrido de los gatillos no cambian.
+controller-trigger-release-done = Listo

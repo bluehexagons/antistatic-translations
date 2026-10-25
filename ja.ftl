@@ -1686,3 +1686,16 @@ native-adapter-high-polling = アダプターの高速ポーリング
 native-adapter-polling-guidance = オフ：約125 Hz。オン：利用可能なネイティブ速度。1000 Hzには対応機器とシステム設定が必要です。各アダプターの実測値を確認してください。
 native-adapter-polling-linux = Linuxではポーリング用ドライバーの別途設定が必要です。変更時にアダプターがリセットされる場合があるため、先にゲームを終了してください。要件はモジュールのガイドを確認してください。
 native-adapter-polling-guide = Linuxポーリングモジュールのガイド ↗
+
+controller-trigger-release-title = トリガーの解放を確認
+controller-trigger-release-device = アダプター { $adapter }、ポート { $port }
+controller-trigger-release-ready = トリガーが押されたままかもしれません。LとRを離してから「確認」を選んでください。
+controller-trigger-release-check = 確認
+controller-trigger-release-skip = スキップ
+controller-trigger-release-calibration = 調整
+controller-trigger-release-waiting = すべてのボタンを離し、両方のスティックを中央に戻してください。
+controller-trigger-release-sampling = 確認中はすべての操作を離したままにしてください。
+controller-trigger-release-success = この接続のトリガーを補正しました。
+controller-trigger-release-failed = 解放を確認できませんでした。再試行するか、調整を使ってください。
+controller-trigger-release-session = 保存済みの調整とトリガーの移動量は変わりません。
+controller-trigger-release-done = 完了
