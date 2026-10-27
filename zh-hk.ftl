@@ -1699,3 +1699,65 @@ controller-trigger-release-success = 已校正此連線的扳機。
 controller-trigger-release-failed = 扳機放開檢查失敗。請重試或使用「校準」。
 controller-trigger-release-session = 已儲存的校準和扳機行程維持不變。
 controller-trigger-release-done = 完成
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = 重新掃描配接器
+native-adapter-rescan-help = 更換線纜、模式或驅動程式後尋找配接器。已連線的裝置會保留原有指派。
+native-adapter-retry = 重新啟動輪詢
+native-adapter-retry-help = 重試要求的速率，不重新掃描，也不更改控制器指派。
+native-adapter-controls = 操作與校準
+native-adapter-controls-help = 測試輸入、更改對應或校準已連線的控制器。請先按下控制器上的按鈕以連線。
+native-adapter-copy-diagnostics = 複製診斷資料
+native-adapter-next-step =
+    { $state ->
+        [disabled] 此工作階段已停用原生 USB。PC 模式控制器仍可在「操作」中使用。
+        [unavailable] 無法啟動原生 USB。請開啟配接器說明查看平台設定，然後重試。
+        [stopped] 輪詢已停止。請選擇「重新啟動輪詢」，或修正設定後重新掃描。
+        [access] 存取遭拒。請開啟配接器說明，重新連線後再掃描。
+        [busy] 請關閉 Dolphin/Slippi 和其他正在使用配接器的程式，然後重新掃描。
+        [error] 有配接器需要處理。請查看下方詳情、重試，或複製診斷資料以尋求支援。
+        [pc] PC 模式可在「操作」中使用。若要直接使用四個連接埠的輸入，請選擇 Wii U/NS 模式並重新掃描。
+        [empty] 請連接 USB 數據線，選擇 Wii U/NS 模式，然後重新掃描配接器。
+        [ports] 配接器已就緒。將控制器連接至連接埠，然後按下按鈕以加入。
+       *[ready] 按下控制器按鈕以加入。開啟「操作與校準」檢查輸入。
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] 要求的速率：可用速率。請檢查每個配接器的實測速率。
+       *[standard] 要求的速率：標準速率，約每秒 125 次報告。
+    }
+native-adapter-rate-live = 實測 {$rate} Hz
+native-adapter-rate-stopped = 輪詢已停止
+native-adapter-rate-stale = 近期沒有報告
+native-adapter-action-result =
+    { $action ->
+        [scan] 掃描完成。請檢查上方的連線狀態。
+        [polling] 已套用輪詢要求。請檢查狀態和實測速率。
+        [copy] 已複製診斷資料。請將其貼到支援報告中。
+        [setup] 已複製設定內容。請檢查後在終端機執行，重新連線配接器，然後再次掃描。
+        [rule] 已複製桌面工作階段存取規則。
+        [save] 無法儲存此偏好設定，但它仍會在此工作階段生效。
+       *[failed] 動作失敗（錯誤 {$code}）。請檢查狀態後重試。
+    }
+native-adapter-platform = 平台：{$value}
+native-adapter-platform-other = 其他（未經驗證）
+native-adapter-topic = 說明：{$value}
+native-adapter-topic-access = 連線與存取
+native-adapter-topic-polling = 輪詢與速率
+native-adapter-hardware-note = 請連接 USB 數據線。如有第二條線，它會為震動供電。若要直接使用四個連接埠的輸入，請使用 Wii U/NS 模式。
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows：如果無法存取，請開啟 Zadig，啟用 List All Devices，選擇 WUP-028 / 057E:0337 並安裝 WinUSB。更改驅動程式前，請確認裝置無誤。
+        [linux] Linux：正常運作的配接器不需要額外規則。如果存取遭拒，下方設定會授予目前桌面工作階段存取權限。設定後請重新連線配接器，再次掃描。
+       *[other] 隨附的配接器支援以 Windows 和 Linux 為目標。此平台未經驗證；更改系統設定前，請查閱配接器指南。
+    }
+native-adapter-access-existing = 複製的 Linux 設定只會在目標檔案不存在時建立專用規則。若檔案已存在，請先檢查，不要直接取代。
+native-adapter-polling-meaning = 遊戲選項控制應用程式讀取資料的頻率。它不會安裝驅動程式，也不會更改 USB 間隔。實測 Hz 統計已接受的報告次數，並非輸入延遲。
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux：更快的 USB 間隔需要另外進行系統設定，例如 usb_oc。請先關閉正在使用配接器的程式；更改間隔可能會重設裝置。
+        [win32] Windows：WinUSB 存取和更快的輪詢是兩個獨立的設定步驟。篩選驅動程式組合未經驗證；更改驅動程式前請閱讀輪詢指南。
+       *[other] 此平台的更快輪詢未經驗證。保留設定前，請確認系統支援並測量每個配接器。
+    }
+native-adapter-polling-check = 1000 Hz 需要相容硬件和系統設定。如果輸入變得不穩定，請嘗試 500 或 250 Hz。請檢查每個配接器，包括連接多個配接器時。
+native-adapter-polling-setup-link = 開啟輪詢設定指南 ↗

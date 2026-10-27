@@ -1699,3 +1699,65 @@ controller-trigger-release-success = 이 연결의 트리거를 보정했습니�
 controller-trigger-release-failed = 놓임 확인에 실패했습니다. 다시 시도하거나 보정을 사용하세요.
 controller-trigger-release-session = 저장된 보정과 트리거 이동 범위는 바뀌지 않습니다.
 controller-trigger-release-done = 완료
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = 어댑터 다시 검색
+native-adapter-rescan-help = 케이블, 모드 또는 드라이버를 변경한 뒤 어댑터를 찾습니다. 연결된 컨트롤러의 할당은 유지됩니다.
+native-adapter-retry = 폴링 다시 시작
+native-adapter-retry-help = 다시 검색하거나 컨트롤러 할당을 변경하지 않고 요청한 속도를 다시 시도합니다.
+native-adapter-controls = 조작 및 보정
+native-adapter-controls-help = 입력을 테스트하고, 매핑을 변경하거나 연결된 컨트롤러를 보정합니다. 연결하려면 먼저 컨트롤러 버튼을 누르세요.
+native-adapter-copy-diagnostics = 진단 정보 복사
+native-adapter-next-step =
+    { $state ->
+        [disabled] 이 세션에서 네이티브 USB가 비활성화되어 있습니다. PC 모드 컨트롤러는 계속 조작 메뉴에서 사용할 수 있습니다.
+        [unavailable] 네이티브 USB를 시작할 수 없습니다. 어댑터 도움말에서 플랫폼 설정을 확인한 다음 다시 시도하세요.
+        [stopped] 폴링이 중지되었습니다. 폴링 다시 시작을 선택하거나 설정을 수정한 뒤 다시 검색하세요.
+        [access] 액세스가 거부되었습니다. 어댑터 도움말을 열고 다시 연결한 다음 다시 검색하세요.
+        [busy] Dolphin/Slippi 등 어댑터를 사용하는 프로그램을 닫고 다시 검색하세요.
+        [error] 확인이 필요한 어댑터가 있습니다. 아래 세부 정보를 확인하고 다시 시도하거나 지원을 위해 진단 정보를 복사하세요.
+        [pc] PC 모드는 조작 메뉴에서 작동합니다. 4개 포트에 직접 입력하려면 Wii U/NS 모드를 선택하고 다시 검색하세요.
+        [empty] 데이터 USB 케이블을 연결하고 Wii U/NS 모드를 선택한 다음 어댑터를 다시 검색하세요.
+        [ports] 어댑터가 준비되었습니다. 컨트롤러를 포트에 연결한 뒤 버튼을 눌러 참가하세요.
+       *[ready] 컨트롤러 버튼을 눌러 참가하세요. 입력을 확인하려면 조작 및 보정을 여세요.
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] 요청됨: 사용 가능한 속도. 각 어댑터의 측정 속도를 확인하세요.
+       *[standard] 요청됨: 표준 속도, 초당 약 125회 보고.
+    }
+native-adapter-rate-live = 측정값 {$rate} Hz
+native-adapter-rate-stopped = 폴링 중지됨
+native-adapter-rate-stale = 최근 보고 없음
+native-adapter-action-result =
+    { $action ->
+        [scan] 검색이 완료되었습니다. 위의 연결 상태를 확인하세요.
+        [polling] 폴링 요청이 적용되었습니다. 상태와 측정 속도를 확인하세요.
+        [copy] 진단 정보를 복사했습니다. 지원 보고서에 붙여넣으세요.
+        [setup] 설정을 복사했습니다. 내용을 확인하고 터미널에서 실행한 뒤 어댑터를 다시 연결하고 다시 검색하세요.
+        [rule] 데스크톱 세션 액세스 규칙을 복사했습니다.
+        [save] 기본 설정을 저장하지 못했습니다. 이 세션에는 계속 적용됩니다.
+       *[failed] 작업에 실패했습니다(오류 {$code}). 상태를 확인한 다음 다시 시도하세요.
+    }
+native-adapter-platform = 플랫폼: {$value}
+native-adapter-platform-other = 기타(미검증)
+native-adapter-topic = 도움말: {$value}
+native-adapter-topic-access = 연결 및 액세스
+native-adapter-topic-polling = 폴링 및 속도
+native-adapter-hardware-note = 데이터 USB 케이블을 연결하세요. 두 번째 케이블이 있으면 진동 전원을 공급합니다. 4개 포트에 직접 입력하려면 Wii U/NS 모드를 사용하세요.
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows: 액세스에 실패하면 Zadig를 열고 List All Devices를 활성화한 다음 WUP-028 / 057E:0337을 선택해 WinUSB를 설치하세요. 드라이버를 변경하기 전에 정확한 장치인지 확인하세요.
+        [linux] Linux: 정상 작동하는 어댑터에는 추가 규칙이 필요하지 않습니다. 액세스가 거부되면 아래 설정으로 현재 데스크톱 세션에 액세스 권한을 부여할 수 있습니다. 설정 후 어댑터를 다시 연결하고 다시 검색하세요.
+       *[other] 패키지에 포함된 어댑터 지원은 Windows와 Linux를 대상으로 합니다. 이 플랫폼은 검증되지 않았으므로 시스템 설정을 변경하기 전에 어댑터 안내서를 확인하세요.
+    }
+native-adapter-access-existing = 복사되는 Linux 설정은 해당 파일이 아직 없을 때만 전용 규칙을 만듭니다. 기존 파일은 교체하지 말고 내용을 검토하세요.
+native-adapter-polling-meaning = 게임 옵션은 애플리케이션 읽기 빈도를 제어합니다. 드라이버를 설치하거나 USB 간격을 변경하지 않습니다. 측정 Hz는 수락된 보고 횟수이며 입력 지연이 아닙니다.
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux: USB 간격을 더 짧게 하려면 usb_oc 같은 별도의 시스템 설정이 필요합니다. 먼저 어댑터 사용 중인 프로그램을 닫으세요. 간격을 변경하면 장치가 초기화될 수 있습니다.
+        [win32] Windows: WinUSB 액세스와 빠른 폴링은 별도의 설정 단계입니다. 필터 드라이버 조합은 검증되지 않았으므로 드라이버를 변경하기 전에 폴링 안내서를 읽으세요.
+       *[other] 이 플랫폼의 빠른 폴링은 검증되지 않았습니다. 구성을 유지하기 전에 시스템 지원 여부를 확인하고 각 어댑터를 측정하세요.
+    }
+native-adapter-polling-check = 1000 Hz에는 호환 하드웨어와 시스템 설정이 필요합니다. 입력이 불안정해지면 500 또는 250 Hz를 시도하세요. 여러 대를 연결한 경우도 포함해 모든 어댑터를 확인하세요.
+native-adapter-polling-setup-link = 폴링 설정 안내서 열기 ↗

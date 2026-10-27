@@ -1724,3 +1724,65 @@ controller-trigger-release-success = Triggers corrected for this connection.
 controller-trigger-release-failed = Release check failed. Retry or use Calibration.
 controller-trigger-release-session = Saved calibration and trigger travel stay unchanged.
 controller-trigger-release-done = Done
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = Rescan adapters
+native-adapter-rescan-help = Find adapters after a cable, mode or driver change. Working connections keep their assignments.
+native-adapter-retry = Restart polling
+native-adapter-retry-help = Retry the requested rate without rescanning or changing controller assignments.
+native-adapter-controls = Controls & calibration
+native-adapter-controls-help = Test input, change mappings, or calibrate a joined controller. Press a controller button to join first.
+native-adapter-copy-diagnostics = Copy diagnostics
+native-adapter-next-step =
+    { $state ->
+        [disabled] Native USB is disabled in this session. PC-mode controllers can still use Controls.
+        [unavailable] Native USB could not start. Open Adapter Help for platform setup, then retry.
+        [stopped] Polling stopped. Choose Restart polling, or Rescan after fixing setup.
+        [access] Access was denied. Open Adapter Help, then reconnect and rescan.
+        [busy] Close Dolphin/Slippi and other adapter users, then rescan.
+        [error] An adapter needs attention. Check the details below, retry, or copy diagnostics for support.
+        [pc] PC mode works in Controls. For direct four-port input, select Wii U/NS mode and rescan.
+        [empty] Connect the data USB lead, select Wii U/NS mode, then Rescan adapters.
+        [ports] Adapter ready. Connect a controller to a port, then press a button to join.
+       *[ready] Press a controller button to join. Open Controls & calibration to check input.
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] Requested: available rate. Check the measured rate for each adapter.
+       *[standard] Requested: standard rate, about 125 reports per second.
+    }
+native-adapter-rate-live = {$rate} Hz measured
+native-adapter-rate-stopped = polling stopped
+native-adapter-rate-stale = no recent reports
+native-adapter-action-result =
+    { $action ->
+        [scan] Scan finished. Check the connection status above.
+        [polling] Polling request applied. Check status and measured rates.
+        [copy] Diagnostics copied. Paste them into a support report.
+        [setup] Setup copied. Review and run it in a terminal, reconnect the adapter, then rescan.
+        [rule] Desktop-session access rule copied.
+        [save] The preference could not be saved. It still applies to this session.
+       *[failed] The action failed (error {$code}). Check status, then retry.
+    }
+native-adapter-platform = Platform: {$value}
+native-adapter-platform-other = Other (unverified)
+native-adapter-topic = Help: {$value}
+native-adapter-topic-access = Connection & access
+native-adapter-topic-polling = Polling & rates
+native-adapter-hardware-note = Connect the data USB lead. A second lead, when present, supplies rumble power. Use Wii U/NS mode for direct four-port input.
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows: if access fails, open Zadig, enable List All Devices, select WUP-028 / 057E:0337, and install WinUSB. Check the exact device before changing its driver.
+        [linux] Linux: working adapters need no extra rule. If access is denied, the setup below grants access to the active desktop session. Reconnect after setup, then rescan.
+       *[other] Packaged adapter support targets Windows and Linux. This platform has not been verified; consult the adapter guide before changing system setup.
+    }
+native-adapter-access-existing = The copied Linux setup creates a dedicated rule only if that file does not already exist. Review an existing file instead of replacing it.
+native-adapter-polling-meaning = The game option controls application reads. It does not install drivers or change the USB interval. Measured Hz counts accepted reports, not input latency.
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux: faster USB intervals need separate system setup, such as usb_oc. Close adapter users first; changing the interval can reset devices.
+        [win32] Windows: WinUSB access and faster polling are separate setup steps. Filter-driver combinations have not been verified; read the polling guide before changing drivers.
+       *[other] Higher polling on this platform has not been verified. Check system support and measure each adapter before keeping a configuration.
+    }
+native-adapter-polling-check = 1000 Hz requires compatible hardware and system setup. If input becomes unreliable, try 500 or 250 Hz. Check every adapter, including when several are connected.
+native-adapter-polling-setup-link = Open polling setup guide ↗

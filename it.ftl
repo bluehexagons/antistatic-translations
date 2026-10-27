@@ -1704,3 +1704,65 @@ controller-trigger-release-success = Grilletti corretti per questa connessione.
 controller-trigger-release-failed = Verifica del rilascio non riuscita. Riprova o usa Calibrazione.
 controller-trigger-release-session = La calibrazione salvata e la corsa dei grilletti restano invariate.
 controller-trigger-release-done = Fatto
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = Cerca di nuovo gli adattatori
+native-adapter-rescan-help = Cerca gli adattatori dopo aver cambiato cavo, modalità o driver. Le connessioni attive mantengono le assegnazioni.
+native-adapter-retry = Riavvia il polling
+native-adapter-retry-help = Riprova la frequenza richiesta senza eseguire una nuova scansione né modificare le assegnazioni dei controller.
+native-adapter-controls = Comandi e calibrazione
+native-adapter-controls-help = Prova gli input, modifica le mappature o calibra un controller collegato. Premi prima un pulsante del controller per collegarlo.
+native-adapter-copy-diagnostics = Copia diagnostica
+native-adapter-next-step =
+    { $state ->
+        [disabled] L’USB nativo è disattivato in questa sessione. I controller in modalità PC possono comunque essere usati in Comandi.
+        [unavailable] Impossibile avviare l’USB nativo. Apri la guida dell’adattatore per la configurazione della piattaforma, poi riprova.
+        [stopped] Il polling è stato interrotto. Scegli Riavvia il polling oppure esegui una nuova scansione dopo aver corretto la configurazione.
+        [access] Accesso negato. Apri la guida dell’adattatore, ricollegalo e avvia una nuova scansione.
+        [busy] Chiudi Dolphin/Slippi e gli altri programmi che usano l’adattatore, poi avvia una nuova scansione.
+        [error] Un adattatore richiede attenzione. Controlla i dettagli qui sotto, riprova o copia la diagnostica per l’assistenza.
+        [pc] La modalità PC funziona in Comandi. Per l’input diretto su quattro porte, seleziona la modalità Wii U/NS e avvia una nuova scansione.
+        [empty] Collega il cavo USB dati, seleziona la modalità Wii U/NS e cerca di nuovo gli adattatori.
+        [ports] Adattatore pronto. Collega un controller a una porta, poi premi un pulsante per connetterlo.
+       *[ready] Premi un pulsante del controller per connetterlo. Apri Comandi e calibrazione per verificare l’input.
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] Richiesta: frequenza disponibile. Controlla la frequenza misurata per ogni adattatore.
+       *[standard] Richiesta: frequenza standard, circa 125 report al secondo.
+    }
+native-adapter-rate-live = {$rate} Hz misurati
+native-adapter-rate-stopped = polling interrotto
+native-adapter-rate-stale = nessun report recente
+native-adapter-action-result =
+    { $action ->
+        [scan] Scansione completata. Controlla lo stato della connessione qui sopra.
+        [polling] Richiesta di polling applicata. Controlla lo stato e le frequenze misurate.
+        [copy] Diagnostica copiata. Incollala in un rapporto per l’assistenza.
+        [setup] Configurazione copiata. Controllala ed eseguila in un terminale, ricollega l’adattatore e avvia una nuova scansione.
+        [rule] Regola di accesso per la sessione desktop copiata.
+        [save] Impossibile salvare la preferenza. Resta comunque applicata per questa sessione.
+       *[failed] Azione non riuscita (errore {$code}). Controlla lo stato e riprova.
+    }
+native-adapter-platform = Piattaforma: {$value}
+native-adapter-platform-other = Altra (non verificata)
+native-adapter-topic = Aiuto: {$value}
+native-adapter-topic-access = Connessione e accesso
+native-adapter-topic-polling = Polling e frequenze
+native-adapter-hardware-note = Collega il cavo USB dati. Se presente, un secondo cavo alimenta la vibrazione. Usa la modalità Wii U/NS per l’input diretto su quattro porte.
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows: se l’accesso non riesce, apri Zadig, attiva List All Devices, seleziona WUP-028 / 057E:0337 e installa WinUSB. Verifica il dispositivo esatto prima di modificarne il driver.
+        [linux] Linux: gli adattatori funzionanti non richiedono regole aggiuntive. Se l’accesso viene negato, la configurazione qui sotto concede l’accesso alla sessione desktop attiva. Dopo la configurazione, ricollega l’adattatore e avvia una nuova scansione.
+       *[other] Il supporto degli adattatori inclusi è previsto per Windows e Linux. Questa piattaforma non è stata verificata; consulta la guida dell’adattatore prima di modificare la configurazione di sistema.
+    }
+native-adapter-access-existing = La configurazione Linux copiata crea una regola dedicata solo se il file non esiste già. Controlla un file esistente invece di sostituirlo.
+native-adapter-polling-meaning = L’opzione del gioco controlla le letture dell’applicazione. Non installa driver né modifica l’intervallo USB. Gli Hz misurati contano i report accettati, non la latenza di input.
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux: gli intervalli USB più rapidi richiedono una configurazione di sistema separata, ad esempio usb_oc. Chiudi prima i programmi che usano l’adattatore; modificare l’intervallo può reimpostare i dispositivi.
+        [win32] Windows: l’accesso WinUSB e il polling più rapido sono fasi di configurazione separate. Le combinazioni con driver filtro non sono state verificate; leggi la guida al polling prima di modificare i driver.
+       *[other] Il polling più rapido su questa piattaforma non è stato verificato. Controlla il supporto del sistema e misura ogni adattatore prima di mantenere una configurazione.
+    }
+native-adapter-polling-check = 1000 Hz richiede hardware compatibile e una configurazione di sistema adeguata. Se l’input diventa inaffidabile, prova 500 o 250 Hz. Controlla ogni adattatore, anche quando ne sono collegati diversi.
+native-adapter-polling-setup-link = Apri la guida alla configurazione del polling ↗

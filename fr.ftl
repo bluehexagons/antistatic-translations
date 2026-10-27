@@ -1704,3 +1704,65 @@ controller-trigger-release-success = Gâchettes corrigées pour cette connexion.
 controller-trigger-release-failed = Échec de la vérification. Réessayez ou utilisez le calibrage.
 controller-trigger-release-session = Le calibrage enregistré et la course des gâchettes restent inchangés.
 controller-trigger-release-done = Terminé
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = Rechercher les adaptateurs
+native-adapter-rescan-help = Rechercher les adaptateurs après un changement de câble, de mode ou de pilote. Les connexions actives conservent leurs affectations.
+native-adapter-retry = Redémarrer l’interrogation
+native-adapter-retry-help = Réessayer la fréquence demandée sans relancer la recherche ni modifier les affectations des manettes.
+native-adapter-controls = Commandes et calibrage
+native-adapter-controls-help = Tester les entrées, modifier les affectations ou calibrer une manette connectée. Appuyez d’abord sur un bouton de la manette pour la connecter.
+native-adapter-copy-diagnostics = Copier les diagnostics
+native-adapter-next-step =
+    { $state ->
+        [disabled] L’USB natif est désactivé pour cette session. Les manettes en mode PC restent utilisables dans Commandes.
+        [unavailable] Impossible de démarrer l’USB natif. Consultez l’aide de l’adaptateur pour configurer la plateforme, puis réessayez.
+        [stopped] L’interrogation est arrêtée. Choisissez Redémarrer l’interrogation ou relancez la recherche après avoir corrigé la configuration.
+        [access] Accès refusé. Consultez l’aide de l’adaptateur, reconnectez-le et relancez la recherche.
+        [busy] Fermez Dolphin/Slippi et les autres programmes utilisant l’adaptateur, puis relancez la recherche.
+        [error] Un adaptateur nécessite votre attention. Consultez les détails ci-dessous, réessayez ou copiez les diagnostics pour obtenir de l’aide.
+        [pc] Le mode PC fonctionne dans Commandes. Pour utiliser directement les quatre ports, sélectionnez le mode Wii U/NS et relancez la recherche.
+        [empty] Branchez le câble USB de données, sélectionnez le mode Wii U/NS, puis recherchez les adaptateurs.
+        [ports] Adaptateur prêt. Branchez une manette sur un port, puis appuyez sur un bouton pour la connecter.
+       *[ready] Appuyez sur un bouton de la manette pour la connecter. Ouvrez Commandes et calibrage pour vérifier les entrées.
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] Fréquence demandée : fréquence disponible. Vérifiez la fréquence mesurée pour chaque adaptateur.
+       *[standard] Fréquence demandée : fréquence standard, environ 125 rapports par seconde.
+    }
+native-adapter-rate-live = {$rate} Hz mesurés
+native-adapter-rate-stopped = interrogation arrêtée
+native-adapter-rate-stale = aucun rapport récent
+native-adapter-action-result =
+    { $action ->
+        [scan] Recherche terminée. Vérifiez l’état de la connexion ci-dessus.
+        [polling] La demande d’interrogation a été appliquée. Vérifiez l’état et les fréquences mesurées.
+        [copy] Diagnostics copiés. Collez-les dans un rapport d’assistance.
+        [setup] Configuration copiée. Examinez-la et exécutez-la dans un terminal, reconnectez l’adaptateur, puis relancez la recherche.
+        [rule] Règle d’accès à la session de bureau copiée.
+        [save] Impossible d’enregistrer la préférence. Elle reste appliquée pour cette session.
+       *[failed] Échec de l’action (erreur {$code}). Vérifiez l’état, puis réessayez.
+    }
+native-adapter-platform = Plateforme : {$value}
+native-adapter-platform-other = Autre (non vérifiée)
+native-adapter-topic = Aide : {$value}
+native-adapter-topic-access = Connexion et accès
+native-adapter-topic-polling = Interrogation et fréquences
+native-adapter-hardware-note = Branchez le câble USB de données. Un second câble, s’il est présent, alimente les vibrations. Utilisez le mode Wii U/NS pour les entrées directes sur les quatre ports.
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows : si l’accès échoue, ouvrez Zadig, activez List All Devices, sélectionnez WUP-028 / 057E:0337 et installez WinUSB. Vérifiez qu’il s’agit du bon périphérique avant de modifier son pilote.
+        [linux] Linux : les adaptateurs fonctionnels n’ont pas besoin de règle supplémentaire. En cas de refus d’accès, la configuration ci-dessous autorise la session de bureau active. Reconnectez l’adaptateur après la configuration, puis relancez la recherche.
+       *[other] La prise en charge des adaptateurs fournis cible Windows et Linux. Cette plateforme n’a pas été vérifiée ; consultez le guide de l’adaptateur avant de modifier la configuration du système.
+    }
+native-adapter-access-existing = La configuration Linux copiée crée une règle dédiée uniquement si ce fichier n’existe pas déjà. Examinez un fichier existant au lieu de le remplacer.
+native-adapter-polling-meaning = L’option du jeu contrôle les lectures de l’application. Elle n’installe pas de pilotes et ne modifie pas l’intervalle USB. Les Hz mesurés comptent les rapports acceptés, pas la latence d’entrée.
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux : les intervalles USB plus rapides nécessitent une configuration système distincte, comme usb_oc. Fermez d’abord les programmes qui utilisent l’adaptateur ; modifier l’intervalle peut réinitialiser les appareils.
+        [win32] Windows : l’accès à WinUSB et l’interrogation plus rapide sont deux étapes de configuration distinctes. Les combinaisons de pilotes filtres n’ont pas été vérifiées ; consultez le guide d’interrogation avant de modifier les pilotes.
+       *[other] L’interrogation plus rapide n’a pas été vérifiée sur cette plateforme. Vérifiez la prise en charge du système et mesurez chaque adaptateur avant de conserver une configuration.
+    }
+native-adapter-polling-check = 1000 Hz nécessite du matériel compatible et une configuration système appropriée. Si les entrées deviennent peu fiables, essayez 500 ou 250 Hz. Vérifiez chaque adaptateur, même si plusieurs sont connectés.
+native-adapter-polling-setup-link = Ouvrir le guide de configuration de l’interrogation ↗

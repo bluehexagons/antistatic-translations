@@ -1699,3 +1699,65 @@ controller-trigger-release-success = この接続のトリガーを補正しま�
 controller-trigger-release-failed = 解放を確認できませんでした。再試行するか、調整を使ってください。
 controller-trigger-release-session = 保存済みの調整とトリガーの移動量は変わりません。
 controller-trigger-release-done = 完了
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = アダプターを再スキャン
+native-adapter-rescan-help = ケーブル、モード、ドライバーを変更した後にアダプターを検索します。接続中の割り当ては維持されます。
+native-adapter-retry = ポーリングを再開
+native-adapter-retry-help = 再スキャンやコントローラーの割り当て変更をせずに、要求したレートを再試行します。
+native-adapter-controls = 操作とキャリブレーション
+native-adapter-controls-help = 入力をテストしたり、割り当てを変更したり、接続済みコントローラーを調整したりできます。接続するには、まずコントローラーのボタンを押してください。
+native-adapter-copy-diagnostics = 診断情報をコピー
+native-adapter-next-step =
+    { $state ->
+        [disabled] このセッションではネイティブ USB が無効です。PC モードのコントローラーは「操作」から引き続き使用できます。
+        [unavailable] ネイティブ USB を開始できませんでした。アダプターのヘルプでプラットフォームの設定を確認してから、再試行してください。
+        [stopped] ポーリングが停止しました。「ポーリングを再開」を選ぶか、設定を修正してから再スキャンしてください。
+        [access] アクセスが拒否されました。アダプターのヘルプを開き、再接続してから再スキャンしてください。
+        [busy] Dolphin/Slippi など、アダプターを使用中のプログラムを終了してから再スキャンしてください。
+        [error] 対応が必要なアダプターがあります。以下の詳細を確認し、再試行するか、サポート用に診断情報をコピーしてください。
+        [pc] PC モードは「操作」で動作します。4 ポートへの直接入力には Wii U/NS モードを選択して再スキャンしてください。
+        [empty] データ用 USB ケーブルを接続し、Wii U/NS モードを選択してからアダプターを再スキャンしてください。
+        [ports] アダプターの準備ができました。コントローラーをポートに接続し、ボタンを押して参加してください。
+       *[ready] コントローラーのボタンを押して参加してください。入力を確認するには「操作とキャリブレーション」を開いてください。
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] 要求: 利用可能なレート。各アダプターの測定レートを確認してください。
+       *[standard] 要求: 標準レート（毎秒約 125 レポート）。
+    }
+native-adapter-rate-live = 測定値: {$rate} Hz
+native-adapter-rate-stopped = ポーリング停止中
+native-adapter-rate-stale = 最近のレポートなし
+native-adapter-action-result =
+    { $action ->
+        [scan] スキャンが完了しました。上の接続状態を確認してください。
+        [polling] ポーリング要求を適用しました。状態と測定レートを確認してください。
+        [copy] 診断情報をコピーしました。サポートへの報告に貼り付けてください。
+        [setup] 設定をコピーしました。内容を確認してターミナルで実行し、アダプターを再接続してから再スキャンしてください。
+        [rule] デスクトップセッションのアクセスルールをコピーしました。
+        [save] 設定を保存できませんでした。このセッションでは引き続き適用されます。
+       *[failed] 操作に失敗しました（エラー {$code}）。状態を確認してから再試行してください。
+    }
+native-adapter-platform = プラットフォーム: {$value}
+native-adapter-platform-other = その他（未検証）
+native-adapter-topic = ヘルプ: {$value}
+native-adapter-topic-access = 接続とアクセス
+native-adapter-topic-polling = ポーリングとレート
+native-adapter-hardware-note = データ用 USB ケーブルを接続してください。2 本目のケーブルがある場合は、振動機能に電源を供給します。4 ポートへの直接入力には Wii U/NS モードを使用してください。
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows: アクセスできない場合は Zadig を開き、List All Devices を有効にして WUP-028 / 057E:0337 を選び、WinUSB をインストールしてください。ドライバーを変更する前に、対象デバイスが正しいことを確認してください。
+        [linux] Linux: 動作するアダプターに追加のルールは不要です。アクセスが拒否された場合は、以下の設定で現在のデスクトップセッションにアクセス権を付与できます。設定後にアダプターを再接続し、再スキャンしてください。
+       *[other] 同梱のアダプターサポートは Windows と Linux を対象としています。このプラットフォームは未検証です。システム設定を変更する前にアダプターガイドを確認してください。
+    }
+native-adapter-access-existing = コピーされる Linux 設定は、対象ファイルがまだ存在しない場合に限り専用ルールを作成します。既存のファイルは置き換えずに内容を確認してください。
+native-adapter-polling-meaning = ゲームのオプションはアプリケーションの読み取りを制御します。ドライバーをインストールしたり、USB 間隔を変更したりするものではありません。測定 Hz は受理されたレポート数であり、入力遅延ではありません。
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux: USB 間隔を短くするには、usb_oc など別途システム設定が必要です。先にアダプター使用中のプログラムを終了してください。間隔を変更するとデバイスがリセットされることがあります。
+        [win32] Windows: WinUSB アクセスと高速ポーリングは別々の設定手順です。フィルタードライバーの組み合わせは未検証です。ドライバーを変更する前にポーリングガイドを読んでください。
+       *[other] このプラットフォームでの高速ポーリングは未検証です。設定を維持する前に、システムの対応状況を確認し、各アダプターを測定してください。
+    }
+native-adapter-polling-check = 1000 Hz には対応ハードウェアとシステム設定が必要です。入力が不安定になった場合は、500 Hz または 250 Hz を試してください。複数接続時も含め、すべてのアダプターを確認してください。
+native-adapter-polling-setup-link = ポーリング設定ガイドを開く ↗

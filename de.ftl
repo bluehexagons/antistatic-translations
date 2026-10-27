@@ -1705,3 +1705,65 @@ controller-trigger-release-success = Trigger für diese Verbindung korrigiert.
 controller-trigger-release-failed = Freigabeprüfung fehlgeschlagen. Erneut versuchen oder Kalibrierung öffnen.
 controller-trigger-release-session = Gespeicherte Kalibrierung und Triggerweg bleiben unverändert.
 controller-trigger-release-done = Fertig
+
+# Adapter connection, recovery and platform setup
+native-adapter-rescan = Adapter erneut suchen
+native-adapter-rescan-help = Adapter nach einer Änderung an Kabel, Modus oder Treiber suchen. Bestehende Verbindungen behalten ihre Zuordnungen.
+native-adapter-retry = Abfrage neu starten
+native-adapter-retry-help = Die angeforderte Rate erneut versuchen, ohne erneut zu suchen oder Controller-Zuordnungen zu ändern.
+native-adapter-controls = Steuerung & Kalibrierung
+native-adapter-controls-help = Eingaben testen, Belegungen ändern oder einen verbundenen Controller kalibrieren. Zum Verbinden zuerst eine Controller-Taste drücken.
+native-adapter-copy-diagnostics = Diagnosedaten kopieren
+native-adapter-next-step =
+    { $state ->
+        [disabled] Native USB ist in dieser Sitzung deaktiviert. Controller im PC-Modus können weiterhin unter „Steuerung“ verwendet werden.
+        [unavailable] Native USB konnte nicht gestartet werden. Öffne die Adapterhilfe für die Plattformkonfiguration und versuche es dann erneut.
+        [stopped] Abfrage gestoppt. Wähle „Abfrage neu starten“ oder „Adapter erneut suchen“, nachdem du die Einrichtung korrigiert hast.
+        [access] Zugriff verweigert. Öffne die Adapterhilfe, verbinde den Adapter erneut und suche erneut.
+        [busy] Schließe Dolphin/Slippi und andere Programme, die den Adapter verwenden, und suche erneut.
+        [error] Bei einem Adapter ist ein Eingreifen erforderlich. Prüfe die Details unten, versuche es erneut oder kopiere die Diagnosedaten für den Support.
+        [pc] Der PC-Modus funktioniert unter „Steuerung“. Für direkte Eingaben über vier Ports wähle den Wii-U/NS-Modus und suche erneut.
+        [empty] Schließe das USB-Datenkabel an, wähle den Wii-U/NS-Modus und suche dann erneut nach Adaptern.
+        [ports] Adapter bereit. Schließe einen Controller an einen Port an und drücke dann eine Taste, um ihn zu verbinden.
+       *[ready] Drücke eine Controller-Taste, um ihn zu verbinden. Öffne „Steuerung & Kalibrierung“, um die Eingabe zu prüfen.
+    }
+native-adapter-polling-requested =
+    { $mode ->
+        [available] Angefordert: verfügbare Rate. Prüfe die gemessene Rate für jeden Adapter.
+       *[standard] Angefordert: Standardrate, etwa 125 Meldungen pro Sekunde.
+    }
+native-adapter-rate-live = {$rate} Hz gemessen
+native-adapter-rate-stopped = Abfrage gestoppt
+native-adapter-rate-stale = keine aktuellen Meldungen
+native-adapter-action-result =
+    { $action ->
+        [scan] Suche abgeschlossen. Prüfe den Verbindungsstatus oben.
+        [polling] Abfrageanforderung übernommen. Prüfe den Status und die gemessenen Raten.
+        [copy] Diagnosedaten kopiert. Füge sie in einen Supportbericht ein.
+        [setup] Einrichtung kopiert. Prüfe sie und führe sie in einem Terminal aus. Verbinde den Adapter erneut und suche dann erneut.
+        [rule] Zugriffsregel für die Desktop-Sitzung kopiert.
+        [save] Die Einstellung konnte nicht gespeichert werden. Sie gilt weiterhin für diese Sitzung.
+       *[failed] Aktion fehlgeschlagen (Fehler {$code}). Prüfe den Status und versuche es dann erneut.
+    }
+native-adapter-platform = Plattform: {$value}
+native-adapter-platform-other = Andere (nicht verifiziert)
+native-adapter-topic = Hilfe: {$value}
+native-adapter-topic-access = Verbindung & Zugriff
+native-adapter-topic-polling = Abfrage & Raten
+native-adapter-hardware-note = Schließe das USB-Datenkabel an. Ein zweites Kabel, falls vorhanden, versorgt die Rumble-Funktion mit Strom. Für direkte Eingaben über vier Ports den Wii-U/NS-Modus verwenden.
+native-adapter-platform-access =
+    { $platform ->
+        [win32] Windows: Wenn der Zugriff fehlschlägt, öffne Zadig, aktiviere „List All Devices“, wähle WUP-028 / 057E:0337 und installiere WinUSB. Prüfe das genaue Gerät, bevor du den Treiber änderst.
+        [linux] Linux: Funktionierende Adapter benötigen keine zusätzliche Regel. Wird der Zugriff verweigert, gewährt die Einrichtung unten der aktiven Desktop-Sitzung Zugriff. Verbinde den Adapter nach der Einrichtung erneut und suche dann erneut.
+       *[other] Die Adapterunterstützung des Pakets zielt auf Windows und Linux ab. Diese Plattform wurde nicht verifiziert. Lies die Adapteranleitung, bevor du die Systemkonfiguration änderst.
+    }
+native-adapter-access-existing = Die kopierte Linux-Einrichtung erstellt nur dann eine eigene Regel, wenn diese Datei noch nicht vorhanden ist. Prüfe eine vorhandene Datei, statt sie zu ersetzen.
+native-adapter-polling-meaning = Die Spieloption steuert die Anwendungsabfragen. Sie installiert keine Treiber und ändert nicht das USB-Intervall. Die gemessenen Hz zählen angenommene Meldungen, nicht die Eingabeverzögerung.
+native-adapter-platform-polling =
+    { $platform ->
+        [linux] Linux: Schnellere USB-Intervalle benötigen eine separate Systemkonfiguration, beispielsweise usb_oc. Schließe zuerst Programme, die den Adapter verwenden. Das Ändern des Intervalls kann Geräte zurücksetzen.
+        [win32] Windows: WinUSB-Zugriff und schnelleres Abfragen sind getrennte Einrichtungsschritte. Kombinationen mit Filtertreibern wurden nicht verifiziert. Lies die Anleitung zum Abfragen, bevor du Treiber änderst.
+       *[other] Schnelleres Abfragen auf dieser Plattform wurde nicht verifiziert. Prüfe die Systemunterstützung und miss jeden Adapter, bevor du eine Konfiguration beibehältst.
+    }
+native-adapter-polling-check = 1000 Hz erfordern kompatible Hardware und eine passende Systemkonfiguration. Wenn die Eingabe unzuverlässig wird, versuche es mit 500 oder 250 Hz. Prüfe jeden Adapter, auch wenn mehrere angeschlossen sind.
+native-adapter-polling-setup-link = Anleitung zur Abfrageeinrichtung öffnen ↗
