@@ -1756,8 +1756,19 @@ native-adapter-polling-meaning = 게임 옵션은 애플리케이션 읽기 빈�
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux: USB 간격을 더 짧게 하려면 usb_oc 같은 별도의 시스템 설정이 필요합니다. 먼저 어댑터 사용 중인 프로그램을 닫으세요. 간격을 변경하면 장치가 초기화될 수 있습니다.
-        [win32] Windows: WinUSB 액세스와 빠른 폴링은 별도의 설정 단계입니다. 필터 드라이버 조합은 검증되지 않았으므로 드라이버를 변경하기 전에 폴링 안내서를 읽으세요.
+        [win32] Windows: 게임을 종료하세요. WUP-028(057E:0337)은 연결된 HIDUSBF NoPatch 안내에 따라 500 Hz와 Restart를 선택하세요. 그다음 여기서 높은 폴링을 켜고, 안정성을 확인한 뒤 1000 Hz를 시도하세요.
        *[other] 이 플랫폼의 빠른 폴링은 검증되지 않았습니다. 구성을 유지하기 전에 시스템 지원 여부를 확인하고 각 어댑터를 측정하세요.
     }
-native-adapter-polling-check = 1000 Hz에는 호환 하드웨어와 시스템 설정이 필요합니다. 입력이 불안정해지면 500 또는 250 Hz를 시도하세요. 여러 대를 연결한 경우도 포함해 모든 어댑터를 확인하세요.
+native-adapter-polling-check = 요청한 Hz가 실제 수신률이나 컨트롤러 스캔 속도보다 높을 수 있습니다. 가장 빠르고 안정적인 설정을 사용하고, 불안정하면 500/250 Hz를 시도하세요. HIDUSBF를 되돌리려면 Filter On Device를 해제하고 Restart를 누른 뒤 서비스를 제거하세요.
 native-adapter-polling-setup-link = 폴링 설정 안내서 열기 ↗
+
+native-adapter-topic-controllers = 기타 컨트롤러
+native-adapter-controllers-meaning = Xbox, PlayStation 및 기타 USB/Bluetooth 패드는 일반 시스템 드라이버로 조작 설정을 사용합니다. GameCube 어댑터용 WinUSB 드라이버로 바꾸지 마세요.
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows: 먼저 joy.cpl이나 제조사 도구에서 패드를 테스트하세요. 표시되지 않으면 USB 데이터 케이블과 제조사가 지원하는 펌웨어/드라이버 설정을 확인하세요. 다시 연결한 뒤 게임을 여세요.
+        [linux] Linux: 먼저 시스템이 패드를 인식하는지 확인하세요. 유선 연결과 배포판의 컨트롤러 지원 및 접근 권한을 확인한 뒤 게임을 다시 여세요.
+       *[other] 먼저 시스템의 지원 여부와 제조사의 연결 안내를 확인하고 유선 연결을 시도하세요. Antistatic 패키지는 현재 Windows와 Linux를 대상으로 합니다.
+    }
+native-adapter-controllers-check = 일부 유선 패드는 제조사 폴링 모드를 제공합니다. 정확한 모델의 안내를 따르세요. Bluetooth의 제한은 다릅니다. 높은 어댑터 폴링은 네이티브 GameCube 어댑터에만 적용됩니다.
+native-adapter-controllers-setup-link = 컨트롤러 설정 안내 열기 ↗

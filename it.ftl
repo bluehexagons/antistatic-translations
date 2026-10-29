@@ -1761,8 +1761,19 @@ native-adapter-polling-meaning = L’opzione del gioco controlla le letture dell
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux: gli intervalli USB più rapidi richiedono una configurazione di sistema separata, ad esempio usb_oc. Chiudi prima i programmi che usano l’adattatore; modificare l’intervallo può reimpostare i dispositivi.
-        [win32] Windows: l’accesso WinUSB e il polling più rapido sono fasi di configurazione separate. Le combinazioni con driver filtro non sono state verificate; leggi la guida al polling prima di modificare i driver.
+        [win32] Windows: chiudi il gioco. Per WUP-028 (057E:0337), segui la guida collegata a HIDUSBF NoPatch, scegli 500 Hz e Restart. Poi abilita qui il polling elevato; prova 1000 Hz dopo aver verificato la stabilità.
        *[other] Il polling più rapido su questa piattaforma non è stato verificato. Controlla il supporto del sistema e misura ogni adattatore prima di mantenere una configurazione.
     }
-native-adapter-polling-check = 1000 Hz richiede hardware compatibile e una configurazione di sistema adeguata. Se l’input diventa inaffidabile, prova 500 o 250 Hz. Controlla ogni adattatore, anche quando ne sono collegati diversi.
+native-adapter-polling-check = Gli Hz richiesti possono superare la ricezione reale o la scansione del controller. Mantieni il valore più rapido e stabile; in caso di problemi prova 500/250 Hz. Per rimuovere HIDUSBF, disattiva Filter On Device e premi Restart prima di rimuovere il servizio.
 native-adapter-polling-setup-link = Apri la guida alla configurazione del polling ↗
+
+native-adapter-topic-controllers = Altri controller
+native-adapter-controllers-meaning = I controller Xbox, PlayStation e altri USB/Bluetooth usano Comandi con il normale driver di sistema. Non sostituirlo con il driver WinUSB dell’adattatore GameCube.
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows: prova prima il controller in joy.cpl o nell’utilità del produttore. Se manca, prova un cavo USB dati e firmware/driver supportati dal produttore. Ricollega e riapri il gioco.
+        [linux] Linux: verifica prima che il sistema rilevi il controller. Prova via cavo e controlla supporto e permessi della distribuzione, poi riapri il gioco.
+       *[other] Controlla prima il supporto del sistema e le istruzioni di collegamento del produttore. Prova via cavo. I pacchetti Antistatic sono attualmente destinati a Windows e Linux.
+    }
+native-adapter-controllers-check = Alcuni controller cablati offrono modalità di polling del produttore: segui la guida del modello esatto. Bluetooth ha limiti diversi. Il polling elevato riguarda solo gli adattatori GameCube nativi.
+native-adapter-controllers-setup-link = Apri la guida ai controller ↗

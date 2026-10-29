@@ -1762,8 +1762,19 @@ native-adapter-polling-meaning = Die Spieloption steuert die Anwendungsabfragen.
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux: Schnellere USB-Intervalle benötigen eine separate Systemkonfiguration, beispielsweise usb_oc. Schließe zuerst Programme, die den Adapter verwenden. Das Ändern des Intervalls kann Geräte zurücksetzen.
-        [win32] Windows: WinUSB-Zugriff und schnelleres Abfragen sind getrennte Einrichtungsschritte. Kombinationen mit Filtertreibern wurden nicht verifiziert. Lies die Anleitung zum Abfragen, bevor du Treiber änderst.
+        [win32] Windows: Spiel schließen. Für WUP-028 (057E:0337) die verlinkte HIDUSBF-NoPatch-Anleitung befolgen, 500 Hz wählen und Restart drücken. Danach hier höhere Adapter-Abfragerate aktivieren; 1000 Hz erst nach einem stabilen Test versuchen.
        *[other] Schnelleres Abfragen auf dieser Plattform wurde nicht verifiziert. Prüfe die Systemunterstützung und miss jeden Adapter, bevor du eine Konfiguration beibehältst.
     }
-native-adapter-polling-check = 1000 Hz erfordern kompatible Hardware und eine passende Systemkonfiguration. Wenn die Eingabe unzuverlässig wird, versuche es mit 500 oder 250 Hz. Prüfe jeden Adapter, auch wenn mehrere angeschlossen sind.
+native-adapter-polling-check = Angeforderte Hz können über der tatsächlichen Übertragung oder Controller-Abtastrate liegen. Die schnellste stabile Einstellung behalten; bei Problemen 500/250 Hz versuchen. Zum Entfernen von HIDUSBF zuerst Filter On Device abwählen und Restart drücken, dann den Dienst entfernen.
 native-adapter-polling-setup-link = Anleitung zur Abfrageeinrichtung öffnen ↗
+
+native-adapter-topic-controllers = Andere Controller
+native-adapter-controllers-meaning = Xbox-, PlayStation- und andere USB/Bluetooth-Controller verwenden Steuerung mit ihrem normalen Systemtreiber. Diesen nicht durch den WinUSB-Treiber des GameCube-Adapters ersetzen.
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows: Controller zuerst in joy.cpl oder im Herstellerprogramm testen. Wird er nicht erkannt, USB-Datenkabel und unterstützte Firmware/Treiber des Herstellers prüfen. Neu verbinden und das Spiel erneut öffnen.
+        [linux] Linux: zuerst prüfen, ob das System den Controller erkennt. Kabelverbindung, Controller-Unterstützung der Distribution und Zugriffsrechte prüfen, dann das Spiel erneut öffnen.
+       *[other] Zuerst Controller-Unterstützung des Systems und Anschlussanleitung des Herstellers prüfen. Kabelverbindung versuchen. Antistatic-Pakete richten sich derzeit an Windows und Linux.
+    }
+native-adapter-controllers-check = Manche kabelgebundenen Controller bieten eigene Abfragemodi; die Anleitung des genauen Modells befolgen. Für Bluetooth gelten andere Grenzen. Höhere Adapter-Abfragerate betrifft nur native GameCube-Adapter.
+native-adapter-controllers-setup-link = Controller-Einrichtung öffnen ↗

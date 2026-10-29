@@ -1761,8 +1761,19 @@ native-adapter-polling-meaning = L’option du jeu contrôle les lectures de l�
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux : les intervalles USB plus rapides nécessitent une configuration système distincte, comme usb_oc. Fermez d’abord les programmes qui utilisent l’adaptateur ; modifier l’intervalle peut réinitialiser les appareils.
-        [win32] Windows : l’accès à WinUSB et l’interrogation plus rapide sont deux étapes de configuration distinctes. Les combinaisons de pilotes filtres n’ont pas été vérifiées ; consultez le guide d’interrogation avant de modifier les pilotes.
+        [win32] Windows : fermez le jeu. Pour WUP-028 (057E:0337), suivez le guide HIDUSBF NoPatch lié, choisissez 500 Hz puis Restart. Activez ensuite le polling élevé ici ; essayez 1000 Hz après un test stable.
        *[other] L’interrogation plus rapide n’a pas été vérifiée sur cette plateforme. Vérifiez la prise en charge du système et mesurez chaque adaptateur avant de conserver une configuration.
     }
-native-adapter-polling-check = 1000 Hz nécessite du matériel compatible et une configuration système appropriée. Si les entrées deviennent peu fiables, essayez 500 ou 250 Hz. Vérifiez chaque adaptateur, même si plusieurs sont connectés.
+native-adapter-polling-check = Les Hz demandés peuvent dépasser la réception réelle ou le balayage de la manette. Gardez le réglage le plus rapide et stable ; sinon essayez 500/250 Hz. Pour retirer HIDUSBF, décochez Filter On Device et cliquez sur Restart avant de supprimer son service.
 native-adapter-polling-setup-link = Ouvrir le guide de configuration de l’interrogation ↗
+
+native-adapter-topic-controllers = Autres manettes
+native-adapter-controllers-meaning = Les manettes Xbox, PlayStation et autres USB/Bluetooth utilisent Commandes avec leur pilote système habituel. Ne le remplacez pas par le pilote WinUSB de l’adaptateur GameCube.
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows : testez d’abord la manette dans joy.cpl ou l’utilitaire du fabricant. Si elle manque, essayez un câble USB de données et les pilotes/firmwares pris en charge. Rebranchez puis rouvrez le jeu.
+        [linux] Linux : vérifiez d’abord que le système détecte la manette. Essayez en filaire et vérifiez sa prise en charge et ses droits d’accès dans la distribution, puis rouvrez le jeu.
+       *[other] Vérifiez d’abord la prise en charge du système et les instructions de connexion du fabricant. Essayez en filaire. Les paquets Antistatic ciblent actuellement Windows et Linux.
+    }
+native-adapter-controllers-check = Certaines manettes filaires proposent des modes de polling du fabricant : suivez le guide du modèle exact. Bluetooth a d’autres limites. Le polling élevé concerne seulement les adaptateurs GameCube natifs.
+native-adapter-controllers-setup-link = Ouvrir le guide des manettes ↗

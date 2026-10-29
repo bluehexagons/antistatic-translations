@@ -1761,8 +1761,19 @@ native-adapter-polling-meaning = La opción del juego controla las lecturas de l
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux: los intervalos USB más rápidos requieren una configuración del sistema aparte, como usb_oc. Cierra primero los programas que usan el adaptador; cambiar el intervalo puede reiniciar los dispositivos.
-        [win32] Windows: el acceso mediante WinUSB y el sondeo más rápido son pasos de configuración separados. No se han verificado las combinaciones con controladores de filtro; lee la guía de sondeo antes de cambiar controladores.
+        [win32] Windows: cierra el juego. Para WUP-028 (057E:0337), sigue la guía enlazada de HIDUSBF NoPatch, elige 500 Hz y Restart. Después activa aquí el sondeo rápido del adaptador; prueba 1000 Hz tras comprobar la estabilidad.
        *[other] No se ha verificado el sondeo más rápido en esta plataforma. Comprueba la compatibilidad del sistema y mide cada adaptador antes de conservar una configuración.
     }
-native-adapter-polling-check = 1000 Hz requiere hardware compatible y una configuración del sistema adecuada. Si la entrada deja de ser fiable, prueba con 500 o 250 Hz. Comprueba todos los adaptadores, incluso cuando haya varios conectados.
+native-adapter-polling-check = Los Hz solicitados pueden superar la entrega real o el muestreo del mando. Conserva el ajuste más rápido y estable; si falla, prueba 500/250 Hz. Para quitar HIDUSBF, desmarca Filter On Device y pulsa Restart antes de eliminar el servicio.
 native-adapter-polling-setup-link = Abrir la guía de configuración del sondeo ↗
+
+native-adapter-topic-controllers = Otros mandos
+native-adapter-controllers-meaning = Los mandos Xbox, PlayStation y otros USB/Bluetooth usan Controles con su controlador habitual del sistema. No lo sustituyas por el controlador WinUSB del adaptador de GameCube.
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows: prueba primero el mando en joy.cpl o en la utilidad del fabricante. Si no aparece, prueba un cable USB de datos y la configuración de firmware/controlador admitida. Reconecta y abre el juego de nuevo.
+        [linux] Linux: comprueba primero que el sistema detecta el mando. Prueba por cable y revisa la compatibilidad de la distribución y los permisos; después abre el juego de nuevo.
+       *[other] Consulta primero la compatibilidad del sistema y las instrucciones de conexión del fabricante. Prueba por cable. Los paquetes de Antistatic se orientan actualmente a Windows y Linux.
+    }
+native-adapter-controllers-check = Algunos mandos por cable ofrecen modos de sondeo del fabricante; sigue la guía del modelo exacto. Bluetooth tiene otros límites. El sondeo rápido del adaptador solo afecta a adaptadores nativos de GameCube.
+native-adapter-controllers-setup-link = Abrir guía de mandos ↗

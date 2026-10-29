@@ -1781,8 +1781,19 @@ native-adapter-polling-meaning = The game option controls application reads. It 
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux: faster USB intervals need separate system setup, such as usb_oc. Close adapter users first; changing the interval can reset devices.
-        [win32] Windows: WinUSB access and faster polling are separate setup steps. Filter-driver combinations have not been verified; read the polling guide before changing drivers.
+        [win32] Windows: close the game. For WUP-028 (057E:0337), follow the linked HIDUSBF NoPatch setup, choose 500 Hz and Restart. Then enable Higher adapter polling here; try 1000 Hz after a stable check.
        *[other] Higher polling on this platform has not been verified. Check system support and measure each adapter before keeping a configuration.
     }
-native-adapter-polling-check = 1000 Hz requires compatible hardware and system setup. If input becomes unreliable, try 500 or 250 Hz. Check every adapter, including when several are connected.
+native-adapter-polling-check = Requested Hz can exceed actual delivery or controller scan speed. Keep the fastest stable setting; try 500/250 Hz if unreliable. To undo HIDUSBF, clear Filter On Device and Restart before removing its service.
 native-adapter-polling-setup-link = Open polling setup guide ↗
+
+native-adapter-topic-controllers = Other controllers
+native-adapter-controllers-meaning = Xbox, PlayStation and other USB/Bluetooth pads use Controls with their normal system driver. Do not replace their driver with the GameCube adapter’s WinUSB driver.
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows: first test the pad in joy.cpl or its vendor utility. If missing, try a data USB cable and the vendor’s supported firmware/driver setup. Reconnect, then reopen the game.
+        [linux] Linux: first check that the system detects the pad. Try a wired connection and your distribution’s controller support and access permissions, then reopen the game.
+       *[other] Check the system’s controller support and the vendor’s connection instructions first. Try a wired connection. Antistatic packages currently target Windows and Linux.
+    }
+native-adapter-controllers-check = Some wired pads have vendor polling modes; follow the exact model’s guide. Bluetooth has different limits. Higher adapter polling affects native GameCube adapters only.
+native-adapter-controllers-setup-link = Open controller setup guide ↗

@@ -1756,8 +1756,19 @@ native-adapter-polling-meaning = ゲームのオプションはアプリケー�
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux: USB 間隔を短くするには、usb_oc など別途システム設定が必要です。先にアダプター使用中のプログラムを終了してください。間隔を変更するとデバイスがリセットされることがあります。
-        [win32] Windows: WinUSB アクセスと高速ポーリングは別々の設定手順です。フィルタードライバーの組み合わせは未検証です。ドライバーを変更する前にポーリングガイドを読んでください。
+        [win32] Windows：ゲームを終了します。WUP-028（057E:0337）はリンク先の HIDUSBF NoPatch 手順に従い、500 Hz と Restart を選択します。その後ここで高速ポーリングを有効にし、安定動作を確認してから 1000 Hz を試してください。
        *[other] このプラットフォームでの高速ポーリングは未検証です。設定を維持する前に、システムの対応状況を確認し、各アダプターを測定してください。
     }
-native-adapter-polling-check = 1000 Hz には対応ハードウェアとシステム設定が必要です。入力が不安定になった場合は、500 Hz または 250 Hz を試してください。複数接続時も含め、すべてのアダプターを確認してください。
+native-adapter-polling-check = 指定 Hz が実際の受信数やコントローラーの走査速度を超える場合があります。安定する最速設定を選び、不安定なら 500/250 Hz を試してください。HIDUSBF を戻すには Filter On Device を解除して Restart を実行し、その後サービスを削除します。
 native-adapter-polling-setup-link = ポーリング設定ガイドを開く ↗
+
+native-adapter-topic-controllers = その他のコントローラー
+native-adapter-controllers-meaning = Xbox、PlayStation、その他の USB/Bluetooth パッドは通常のシステムドライバーで「操作設定」を使用します。GameCube アダプター用の WinUSB ドライバーに置き換えないでください。
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows：まず joy.cpl またはメーカーのツールで動作を確認します。認識されない場合は USB データケーブルと対応ファームウェア／ドライバーを確認し、接続し直してゲームを再起動してください。
+        [linux] Linux：まずシステムがパッドを認識しているか確認します。有線接続とディストリビューションの対応状況・アクセス権を確認し、ゲームを再起動してください。
+       *[other] まずシステムの対応状況とメーカーの接続手順を確認し、有線接続を試してください。Antistatic の配布パッケージは現在 Windows と Linux 向けです。
+    }
+native-adapter-controllers-check = 有線パッドにはメーカー独自のポーリング設定がある場合があります。正確な機種の説明に従ってください。Bluetooth の制限は異なります。高速ポーリング設定はネイティブ GameCube アダプター専用です。
+native-adapter-controllers-setup-link = コントローラー設定ガイドを開く ↗

@@ -1756,8 +1756,19 @@ native-adapter-polling-meaning = 游戏选项控制应用程序读取数据的�
 native-adapter-platform-polling =
     { $platform ->
         [linux] Linux：更快的 USB 间隔需要单独进行系统设置，例如 usb_oc。请先关闭正在使用适配器的程序；更改间隔可能会重置设备。
-        [win32] Windows：WinUSB 访问和更快的轮询是两个独立的设置步骤。筛选驱动程序组合未经验证；更改驱动程序前请阅读轮询指南。
+        [win32] Windows：先关闭游戏。对于 WUP-028（057E:0337），按链接中的 HIDUSBF NoPatch 指南设置，选择 500 Hz 并点击 Restart。然后在此开启较高轮询率；确认稳定后再尝试 1000 Hz。
        *[other] 此平台上的更快轮询未经验证。保留配置前，请确认系统支持并测量每个适配器。
     }
-native-adapter-polling-check = 1000 Hz 需要兼容硬件和系统设置。如果输入变得不稳定，请尝试 500 或 250 Hz。请检查每个适配器，包括连接了多个适配器时。
+native-adapter-polling-check = 请求的 Hz 可能高于实际接收率或手柄扫描速度。保留最快且稳定的设置；不稳定时尝试 500/250 Hz。撤销 HIDUSBF 时，先取消 Filter On Device 并点击 Restart，再移除服务。
 native-adapter-polling-setup-link = 打开轮询设置指南 ↗
+
+native-adapter-topic-controllers = 其他手柄
+native-adapter-controllers-meaning = Xbox、PlayStation 及其他 USB/蓝牙手柄使用普通系统驱动，并在“控制”中设置。请勿将其驱动替换为 GameCube 转接器的 WinUSB 驱动。
+native-adapter-platform-controllers =
+    { $platform ->
+        [win32] Windows：先在 joy.cpl 或厂商工具中测试手柄。若未显示，请检查 USB 数据线及厂商支持的固件/驱动设置。重新连接后再打开游戏。
+        [linux] Linux：先确认系统能检测到手柄。尝试有线连接，检查发行版的手柄支持及访问权限，然后重新打开游戏。
+       *[other] 先检查系统支持情况及厂商的连接说明，并尝试有线连接。Antistatic 安装包目前面向 Windows 和 Linux。
+    }
+native-adapter-controllers-check = 部分有线手柄提供厂商轮询模式，请遵循对应型号的指南。蓝牙有不同的限制。“较高适配器轮询率”仅影响原生 GameCube 转接器。
+native-adapter-controllers-setup-link = 打开手柄设置指南 ↗
