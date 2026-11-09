@@ -1772,3 +1772,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = 有線パッドにはメーカー独自のポーリング設定がある場合があります。正確な機種の説明に従ってください。Bluetooth の制限は異なります。高速ポーリング設定はネイティブ GameCube アダプター専用です。
 native-adapter-controllers-setup-link = コントローラー設定ガイドを開く ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = 詳細: { TRANSLATE($value) }
+video-detail-preset-help = モデルとパーティクルの詳細度のみを変更します。他のグループは変わりません。
+video-lighting-preset-value = 照明: { TRANSLATE($value) }
+video-lighting-preset-help = ローカルライト、影、アンビエントオクルージョン、間接照明のみを変更します。
+video-effects-preset-value = 効果: { TRANSLATE($value) }
+video-effects-preset-help = 大気、反射、ブルームのみを変更します。
+video-quality-low = 低
+video-quality-medium = 中
+video-quality-high = 高
+video-quality-ultra = ウルトラ
+video-quality-cinematic = シネマ
+video-quality-max = 最高
+video-quality-custom = カスタム

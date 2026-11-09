@@ -1772,3 +1772,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = 部分有線手掣提供廠商輪詢模式，請遵循確切型號的指南。藍牙的限制不同。「較高轉接器輪詢率」只影響原生 GameCube 轉接器。
 native-adapter-controllers-setup-link = 開啟手掣設定指南 ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = 細節: { TRANSLATE($value) }
+video-detail-preset-help = 只調整模型和粒子細節，其他群組保持不變。
+video-lighting-preset-value = 光照: { TRANSLATE($value) }
+video-lighting-preset-help = 只調整局部光源、陰影、環境光遮蔽和間接光照。
+video-effects-preset-value = 效果: { TRANSLATE($value) }
+video-effects-preset-help = 只調整大氣、反射和泛光。
+video-quality-low = 低
+video-quality-medium = 中
+video-quality-high = 高
+video-quality-ultra = 超高
+video-quality-cinematic = 電影
+video-quality-max = 極致
+video-quality-custom = 自訂

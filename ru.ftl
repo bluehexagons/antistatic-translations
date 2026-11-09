@@ -1781,3 +1781,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = Некоторые проводные геймпады имеют режимы опроса от производителя; следуйте инструкции точной модели. У Bluetooth другие ограничения. Повышенный опрос адаптера действует только для нативных адаптеров GameCube.
 native-adapter-controllers-setup-link = Открыть руководство по контроллерам ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = Детализация: { TRANSLATE($value) }
+video-detail-preset-help = Изменить только детализацию моделей и частиц. Другие группы не изменятся.
+video-lighting-preset-value = Освещение: { TRANSLATE($value) }
+video-lighting-preset-help = Изменить только локальные источники света, тени, фоновое затенение и непрямое освещение.
+video-effects-preset-value = Эффекты: { TRANSLATE($value) }
+video-effects-preset-help = Изменить только атмосферу, отражения и свечение.
+video-quality-low = Низкое
+video-quality-medium = Среднее
+video-quality-high = Высокое
+video-quality-ultra = Ультра
+video-quality-cinematic = Кино
+video-quality-max = Максимум
+video-quality-custom = Свои

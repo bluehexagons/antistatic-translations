@@ -1777,3 +1777,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = Certaines manettes filaires proposent des modes de polling du fabricant : suivez le guide du modèle exact. Bluetooth a d’autres limites. Le polling élevé concerne seulement les adaptateurs GameCube natifs.
 native-adapter-controllers-setup-link = Ouvrir le guide des manettes ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = Détails: { TRANSLATE($value) }
+video-detail-preset-help = Modifie uniquement le détail des modèles et des particules. Les autres groupes restent inchangés.
+video-lighting-preset-value = Éclairage: { TRANSLATE($value) }
+video-lighting-preset-help = Modifie uniquement les lumières locales, les ombres, l’occlusion ambiante et l’éclairage indirect.
+video-effects-preset-value = Effets: { TRANSLATE($value) }
+video-effects-preset-help = Modifie uniquement l’atmosphère, les reflets et le halo lumineux.
+video-quality-low = Faible
+video-quality-medium = Moyen
+video-quality-high = Élevé
+video-quality-ultra = Ultra
+video-quality-cinematic = Cinéma
+video-quality-max = Maximum
+video-quality-custom = Personnalisé

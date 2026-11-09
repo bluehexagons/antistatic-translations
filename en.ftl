@@ -1797,3 +1797,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = Some wired pads have vendor polling modes; follow the exact model’s guide. Bluetooth has different limits. Higher adapter polling affects native GameCube adapters only.
 native-adapter-controllers-setup-link = Open controller setup guide ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = Detail: { TRANSLATE($value) }
+video-detail-preset-help = Set model and particle detail only. Other groups stay unchanged.
+video-lighting-preset-value = Lighting: { TRANSLATE($value) }
+video-lighting-preset-help = Set local lights, shadows, ambient occlusion, and indirect lighting only.
+video-effects-preset-value = Effects: { TRANSLATE($value) }
+video-effects-preset-help = Set atmosphere, reflections, and bloom only.
+video-quality-low = Low
+video-quality-medium = Medium
+video-quality-high = High
+video-quality-ultra = Ultra
+video-quality-cinematic = Cinematic
+video-quality-max = Max
+video-quality-custom = Custom

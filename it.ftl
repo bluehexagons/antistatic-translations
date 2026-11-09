@@ -1777,3 +1777,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = Alcuni controller cablati offrono modalità di polling del produttore: segui la guida del modello esatto. Bluetooth ha limiti diversi. Il polling elevato riguarda solo gli adattatori GameCube nativi.
 native-adapter-controllers-setup-link = Apri la guida ai controller ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = Dettaglio: { TRANSLATE($value) }
+video-detail-preset-help = Modifica solo il dettaglio di modelli e particelle. Gli altri gruppi restano invariati.
+video-lighting-preset-value = Illuminazione: { TRANSLATE($value) }
+video-lighting-preset-help = Modifica solo luci locali, ombre, occlusione ambientale e illuminazione indiretta.
+video-effects-preset-value = Effetti: { TRANSLATE($value) }
+video-effects-preset-help = Modifica solo atmosfera, riflessi e bagliore.
+video-quality-low = Bassa
+video-quality-medium = Media
+video-quality-high = Alta
+video-quality-ultra = Ultra
+video-quality-cinematic = Cinema
+video-quality-max = Massima
+video-quality-custom = Personalizzata

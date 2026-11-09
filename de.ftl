@@ -1778,3 +1778,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = Manche kabelgebundenen Controller bieten eigene Abfragemodi; die Anleitung des genauen Modells befolgen. Für Bluetooth gelten andere Grenzen. Höhere Adapter-Abfragerate betrifft nur native GameCube-Adapter.
 native-adapter-controllers-setup-link = Controller-Einrichtung öffnen ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = Details: { TRANSLATE($value) }
+video-detail-preset-help = Nur Modell- und Partikeldetails ändern. Andere Gruppen bleiben unverändert.
+video-lighting-preset-value = Beleuchtung: { TRANSLATE($value) }
+video-lighting-preset-help = Nur lokale Lichter, Schatten, Umgebungsverdeckung und indirekte Beleuchtung ändern.
+video-effects-preset-value = Effekte: { TRANSLATE($value) }
+video-effects-preset-help = Nur Atmosphäre, Reflexionen und Bloom ändern.
+video-quality-low = Niedrig
+video-quality-medium = Mittel
+video-quality-high = Hoch
+video-quality-ultra = Ultra
+video-quality-cinematic = Kino
+video-quality-max = Maximal
+video-quality-custom = Benutzerdefiniert

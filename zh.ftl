@@ -1772,3 +1772,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = 部分有线手柄提供厂商轮询模式，请遵循对应型号的指南。蓝牙有不同的限制。“较高适配器轮询率”仅影响原生 GameCube 转接器。
 native-adapter-controllers-setup-link = 打开手柄设置指南 ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = 细节: { TRANSLATE($value) }
+video-detail-preset-help = 仅调整模型和粒子细节，其他分组保持不变。
+video-lighting-preset-value = 光照: { TRANSLATE($value) }
+video-lighting-preset-help = 仅调整局部光源、阴影、环境光遮蔽和间接光照。
+video-effects-preset-value = 效果: { TRANSLATE($value) }
+video-effects-preset-help = 仅调整大气、反射和泛光。
+video-quality-low = 低
+video-quality-medium = 中
+video-quality-high = 高
+video-quality-ultra = 超高
+video-quality-cinematic = 影院
+video-quality-max = 极致
+video-quality-custom = 自定义

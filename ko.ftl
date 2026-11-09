@@ -1772,3 +1772,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = 일부 유선 패드는 제조사 폴링 모드를 제공합니다. 정확한 모델의 안내를 따르세요. Bluetooth의 제한은 다릅니다. 높은 어댑터 폴링은 네이티브 GameCube 어댑터에만 적용됩니다.
 native-adapter-controllers-setup-link = 컨트롤러 설정 안내 열기 ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = 세부 묘사: { TRANSLATE($value) }
+video-detail-preset-help = 모델과 파티클의 세부 묘사만 변경합니다. 다른 그룹은 유지됩니다.
+video-lighting-preset-value = 조명: { TRANSLATE($value) }
+video-lighting-preset-help = 로컬 조명, 그림자, 앰비언트 오클루전, 간접 조명만 변경합니다.
+video-effects-preset-value = 효과: { TRANSLATE($value) }
+video-effects-preset-help = 대기 효과, 반사, 블룸만 변경합니다.
+video-quality-low = 낮음
+video-quality-medium = 중간
+video-quality-high = 높음
+video-quality-ultra = 울트라
+video-quality-cinematic = 시네마
+video-quality-max = 최대
+video-quality-custom = 사용자 지정

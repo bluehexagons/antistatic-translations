@@ -1777,3 +1777,18 @@ native-adapter-platform-controllers =
     }
 native-adapter-controllers-check = Algunos mandos por cable ofrecen modos de sondeo del fabricante; sigue la guía del modelo exacto. Bluetooth tiene otros límites. El sondeo rápido del adaptador solo afecta a adaptadores nativos de GameCube.
 native-adapter-controllers-setup-link = Abrir guía de mandos ↗
+
+# Independent graphics quality groups
+video-detail-preset-value = Detalle: { TRANSLATE($value) }
+video-detail-preset-help = Cambia solo el detalle de modelos y partículas. Los demás grupos no cambian.
+video-lighting-preset-value = Iluminación: { TRANSLATE($value) }
+video-lighting-preset-help = Cambia solo las luces locales, las sombras, la oclusión ambiental y la iluminación indirecta.
+video-effects-preset-value = Efectos: { TRANSLATE($value) }
+video-effects-preset-help = Cambia solo la atmósfera, los reflejos y el resplandor.
+video-quality-low = Bajo
+video-quality-medium = Medio
+video-quality-high = Alto
+video-quality-ultra = Ultra
+video-quality-cinematic = Cinemático
+video-quality-max = Máximo
+video-quality-custom = Personalizado
