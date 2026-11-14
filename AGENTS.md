@@ -26,7 +26,8 @@ works. Install locked dependencies independently in each checkout/worktree.
 - `npm ci`: install the JavaScript lint/format tooling.
 - `npm run check`: validate package JavaScript, metadata, and formatting.
 - From `../antistatic`, run the translation audit commands in
-  `TRANSLATION_AUDIT.md` after any catalog change.
+  [translation maintenance](https://github.com/bluehexagons/antistatic/blob/main/docs/development/translations.md)
+  after any catalog change.
 
 Run both the package check and Antistatic's source-catalog audits before
 publishing a catalog change. Layout-sensitive text also needs the visual review
