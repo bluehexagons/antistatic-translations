@@ -1780,7 +1780,7 @@ native-adapter-controllers-setup-link = Ouvrir le guide des manettes ↗
 
 # Independent graphics quality groups
 video-detail-preset-value = Détails: { TRANSLATE($value) }
-video-detail-preset-help = Modifie uniquement le détail des modèles et des particules. Les autres groupes restent inchangés.
+video-detail-preset-help = Modifie le détail des modèles, des particules et des textures. Les autres groupes restent inchangés.
 video-lighting-preset-value = Éclairage: { TRANSLATE($value) }
 video-lighting-preset-help = Modifie uniquement les lumières locales, les ombres, l’occlusion ambiante et l’éclairage indirect.
 video-effects-preset-value = Effets: { TRANSLATE($value) }

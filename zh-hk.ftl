@@ -1775,7 +1775,7 @@ native-adapter-controllers-setup-link = 開啟手掣設定指南 ↗
 
 # Independent graphics quality groups
 video-detail-preset-value = 細節: { TRANSLATE($value) }
-video-detail-preset-help = 只調整模型和粒子細節，其他群組保持不變。
+video-detail-preset-help = 調整模型、粒子和紋理細節，其他群組保持不變。
 video-lighting-preset-value = 光照: { TRANSLATE($value) }
 video-lighting-preset-help = 只調整局部光源、陰影、環境光遮蔽和間接光照。
 video-effects-preset-value = 效果: { TRANSLATE($value) }

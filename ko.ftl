@@ -1775,7 +1775,7 @@ native-adapter-controllers-setup-link = 컨트롤러 설정 안내 열기 ↗
 
 # Independent graphics quality groups
 video-detail-preset-value = 세부 묘사: { TRANSLATE($value) }
-video-detail-preset-help = 모델과 파티클의 세부 묘사만 변경합니다. 다른 그룹은 유지됩니다.
+video-detail-preset-help = 모델, 파티클, 텍스처의 세부 묘사를 변경합니다. 다른 그룹은 유지됩니다.
 video-lighting-preset-value = 조명: { TRANSLATE($value) }
 video-lighting-preset-help = 로컬 조명, 그림자, 앰비언트 오클루전, 간접 조명만 변경합니다.
 video-effects-preset-value = 효과: { TRANSLATE($value) }
