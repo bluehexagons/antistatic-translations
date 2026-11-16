@@ -1787,3 +1787,14 @@ video-quality-ultra = 울트라
 video-quality-cinematic = 시네마
 video-quality-max = 최대
 video-quality-custom = 사용자 지정
+
+textures-low = 텍스처: 낮음 (256)
+textures-medium = 텍스처: 중간 (512)
+textures-high = 텍스처: 높음 (1024)
+texture-filter-pixelated = 필터링: 픽셀형
+texture-filter-trilinear = 필터링: 삼선형
+texture-filter-4x = 필터링: 이방성 4×
+texture-filter-8x = 필터링: 이방성 8×
+texture-filter-16x = 필터링: 이방성 16×
+video-texture-quality-help = 텍스처 해상도를 선택합니다. 낮은 값은 메모리를 절약하고 높음은 원본의 세부 표현을 유지합니다. 즉시 적용됩니다.
+video-texture-filtering-help = 픽셀형 색상, 삼선형 필터링 또는 비스듬한 표면을 위한 이방성 필터링을 선택합니다. 법선은 부드럽게 처리되며 하드웨어 제한이 적용됩니다.

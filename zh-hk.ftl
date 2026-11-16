@@ -1787,3 +1787,14 @@ video-quality-ultra = 超高
 video-quality-cinematic = 電影
 video-quality-max = 極致
 video-quality-custom = 自訂
+
+textures-low = 紋理：低（256）
+textures-medium = 紋理：中（512）
+textures-high = 紋理：高（1024）
+texture-filter-pixelated = 過濾：像素化
+texture-filter-trilinear = 過濾：三線性
+texture-filter-4x = 過濾：各向異性 4×
+texture-filter-8x = 過濾：各向異性 8×
+texture-filter-16x = 過濾：各向異性 16×
+video-texture-quality-help = 選擇紋理解析度。較低的值可節省紋理記憶體；高解析度保留全部原始細節。立即生效。
+video-texture-filtering-help = 選擇像素化色彩、三線性過濾，或用於傾斜表面的各向異性過濾。法線保持平滑過濾，並受硬體限制。

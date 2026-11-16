@@ -1812,3 +1812,14 @@ video-quality-ultra = Ultra
 video-quality-cinematic = Cinematic
 video-quality-max = Max
 video-quality-custom = Custom
+
+textures-low = Textures: Low (256)
+textures-medium = Textures: Medium (512)
+textures-high = Textures: High (1024)
+texture-filter-pixelated = Filtering: Pixelated
+texture-filter-trilinear = Filtering: Trilinear
+texture-filter-4x = Filtering: Anisotropic 4×
+texture-filter-8x = Filtering: Anisotropic 8×
+texture-filter-16x = Filtering: Anisotropic 16×
+video-texture-quality-help = Choose material texture resolution. Lower values save texture memory; High retains full source detail. Applies immediately.
+video-texture-filtering-help = Choose pixelated color texels, trilinear filtering, or anisotropic filtering for oblique surfaces. Normal maps stay smooth; hardware limits apply.

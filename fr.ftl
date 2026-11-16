@@ -1792,3 +1792,14 @@ video-quality-ultra = Ultra
 video-quality-cinematic = Cinéma
 video-quality-max = Maximum
 video-quality-custom = Personnalisé
+
+textures-low = Textures : Basse (256)
+textures-medium = Textures : Moyenne (512)
+textures-high = Textures : Haute (1024)
+texture-filter-pixelated = Filtrage : Pixelisé
+texture-filter-trilinear = Filtrage : Trilinéaire
+texture-filter-4x = Filtrage : Anisotrope 4×
+texture-filter-8x = Filtrage : Anisotrope 8×
+texture-filter-16x = Filtrage : Anisotrope 16×
+video-texture-quality-help = Choisissez la résolution des textures. Les valeurs basses économisent la mémoire ; Haute conserve tous les détails. Effet immédiat.
+video-texture-filtering-help = Choisissez des couleurs pixelisées, le filtrage trilinéaire ou anisotrope pour les surfaces obliques. Les normales restent lissées, selon les limites du matériel.

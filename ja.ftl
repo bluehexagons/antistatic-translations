@@ -1787,3 +1787,14 @@ video-quality-ultra = ウルトラ
 video-quality-cinematic = シネマ
 video-quality-max = 最高
 video-quality-custom = カスタム
+
+textures-low = テクスチャ：低（256）
+textures-medium = テクスチャ：中（512）
+textures-high = テクスチャ：高（1024）
+texture-filter-pixelated = フィルタ：ピクセル調
+texture-filter-trilinear = フィルタ：トライリニア
+texture-filter-4x = フィルタ：異方性 4×
+texture-filter-8x = フィルタ：異方性 8×
+texture-filter-16x = フィルタ：異方性 16×
+video-texture-quality-help = テクスチャの解像度を選びます。低い値はメモリを節約し、「高」は元の細部をすべて保持します。すぐに反映されます。
+video-texture-filtering-help = 色をピクセル調にするか、トライリニアや斜面に有効な異方性フィルタを選びます。法線は滑らかに補間され、ハードウェアの制限が適用されます。

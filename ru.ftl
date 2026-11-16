@@ -1796,3 +1796,14 @@ video-quality-ultra = Ультра
 video-quality-cinematic = Кино
 video-quality-max = Максимум
 video-quality-custom = Свои
+
+textures-low = Текстуры: Низкие (256)
+textures-medium = Текстуры: Средние (512)
+textures-high = Текстуры: Высокие (1024)
+texture-filter-pixelated = Фильтрация: Пиксельная
+texture-filter-trilinear = Фильтрация: Трилинейная
+texture-filter-4x = Фильтрация: Анизотропная 4×
+texture-filter-8x = Фильтрация: Анизотропная 8×
+texture-filter-16x = Фильтрация: Анизотропная 16×
+video-texture-quality-help = Выберите разрешение текстур. Низкие значения экономят память; высокое сохраняет исходные детали. Применяется сразу.
+video-texture-filtering-help = Выберите пиксельные цвета, трилинейную или анизотропную фильтрацию наклонных поверхностей. Нормали сглаживаются; действуют ограничения оборудования.
