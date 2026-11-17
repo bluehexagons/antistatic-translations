@@ -1594,6 +1594,9 @@ network-override = 環境変数による上書きが有効です。サービス:
 models-low = モデル：低
 models-high = モデル：高
 video-model-quality-help = 元のローポリモデルか、より詳細なモデルを選択します。見た目のみが変わります。
+mesh-deformation-off = メッシュ変形：オフ
+mesh-deformation-on = メッシュ変形：オン
+video-mesh-deformation-help = 動きに合わせてファイターのメッシュをわずかに押し縮めたり傾けたりします。見た目のみが変わります。
 
 # Options labels and native adapter guidance
 video-display-value = ディスプレイ {$value}

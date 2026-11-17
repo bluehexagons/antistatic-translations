@@ -1619,6 +1619,9 @@ network-override = Environment overrides active: service { $server }; STUN { $st
 models-low = Models: Low
 models-high = Models: High
 video-model-quality-help = Choose original low-poly models or more detailed models. Changes appearance only.
+mesh-deformation-off = Mesh Deformation: Off
+mesh-deformation-on = Mesh Deformation: On
+video-mesh-deformation-help = Add subtle squash and shear to fighter meshes during movement. This changes appearance only.
 
 # Options labels and native adapter guidance
 video-display-value = Display {$value}

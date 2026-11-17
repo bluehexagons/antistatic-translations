@@ -1599,6 +1599,9 @@ network-override = Variables d’environnement prioritaires : service { $server 
 models-low = Modèles : Basse
 models-high = Modèles : Haute
 video-model-quality-help = Choisissez les modèles originaux à faible nombre de polygones ou des modèles plus détaillés. Seule l’apparence change.
+mesh-deformation-off = Déformation : Désactivée
+mesh-deformation-on = Déformation : Activée
+video-mesh-deformation-help = Ajoute une légère compression et un cisaillement aux modèles des combattants en mouvement. Seule l’apparence change.
 
 # Options labels and native adapter guidance
 video-display-value = Écran {$value}

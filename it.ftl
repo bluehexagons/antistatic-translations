@@ -1599,6 +1599,9 @@ network-override = Variabili d’ambiente prioritarie: servizio { $server }; STU
 models-low = Modelli: Bassa
 models-high = Modelli: Alta
 video-model-quality-help = Scegli i modelli originali con pochi poligoni o modelli più dettagliati. Cambia solo l'aspetto.
+mesh-deformation-off = Deformazione: No
+mesh-deformation-on = Deformazione: Sì
+video-mesh-deformation-help = Aggiunge lievi compressioni e inclinazioni ai modelli dei lottatori in movimento. Cambia solo l’aspetto.
 
 # Options labels and native adapter guidance
 video-display-value = Schermo {$value}

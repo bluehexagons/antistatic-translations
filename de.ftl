@@ -1600,6 +1600,9 @@ network-override = Umgebungsvariablen haben Vorrang: Dienst { $server }; STUN { 
 models-low = Modelle: Niedrig
 models-high = Modelle: Hoch
 video-model-quality-help = Wähle die ursprünglichen Low-Poly-Modelle oder detailreichere Modelle. Ändert nur das Aussehen.
+mesh-deformation-off = Netzverformung: Aus
+mesh-deformation-on = Netzverformung: An
+video-mesh-deformation-help = Verformt Kämpfermodelle bei Bewegungen leicht durch Stauchung und Scherung. Ändert nur das Aussehen.
 
 # Options labels and native adapter guidance
 video-display-value = Anzeige {$value}

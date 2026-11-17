@@ -1594,6 +1594,9 @@ network-override = 環境變數覆寫已啟用：服務{ $server }；STUN { $stu
 models-low = 模型：低
 models-high = 模型：高
 video-model-quality-help = 選擇原始低多邊形模型或細節更豐富的模型。僅改變外觀。
+mesh-deformation-off = 網格變形：關閉
+mesh-deformation-on = 網格變形：開啟
+video-mesh-deformation-help = 在移動時對鬥士模型進行輕微壓縮和剪切變形。僅改變外觀。
 
 # Options labels and native adapter guidance
 video-display-value = 顯示器 {$value}

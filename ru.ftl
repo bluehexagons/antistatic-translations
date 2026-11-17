@@ -1603,6 +1603,9 @@ network-override = Действуют переменные окружения: �
 models-low = Модели: Низкое качество
 models-high = Модели: Высокое качество
 video-model-quality-help = Выберите исходные низкополигональные модели или более детализированные модели. Меняется только внешний вид.
+mesh-deformation-off = Деформация: Выкл.
+mesh-deformation-on = Деформация: Вкл.
+video-mesh-deformation-help = Добавляет лёгкое сжатие и сдвиг моделей бойцов при движении. Меняется только внешний вид.
 
 # Options labels and native adapter guidance
 video-display-value = Экран {$value}

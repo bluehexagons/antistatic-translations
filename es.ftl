@@ -1599,6 +1599,9 @@ network-override = Variables de entorno activas: servicio { $server }; STUN { $s
 models-low = Modelos: Baja
 models-high = Modelos: Alta
 video-model-quality-help = Elige los modelos originales de pocos polígonos o modelos más detallados. Solo cambia la apariencia.
+mesh-deformation-off = Deformación de malla: No
+mesh-deformation-on = Deformación de malla: Sí
+video-mesh-deformation-help = Añade una ligera compresión e inclinación a las mallas de los luchadores al moverse. Solo cambia la apariencia.
 
 # Options labels and native adapter guidance
 video-display-value = Pantalla {$value}

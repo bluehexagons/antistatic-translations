@@ -1594,6 +1594,9 @@ network-override = 환경 변수 재정의가 활성화되었습니다: 서비�
 models-low = 모델: 낮음
 models-high = 모델: 높음
 video-model-quality-help = 원본 저폴리곤 모델 또는 더 세밀한 모델을 선택합니다. 외형만 변경됩니다.
+mesh-deformation-off = 메시 변형: 끄기
+mesh-deformation-on = 메시 변형: 켜기
+video-mesh-deformation-help = 움직임에 따라 파이터 메시를 살짝 압축하거나 기울입니다. 외형만 변경됩니다.
 
 # Options labels and native adapter guidance
 video-display-value = 디스플레이 {$value}
