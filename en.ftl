@@ -954,6 +954,8 @@ gameplay-options-title = Gameplay Options
 settings-gameplay-help = Adjust gameplay and controller preferences.
 gameplay-background-input = Background Input
 gameplay-background-input-help = Allow controller input while Antistatic is unfocused.
+gameplay-pause-when-unfocused = Pause When Unfocused
+gameplay-pause-when-unfocused-help = Pause offline matches and Training when you switch away. Resume manually.
 shared-settings-help = Return to Settings.
 
 native-adapter-copy-udev-install-help = Copy the standard udev rule install and reload commands for 057e:0337.
@@ -967,6 +969,8 @@ audio-ui-help = Set menu and interface sound volume.
 audio-voice-help = Set character voice volume.
 audio-music-toggle-help = Toggle music playback.
 audio-music-help = Set music volume.
+audio-mute-when-unfocused = Mute When Unfocused
+audio-mute-when-unfocused-help = Silence the game while its window is unfocused.
 
 video-navigation-hint = Directions navigate · Confirm selects · Back returns
 video-render-target-memory = Render targets + atlas (est.): { $memory }
