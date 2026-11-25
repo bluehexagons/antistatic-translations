@@ -950,6 +950,10 @@ settings-language-help = Choose the menu language.
 settings-start-mode-help = Choose which mode opens first at startup.
 settings-live-reload = Live Reload
 settings-live-reload-help = Reload character files from the Animator while editing locally. Disabled by default.
+gameplay-options-title = Gameplay Options
+settings-gameplay-help = Adjust gameplay and controller preferences.
+gameplay-background-input = Background Input
+gameplay-background-input-help = Allow controller input while Antistatic is unfocused.
 shared-settings-help = Return to Settings.
 
 native-adapter-copy-udev-install-help = Copy the standard udev rule install and reload commands for 057e:0337.
