@@ -166,6 +166,8 @@ reflections-off = Reflections: Off
 reflections-on = Reflections: On
 reflections-low = Reflections: Low
 reflections-high = Reflections: High
+video-screen-reflections-off = Screen Reflections: Off
+video-screen-reflections-on = Screen Reflections: On
 godrays-off = God Rays: Off
 godrays-on = God Rays: On
 
@@ -1124,7 +1126,7 @@ video-local-shadows-help = Requires Filtered sun shadows. Maps can retain shadow
 video-ssao-help = Choose ambient occlusion quality.
 video-antialias-help = Toggle FXAA anti-aliasing.
 video-bloom-help = Add a soft glow around the brightest highlights. Best on higher-end GPUs.
-video-reflections-help = Mirror the scene in shiny surfaces with screen-space reflections. Demanding; best on high-end GPUs.
+video-reflections-help = Reflects visible objects. Environment reflections stay on. Uses more GPU time.
 video-godrays-help = Cast volumetric shafts of light from the sun through the scene. Demanding; best on high-end GPUs.
 video-perf-overlay-help = Show or hide the performance overlay.
 video-point-lights-help = Choose extra point-light quality.

@@ -166,6 +166,8 @@ reflections-off = 反射：關閉
 reflections-on = 反射：開啟
 reflections-low = 反射：低
 reflections-high = 反射：高
+video-screen-reflections-off = 螢幕空間反射：關閉
+video-screen-reflections-on = 螢幕空間反射：開啟
 godrays-off = 體積光：關閉
 godrays-on = 體積光：開啟
 
@@ -1120,7 +1122,7 @@ video-local-shadows-help = 需要啟用太陽光陰影濾波。貼圖可以保�
 video-ssao-help = 選擇環境光遮蔽品質。
 video-antialias-help = 切換 FXAA 抗鋸齒。
 video-bloom-help = 在最亮的高光周圍加入柔和的光暈。在高階 GPU 上效果最佳。
-video-reflections-help = 使用螢幕空間反射在光滑表面上映出場景。效能開銷較大，在高階 GPU 上效果最佳。
+video-reflections-help = 反射畫面中可見的物件。環境反射一律保留。啟用會增加 GPU 負載。
 video-godrays-help = 讓陽光在場景中投射出體積光束。效能開銷較大，在高階 GPU 上效果最佳。
 video-perf-overlay-help = 顯示或隱藏效能疊加層。
 video-point-lights-help = 選擇額外點光源品質。

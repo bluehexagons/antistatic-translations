@@ -179,6 +179,8 @@ reflections-off = Reflets : Désactivé
 reflections-on = Reflets : Activé
 reflections-low = Reflets : Faible
 reflections-high = Reflets : Élevé
+video-screen-reflections-off = Reflets à l’écran : Non
+video-screen-reflections-on = Reflets à l’écran : Oui
 godrays-off = Rayons de soleil : Désactivé
 godrays-on = Rayons de soleil : Activé
 
@@ -1120,7 +1122,7 @@ video-local-shadows-help = Nécessite les ombres du soleil filtrées. Les cartes
 video-ssao-help = Choisissez la qualité de l'occlusion ambiante.
 video-antialias-help = Activez ou désactivez l'anticrénelage FXAA.
 video-bloom-help = Ajoute une lueur douce autour des reflets les plus lumineux. Idéal sur GPU haut de gamme.
-video-reflections-help = Reflète la scène sur les surfaces brillantes grâce aux reflets en espace écran. Exigeant ; idéal sur GPU haut de gamme.
+video-reflections-help = Reflète les objets visibles. Les reflets du décor restent actifs. Sollicite davantage le GPU.
 video-godrays-help = Projette des rayons de lumière volumétriques du soleil à travers la scène. Exigeant ; idéal sur GPU haut de gamme.
 video-perf-overlay-help = Affichez ou masquez la superposition de performances.
 video-point-lights-help = Choisissez la qualité des lumières ponctuelles supplémentaires.

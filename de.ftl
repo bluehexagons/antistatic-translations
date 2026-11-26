@@ -166,6 +166,8 @@ reflections-off = Reflexionen: Aus
 reflections-on = Reflexionen: An
 reflections-low = Reflexionen: Niedrig
 reflections-high = Reflexionen: Hoch
+video-screen-reflections-off = Bildschirmreflexionen: Aus
+video-screen-reflections-on = Bildschirmreflexionen: An
 godrays-off = Lichtstrahlen: Aus
 godrays-on = Lichtstrahlen: An
 
@@ -1121,7 +1123,7 @@ video-local-shadows-help = Erfordert gefilterte Sonnenschatten. Karten können S
 video-ssao-help = Wähle die Qualität der Umgebungsverdeckung.
 video-antialias-help = Schalte FXAA-Kantenglättung ein oder aus.
 video-bloom-help = Fügt den hellsten Lichtern ein weiches Leuchten hinzu. Am besten auf leistungsstärkeren GPUs.
-video-reflections-help = Spiegelt die Szene auf glänzenden Oberflächen mittels Screen-Space-Reflexionen. Anspruchsvoll; am besten auf High-End-GPUs.
+video-reflections-help = Spiegelt sichtbare Objekte. Umgebungsreflexionen bleiben aktiv. Erhöht die GPU-Last.
 video-godrays-help = Wirft volumetrische Lichtstrahlen der Sonne durch die Szene. Anspruchsvoll; am besten auf High-End-GPUs.
 video-perf-overlay-help = Zeige oder verstecke das Leistungs-Overlay.
 video-point-lights-help = Wähle die Qualität zusätzlicher Punktlichter.

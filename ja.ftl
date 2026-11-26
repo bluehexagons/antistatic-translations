@@ -166,6 +166,8 @@ reflections-off = 反射：オフ
 reflections-on = 反射：オン
 reflections-low = 反射：低
 reflections-high = 反射：高
+video-screen-reflections-off = スクリーン空間反射：オフ
+video-screen-reflections-on = スクリーン空間反射：オン
 godrays-off = 光芒：オフ
 godrays-on = 光芒：オン
 
@@ -1120,7 +1122,7 @@ video-local-shadows-help = 太陽の影のフィルターが必要です。マ�
 video-ssao-help = 環境遮蔽の品質を選びます。
 video-antialias-help = FXAA アンチエイリアスを切り替えます。
 video-bloom-help = 最も明るい部分の周囲に柔らかな光彩を加えます。高性能な GPU に最適です。
-video-reflections-help = スクリーンスペース反射で光沢のある表面にシーンを映し込みます。負荷が高く、高性能な GPU に最適です。
+video-reflections-help = 画面内の物体を映します。環境反射は常に有効です。オンにすると GPU の負荷が増えます。
 video-godrays-help = 太陽からの体積光のシャフトをシーンに投射します。負荷が高く、高性能な GPU に最適です。
 video-perf-overlay-help = パフォーマンスオーバーレイを表示または非表示にします。
 video-point-lights-help = 追加のポイントライト品質を選びます。
