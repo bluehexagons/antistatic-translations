@@ -1029,6 +1029,7 @@ sound-test-loading = { $name } wird geladen…
 sound-test-playing = Wiedergabe: { $name }
 sound-test-failed = Wiedergabe fehlgeschlagen. Versuche es erneut.
 sound-test-muted = Ton ist stummgeschaltet. Aktiviere ihn in den Audioeinstellungen.
+sound-test-zero-volume = Erhöhe die Gesamt- oder Kategorie-Lautstärke in den Audioeinstellungen.
 sound-test-prev = Zurückblättern
 sound-test-next = Weiterblättern
 sound-test-page = Seite { $page } von { $total }

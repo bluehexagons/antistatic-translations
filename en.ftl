@@ -1031,6 +1031,7 @@ sound-test-loading = Loading { $name }…
 sound-test-playing = Playing: { $name }
 sound-test-failed = Playback failed. Try again.
 sound-test-muted = Audio is muted. Enable it in Audio Settings.
+sound-test-zero-volume = Turn up the master or category volume in Audio Settings.
 sound-test-prev = Previous
 sound-test-next = Next
 sound-test-page = Page { $page } of { $total }

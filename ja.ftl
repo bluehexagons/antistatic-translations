@@ -1028,6 +1028,7 @@ sound-test-loading = { $name } を読み込み中…
 sound-test-playing = 再生中：{ $name }
 sound-test-failed = 再生できませんでした。もう一度試してください。
 sound-test-muted = 音声がミュートされています。オーディオ設定で有効にしてください。
+sound-test-zero-volume = オーディオ設定で全体またはカテゴリの音量を上げてください。
 sound-test-prev = 前へ
 sound-test-next = 次へ
 sound-test-page = { $total } ページ中 { $page }

@@ -1028,6 +1028,7 @@ sound-test-loading = Caricamento di { $name }…
 sound-test-playing = In riproduzione: { $name }
 sound-test-failed = Riproduzione non riuscita. Riprova.
 sound-test-muted = L’audio è disattivato. Attivalo nelle impostazioni audio.
+sound-test-zero-volume = Alza il volume generale o quello della categoria nelle impostazioni audio.
 sound-test-prev = Precedente
 sound-test-next = Successivo
 sound-test-page = Pagina { $page } di { $total }

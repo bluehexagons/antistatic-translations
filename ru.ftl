@@ -1028,6 +1028,7 @@ sound-test-loading = Загрузка: { $name }…
 sound-test-playing = Воспроизводится: { $name }
 sound-test-failed = Не удалось воспроизвести запись. Попробуйте ещё раз.
 sound-test-muted = Звук отключён. Включите его в настройках звука.
+sound-test-zero-volume = Повысьте общую громкость или громкость категории в настройках звука.
 sound-test-prev = Назад
 sound-test-next = Далее
 sound-test-page = Страница { $page } из { $total }

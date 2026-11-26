@@ -1028,6 +1028,7 @@ sound-test-loading = Chargement de { $name }…
 sound-test-playing = Lecture : { $name }
 sound-test-failed = La lecture a échoué. Réessayez.
 sound-test-muted = Le son est coupé. Activez-le dans les paramètres audio.
+sound-test-zero-volume = Augmentez le volume général ou celui de la catégorie dans les paramètres audio.
 sound-test-prev = Précédent
 sound-test-next = Suivant
 sound-test-page = Page { $page } sur { $total }

@@ -1028,6 +1028,7 @@ sound-test-loading = 正在載入 { $name }…
 sound-test-playing = 正在播放：{ $name }
 sound-test-failed = 播放失敗，請再試一次。
 sound-test-muted = 聲音已靜音。請在音訊設定中啟用。
+sound-test-zero-volume = 請在音訊設定中調高總音量或此類別的音量。
 sound-test-prev = 上一頁
 sound-test-next = 下一頁
 sound-test-page = 第 { $page } 頁，共 { $total } 頁

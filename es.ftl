@@ -1028,6 +1028,7 @@ sound-test-loading = Cargando { $name }…
 sound-test-playing = Reproduciendo: { $name }
 sound-test-failed = No se pudo reproducir. Inténtalo de nuevo.
 sound-test-muted = El audio está silenciado. Actívalo en los ajustes de audio.
+sound-test-zero-volume = Sube el volumen general o de la categoría en los ajustes de audio.
 sound-test-prev = Anterior
 sound-test-next = Siguiente
 sound-test-page = Página { $page } de { $total }

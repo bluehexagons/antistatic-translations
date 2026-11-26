@@ -1028,6 +1028,7 @@ sound-test-loading = { $name } 불러오는 중…
 sound-test-playing = 재생 중: { $name }
 sound-test-failed = 재생하지 못했습니다. 다시 시도하세요.
 sound-test-muted = 소리가 꺼져 있습니다. 오디오 설정에서 켜세요.
+sound-test-zero-volume = 오디오 설정에서 전체 또는 해당 범주의 음량을 높이세요.
 sound-test-prev = 이전
 sound-test-next = 다음
 sound-test-page = { $total }쪽 중 { $page }쪽
